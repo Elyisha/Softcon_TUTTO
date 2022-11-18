@@ -1,11 +1,13 @@
 import Cards.*;
+import Dices.*;
 public class Turn { // Singleton?
-
+//todo: read only wrapper for the arrays when i give them to isvalid etc
+private Dice[] dices;
     public short turn() {
         boolean roll = true;
         final CardsValue card = Deck.getCard(); //pull the card. final / private ?
 
-        Dice[] dices = [5]; //stores the dices
+        Dice[] dices = new Dice[5]; //stores the dices
         for (byte i = 0; i < 5; i++) { //instantiate the dices (rolls them for the first time)
             dices[i] = new Dice();
         }
@@ -15,7 +17,7 @@ public class Turn { // Singleton?
         while (roll) {
             Display.DisplayCard(card); //show user the card
             for (byte i = 0; i < 5; i++) {
-                if (!dices[i].isAside) { //if it was not put aside yet...
+                if (!dices[i].isAside()) { //if it was not put aside yet...
                     //maybe roll it here again??
                     Display.displayDice(dices[i].getDiceNumber()); //...print it
                 }
@@ -34,7 +36,7 @@ public class Turn { // Singleton?
             }
 
             //ask user if he wants to end or roll again, then sets while-loop variable accordingly
-            roll = askUserRE();
+            roll = Input.askUserRE();
 
         }
 
@@ -46,7 +48,7 @@ public class Turn { // Singleton?
     private diceNumber[] copyDiceEnums(){
         diceNumber[] numArray = [5];
         for (byte i = 0; i < 5; i++) {
-            numArray[i] = dices[i].getDiceNumber(); //store it into a copy array to respect encapsulation
+            numArray[i] = this.dices[i].getDiceNumber(); //store it into a copy array to respect encapsulation
         }
         return numArray;
     }
