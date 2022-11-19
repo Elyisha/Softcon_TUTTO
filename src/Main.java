@@ -10,7 +10,7 @@ public class Main {
         }
         //System.out.println(dices[2].getDiceNumber().name() == "FOUR");
         for(int i = 0; i<dices.length;++i){
-            System.out.println(dices[i].getDiceNumber().ordinal()+1);
+            Display.displayDice(dices[i].getDiceNumber());
         }
         System.out.println(ValidDice.countPoints(dices));
         /*
