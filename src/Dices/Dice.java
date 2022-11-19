@@ -5,14 +5,14 @@ public class Dice {
     Random rand = new Random(); //so it doesn't get invoked every time, saves space
     private diceNumber diceNumber;
     boolean putAside; //hier schon instanzieren oder erst im Konstruktor?
-    public void Dice() { // Konstruktor
+    public Dice() { // Konstruktor
         diceNumber = rndDiceNumber();
         putAside = false;
     }
 
 
     private diceNumber rndDiceNumber(){
-        return Dices.diceNumber.values()[rand.nextInt(0, 5)]; //return diceNumber > values > [random between 0 and 6]
+        return Dices.diceNumber.values()[rand.nextInt(0, 6)]; //return diceNumber > values > [random between 0 and 6]
     }
 
     public void rollDice() {

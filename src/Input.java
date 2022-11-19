@@ -1,4 +1,6 @@
+import java.util.ArrayList;
 import java.util.Scanner;
+import java.util.List;
 import Dices.*;
 
 public class Input {
@@ -78,32 +80,41 @@ public class Input {
                 "the dice-index with a comma (e.g. 2,4,5).");
 
         while(true) {
+            List<Integer> numbers = new ArrayList<Integer>();
+            boolean asideCheck = true;
             boolean check = true;
+            byte counter = 0;
             String Input = DDInput.nextLine().replaceAll("\\s","");
 
             for(int i = 0; i < Input.length(); ++ i) {
                 if(i%2 == 0) {
-                    System.out.println(dices.length);
-                    if (!(Character.isDigit(Input.charAt(i)) && Input.charAt(i) < dices.length - 1)) {
+                    if (!(Character.isDigit(Input.charAt(i)) && Character.getNumericValue(Input.charAt(i)) < dices.length+1
+                    && Character.getNumericValue(Input.charAt(i)) > 0)) {
                         check = false;
                         break;
                     }
+                    if(dices[Character.getNumericValue(Input.charAt(i)-1)].isAside()) {
+                        System.out.println("Dice at position " + Character.getNumericValue(Input.charAt(i)) + " has already been put aside!");
+                        asideCheck = false;
+                        check = false;
+                        break;
+                    }
+                    numbers.add(Character.getNumericValue(Input.charAt(i)));
                 }
                 else if(Input.charAt(i) != ',') {check = false; break;}
                 }
-
-            if(check) {
-                System.out.println("nice");
-
+            if(!asideCheck);
+            else if(!check && asideCheck) {
+                System.out.println("Must type in the numbers according to the correct format (e.g. " +
+                        "1,3,4)");
             }
-            else System.out.println("Wrong");
-
-
+            else {
+                for (byte i = 0; i < numbers.size(); i++) {
+                    dices[numbers.get(i)-1].putAside();
+                }
+                return dices;
+            }
         }
-
-
-
-
     }
 
 }

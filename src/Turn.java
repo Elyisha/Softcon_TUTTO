@@ -1,16 +1,18 @@
 import Cards.*;
 import Dices.*;
 public class Turn { // Singleton?
-
     /*
+
 //todo: read only wrapper for the arrays when i give them to isvalid etc
-private Dice[] dices;
-    public short turn() {
+    private Dice[] dices;
+    public void turn() {
+
+
         boolean roll = true;
         final CardsValue card = Deck.getCard(); //pull the card. final / private ?
 
-        Dice[] dices = new Dice[5]; //stores the dices
-        for (byte i = 0; i < 5; i++) { //instantiate the dices (rolls them for the first time)
+        Dice[] dices = new Dice[6]; //stores the dices
+        for (byte i = 0; i < 6; i++) { //instantiate the dices (rolls them for the first time)
             dices[i] = new Dice();
         }
         byte putAsideCounter = 0; //what was this again for?
@@ -56,8 +58,8 @@ private Dice[] dices;
     }
 
 
+    */
 
-     */
 }
 
 /*
