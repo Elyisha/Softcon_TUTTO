@@ -4,7 +4,7 @@ public class Main {
 
 
     public static void main(String[] args) {
-        Dice[] dices = new Dice[1]; //stores the dices
+        Dice[] dices = new Dice[6]; //stores the dices
         for (byte i = 0; i < dices.length; i++) { //instantiate the dices (rolls them for the first time)
             dices[i] = new Dice();
         }
