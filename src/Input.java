@@ -1,4 +1,5 @@
 import java.util.Scanner;
+import Dices.*;
 
 public class Input {
 
@@ -69,13 +70,40 @@ public class Input {
             }
         }
     }
-    /*
-    public static Dice[] {
 
+    public static Dice[] decideDice(Dice[] dices) {
+
+        Scanner DDInput = new Scanner(System.in);
+        System.out.println("Which dices do you want to put aside? Enter your decision by separating " +
+                "the dice-index with a comma (e.g. 2,4,5).");
+
+        while(true) {
+            boolean check = true;
+            String Input = DDInput.nextLine().replaceAll("\\s","");
+
+            for(int i = 0; i < Input.length(); ++ i) {
+                if(i%2 == 0) {
+                    System.out.println(dices.length);
+                    if (!(Character.isDigit(Input.charAt(i)) && Input.charAt(i) > dices.length - 1)) {
+                        check = false;
+                        break;
+                    }
+                }
+                else if(Input.charAt(i) != ',') {check = false; break;}
+                }
+
+            if(check) {
+                System.out.println("nice");
+
+            }
+            else System.out.println("Wrong");
+
+
+        }
 
 
 
 
     }
-    */
+
 }
