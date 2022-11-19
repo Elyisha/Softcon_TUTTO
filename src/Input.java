@@ -84,7 +84,7 @@ public class Input {
             for(int i = 0; i < Input.length(); ++ i) {
                 if(i%2 == 0) {
                     System.out.println(dices.length);
-                    if (!(Character.isDigit(Input.charAt(i)) && Input.charAt(i) > dices.length - 1)) {
+                    if (!(Character.isDigit(Input.charAt(i)) && Input.charAt(i) < dices.length - 1)) {
                         check = false;
                         break;
                     }
