@@ -1,0 +1,106 @@
+Index: src/Turn.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/Turn.java b/src/Turn.java
+--- a/src/Turn.java	
++++ b/src/Turn.java	
+@@ -1,4 +1,5 @@
+ import Cards.*;
++
+ public class Turn { // Singleton?
+ 
+     public short turn() {
+Index: src/Cards/Deck.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/Cards/Deck.java b/src/Cards/Deck.java
+--- a/src/Cards/Deck.java	
++++ b/src/Cards/Deck.java	
+@@ -12,6 +12,7 @@
+     private int numCards;
+ 
+     public Deck() {
++        //Fill Deck with Cards
+         for (int i = 0; i < 56; i++) {
+             if (i < 1) {
+                 aCards.add(new Card(CardsValue.CLOVERLEAF));
+@@ -37,6 +38,7 @@
+                 aCards.add(new Card(CardsValue.BONUS600));
+             }
+         }
++        //Shuffle Deck
+         Collections.shuffle(aCards);
+     }
+ 
+Index: src/Cards/Card.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/Cards/Card.java b/src/Cards/Card.java
+--- a/src/Cards/Card.java	
++++ b/src/Cards/Card.java	
+@@ -1,7 +1,7 @@
+ package Cards;
+ 
+ public class Card {
+-    private CardsValue aCardsValue;
++    private final CardsValue aCardsValue;
+ 
+     public Card(CardsValue cardsValue) {
+         aCardsValue = cardsValue;
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	
++++ b/.idea/workspace.xml	
+@@ -4,8 +4,11 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="53e70105-e171-4356-932f-5dec625c8c62" name="Changes" comment="">
++    <list default="true" id="53e70105-e171-4356-932f-5dec625c8c62" name="Changes" comment="Turn commit">
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/Cards/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cards/Card.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/Cards/Deck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cards/Deck.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/Turn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Turn.java" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -34,14 +37,14 @@
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
+   </component>
+-  <component name="PropertiesComponent"><![CDATA[{
+-  "keyToString": {
+-    "RunOnceActivity.OpenProjectViewOnStart": "true",
+-    "RunOnceActivity.ShowReadmeOnStart": "true",
+-    "WebServerToolWindowFactoryState": "false",
+-    "node.js.selected.package.tslint": "(autodetect)"
++  <component name="PropertiesComponent">{
++  &quot;keyToString&quot;: {
++    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
++    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
++    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
++    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;
+   }
+-}]]></component>
++}</component>
+   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+   <component name="TaskManager">
+     <task active="true" id="Default" summary="Default task">
+@@ -51,6 +54,7 @@
+       <option name="presentableId" value="Default" />
+       <updated>1668777400139</updated>
+       <workItem from="1668777401501" duration="329000" />
++      <workItem from="1668864457555" duration="669000" />
+     </task>
+     <task id="LOCAL-00001" summary="d">
+       <created>1668778314133</created>
