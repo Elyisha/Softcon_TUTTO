@@ -6,7 +6,7 @@ public class Dice {
     private diceNumber diceNumber;
     boolean putAside; //hier schon instanzieren oder erst im Konstruktor?
     public Dice() { // Konstruktor
-        diceNumber = rndDiceNumber();
+        diceNumber = null; //don't let it be a new roll, this enforces it to roll them once
         putAside = false;
     }
 
