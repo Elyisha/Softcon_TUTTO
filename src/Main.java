@@ -5,15 +5,39 @@ public class Main {
 
 
     public static void main(String[] args) {
-        Dice[] dices = new Dice[6]; //stores the dices
+      Dice[] dices = new Dice[6]; //stores the dices
         for (byte i = 0; i < dices.length; i++) { //instantiate the dices (rolls them for the first time)
             dices[i] = new Dice();
             dices[i].rollDice();
+            //dices[i].diceNumber = diceNumber.SIX;
         }
+        dices[0].diceNumber = diceNumber.FOUR;
+        dices[1].diceNumber = diceNumber.TWO;
+        dices[2].diceNumber = diceNumber.FOUR;
+        dices[3].diceNumber = diceNumber.FOUR;
+        dices[4].diceNumber = diceNumber.FIVE;
+
+
+        /*
+        dices[5].putAside();
+        dices[5].diceNumber = diceNumber.FIVE;
+        */
+
+
         //System.out.println(dices[2].getDiceNumber().name() == "FOUR");
         for(int i = 0; i<dices.length;++i){
             Display.displayDice(dices[i].getDiceNumber(), (byte)(i+1));
         }
+
+        dices[0].putAside();
+        dices[1].putAside();
+        //dices[2].putAside();
+        //dices[3].putAside();
+        //dices[4].putAside();
+
+        System.out.println(ValidDice.hasValidDices(dices));
+
+        /*
         System.out.println(ValidDice.countPoints(dices));
 
         dices[2].putAside();
@@ -25,8 +49,9 @@ public class Main {
         Display.displayDice(diceNumber.THREE, (byte) 4);
 
 
-
-
+        short a = 12;
+        System.out.println(a);
+    */
 
     }
 }
