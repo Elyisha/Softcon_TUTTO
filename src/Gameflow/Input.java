@@ -57,7 +57,7 @@ public class Input {
             }
         }
     }
-    public static char askUserRE(){     //change return type to boolean
+    public static boolean askUserRE(){     //change return type to boolean
         char RE;
         Scanner REInput = new Scanner(System.in);
 
@@ -70,7 +70,7 @@ public class Input {
             else if(!(Input.contains("R") || Input.contains("E"))) System.out.println("Must type in R or E");
             else {
                 RE = Input.charAt(0);
-                return RE;
+                return (RE == 'R');
             }
         }
     }
