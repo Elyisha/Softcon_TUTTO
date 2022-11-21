@@ -1,3 +1,5 @@
+package Game;
+
 import java.util.ArrayList;
 import java.util.Scanner;
 import java.util.List;
@@ -42,7 +44,7 @@ public class Input {
         char DR;
         Scanner DRInput = new Scanner(System.in);
 
-        System.out.println("Do you want to Display (D) or Roll (R)?");
+        System.out.println("Do you want to Game.Display (D) or Roll (R)?");
 
         while(true){
             String Input = DRInput.nextLine().replaceAll("\\s","").toUpperCase();

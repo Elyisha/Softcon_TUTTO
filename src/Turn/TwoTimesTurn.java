@@ -6,9 +6,9 @@ public class TwoTimesTurn extends AbstractTurn{
         short newPoints = currentPoints;
         TurnResult result = getRoll();
 
-        newPoints += result.a;
-        if (result.b) newPoints += newPoints; //double it if tutto
-        return new TurnResult(newPoints, result.b);
+        newPoints += result.points;
+        if (result.isTutto) newPoints += result.points; //double it if tutto
+        return new TurnResult(newPoints, result.isTutto);
     }
 
 }

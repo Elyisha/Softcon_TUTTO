@@ -4,21 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b577d954-8adb-45f0-8cd3-77c2a40a1194" name="Changes" comment="Merge branch 'master' of https://github.com/Elyisha/Softcon_TUTTO&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
-      <change afterPath="$PROJECT_DIR$/src/Turn/BonusTurn.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Turn/FireworksTurn.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Turn/TurnResult.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_18_11_2022_14_32__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_18_11_2022_14_32__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_18_11_2022_17_47__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_18_11_2022_17_47__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_18_11_2022_17_47__Changes_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_18_11_2022_17_47__Changes_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_19_11_2022_15_18__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_19_11_2022_15_18__Changes_.xml" afterDir="false" />
+    <list default="true" id="b577d954-8adb-45f0-8cd3-77c2a40a1194" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Dices/Dice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Dices/Dice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Display.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Game/Display.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Input.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Game/Input.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Game/Player.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Turn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Turn.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Turn/AbstractTurn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Turn/AbstractTurn.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Turn/fireworksTurn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Turn/TwoTimesTurn.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Turn/stopperTurn.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Turn/BonusTurn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Turn/BonusTurn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Turn/TurnResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Turn/TurnResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Turn/TwoTimesTurn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Turn/TwoTimesTurn.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +54,9 @@
   }
 }</component>
   <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="Game" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="Turn" />
     </key>
@@ -79,7 +78,7 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="53e70105-e171-4356-932f-5dec625c8c62" name="Changes" comment="" />
+      <changelist id="b577d954-8adb-45f0-8cd3-77c2a40a1194" name="Changes" comment="" />
       <created>1668777400139</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -87,6 +86,7 @@
       <workItem from="1668777401501" duration="329000" />
       <workItem from="1668784770747" duration="3851000" />
       <workItem from="1668850787697" duration="7141000" />
+      <workItem from="1669018359207" duration="2867000" />
     </task>
     <task id="LOCAL-00001" summary="d">
       <created>1668778314133</created>
@@ -123,7 +123,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668781274883</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Merge branch 'master' of https://github.com/Elyisha/Softcon_TUTTO&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
+      <created>1668984614481</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1668984614481</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -141,9 +148,12 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="d" />
     <MESSAGE value="Turn commit" />
     <MESSAGE value="Display Class &amp; Player Class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Display Class &amp; Player Class" />
+    <MESSAGE value="Merge branch 'master' of https://github.com/Elyisha/Softcon_TUTTO&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'master' of https://github.com/Elyisha/Softcon_TUTTO&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
   </component>
 </project>

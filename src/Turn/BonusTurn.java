@@ -1,15 +1,16 @@
 package Turn;
 import Cards.CardsValue;
+import Game.Display;
 
 public class BonusTurn extends AbstractTurn {
     public TurnResult bonusTurn(short currentPoints, CardsValue cardType) {
         short newPoints = currentPoints;
 
-        Display.DisplayCard(cardType);
+        Display.displayCard(cardType);
         TurnResult result = getRoll();
 
-        newPoints += result.a;
-        if (result.b) {
+        newPoints += result.points;
+        if (result.isTutto) {
             switch (cardType){
                 case BONUS200 -> newPoints += 200;
                 case BONUS300 -> newPoints += 300;
@@ -18,6 +19,6 @@ public class BonusTurn extends AbstractTurn {
                 case BONUS600 -> newPoints += 600;
             }
         }
-        return new TurnResult(newPoints, result.b);
+        return new TurnResult(newPoints, result.isTutto);
     }
 }

@@ -1,3 +1,5 @@
+package Game;
+
 public class Player {
     private final String name;
     private byte points = 0;
@@ -6,7 +8,7 @@ public class Player {
         name = playerName;
     }
 
-    // How does Player-class know how many points are required to win ? has Game-Class getter method for max points
+    // How does Game.Player-class know how many points are required to win ? has Game-Class getter method for max points
    /**
     public Boolean playerWon(Game G1){
         byte gamePoints;

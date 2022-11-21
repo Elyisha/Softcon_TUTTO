@@ -1,6 +1,7 @@
 package Turn;
 import Cards.*;
 import Dices.*;
+import Game.*;
 
 abstract class AbstractTurn {
 
@@ -27,13 +28,13 @@ abstract class AbstractTurn {
             //now: check if roll was at least possibly valid, if not, break the while loop, else add points
             int countPointsCache = ValidDice.countPoints(dices);
             if (countPointsCache == 0) break; //CAN BE OVERGIVEN AS DICES THEMSELVES ARE IMMUTABLE.?
-            else currentPoints += countPointsCache;
+            //else currentPoints += countPointsCache;
             //TODO: this must only check not-put-aside dices!!
 
             //now ask user which ones to put aside and put them aside
-            Input.decidedice(dices); //muss ich das jetzt nochmals kopieren oder wurde eigentlich nur das bereits bestehende Objekt verändert?
+            Input.decideDice(dices); //muss ich das jetzt nochmals kopieren oder wurde eigentlich nur das bereits bestehende Objekt verändert?
 
-            //see how many have been put aside,
+            //see how many have been put aside
             for (byte i = 0; i < 6; i++) {
                 if (dices[i].isAside()) {
                     howManyAside++;

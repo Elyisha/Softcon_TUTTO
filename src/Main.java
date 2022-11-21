@@ -1,5 +1,6 @@
-import Cards.CardsValue;
 import Dices.*;
+import Game.Display;
+
 public class Main {
 
 
@@ -15,7 +16,7 @@ public class Main {
         System.out.println(ValidDice.countPoints(dices));
         /*
         dices[2].putAside();
-        Input.decideDice(dices);
+        Game.Input.decideDice(dices);
 */
 
 

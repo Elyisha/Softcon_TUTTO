@@ -1,3 +1,5 @@
+package Game;
+
 import Cards.*;
 import Dices.*;
 
