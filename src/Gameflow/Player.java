@@ -2,24 +2,24 @@ package Gameflow;
 
 public class Player {
     private final String name;
-    private byte points = 0;
+    private short points = 0;
+    private short maxPoints; // Player class needs to have this information to provide playerWon method
 
-    public Player(String playerName){
+    public Player(String playerName, short maxPoints){
         name = playerName;
+        this.maxPoints = maxPoints;
     }
 
     // How does Game.Player-class know how many points are required to win ? has Game-Class getter method for max points
-   /**
-    public Boolean playerWon(Game G1){
-        byte gamePoints;
-        gamePoints = G1.getGamePoints();
-        return points > gamePoints;
+
+    public Boolean playerWon(){
+        return points > maxPoints;
     }
-    */
+
 
     //Is this method needed ? and if yes by whom ?
-    public void addPoints(byte aByte){
-        points += aByte;
+    public void addPoints(short aShort){
+        points += aShort;
     }
 
     //Encapsulation wise safe because name final ? Or should a copy be performed ?
@@ -27,7 +27,7 @@ public class Player {
         return name;
     }
 
-    public byte getPoints(){
+    public short getPoints(){
         return points;
     }
 }

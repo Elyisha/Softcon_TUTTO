@@ -1,7 +1,7 @@
 package Turn;
 import Cards.*;
 import Dices.*;
-import Game.*;
+import Gameflow.*;
 
 abstract class AbstractTurn {
 /*

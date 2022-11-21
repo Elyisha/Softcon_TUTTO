@@ -42,7 +42,7 @@ public class Deck {
 
 
     public Card getCard() {
-        System.out.println(aCards.size());
+        //System.out.println(aCards.size());
         if (!isEmpty()) {
             Card aCard = aCards.get(0);
             usedCards.add(aCard);

@@ -1,6 +1,6 @@
 package Turn;
 import Cards.CardsValue;
-import Game.Display;
+import Gameflow.Display;
 
 public class BonusTurn extends AbstractTurn {
     public TurnResult bonusTurn(short currentPoints, CardsValue cardType) {
