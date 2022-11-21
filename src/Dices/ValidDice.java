@@ -15,8 +15,8 @@ public class ValidDice {
         boolean hasTriplet = true;
 
 
-        for (byte i = 0; i < dices.length; ++i) {
-            values[dices[i].getDiceNumber().ordinal()] += 1;
+        for (Dice dice : dices) {
+            values[dice.getDiceNumber().ordinal()] += 1;
         }
         while(true) {
             if (hasTriplet) {
@@ -61,8 +61,18 @@ public class ValidDice {
         return true;
     }
 
-    public boolean stillDices(){
+    public static boolean hasValidDicesLeft(Dice[] dices){
+        int[] values = new int[6];
+        Arrays.fill(values, 0);
 
+        for (Dice dice : dices) {
+            if (dice.isAside()) values[dice.getDiceNumber().ordinal()] += 1;
+        }
+        for (Dice dice : dices) {
+            if (!dice.isAside()) {
+                if (values[dice.getDiceNumber().ordinal()] == 0) return true;
+            }
+        }
 
         return false;
     }

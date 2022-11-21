@@ -11,17 +11,20 @@ public class Main {
             dices[i].rollDice();
             //dices[i].diceNumber = diceNumber.SIX;
         }
+
+        System.out.println(ValidDice.countPoints(dices));
+        /*
         dices[0].diceNumber = diceNumber.FOUR;
         dices[1].diceNumber = diceNumber.TWO;
         dices[2].diceNumber = diceNumber.FOUR;
         dices[3].diceNumber = diceNumber.FOUR;
-        dices[4].diceNumber = diceNumber.FIVE;
-
+        dices[4].diceNumber = diceNumber.FOUR;
+        dices[5].diceNumber = diceNumber.SIX;
 
         /*
         dices[5].putAside();
         dices[5].diceNumber = diceNumber.FIVE;
-        */
+
 
 
         //System.out.println(dices[2].getDiceNumber().name() == "FOUR");
@@ -31,12 +34,12 @@ public class Main {
 
         dices[0].putAside();
         dices[1].putAside();
-        //dices[2].putAside();
+        dices[5].putAside();
         //dices[3].putAside();
         //dices[4].putAside();
 
-        System.out.println(ValidDice.hasValidDices(dices));
-
+        System.out.println(ValidDice.hasValidDicesLeft(dices));
+*/
         /*
         System.out.println(ValidDice.countPoints(dices));
 
