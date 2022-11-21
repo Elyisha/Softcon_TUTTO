@@ -48,7 +48,8 @@ public class ValidDice {
 
     }
 
-
+    //is validStraight methode checkt ob putAside würfel auch legit weggenommen können werden (bei Straight)
+    //validStraight2 checkt ob noch würfel hat zum wegnehmen (bei Straight)
     public boolean isNull(Dice[] dices){
 
 
