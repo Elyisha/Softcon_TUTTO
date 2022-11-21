@@ -1,5 +1,5 @@
 import Dices.*;
-import Game.Display;
+import Gameflow.Display;
 
 public class Main {
 
@@ -17,7 +17,7 @@ public class Main {
         System.out.println(ValidDice.countPoints(dices));
 
         dices[2].putAside();
-        Game.Input.decideDice(dices);
+        Gameflow.Input.decideDice(dices);
 
         Display.displayDice(diceNumber.FIVE, (byte) 1);
         Display.displayDice(diceNumber.TWO, (byte) 2);

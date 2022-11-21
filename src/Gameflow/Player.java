@@ -1,4 +1,4 @@
-package Game;
+package Gameflow;
 
 public class Player {
     private final String name;

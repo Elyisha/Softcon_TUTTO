@@ -1,4 +1,4 @@
-package Game;
+package Gameflow;
 
 import java.util.ArrayList;
 import java.util.Scanner;

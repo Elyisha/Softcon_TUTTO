@@ -1,4 +1,4 @@
-package Game;
+package Gameflow;
 
 import Cards.*;
 import Dices.*;
