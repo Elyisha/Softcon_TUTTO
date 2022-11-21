@@ -1,7 +1,7 @@
 package Turn;
 
 public class FireworksTurn extends AbstractTurn{
-
+/*
     //TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO
     public TurnResult fireworksTurn(short currentPoints) {
         short newPoints = currentPoints;
@@ -16,5 +16,5 @@ public class FireworksTurn extends AbstractTurn{
         if (result.b) newPoints += newPoints; //double it if tutto
         return new TurnResult(newPoints, result.b);
     }
-
+*/
 }

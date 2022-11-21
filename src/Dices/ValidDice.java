@@ -6,7 +6,7 @@ import java.util.Arrays;
 
 public class ValidDice {
 
-    public static int countPoints(Dice[] dices) {
+    public static int countPoints(Dice[] dices) {           //short returen nicht int
         int points = 0;
         int triplet = 0;
         int[] values = new int[6];

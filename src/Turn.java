@@ -3,8 +3,8 @@ import Dices.*;
 import Game.Display;
 import Game.Input;
 
-public class Turn { // Singleton?
-
+public class Turn {} // Singleton?
+/*
 
 //todo: read only wrapper for the arrays when i give them to isvalid etc
     private Dice[] dices;

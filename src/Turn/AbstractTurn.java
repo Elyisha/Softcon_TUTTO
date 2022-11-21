@@ -4,7 +4,7 @@ import Dices.*;
 import Game.*;
 
 abstract class AbstractTurn {
-
+/*
     public TurnResult getRoll() {
         Dice[] dices = new Dice[6]; //stores the dices
         boolean tutto = false;
@@ -51,5 +51,5 @@ abstract class AbstractTurn {
         }
         return new TurnResult(currentPoints, tutto);
     }
-
+*/
 }
