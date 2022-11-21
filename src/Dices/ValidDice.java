@@ -6,7 +6,7 @@ import java.util.Arrays;
 
 public class ValidDice {
 
-    public static int countPoints(Dice[] dices) {
+    public static int countPoints(Dice[] dices) {           //short returen nicht int
         int points = 0;
         int triplet = 0;
         int[] values = new int[6];
@@ -48,7 +48,8 @@ public class ValidDice {
 
     }
 
-
+    //is validStraight methode checkt ob putAside würfel auch legit weggenommen können werden (bei Straight)
+    //validStraight2 checkt ob noch würfel hat zum wegnehmen (bei Straight)
     public boolean isNull(Dice[] dices){
 
 

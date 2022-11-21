@@ -40,7 +40,7 @@ public class Input {
             else return MaxPoints = Short.valueOf(Input);
         }
     }
-    public static char askUserDR(){
+    public static char askUserDR(){     //change return type to boolean
         char DR;
         Scanner DRInput = new Scanner(System.in);
 
@@ -57,7 +57,7 @@ public class Input {
             }
         }
     }
-    public static char askUserRE(){
+    public static char askUserRE(){     //change return type to boolean
         char RE;
         Scanner REInput = new Scanner(System.in);
 
