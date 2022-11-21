@@ -4,7 +4,7 @@ import Dices.*;
 import Gameflow.*;
 
 abstract class AbstractTurn {
-/*
+
     public TurnResult getRoll() {
         Dice[] dices = new Dice[6]; //stores the dices
         boolean tutto = false;
@@ -21,20 +21,20 @@ abstract class AbstractTurn {
             for (byte i = 0; i < 6; i++) {
                 if (!dices[i].isAside()) { //if it was not put aside yet...
                     dices[i].rollDice(); //...roll it...
-                    Display.displayDice(dices[i].getDiceNumber()); //...print it
+                    Display.displayDice(dices[i].getDiceNumber(), i); //...print it
                 }
             } //ends print dices for-loop
 
             //now: check if roll was at least possibly valid, if not, break the while loop, else add points
-            int countPointsCache = ValidDice.countPoints(dices);
-            if (countPointsCache == 0) break; //CAN BE OVERGIVEN AS DICES THEMSELVES ARE IMMUTABLE.?
-            //else currentPoints += countPointsCache;
-            //TODO: this must only check not-put-aside dices!!
+            if (ValidDice.countPoints(dices) == 0) {//TODO: should only count if it is valid (those NOT put aside yet)
+                currentPoints = 0;
+                break;
+            }
 
             //now ask user which ones to put aside and put them aside
-            Input.decideDice(dices); //muss ich das jetzt nochmals kopieren oder wurde eigentlich nur das bereits bestehende Objekt verändert?
+            currentPoints += Input.decideDice(dices); //muss ich das jetzt nochmals kopieren oder wurde eigentlich nur das bereits bestehende Objekt verändert?
 
-            //see how many have been put aside
+            //see how many have been put aside (for tutto recognization)
             for (byte i = 0; i < 6; i++) {
                 if (dices[i].isAside()) {
                     howManyAside++;
@@ -51,5 +51,5 @@ abstract class AbstractTurn {
         }
         return new TurnResult(currentPoints, tutto);
     }
-*/
+
 }

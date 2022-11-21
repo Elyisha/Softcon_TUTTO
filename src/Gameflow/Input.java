@@ -75,8 +75,7 @@ public class Input {
         }
     }
 
-    public static Dice[] decideDice(Dice[] dices) {
-
+    public static short decideDice(Dice[] dices) {
         Scanner DDInput = new Scanner(System.in);
         System.out.println("Which dices do you want to put aside? Enter your decision by separating " +
                 "the dice-index with a comma (e.g. 2,4,5).");
@@ -111,10 +110,13 @@ public class Input {
                         "1,3,4)");
             }
             else {
+                Dice[] countDices = new Dice[numbers.size()];
                 for (byte i = 0; i < numbers.size(); i++) {
                     dices[numbers.get(i)-1].putAside();
+                    countDices[i] = dices[numbers.get(i)-1]; //add to countDices
                 }
-                return dices;
+
+                return Dices.ValidDice.countPoints(countDices);
             }
         }
     }
