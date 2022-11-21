@@ -3,7 +3,6 @@ import Cards.*;
 
 
 import java.util.Arrays;
-
 public class ValidDice {
 
     public static short countPoints(Dice[] dices) {

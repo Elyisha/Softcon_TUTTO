@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b577d954-8adb-45f0-8cd3-77c2a40a1194" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_21_11_2022_11_18__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_21_11_2022_11_18__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_21_11_2022_18_46__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_21_11_2022_18_46__Changes_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Turn/CloverleafTurn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Turn/PlusMinusTurn.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Gameflow/Input.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Gameflow/Input.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Dices/ValidDice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Dices/ValidDice.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Turn/AbstractTurn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Turn/AbstractTurn.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Turn/FireworksTurn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Turn/FireworksTurn.java" afterDir="false" />
     </list>
@@ -84,7 +84,7 @@
       <workItem from="1668850787697" duration="7141000" />
       <workItem from="1669018359207" duration="3855000" />
       <workItem from="1669042981813" duration="3156000" />
-      <workItem from="1669056979842" duration="1965000" />
+      <workItem from="1669056979842" duration="6664000" />
     </task>
     <task id="LOCAL-00001" summary="d">
       <created>1668778314133</created>
@@ -142,7 +142,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669025266591</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Merge branch 'master' of https://github.com/Elyisha/Softcon_TUTTO&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
+      <created>1669058983950</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1669058983950</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

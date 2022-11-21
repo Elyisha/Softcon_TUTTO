@@ -3,9 +3,11 @@ import Cards.*;
 import Dices.*;
 import Gameflow.*;
 
+//todo helper funktion isTutto(dices): boolean
 abstract class AbstractTurn {
 
     public TurnResult getRoll() {
+        byte howManyAside = 0;
         Dice[] dices = new Dice[6]; //stores the dices
         boolean tutto = false;
         short currentPoints = 0;
@@ -17,16 +19,20 @@ abstract class AbstractTurn {
 
         boolean roll = true;
         while (roll) {
-            byte howManyAside = 0;
+            Dice[] countDices = new Dice[6 - howManyAside];
+            howManyAside = 0;
+            byte forLoopCounter=0; //TODO really ugly
             for (byte i = 0; i < 6; i++) {
                 if (!dices[i].isAside()) { //if it was not put aside yet...
                     dices[i].rollDice(); //...roll it...
                     Display.displayDice(dices[i].getDiceNumber(), i); //...print it
+                    forLoopCounter++; //TODO really ugly //add indice
+                    countDices[forLoopCounter] = dices[i]; //TODO kinda ugly
                 }
             } //ends print dices for-loop
 
             //now: check if roll was at least possibly valid, if not, break the while loop, else add points
-            if (ValidDice.countPoints(dices) == 0) {//TODO: should only count if it is valid (those NOT put aside yet)
+            if (ValidDice.countPoints(countDices) == 0) {//DONE: should only count if it is valid (those NOT put aside yet)
                 currentPoints = 0;
                 break;
             }

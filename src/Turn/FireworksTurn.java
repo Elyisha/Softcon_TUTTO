@@ -8,65 +8,54 @@ import Gameflow.Input;
 public class FireworksTurn extends AbstractTurn{
 
     public TurnResult fireworksTurn(short currentPoints) {
-        short newPoints = currentPoints;
-        boolean nullThrow = false;
-        while (!nullThrow) {
-            TurnResult result = getRoll();
-            newPoints += result.points;
 
-            //TODO UPDATE WHILE VARIABLE
-            //TODO CORRECTLY RETURN EEVERY CORRECT VALUE - SEE ASSIGNMENT DESCRIPTION
-
-        }
-        if (result.b) newPoints += newPoints; //double it if tutto
-        return new TurnResult(newPoints, result.b);
-    }
-
-    public TurnResult getFireWorkRoll() {
+        byte howManyAside = 0;
         Dice[] dices = new Dice[6]; //stores the dices
-        boolean tutto = false;
-        short currentPoints = 0;
+        short newPoints = 0;
+        newPoints += currentPoints;
 
         //instantiate the dices (doesn't roll them for the first time!)
         for (byte i = 0; i < 6; i++) {
             dices[i] = new Dice();
         }
 
-        boolean roll = true;
-        while (roll) {
-            byte howManyAside = 0;
+        while (true) {
+            Dice[] countDices = new Dice[6 - howManyAside];
+            howManyAside = 0;
+            byte forLoopCounter=0; //TODO really ugly
             for (byte i = 0; i < 6; i++) {
                 if (!dices[i].isAside()) { //if it was not put aside yet...
                     dices[i].rollDice(); //...roll it...
                     Display.displayDice(dices[i].getDiceNumber(), i); //...print it
+                    forLoopCounter++; //TODO really ugly //add indice for new countDices array
+                    countDices[forLoopCounter] = dices[i]; //TODO kinda ugly
                 }
             } //ends print dices for-loop
 
-            //now: check if roll was at least possibly valid, if not, break the while loop, else add points
-            int countPointsCache = ValidDice.countPoints(dices);
-            if (countPointsCache == 0) break; //CAN BE OVERGIVEN AS DICES THEMSELVES ARE IMMUTABLE.?
-            //else currentPoints += countPointsCache;
-            //TODO: this must only check not-put-aside dices!!
+            //now: check if roll was at least possibly valid, if not, break the while loop.
+            if (ValidDice.countPoints(countDices) == 0) {
+                break;
+            }
 
             //now ask user which ones to put aside and put them aside
-            Input.decideDice(dices); //muss ich das jetzt nochmals kopieren oder wurde eigentlich nur das bereits bestehende Objekt verändert?
+            newPoints += Input.decideDice(dices); //muss ich das jetzt nochmals kopieren oder wurde eigentlich nur das bereits bestehende Objekt verändert?
 
-            //see how many have been put aside
+            //see how many have been put aside (for tutto recognization)
             for (byte i = 0; i < 6; i++) {
                 if (dices[i].isAside()) {
                     howManyAside++;
                 }
             }
-            //if all have been put aside, end while loop and set tutto to true
+            //if all have been put aside, end while loop and reset all dices to go to the next round...
             if (howManyAside == 6) {
-                tutto = true;
-                break;
-            }
-            //ask user if he wants to end or roll again, then sets while-loop variable accordingly
-            roll = Input.askUserRE();
+                for (byte i = 0; i < 6; i++) {
+                    dices[i] = new Dice();
+                }
 
+            }
         }
-        return new TurnResult(currentPoints, tutto);
+        return new TurnResult(newPoints, false); //boolean tutto is unnecessary
+
     }
 
 }
