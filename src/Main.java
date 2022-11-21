@@ -12,7 +12,7 @@ public class Main {
         }
         //System.out.println(dices[2].getDiceNumber().name() == "FOUR");
         for(int i = 0; i<dices.length;++i){
-            Display.displayDice(dices[i].getDiceNumber());
+            Display.displayDice(dices[i].getDiceNumber(), (byte)(i+1));
         }
         System.out.println(ValidDice.countPoints(dices));
 
