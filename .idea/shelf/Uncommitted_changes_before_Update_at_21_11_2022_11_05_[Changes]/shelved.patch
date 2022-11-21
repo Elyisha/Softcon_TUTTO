@@ -1,0 +1,102 @@
+Index: src/Main.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>import Dices.*;\nimport Game.Display;\n\npublic class Main {\n\n\n    public static void main(String[] args) {\n        Dice[] dices = new Dice[6]; //stores the dices\n        for (byte i = 0; i < dices.length; i++) { //instantiate the dices (rolls them for the first time)\n            dices[i] = new Dice();\n            dices[i].rollDice();\n        }\n        //System.out.println(dices[2].getDiceNumber().name() == \"FOUR\");\n        for(int i = 0; i<dices.length;++i){\n            Display.displayDice(dices[i].getDiceNumber());\n        }\n        System.out.println(ValidDice.countPoints(dices));\n        /*\n        dices[2].putAside();\n        Game.Input.decideDice(dices);\n*/\n\n\n\n\n    }\n}\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/Main.java b/src/Main.java
+--- a/src/Main.java	(revision 8914881fc7a863508c6d9e2fb045b09f5f4fc873)
++++ b/src/Main.java	(date 1669025071681)
+@@ -15,10 +15,15 @@
+             Display.displayDice(dices[i].getDiceNumber());
+         }
+         System.out.println(ValidDice.countPoints(dices));
+-        /*
++
+         dices[2].putAside();
+         Game.Input.decideDice(dices);
+-*/
++
++        Display.displayDice(diceNumber.FIVE, (byte) 1);
++        Display.displayDice(diceNumber.TWO, (byte) 2);
++        Display.displayDice(diceNumber.ONE, (byte) 3);
++        Display.displayDice(diceNumber.THREE, (byte) 4);
++
+ 
+ 
+ 
+Index: src/Cards/Deck.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package Cards;\n\nimport java.util.ArrayList;\nimport java.util.Collections;\nimport java.util.List;\n\npublic class Deck {\n    private List<Card> aCards = new ArrayList<>();\n    //cards that are drawn from the deck are stored here so that the Cardobjects can be reused\n    private List<Card> usedCards = new ArrayList<>();\n\n    private int numCards;\n\n    public Deck() {\n        for (int i = 0; i < 56; i++) {\n            if (i < 1) {\n                aCards.add(new Card(CardsValue.CLOVERLEAF));\n            } else if (i < 6) {\n                aCards.add(new Card(CardsValue.FIREWORK));\n            } else if (i < 16) {\n                aCards.add(new Card(CardsValue.STOP));\n            } else if (i < 21) {\n                aCards.add(new Card(CardsValue.STRAIGHT));\n            } else if (i < 26) {\n                aCards.add(new Card(CardsValue.PLUSMINUS));\n            } else if (i < 31) {\n                aCards.add(new Card(CardsValue.TIMESTWO));\n            } else if (i < 36) {\n                aCards.add(new Card(CardsValue.BONUS200));\n            } else if (i < 41) {\n                aCards.add(new Card(CardsValue.BONUS300));\n            } else if (i < 46) {\n                aCards.add(new Card(CardsValue.BONUS400));\n            } else if (i < 51) {\n                aCards.add(new Card(CardsValue.BONUS500));\n            } else {\n                aCards.add(new Card(CardsValue.BONUS600));\n            }\n        }\n        Collections.shuffle(aCards);\n    }\n\n\n    public Card getCard() {\n        System.out.println(aCards.size());\n        if (!isEmpty()) {\n            Card aCard = aCards.get(0);\n            usedCards.add(aCard);\n            aCards.remove(0);\n            System.out.println(aCards.size());\n            return aCard;\n        } else {\n            //In case that there are no more cards left in the deck\n            //The ArrayList usedCards is going to be aCards and aCards\n            //is going to be shuffled\n            List<Card> copy = new ArrayList<>();\n            copy = aCards;\n            aCards = usedCards;\n            usedCards = copy;\n            Collections.shuffle(aCards);\n            return getCard();\n        }\n    }\n\n    private Boolean isEmpty() {\n        return (aCards.size() == 0);\n    }\n}\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/Cards/Deck.java b/src/Cards/Deck.java
+--- a/src/Cards/Deck.java	(revision 8914881fc7a863508c6d9e2fb045b09f5f4fc873)
++++ b/src/Cards/Deck.java	(date 1669025071698)
+@@ -6,7 +6,7 @@
+ 
+ public class Deck {
+     private List<Card> aCards = new ArrayList<>();
+-    //cards that are drawn from the deck are stored here so that the Cardobjects can be reused
++    //cards that are drawn from the deck are stored in usedCards so that the Cardobjects can be reused
+     private List<Card> usedCards = new ArrayList<>();
+ 
+     private int numCards;
+Index: src/Game/Display.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package Game;\n\nimport Cards.*;\nimport Dices.*;\n\npublic class Display {\n\n    public static void displayDice(diceNumber d1) {\n        printUpper();\n        for(int i = 1; i<4; i++){\n            printLeftBox();\n            printInner(d1, i);\n            printRightBox();\n        }\n        printUnder();\n    }\n\n    public static void displayCard(CardsValue c1){\n        System.out.println(\"You drew following card: \" + c1);\n    }\n\n    public static void displayPoints(Player P1){\n        System.out.println(\"You've got \" + P1.getPoints() + \" Points.\");\n    }\n\n    private static void printInner(diceNumber d1, int i){\n        if(d1 == diceNumber.SIX) System.out.print(\" o   o \");\n        else if(d1 == diceNumber.ONE && i == 2) System.out.print(\"   o   \");\n        else if(d1 == diceNumber.TWO && i == 1) System.out.print(\"     o \");\n        else if(d1 == diceNumber.TWO && i == 3) System.out.print(\" o     \");\n        else if(d1 == diceNumber.THREE && i == 1) System.out.print(\"     o \");\n        else if(d1 == diceNumber.THREE && i == 2) System.out.print(\"   o   \");\n        else if(d1 == diceNumber.THREE && i == 3) System.out.print(\" o     \");\n        else if(d1 == diceNumber.FOUR && (i == 3||i==1)) System.out.print(\" o   o \");\n        else if(d1 == diceNumber.FIVE && (i == 3||i==1)) System.out.print(\" o   o \");\n        else if(d1 == diceNumber.FIVE && i == 2) System.out.print(\"   o   \");\n        else System.out.print(\"       \");\n    }\n\n    private static void printUpper(){\n        System.out.println(\" _________\");\n    }\n    private static void printLeftBox(){\n        System.out.print(\"| \");\n    }\n    private static void printRightBox(){\n        System.out.println(\" |\");\n    }\n    private static void printUnder(){\n        System.out.println(\"|_________|\");\n    }\n}\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/Game/Display.java b/src/Game/Display.java
+--- a/src/Game/Display.java	(revision 8914881fc7a863508c6d9e2fb045b09f5f4fc873)
++++ b/src/Game/Display.java	(date 1669025071718)
+@@ -5,14 +5,15 @@
+ 
+ public class Display {
+ 
+-    public static void displayDice(diceNumber d1) {
++    public static void displayDice(diceNumber d1, byte b) {
++        //assert d1 != null;
+         printUpper();
+         for(int i = 1; i<4; i++){
+             printLeftBox();
+             printInner(d1, i);
+             printRightBox();
+         }
+-        printUnder();
++        printUnder(b);
+     }
+ 
+     public static void displayCard(CardsValue c1){
+@@ -46,7 +47,7 @@
+     private static void printRightBox(){
+         System.out.println(" |");
+     }
+-    private static void printUnder(){
+-        System.out.println("|_________|");
++    private static void printUnder(byte b){
++        System.out.println("|_________| " + b);
+     }
+ }
+Index: src/Game/Game.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/Game/Game.java b/src/Game/Game.java
+new file mode 100644
+--- /dev/null	(date 1669025074991)
++++ b/src/Game/Game.java	(date 1669025074991)
+@@ -0,0 +1,7 @@
++package Game;
++
++public class Game {
++
++    //TODO public short getMaxPoints (for Playerclass)
++
++}

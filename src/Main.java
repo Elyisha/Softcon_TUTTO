@@ -15,10 +15,15 @@ public class Main {
             Display.displayDice(dices[i].getDiceNumber());
         }
         System.out.println(ValidDice.countPoints(dices));
-        /*
+
         dices[2].putAside();
         Game.Input.decideDice(dices);
-*/
+
+        Display.displayDice(diceNumber.FIVE, (byte) 1);
+        Display.displayDice(diceNumber.TWO, (byte) 2);
+        Display.displayDice(diceNumber.ONE, (byte) 3);
+        Display.displayDice(diceNumber.THREE, (byte) 4);
+
 
 
 

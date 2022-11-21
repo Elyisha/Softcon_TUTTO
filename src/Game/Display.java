@@ -5,14 +5,15 @@ import Dices.*;
 
 public class Display {
 
-    public static void displayDice(diceNumber d1) {
+    public static void displayDice(diceNumber d1, byte b) {
+        //assert d1 != null;
         printUpper();
         for(int i = 1; i<4; i++){
             printLeftBox();
             printInner(d1, i);
             printRightBox();
         }
-        printUnder();
+        printUnder(b);
     }
 
     public static void displayCard(CardsValue c1){
@@ -46,7 +47,7 @@ public class Display {
     private static void printRightBox(){
         System.out.println(" |");
     }
-    private static void printUnder(){
-        System.out.println("|_________|");
+    private static void printUnder(byte b){
+        System.out.println("|_________| " + b);
     }
 }

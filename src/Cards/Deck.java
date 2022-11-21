@@ -6,7 +6,7 @@ import java.util.List;
 
 public class Deck {
     private List<Card> aCards = new ArrayList<>();
-    //cards that are drawn from the deck are stored here so that the Cardobjects can be reused
+    //cards that are drawn from the deck are stored in usedCards so that the Cardobjects can be reused
     private List<Card> usedCards = new ArrayList<>();
 
     private int numCards;
