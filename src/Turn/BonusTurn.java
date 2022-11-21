@@ -3,7 +3,8 @@ import Cards.CardsValue;
 import Gameflow.Display;
 
 public class BonusTurn extends AbstractTurn {
-    public TurnResult bonusTurn(short currentPoints, CardsValue cardType) {
+
+    public static TurnResult bonusTurn(short currentPoints, CardsValue cardType) {
         short newPoints = currentPoints;
 
         Display.displayCard(cardType);

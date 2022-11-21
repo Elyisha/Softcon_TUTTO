@@ -6,7 +6,7 @@ import Gameflow.*;
 //todo helper funktion isTutto(dices): boolean
 abstract class AbstractTurn {
 
-    public TurnResult getRoll() {
+    public static TurnResult getRoll() {
         byte howManyAside = 0;
         Dice[] dices = new Dice[6]; //stores the dices
         boolean tutto = false;
