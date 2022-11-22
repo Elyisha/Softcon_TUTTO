@@ -7,7 +7,7 @@ import Dices.*;
 
 public class Input {
 
-    public static String[] takeNames(){
+    public static String[] takeNames(){     //alphabetic order
         String[] Names;
         Scanner NameInput = new Scanner(System.in);
 
@@ -40,7 +40,7 @@ public class Input {
             else return MaxPoints = Short.valueOf(Input);
         }
     }
-    public static char askUserDR(){     //change return type to boolean
+    public static boolean askUserDR(){     //change return type to boolean
         char DR;
         Scanner DRInput = new Scanner(System.in);
 
@@ -53,7 +53,7 @@ public class Input {
             else if(!(Input.contains("R") || Input.contains("D"))) System.out.println("Must type in D or R");
             else {
                 DR = Input.charAt(0);
-                return DR;
+                return (DR == 'R');
             }
         }
     }
