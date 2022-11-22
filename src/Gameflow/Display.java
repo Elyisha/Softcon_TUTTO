@@ -15,6 +15,9 @@ public class Display {
         }
         printUnder(b);
     }
+    public static void pointsOfRoundLost(){
+        System.out.println("You rolled a null and therefore lost all the current points.");
+    }
 
     public static void displayCard(CardsValue c1){
         System.out.println("You drew following card: " + c1);
@@ -48,6 +51,6 @@ public class Display {
         System.out.println(" |");
     }
     private static void printUnder(byte b){
-        System.out.println("|_________| " + b);
+        System.out.println("|_________| Dice Nr: " + b);
     }
 }

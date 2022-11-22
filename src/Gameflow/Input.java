@@ -115,7 +115,7 @@ public class Input {
                     dices[numbers.get(i)-1].putAside();
                     countDices[i] = dices[numbers.get(i)-1]; //add to countDices
                 }
-
+                System.out.println("You put " + Dices.ValidDice.countPoints(countDices) + " aside.");
                 return Dices.ValidDice.countPoints(countDices);
             }
         }

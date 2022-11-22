@@ -37,36 +37,44 @@ public class Game {
     public void startGameFlow(){
         //boolean isOver = false; //changes to true the moment a player reaches maxPoints
         Deck aDeck = new Deck(); //Card supply
-        while(true){
+        boolean isOver = false;
+        while(!isOver){ //breaks if a player won the game
             for(Player aPlayer: players){
                 //Ask Player whether he wants to see his score
-                char DorR = Input.askUserDR(); //Should be Boolean! if("!"Input.askUserDR())
-                if("D".charAt(0) == DorR){
-                    System.out.println("You Have got " + aPlayer.getPoints() + "Points.");
+                System.out.println(aPlayer.getName()+":");
+                if(!Input.askUserDR()){
+                    System.out.println("You Have got " + aPlayer.getPoints() + " Points.");
                     System.out.println((maxPoints-aPlayer.getPoints()) + " more to go.");
                 }
-                else{
+                    //Variables to decide whether points can be added or not
+                    short currentPoints = 0;
+                    boolean pointsADD = false;
                     while(true){ //this loop ends when a player has no more dices to choose or he decides to stop his round after a tutto
-                        Card aCard = aDeck.getCard();
+                        Card aCard = new Card(CardsValue.BONUS200); //aDeck.getCard();
                         TurnResult result = makeTurn(aPlayer, aCard.getValue());
-                        aPlayer.addPoints(result.points);
+                        currentPoints += result.points;
+                        //aPlayer.addPoints(result.points);
+                        if(result.points != 0){pointsADD = true;}
                         if(!result.isTutto){break;}
                     }
-                }
-            if(aPlayer.playerWon()){
-                System.out.println(aPlayer.getName() + " has won the game! Good Job");
-                break;
+                    if(pointsADD){aPlayer.addPoints(currentPoints);}
+                    if(aPlayer.playerWon()){
+                        System.out.println(aPlayer.getName() + " has won the game! Good Job");
+                        isOver = true;
+                        break;
             }
             }
+
         }
     }
 
     private TurnResult makeTurn(Player player, CardsValue aCardValue){
         //everything above .ordinal 6 are Bonus cards
-        if(aCardValue.ordinal() > 6){
-            TurnResult resultRound = BonusTurn.bonusTurn(player.getPoints(), aCardValue);
+        if(aCardValue.ordinal() > 5){
+            TurnResult resultRound = BonusTurn.bonusTurn(aCardValue); //Pointer to a field ?
             return resultRound;
         }
+
         return new TurnResult((short) 3, true);
     }
 

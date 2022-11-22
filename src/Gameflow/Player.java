@@ -3,7 +3,7 @@ package Gameflow;
 public class Player {
     private final String name;
     private short points = 0;
-    private short maxPoints; // Player class needs to have this information to provide playerWon method
+    private final short maxPoints; // Player class needs to have this information to provide playerWon method
 
     public Player(String playerName, short maxPoints){
         name = playerName;
