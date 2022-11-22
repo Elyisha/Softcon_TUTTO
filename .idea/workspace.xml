@@ -4,14 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="53e70105-e171-4356-932f-5dec625c8c62" name="Changes" comment="Merge branch 'master' of https://github.com/Elyisha/Softcon_TUTTO&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
+    <list default="true" id="b577d954-8adb-45f0-8cd3-77c2a40a1194" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Turn/StraightTurn.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Gameflow/Display.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Gameflow/Display.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Gameflow/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Gameflow/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Gameflow/Input.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Gameflow/Input.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Gameflow/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Gameflow/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Turn/AbstractTurn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Turn/AbstractTurn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Turn/FireworksTurn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Turn/FireworksTurn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Turn/TurnResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Turn/TurnResult.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
