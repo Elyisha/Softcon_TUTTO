@@ -1,7 +1,7 @@
 package Turn;
 
 public class CloverleafTurn extends AbstractTurn{
-    public TurnResult cloverleafTurn(short currentPoints) {
+    public TurnResult cloverleafTurn() {
         boolean gameWon = false;
 
         TurnResult result = getRoll();
@@ -10,7 +10,7 @@ public class CloverleafTurn extends AbstractTurn{
             if (resultsecond.isTutto) gameWon = true;
         }
 
-        return new TurnResult(currentPoints, gameWon);
+        return new TurnResult((short)0, gameWon);
     }
 
 }

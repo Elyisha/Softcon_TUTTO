@@ -4,22 +4,22 @@ import Gameflow.Display;
 
 public class BonusTurn extends AbstractTurn {
 
-    public static TurnResult bonusTurn(short currentPoints, CardsValue cardType) {
-        short newPoints = currentPoints;
+    public static TurnResult bonusTurn(CardsValue cardType) {
+        short roundPoints = 0;
 
         Display.displayCard(cardType);
         TurnResult result = getRoll();
 
-        newPoints += result.points;
+        roundPoints += result.points;
         if (result.isTutto) {
             switch (cardType){
-                case BONUS200 -> newPoints += 200;
-                case BONUS300 -> newPoints += 300;
-                case BONUS400 -> newPoints += 400;
-                case BONUS500 -> newPoints += 500;
-                case BONUS600 -> newPoints += 600;
+                case BONUS200 -> roundPoints += 200;
+                case BONUS300 -> roundPoints += 300;
+                case BONUS400 -> roundPoints += 400;
+                case BONUS500 -> roundPoints += 500;
+                case BONUS600 -> roundPoints += 600;
             }
         }
-        return new TurnResult(newPoints, result.isTutto);
+        return new TurnResult(roundPoints, result.isTutto);
     }
 }

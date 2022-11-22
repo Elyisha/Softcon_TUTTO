@@ -7,12 +7,11 @@ import Gameflow.Input;
 
 public class FireworksTurn extends AbstractTurn{
 
-    public TurnResult fireworksTurn(short currentPoints) {
+    public TurnResult fireworksTurn() {
 
         byte howManyAside = 0;
         Dice[] dices = new Dice[6]; //stores the dices
-        short newPoints = 0;
-        newPoints += currentPoints;
+        short roundPoints = 0;
 
         //instantiate the dices (doesn't roll them for the first time!)
         for (byte i = 0; i < 6; i++) {
@@ -38,7 +37,7 @@ public class FireworksTurn extends AbstractTurn{
             }
 
             //now ask user which ones to put aside and put them aside
-            newPoints += Input.decideDice(dices); //muss ich das jetzt nochmals kopieren oder wurde eigentlich nur das bereits bestehende Objekt verändert?
+            roundPoints += Input.decideDice(dices); //muss ich das jetzt nochmals kopieren oder wurde eigentlich nur das bereits bestehende Objekt verändert?
 
             //see how many have been put aside (for tutto recognization)
             for (byte i = 0; i < 6; i++) {
@@ -54,7 +53,7 @@ public class FireworksTurn extends AbstractTurn{
 
             }
         }
-        return new TurnResult(newPoints, false); //boolean tutto is unnecessary
+        return new TurnResult(roundPoints, false); //boolean tutto is unnecessary
 
     }
 
