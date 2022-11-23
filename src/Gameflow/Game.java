@@ -50,7 +50,8 @@ public class Game {
                     short currentPoints = 0;
                     boolean pointsADD = false;
                     while(true){ //this loop ends when a player has no more dices to choose or he decides to stop his round after a tutto
-                        Card aCard = new Card(CardsValue.BONUS200); //aDeck.getCard();
+                        Card aCard = aDeck.getCard();
+                        Display.displayCard(aCard.getValue());
                         TurnResult result = makeTurn(aCard.getValue());
                         // In case cloverleafTurn and tutto --> game is over:
                         if(aCard.getValue().ordinal() == 0 && result.isTutto){
