@@ -1,7 +1,7 @@
 package Turn;
 
 public class PlusMinusTurn extends AbstractTurn{
-    public TurnResult plusMinusTurn(short currentPoints) {
+    public static TurnResult plusMinusTurn(short currentPoints) {
         short newPoints = currentPoints;
         TurnResult result = getRoll();
 

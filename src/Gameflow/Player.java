@@ -13,7 +13,7 @@ public class Player {
     // How does Game.Player-class know how many points are required to win ? has Game-Class getter method for max points
 
     public Boolean playerWon(){
-        return points > maxPoints;
+        return points >= maxPoints;
     }
 
 
@@ -30,4 +30,7 @@ public class Player {
     public short getPoints(){
         return points;
     }
+
+    public void subtract1000(){points-=(short) 1000;}
+
 }

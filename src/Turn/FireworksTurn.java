@@ -7,7 +7,7 @@ import Gameflow.Input;
 
 public class FireworksTurn extends AbstractTurn{
 
-    public TurnResult fireworksTurn() {
+    public static TurnResult fireworksTurn() {
 
         byte howManyAside = 0;
         Dice[] dices = new Dice[6]; //stores the dices

@@ -1,7 +1,7 @@
 package Turn;
 
 public class CloverleafTurn extends AbstractTurn{
-    public TurnResult cloverleafTurn() {
+    public static TurnResult cloverleafTurn() {
         boolean gameWon = false;
 
         TurnResult result = getRoll();
