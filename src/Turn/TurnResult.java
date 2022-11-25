@@ -9,4 +9,4 @@ public class TurnResult {
         this.isTutto = isTutto;
     }
 
-};
+}

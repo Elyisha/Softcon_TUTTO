@@ -2,7 +2,7 @@ package Turn;
 
 import Cards.CardsValue;
 public class TwoTimesTurn extends AbstractTurn{
-    public TurnResult twoTimesTurn() {
+    public static TurnResult twoTimesTurn() {
         short roundPoints = 0;
         TurnResult result = getRoll();
 

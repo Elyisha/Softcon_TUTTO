@@ -47,7 +47,7 @@ public class Deck {
             Card aCard = aCards.get(0);
             usedCards.add(aCard);
             aCards.remove(0);
-            System.out.println(aCards.size());
+            //System.out.println(aCards.size());
             return aCard;
         } else {
             //In case that there are no more cards left in the deck

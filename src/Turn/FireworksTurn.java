@@ -7,7 +7,7 @@ import Gameflow.Input;
 
 public class FireworksTurn extends AbstractTurn{
 
-    public TurnResult fireworksTurn() {
+    public static TurnResult fireworksTurn() {
 
         byte howManyAside = 0;
         Dice[] dices = new Dice[6]; //stores the dices
@@ -33,6 +33,7 @@ public class FireworksTurn extends AbstractTurn{
 
             //now: check if roll was at least possibly valid, if not, break the while loop.
             if (ValidDice.countPoints(countDices) == 0) {
+                Display.pointsOfRoundLost();
                 break;
             }
 

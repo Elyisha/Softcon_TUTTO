@@ -50,8 +50,17 @@ public class Game {
                     short currentPoints = 0;
                     boolean pointsADD = false;
                     while(true){ //this loop ends when a player has no more dices to choose or he decides to stop his round after a tutto
-                        Card aCard = new Card(CardsValue.BONUS200); //aDeck.getCard();
-                        TurnResult result = makeTurn(aPlayer, aCard.getValue());
+                        Card aCard = aDeck.getCard();
+                        Display.displayCard(aCard.getValue());
+                        TurnResult result = makeTurn(aCard.getValue());
+                        // In case cloverleafTurn and tutto --> game is over:
+                        if(aCard.getValue().ordinal() == 0 && result.isTutto){
+                            aPlayer.addPoints(maxPoints);
+                            break;
+                        }
+                        if(aCard.getValue().ordinal() == 5 && result.isTutto){
+                            subtractThousand(aPlayer);
+                        }
                         currentPoints += result.points;
                         //aPlayer.addPoints(result.points);
                         if(result.points != 0){pointsADD = true;}
@@ -59,24 +68,69 @@ public class Game {
                     }
                     if(pointsADD){aPlayer.addPoints(currentPoints);}
                     if(aPlayer.playerWon()){
-                        System.out.println(aPlayer.getName() + " has won the game! Good Job");
+                        printEndNote(aPlayer);
                         isOver = true;
                         break;
             }
             }
-
         }
     }
 
-    private TurnResult makeTurn(Player player, CardsValue aCardValue){
+    private TurnResult makeTurn(CardsValue aCardValue){
         //everything above .ordinal 6 are Bonus cards
+        TurnResult resultRound;
         if(aCardValue.ordinal() > 5){
-            TurnResult resultRound = BonusTurn.bonusTurn(aCardValue); //Pointer to a field ?
-            return resultRound;
+            resultRound = BonusTurn.bonusTurn(aCardValue);
         }
-
-        return new TurnResult((short) 3, true);
+        else if(aCardValue.ordinal() == 0){
+            resultRound = CloverleafTurn.cloverleafTurn();
+        }
+        else if(aCardValue.ordinal() == 1){
+            resultRound = FireworksTurn.fireworksTurn();
+        }
+        else if(aCardValue.ordinal() == 2){
+            System.out.println("Bad luck you've got a Stop card which means its not your turn anymore");
+            resultRound = new TurnResult((short) 0,false);
+        }
+        else if(aCardValue.ordinal() == 3){
+            resultRound = StraightTurn.getRoll();
+        }
+        else if(aCardValue.ordinal() == 4){
+            resultRound = TwoTimesTurn.twoTimesTurn();
+        }
+        else{
+            resultRound = PlusMinusTurn.plusMinusTurn((short) 12); //wieso plusminus noch mit input ?
+        }
+        return resultRound;
     }
+
+    private void subtractThousand(Player player){
+        Player leader = this.players[0];
+        //find player with the most # points
+        for(Player P: this.players){
+            if(P.getPoints() > leader.getPoints()){
+                leader = P;
+            }
+        }
+        short leadersPoints = leader.getPoints();
+        //second for each loop since when there are several leaders and all aren't the current player and
+        // all have more than 1000 points each of the leaders looses 1000
+        for(Player P: this.players){
+            if(P.getPoints() == leadersPoints && P != player && P.getPoints() > 1000){
+                P.subtract1000();
+            }
+        }
+    }
+
+    private void printEndNote(Player Winner){
+        System.out.println(Winner.getName() + " has won the game! Good Job");
+        System.out.println(this.maxPoints + " Points were required to win this round.");
+        for(Player P: players){
+            System.out.println(P.getName() + " managed to reach " + P.getPoints() + " Points");
+        }
+    }
+
+
 
 
 }
