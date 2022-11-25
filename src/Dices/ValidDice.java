@@ -62,7 +62,7 @@ public class ValidDice {
     }
     public static boolean hasNoDuplicates(Dice[] dices, diceNumber diceNum) {
         for (byte i = 0; i < dices.length; ++i) {
-            if (!(dices[i].isAside() && dices[i].getDiceNumber() != diceNum)) return false;
+            if (dices[i].isAside() && dices[i].getDiceNumber() == diceNum) return false;
         }
         return true;
     }

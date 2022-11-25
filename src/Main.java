@@ -23,7 +23,7 @@ public class Main {
         dices[3].diceNumber = diceNumber.FOUR;
         dices[4].diceNumber = diceNumber.FOUR;
         dices[5].diceNumber = diceNumber.SIX;
-
+        dices[2].putAside();
         Input.straightDecideDice(dices);
 
         /*
