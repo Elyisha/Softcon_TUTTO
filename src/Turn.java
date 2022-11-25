@@ -1,7 +1,7 @@
 public class Turn {} // Singleton?
 /*
-
-//todo: read only wrapper for the arrays when i give them to isvalid etc
+// TODO: OBSOLETE, THIS FILE CAN BE DELETED
+// read only wrapper for the arrays when i give them to isvalid etc
     private Dice[] dices;
     public void turn() {
 

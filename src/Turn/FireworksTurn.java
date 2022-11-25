@@ -5,11 +5,13 @@ import Dices.ValidDice;
 import Gameflow.Display;
 import Gameflow.Input;
 
+import java.util.ArrayList;
+
 public class FireworksTurn extends AbstractTurn{
 
     public static TurnResult fireworksTurn() {
 
-        byte howManyAside = 0;
+        byte howManyAside;
         Dice[] dices = new Dice[6]; //stores the dices
         short roundPoints = 0;
 
@@ -19,17 +21,16 @@ public class FireworksTurn extends AbstractTurn{
         }
 
         while (true) {
-            Dice[] countDices = new Dice[6 - howManyAside];
+            ArrayList<Dice> countDices = new ArrayList<>();
             howManyAside = 0;
-            byte forLoopCounter=0; //TODO really ugly
             for (byte i = 0; i < 6; i++) {
                 if (!dices[i].isAside()) { //if it was not put aside yet...
                     dices[i].rollDice(); //...roll it...
-                    Display.displayDice(dices[i].getDiceNumber(), i); //...print it
-                    forLoopCounter++; //TODO really ugly //add indice for new countDices array
-                    countDices[forLoopCounter] = dices[i]; //TODO kinda ugly
+                    Display.displayDice(dices[i].getDiceNumber(), (byte) (i+1)); //...print it
+                    countDices.add(dices[i]);
                 }
             } //ends print dices for-loop
+
 
             //now: check if roll was at least possibly valid, if not, break the while loop.
             if (ValidDice.countPoints(countDices) == 0) {

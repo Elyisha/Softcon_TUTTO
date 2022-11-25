@@ -1,6 +1,4 @@
 package Turn;
-
-import Cards.CardsValue;
 public class TwoTimesTurn extends AbstractTurn{
     public static TurnResult twoTimesTurn() {
         short roundPoints = 0;

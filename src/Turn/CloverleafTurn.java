@@ -6,8 +6,8 @@ public class CloverleafTurn extends AbstractTurn{
 
         TurnResult result = getRoll();
         if (result.isTutto) {
-            TurnResult resultsecond = getRoll();
-            if (resultsecond.isTutto) gameWon = true;
+            TurnResult secondresult = getRoll();
+            if (secondresult.isTutto) gameWon = true;
         }
 
         return new TurnResult((short)0, gameWon);

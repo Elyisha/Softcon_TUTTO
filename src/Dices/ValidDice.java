@@ -2,10 +2,11 @@ package Dices;
 import Cards.*;
 
 
+import java.util.ArrayList;
 import java.util.Arrays;
 public class ValidDice {
 
-    public static short countPoints(Dice[] dices) {
+    public static short countPoints(ArrayList<Dice> dices) {
         short points = 0;
         short triplet = 0;
         int[] values = new int[6];
