@@ -1,24 +1,18 @@
 package Turn;
-
 import Dices.Dice;
 import Dices.ValidDice;
 import Gameflow.Display;
 import Gameflow.Input;
-
 import java.util.ArrayList;
 
 public class FireworksTurn extends AbstractTurn{
-
     public static TurnResult fireworksTurn() {
-
         byte howManyAside;
-        Dice[] dices = new Dice[6]; //stores the dices
         short roundPoints = 0;
 
-        //instantiate the dices (doesn't roll them for the first time!)
-        for (byte i = 0; i < 6; i++) {
-            dices[i] = new Dice();
-        }
+        Dice[] dices = new Dice[6]; //stores the dices
+        for (byte i = 0; i < 6; i++) {dices[i] = new Dice();} //instantiate the dices (doesn't roll them for the first time!)
+
 
         while (true) {
             ArrayList<Dice> countDices = new ArrayList<>();
