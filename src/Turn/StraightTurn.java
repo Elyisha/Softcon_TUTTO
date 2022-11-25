@@ -10,7 +10,7 @@ public class StraightTurn extends AbstractTurn{
         byte howManyAside = 0;
         Dice[] dices = new Dice[6]; //stores the dices
         boolean tutto = false;
-        short currentPoints = 0;
+        short currentPoints;
 
         //instantiate the dices (doesn't roll them for the first time!)
         for (byte i = 0; i < 6; i++) {

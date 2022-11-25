@@ -1,5 +1,6 @@
 package Gameflow;
 
+import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Scanner;
 import java.util.List;
@@ -109,10 +110,11 @@ public class Input {
                         "1,3,4)");
             }
             else {
-                Dice[] countDices = new Dice[numbers.size()];
+                ArrayList<Dice> countDices = new ArrayList<Dice>();
+                //obsolete: Dice[] countDices = new Dice[numbers.size()];
                 for (byte i = 0; i < numbers.size(); i++) {
                     dices[numbers.get(i)-1].putAside();
-                    countDices[i] = dices[numbers.get(i)-1]; //add to countDices
+                    countDices.set(i, dices[numbers.get(i) - 1]); //add to countDices
                 }
                 System.out.println("You put " + Dices.ValidDice.countPoints(countDices) + " aside.");
                 return Dices.ValidDice.countPoints(countDices);
