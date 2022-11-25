@@ -26,8 +26,8 @@ public class FireworksTurn extends AbstractTurn{
             for (byte i = 0; i < 6; i++) {
                 if (!dices[i].isAside()) { //if it was not put aside yet...
                     dices[i].rollDice(); //...roll it...
-                    Display.displayDice(dices[i].getDiceNumber(), (byte) (i+1)); //...print it
-                    countDices.add(dices[i]);
+                    Display.displayDice(dices[i].getDiceNumber(), (byte) (i+1)); //...print it...
+                    countDices.add(dices[i]); //...put those aside that are still in the game to check their validity
                 }
             } //ends print dices for-loop
 
@@ -37,7 +37,6 @@ public class FireworksTurn extends AbstractTurn{
                 Display.pointsOfRoundLost();
                 break;
             }
-
             //now ask user which ones to put aside and put them aside
             roundPoints += Input.decideDice(dices); //muss ich das jetzt nochmals kopieren oder wurde eigentlich nur das bereits bestehende Objekt verändert?
 
