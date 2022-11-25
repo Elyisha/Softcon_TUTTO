@@ -12,7 +12,7 @@ public class Input {
         String[] Names;
         Scanner NameInput = new Scanner(System.in);
 
-        System.out.println("Put in your names seperated by a coma (example: Hans, Peter, Sara)");
+        System.out.println("Put in your names seperated by a comma (example: Hans,Peter,Sara)");
 
         while(true) {
             String Input = NameInput.nextLine().replaceAll("\\s+", "");
@@ -29,7 +29,7 @@ public class Input {
         Short MaxPoints;
         Scanner PointInput = new Scanner(System.in);
 
-        System.out.println("To how many points do you want to play?");
+        System.out.println("To how many points do you want to play? (range from 500 to 32000 points)");
 
         while(true) {
             String Input = PointInput.nextLine().replaceAll("\\s+", "");
