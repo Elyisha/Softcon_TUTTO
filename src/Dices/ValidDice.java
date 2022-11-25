@@ -59,6 +59,12 @@ public class ValidDice {
         }
         return true;
     }
+    public static boolean hasNoDuplicates(Dice[] dices, diceNumber diceNum) {
+        for (byte i = 0; i < dices.length; ++i) {
+            if (!(dices[i].isAside() && dices[i].getDiceNumber() != diceNum)) return false;
+        }
+        return true;
+    }
 
     public static boolean hasValidDicesLeft(Dice[] dices){
         int[] values = new int[6];
