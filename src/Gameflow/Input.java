@@ -81,40 +81,41 @@ public class Input {
         System.out.println("Which dices do you want to put aside? Enter your decision by separating " +
                 "the dice-index with a comma (e.g. 2,4,5).");
 
+
         while(true) {
             List<Integer> numbers = new ArrayList<Integer>();
-            boolean asideCheck = true;
             boolean check = true;
-            byte counter = 0;
+
+
             String Input = DDInput.nextLine().replaceAll("\\s","");
 
             for(int i = 0; i < Input.length(); ++ i) {
                 if(i%2 == 0) {
-                    if (!validNumber(Input, i)) {
+                    if (!validNumber(Input, Input.charAt(i))) {
                         check = false;
-                        break;
                     }
-                    if(alreadyAside(dices, Input, i)) {
+                    else if(alreadyAside(dices, Input, Character.getNumericValue(Input.charAt(i)))) {
                         System.out.println("Dice at position " + Character.getNumericValue(Input.charAt(i)) + " has already been put aside!");
-                        asideCheck = false;
                         check = false;
-                        break;
                     }
-                    numbers.add(Character.getNumericValue(Input.charAt(i)));
+                    else numbers.add(Character.getNumericValue(Input.charAt(i)));
                 }
-                else if(Input.charAt(i) != ',') {check = false; break;}
+                else {
+                    if(Input.charAt(i) != ',') {
+                        System.out.println("Must type in the numbers according to the correct format (e.g. " +
+                                "1,3,4)");
+                        check = false;
+                    }
                 }
-            if(!asideCheck);
-            else if(!check && asideCheck) {
-                System.out.println("Must type in the numbers according to the correct format (e.g. " +
-                        "1,3,4)");
+                if(!check) break;
             }
-            else {
-                ArrayList<Dice> countDices = new ArrayList<Dice>();
+
+            if(check) {
+                ArrayList<Dice> countDices = new ArrayList<Dice>(numbers.size());
                 //obsolete: Dice[] countDices = new Dice[numbers.size()];
                 for (byte i = 0; i < numbers.size(); i++) {
                     dices[numbers.get(i)-1].putAside();
-                    countDices.set(i, dices[numbers.get(i) - 1]); //add to countDices
+                    countDices.add(i, dices[numbers.get(i) - 1]); //add to countDices
                 }
                 System.out.println("You put " + Dices.ValidDice.countPoints(countDices) + " aside.");
                 return Dices.ValidDice.countPoints(countDices);
@@ -125,44 +126,47 @@ public class Input {
         Scanner DDInput = new Scanner(System.in);
         System.out.println("Which dices do you want to put aside? Enter your decision by separating " +
                 "the dice-index with a comma (e.g. 2,4,5).");
-        List<Integer> numbers = new ArrayList<Integer>();
+
         boolean check = true;
+
         while(true) {
+            List<Integer> numbers = new ArrayList<Integer>();
             String Input = DDInput.nextLine().replaceAll("\\s","");
             for(int i = 0; i<Input.length();++i) {
-                if(i%2 == 0) {
-                    if(!validNumber(Input, Character.getNumericValue(Input.charAt(i)))) {
+                if(i % 2 == 0) {
+                    if(!validNumber(Input, Input.charAt(i))) {
                         System.out.println("Must type in the numbers according to the correct format (e.g. " +
                                 "1,3,4)");
                         check = false;
                     }
-                    if (alreadyAside(dices, Input, Character.getNumericValue(Input.charAt(i)))) {
-                        System.out.println("Dice at position " + Character.getNumericValue(Input.charAt(i)) + " has already been put aside!");
+                    else if (alreadyAside(dices, Input, Character.getNumericValue(Input.charAt(i)))) {
+                        System.out.println("Dice at position " + Input.charAt(i) + " has already been put aside!");
                         check = false;
                     }
-                    if(!hasDiceDuplicate(numbers, dices, Character.getNumericValue(Input.charAt(i)))) {
-                        System.out.println("Cannot put aside 2 dices with the same dice-values (concerning dice-value " + dices[Character.getNumericValue(Input.charAt(i)-1)].getDiceNumber().ordinal());
+                    else if(!hasDiceDuplicate(numbers, dices, Character.getNumericValue(Input.charAt(i)))) {
+                        System.out.println("Cannot put aside 2 dices with the same dice-values (dice " + Input.charAt(i) + " has already been put aside)");
                         check = false;
                     }
-                    if(!ValidDice.hasNoDuplicates(dices, dices[Character.getNumericValue(Input.charAt(i)-1)].getDiceNumber())) {
-                        System.out.println("you have previously put aside a dice with the dice-value" + dices[Character.getNumericValue(Input.charAt(i))].getDiceNumber().ordinal());
+                    else if(!ValidDice.hasNoDuplicates(dices, dices[Character.getNumericValue(Input.charAt(i)-1)].getDiceNumber())) {
+                        System.out.println("you have previously put aside a dice with the dice-value " + dices[Character.getNumericValue(Input.charAt(i))].getDiceNumber().ordinal() + ")");
                         check = false;
                     }
-                    numbers.add(Character.getNumericValue(Input.charAt(i)));
+                    else numbers.add(Character.getNumericValue(Input.charAt(i)));
                 }
-                else if(Input.charAt(i) != ',') {
-                    check = false;
-                    break;
+                else {
+                    if(Input.charAt(i) != ',') {
+                        System.out.println("Must type in the numbers according to the correct format (e.g. " +
+                                "1,3,4)");
+                        check = false;
+                    }
                 }
+                if(!check) break;
             }
-            if(!check) {
-                System.out.println("Must type in the numbers according to the correct format (e.g. " +
-                        "1,3,4)");
-            }
-            else {
-                for (byte i = 0; i < numbers.size(); i++) {
-                    dices[numbers.get(i)-1].putAside();
-                }
+
+
+            if(check) {
+                for (byte i = 0; i < numbers.size(); i++) dices[numbers.get(i)-1].putAside();
+                break;
             }
         }
     }
@@ -172,12 +176,12 @@ public class Input {
         }
         return true;
     }
-    private static boolean validNumber(String Input, int i) {
-        return (Character.isDigit(Input.charAt(i)) && Character.getNumericValue(i+1) < 7
-                && i+1 > 0);
+    private static boolean validNumber(String Input, char i) {
+
+        return (Character.isDigit(i) && (Character.getNumericValue(i) < 7) && (Character.getNumericValue(i) > 0));
     }
     private static boolean alreadyAside(Dice[] dices, String Input, int i) {
-        return dices[i].isAside();
+        return dices[i-1].isAside();
     }
 }
 

@@ -8,6 +8,11 @@ public class Main {
 
     public static void main(String[] args) {
 
+
+
+        Game G1 = Game.getInstance();
+        G1.startGameFlow();
+        /*
         Dice[] dices = new Dice[6]; //stores the dices
         for (byte i = 0; i < dices.length; i++) { //instantiate the dices (rolls them for the first time)
             dices[i] = new Dice();
@@ -17,15 +22,15 @@ public class Main {
 
 
 
-        dices[0].diceNumber = diceNumber.FOUR;
-        dices[1].diceNumber = diceNumber.TWO;
+        dices[0].diceNumber = diceNumber.ONE;
+        dices[1].diceNumber = diceNumber.FOUR;
         dices[2].diceNumber = diceNumber.FOUR;
         dices[3].diceNumber = diceNumber.FOUR;
-        dices[4].diceNumber = diceNumber.FOUR;
+        dices[4].diceNumber = diceNumber.FIVE;
         dices[5].diceNumber = diceNumber.SIX;
 
-        Input.straightDecideDice(dices);
-
+        while(true) Input.decideDice(dices);
+        */
         /*
         dices[5].putAside();
         dices[5].diceNumber = diceNumber.FIVE;
@@ -60,8 +65,6 @@ public class Main {
         short a = 12;
         System.out.println(a);
     */
-        Game G1 = Game.getInstance();
-        G1.startGameFlow();
 
     }
 }

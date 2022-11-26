@@ -3,7 +3,7 @@ import java.util.Random;
 
 public class Dice {
     Random rand = new Random(); //so it doesn't get invoked every time, saves space
-    public diceNumber diceNumber;
+    private diceNumber diceNumber;
     boolean putAside; //hier schon instanzieren oder erst im Konstruktor?
     public Dice() { // Konstruktor
         diceNumber = null; //don't let it be a new roll, this enforces it to roll them once
