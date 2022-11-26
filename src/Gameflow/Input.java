@@ -26,7 +26,7 @@ public class Input {
     }
 
     public static Short takeMaxPoints(){
-        Short MaxPoints;
+        short MaxPoints;
         Scanner PointInput = new Scanner(System.in);
 
         System.out.println("To how many points do you want to play? (range from 500 to 32000 points)");

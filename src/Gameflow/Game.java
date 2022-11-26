@@ -53,11 +53,6 @@ public class Game {
                         Card aCard = aDeck.getCard();
                         Display.displayCard(aCard.getValue());
                         TurnResult result = makeTurn(aCard.getValue());
-                        // In case cloverleafTurn and tutto --> game is over:
-                        if(aCard.getValue().ordinal() == 0 && result.isTutto){
-                            aPlayer.addPoints(maxPoints);
-                            break;
-                        }
                         if(aCard.getValue().ordinal() == 5 && result.isTutto){
                             subtractThousand(aPlayer);
                         }
@@ -66,6 +61,11 @@ public class Game {
                         if(result.points != 0){pointsADD = true;}
                         if(!result.isTutto){break;}
                         if(!Input.askUserRE()){break;}
+                        // In case cloverleafTurn and tutto --> game is over:
+                        if(aCard.getValue().ordinal() == 0 && result.isTutto){
+                            aPlayer.addPoints((short) (maxPoints - aPlayer.getPoints()));
+                            break;
+                        }
                     }
                     if(pointsADD){aPlayer.addPoints(currentPoints);}
                     if(aPlayer.playerWon()){
