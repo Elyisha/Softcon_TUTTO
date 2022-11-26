@@ -33,7 +33,7 @@ public class StraightTurn extends AbstractTurn{
             if (!ValidDice.hasValidDicesLeft(countDices)) {//DONE: should only count if it is valid (those NOT put aside yet)
                 Display.rolledaNull();
                 currentPoints = 0;
-                break;
+                roll = false;
             }
 
             //now ask user which ones to put aside and put them aside
@@ -50,10 +50,9 @@ public class StraightTurn extends AbstractTurn{
             if (howManyAside == 6) {
                 tutto = true;
                 currentPoints = 2000;
-                break;
+                roll = false;
             }
 
-            roll = Input.askUserRE();
 
         }
         return new TurnResult(currentPoints, tutto);
