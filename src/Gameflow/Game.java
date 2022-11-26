@@ -57,15 +57,18 @@ public class Game {
                             subtractThousand(aPlayer);
                         }
                         currentPoints += result.points;
-                        //aPlayer.addPoints(result.points);
-                        if(result.points != 0){pointsADD = true;}
-                        if(!result.isTutto){break;}
-                        if(!Input.askUserRE()){break;}
+
                         // In case cloverleafTurn and tutto --> game is over:
                         if(aCard.getValue().ordinal() == 0 && result.isTutto){
                             aPlayer.addPoints((short) (maxPoints - aPlayer.getPoints()));
                             break;
                         }
+
+                        //aPlayer.addPoints(result.points);
+                        if(result.points != 0){pointsADD = true;}
+                        if(!result.isTutto){break;}
+                        if(!Input.askUserRE()){break;}
+
                     }
                     if(pointsADD){aPlayer.addPoints(currentPoints);}
                     if(aPlayer.playerWon()){

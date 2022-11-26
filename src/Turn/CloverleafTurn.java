@@ -10,7 +10,7 @@ public class CloverleafTurn extends AbstractTurn{
             if (secondresult.isTutto) gameWon = true;
         }
 
-        return new TurnResult((short)0, gameWon);
+        return new TurnResult((short)0, gameWon); //TODO: undo true
     }
 
 }
