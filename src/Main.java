@@ -24,7 +24,7 @@ public class Main {
         dices[4].diceNumber = diceNumber.FOUR;
         dices[5].diceNumber = diceNumber.SIX;
         dices[2].putAside();
-        Input.straightDecideDice(dices);
+        while(true) Input.straightDecideDice(dices);
 
         /*
         dices[5].putAside();
@@ -60,8 +60,8 @@ public class Main {
         short a = 12;
         System.out.println(a);
     */
+        /*
         Game G1 = Game.getInstance();
-        G1.startGameFlow();
-
+        G1.startGameFlow();*/
     }
 }

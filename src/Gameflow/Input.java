@@ -125,48 +125,50 @@ public class Input {
         Scanner DDInput = new Scanner(System.in);
         System.out.println("Which dices do you want to put aside? Enter your decision by separating " +
                 "the dice-index with a comma (e.g. 2,4,5).");
-        List<Integer> numbers = new ArrayList<Integer>();
+
         boolean check = true;
+
         while(true) {
+            List<Integer> numbers = new ArrayList<Integer>();
             String Input = DDInput.nextLine().replaceAll("\\s","");
             for(int i = 0; i<Input.length();++i) {
-                if(i%2 == 0) {
+                if(i % 2 == 0) {
                     if(!validNumber(Input, Input.charAt(i))) {
                         System.out.println("Must type in the numbers according to the correct format (e.g. " +
                                 "1,3,4)");
                         check = false;
-                        break;
                     }
-                    if (alreadyAside(dices, Input, Character.getNumericValue(Input.charAt(i)))) {
-                        System.out.println("Dice at position " + Character.getNumericValue(Input.charAt(i)) + " has already been put aside!");
+                    else if (alreadyAside(dices, Input, Character.getNumericValue(Input.charAt(i)))) {
+                        System.out.println("Dice at position " + Input.charAt(i) + " has already been put aside!");
                         check = false;
-                        break;
                     }
-                    if(!hasDiceDuplicate(numbers, dices, Character.getNumericValue(Input.charAt(i)))) {
-                        System.out.println("Cannot put aside 2 dices with the same dice-values (concerning dice-value " + dices[Character.getNumericValue(Input.charAt(i)-1)].getDiceNumber().ordinal() + ")");
+                    else if(!hasDiceDuplicate(numbers, dices, Character.getNumericValue(Input.charAt(i)))) {
+                        System.out.println("Cannot put aside 2 dices with the same dice-values (dice " + Input.charAt(i) + " has already been put aside)");
                         check = false;
-                        break;
                     }
-                    if(!ValidDice.hasNoDuplicates(dices, dices[Character.getNumericValue(Input.charAt(i)-1)].getDiceNumber())) {
+                    else if(!ValidDice.hasNoDuplicates(dices, dices[Character.getNumericValue(Input.charAt(i)-1)].getDiceNumber())) {
                         System.out.println("you have previously put aside a dice with the dice-value " + dices[Character.getNumericValue(Input.charAt(i))].getDiceNumber().ordinal() + ")");
                         check = false;
-                        break;
                     }
-                    numbers.add(Character.getNumericValue(Input.charAt(i)));
+                    else numbers.add(Character.getNumericValue(Input.charAt(i)));
                 }
-                else if(Input.charAt(i) != ',') {
-                    check = false;
-                    break;
+                else {
+                    if(Input.charAt(i) != ',') {
+                        System.out.println("Must type in the numbers according to the correct format (e.g. " +
+                                "1,3,4)");
+                        check = false;
+                    }
                 }
-            }
-            if(!check) System.out.println("Must type in the numbers according to the correct format (e.g. " +
-                        "1,3,4)");
-            else break;
+                if(!check) break;
             }
 
-        for (byte i = 0; i < numbers.size(); i++) {
-            dices[numbers.get(i)-1].putAside();
+
+            if(check) {
+                for (byte i = 0; i < numbers.size(); i++) dices[numbers.get(i)-1].putAside();
+                break;
+            }
         }
+
         System.out.println("DONE");
     }
     private static boolean hasDiceDuplicate(List<Integer> numbers, Dice[] dices, int i) {
