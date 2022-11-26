@@ -22,7 +22,7 @@ abstract class AbstractTurn {
 
             //now: check if roll was at least possibly valid, if not, break the while loop, else add points
             if (ValidDice.countPoints(countDices) == 0) {
-                Display.pointsOfRoundLost();
+                Display.rolledaNull();
                 currentPoints = 0;
                 break;
             }

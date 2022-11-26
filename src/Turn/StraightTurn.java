@@ -31,7 +31,7 @@ public class StraightTurn extends AbstractTurn{
 
             //now: check if roll was at least possibly valid, if not, break the while loop, else add points
             if (!ValidDice.hasValidDicesLeft(countDices)) {//DONE: should only count if it is valid (those NOT put aside yet)
-                Display.pointsOfRoundLost();
+                Display.rolledaNull();
                 currentPoints = 0;
                 break;
             }

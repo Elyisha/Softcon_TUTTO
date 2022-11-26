@@ -28,7 +28,7 @@ public class FireworksTurn extends AbstractTurn{
 
             //now: check if roll was at least possibly valid, if not, break the while loop.
             if (ValidDice.countPoints(countDices) == 0) {
-                Display.pointsOfRoundLost();
+                Display.rolledaNull();
                 break;
             }
 
