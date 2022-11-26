@@ -19,6 +19,13 @@ abstract class AbstractTurn {
 
             ArrayList<Dice> countDices = new ArrayList<>();
             howManyAside = 0;
+            for (byte i = 0; i < 6; i++) {
+                if (!dices[i].isAside()) { //if it was not put aside yet...
+                    dices[i].rollDice(); //...roll it...
+                    Display.displayDice(dices[i].getDiceNumber(), (byte) (i+1)); //...print it...
+                    countDices.add(dices[i]); //...put those aside that are still in the game to check their validity
+                }
+            } //ends print dices for-loop
 
             //now: check if roll was at least possibly valid, if not, break the while loop, else add points
             if (ValidDice.countPoints(countDices) == 0) {
