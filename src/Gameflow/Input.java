@@ -141,6 +141,12 @@ public class Input {
             boolean check = true;
             List<Integer> numbers = new ArrayList<Integer>();
             String Input = sDDInput.nextLine().replaceAll("\\s","");
+            /*
+            if(Input.length() == 0) {
+                System.out.println("Must type in something");
+                check = false;
+            }
+            */
             for(int i = 0; i<Input.length();++i) {
                 if(i % 2 == 0) {
                     if(!validNumber(Input, Input.charAt(i))) {

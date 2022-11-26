@@ -53,7 +53,7 @@ public class StraightTurn extends AbstractTurn{
                 break;
             }
 
-            roll = Input.askUserRE();
+            //roll = Input.askUserRE();
 
         }
         return new TurnResult(currentPoints, tutto);
