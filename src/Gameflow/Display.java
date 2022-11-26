@@ -15,8 +15,9 @@ public class Display {
         }
         printUnder(b);
     }
-    public static void pointsOfRoundLost(){
-        System.out.println("You rolled a null and therefore lost all the current points.");
+
+    public static void rolledaNull(){
+        System.out.println("You rolled a null.");
     }
 
     public static void displayCard(CardsValue c1){
