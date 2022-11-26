@@ -48,8 +48,7 @@ public class ValidDice {
 
     }
 
-    //is validStraight methode checkt ob putAside würfel auch legit weggenommen können werden (bei Straight)
-    //validStraight2 checkt ob noch würfel hat zum wegnehmen (bei Straight)
+    //Function can be deleted
     public static boolean hasValidDices(Dice[] dices){
         for (byte i = 0; i < dices.length; ++i){
             if(dices[i].isAside()) {
