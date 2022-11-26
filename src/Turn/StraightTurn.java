@@ -10,14 +10,14 @@ public class StraightTurn extends AbstractTurn{
         byte howManyAside = 0;
         Dice[] dices = new Dice[6]; //stores the dices
         boolean tutto = false;
-        short currentPoints;
+        short currentPoints=0;
 
         //instantiate the dices (doesn't roll them for the first time!)
         for (byte i = 0; i < 6; i++) {
             dices[i] = new Dice();
         }
-
-        while (true) {
+        boolean roll = true;
+        while (roll) {
             Dice[] countDices = new Dice[6 - howManyAside];
             howManyAside = 0;
             byte forLoopCounter=0; //TODO really ugly
@@ -52,6 +52,8 @@ public class StraightTurn extends AbstractTurn{
                 currentPoints = 2000;
                 break;
             }
+
+            roll = Input.askUserRE();
 
         }
         return new TurnResult(currentPoints, tutto);
