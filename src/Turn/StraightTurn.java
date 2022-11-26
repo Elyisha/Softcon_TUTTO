@@ -37,7 +37,7 @@ public class StraightTurn extends AbstractTurn{
             }
 
             //now ask user which ones to put aside and put them aside
-            Input.decideDice(dices); //muss ich das jetzt nochmals kopieren oder wurde eigentlich nur das bereits bestehende Objekt verändert?
+            Input.straightDecideDice(dices); //muss ich das jetzt nochmals kopieren oder wurde eigentlich nur das bereits bestehende Objekt verändert?
             //TODO: ^^ muss verändert werden durch neue decideDice
 
             //see how many have been put aside (for tutto/straight recognization)

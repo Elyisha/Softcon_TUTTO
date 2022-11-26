@@ -131,15 +131,16 @@ public class Input {
         }
     }
     public static void straightDecideDice(Dice[] dices) {
-        Scanner DDInput = new Scanner(System.in);
+        Scanner sDDInput = new Scanner(System.in);
         System.out.println("Which dices do you want to put aside? Enter your decision by separating " +
                 "the dice-index with a comma (e.g. 2,4,5).");
 
-        boolean check = true;
+
 
         while(true) {
+            boolean check = true;
             List<Integer> numbers = new ArrayList<Integer>();
-            String Input = DDInput.nextLine().replaceAll("\\s","");
+            String Input = sDDInput.nextLine().replaceAll("\\s","");
             for(int i = 0; i<Input.length();++i) {
                 if(i % 2 == 0) {
                     if(!validNumber(Input, Input.charAt(i))) {
@@ -156,7 +157,7 @@ public class Input {
                         check = false;
                     }
                     else if(!ValidDice.hasNoDuplicates(dices, dices[Character.getNumericValue(Input.charAt(i)-1)].getDiceNumber())) {
-                        System.out.println("you have previously put aside a dice with the dice-value " + dices[Character.getNumericValue(Input.charAt(i))].getDiceNumber().ordinal() + ")");
+                        System.out.println("you have previously put aside a dice with the dice-value " + dices[Character.getNumericValue(Input.charAt(i)-1)].getDiceNumber().ordinal()+1);
                         check = false;
                     }
                     else numbers.add(Character.getNumericValue(Input.charAt(i)));
