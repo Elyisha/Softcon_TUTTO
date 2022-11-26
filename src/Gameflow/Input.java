@@ -76,7 +76,7 @@ public class Input {
         }
     }
 
-    public static short decideDice(Dice[] dices) {
+    public static short decideDice(Dice[] dices, boolean fireworks) {
         Scanner DDInput = new Scanner(System.in);
         System.out.println("Which dices do you want to put aside? Enter your decision by separating " +
                 "the dice-index with a comma (e.g. 2,4,5).");
@@ -122,10 +122,10 @@ public class Input {
                 ArrayList<Dice> countDices = new ArrayList<Dice>(numbers.size());
                 //obsolete: Dice[] countDices = new Dice[numbers.size()];
                 for (byte i = 0; i < numbers.size(); i++) {
-                    dices[numbers.get(i)-1].putAside();
+                    if(!fireworks) dices[numbers.get(i)-1].putAside();
                     countDices.add(i, dices[numbers.get(i) - 1]); //add to countDices
                 }
-                System.out.println("You put " + Dices.ValidDice.countPoints(countDices) + " aside.");
+                if (!fireworks) System.out.println("You put " + Dices.ValidDice.countPoints(countDices) + " aside.");
                 return Dices.ValidDice.countPoints(countDices);
             }
         }

@@ -35,7 +35,7 @@ public class FireworksTurn extends AbstractTurn{
             //now ask user which ones to put aside and put them aside
             short decidepoints;
             while(true) {
-                decidepoints = Input.decideDice(dices);
+                decidepoints = Input.decideDice(dices, true);
                 if (decidepoints == ValidDice.countPoints(countDices)) break;
                 else System.out.println("You have go keep the highest amount of points possible to achieve in this round. Try again.");
             }

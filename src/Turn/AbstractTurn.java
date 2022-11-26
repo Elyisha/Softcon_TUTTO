@@ -35,7 +35,7 @@ abstract class AbstractTurn {
             }
 
             //now ask user which ones to put aside and put them aside
-            currentPoints += Input.decideDice(dices); //todo hier übergebe ich reference, ist das okay? prob not...
+            currentPoints += Input.decideDice(dices, false); //todo hier übergebe ich reference, ist das okay? prob not...
 
             //see how many have been put aside (for tutto recognization)
             for (byte i = 0; i < 6; i++) {
