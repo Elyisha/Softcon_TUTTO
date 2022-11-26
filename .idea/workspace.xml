@@ -57,7 +57,7 @@
       <recent name="Turn" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="JUnit.CardTest.dummyTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="Softcon_TUTTO" />
@@ -83,8 +83,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.CardTest.dummyTest" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -197,7 +197,21 @@
       <option name="project" value="LOCAL" />
       <updated>1669477091809</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Merge branch 'master' of https://github.com/Elyisha/Softcon_TUTTO&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
+      <created>1669484194464</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1669484194464</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Merge branch 'master' of https://github.com/Elyisha/Softcon_TUTTO&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
+      <created>1669485087348</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1669485087348</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -222,5 +236,20 @@
     <MESSAGE value="Display Class &amp; Player Class" />
     <MESSAGE value="Merge branch 'master' of https://github.com/Elyisha/Softcon_TUTTO&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
     <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'master' of https://github.com/Elyisha/Softcon_TUTTO&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Gameflow/Input.java</url>
+          <line>132</line>
+          <properties class="Gameflow.Input" method="straightDecideDice">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
