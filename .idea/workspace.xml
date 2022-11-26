@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b577d954-8adb-45f0-8cd3-77c2a40a1194" name="Changes" comment="Merge branch 'master' of https://github.com/Elyisha/Softcon_TUTTO&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
+
+
+    <list default="true" id="b577d954-8adb-45f0-8cd3-77c2a40a1194" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Turn/StraightTurn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Turn/FireworksTurn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Turn/FireworksTurn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Turn/TurnResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Turn/TurnResult.java" afterDir="false" />
+
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -67,7 +75,7 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="b577d954-8adb-45f0-8cd3-77c2a40a1194" name="Changes" comment="" />
+      <changelist id="53e70105-e171-4356-932f-5dec625c8c62" name="Changes" comment="Merge branch 'master' of https://github.com/Elyisha/Softcon_TUTTO&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
       <created>1668777400139</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -81,9 +89,6 @@
       <workItem from="1669105098175" duration="1233000" />
       <workItem from="1669109304538" duration="71000" />
       <workItem from="1669381225124" duration="697000" />
-      <workItem from="1669387536837" duration="2232000" />
-      <workItem from="1669413052907" duration="1867000" />
-      <workItem from="1669459117103" duration="1791000" />
     </task>
     <task id="LOCAL-00001" summary="d">
       <created>1668778314133</created>
@@ -194,12 +199,5 @@
     <MESSAGE value="Display Class &amp; Player Class" />
     <MESSAGE value="Merge branch 'master' of https://github.com/Elyisha/Softcon_TUTTO&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
     <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'master' of https://github.com/Elyisha/Softcon_TUTTO&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
-  </component>
-  <component name="XDebuggerManager">
-    <watches-manager>
-      <configuration name="Application">
-        <watch expression="dices[0]" />
-      </configuration>
-    </watches-manager>
   </component>
 </project>
