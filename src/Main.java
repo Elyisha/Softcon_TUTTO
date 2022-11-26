@@ -7,6 +7,11 @@ public class Main {
 
 
     public static void main(String[] args) {
+
+
+
+        Game G1 = Game.getInstance();
+        G1.startGameFlow();
         /*
         Dice[] dices = new Dice[6]; //stores the dices
         for (byte i = 0; i < dices.length; i++) { //instantiate the dices (rolls them for the first time)
@@ -60,8 +65,6 @@ public class Main {
         short a = 12;
         System.out.println(a);
     */
-        /*
-        Game G1 = Game.getInstance();
-        G1.startGameFlow();*/
+
     }
 }
