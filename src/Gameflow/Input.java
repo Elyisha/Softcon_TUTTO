@@ -81,40 +81,41 @@ public class Input {
         System.out.println("Which dices do you want to put aside? Enter your decision by separating " +
                 "the dice-index with a comma (e.g. 2,4,5).");
 
+
         while(true) {
             List<Integer> numbers = new ArrayList<Integer>();
-            boolean asideCheck = true;
             boolean check = true;
-            byte counter = 0;
+
+
             String Input = DDInput.nextLine().replaceAll("\\s","");
 
             for(int i = 0; i < Input.length(); ++ i) {
                 if(i%2 == 0) {
                     if (!validNumber(Input, Input.charAt(i))) {
                         check = false;
-                        break;
                     }
-                    if(alreadyAside(dices, Input, Character.getNumericValue(Input.charAt(i)))) {
+                    else if(alreadyAside(dices, Input, Character.getNumericValue(Input.charAt(i)))) {
                         System.out.println("Dice at position " + Character.getNumericValue(Input.charAt(i)) + " has already been put aside!");
-                        asideCheck = false;
                         check = false;
-                        break;
                     }
-                    numbers.add(Character.getNumericValue(Input.charAt(i)));
+                    else numbers.add(Character.getNumericValue(Input.charAt(i)));
                 }
-                else if(Input.charAt(i) != ',') {check = false; break;}
+                else {
+                    if(Input.charAt(i) != ',') {
+                        System.out.println("Must type in the numbers according to the correct format (e.g. " +
+                                "1,3,4)");
+                        check = false;
+                    }
                 }
-            if(!asideCheck);
-            else if(!check && asideCheck) {
-                System.out.println("Must type in the numbers according to the correct format (e.g. " +
-                        "1,3,4)");
+                if(!check) break;
             }
-            else {
-                ArrayList<Dice> countDices = new ArrayList<Dice>();
+
+            if(check) {
+                ArrayList<Dice> countDices = new ArrayList<Dice>(numbers.size());
                 //obsolete: Dice[] countDices = new Dice[numbers.size()];
                 for (byte i = 0; i < numbers.size(); i++) {
                     dices[numbers.get(i)-1].putAside();
-                    countDices.set(i, dices[numbers.get(i) - 1]); //add to countDices
+                    countDices.add(i, dices[numbers.get(i) - 1]); //add to countDices
                 }
                 System.out.println("You put " + Dices.ValidDice.countPoints(countDices) + " aside.");
                 return Dices.ValidDice.countPoints(countDices);
@@ -168,8 +169,6 @@ public class Input {
                 break;
             }
         }
-
-        System.out.println("DONE");
     }
     private static boolean hasDiceDuplicate(List<Integer> numbers, Dice[] dices, int i) {
         for (int j = 0; j < numbers.size(); ++j) {
