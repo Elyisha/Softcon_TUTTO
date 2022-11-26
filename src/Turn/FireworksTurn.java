@@ -31,8 +31,16 @@ public class FireworksTurn extends AbstractTurn{
                 Display.pointsOfRoundLost();
                 break;
             }
+
             //now ask user which ones to put aside and put them aside
-            roundPoints += Input.decideDice(dices); //muss ich das jetzt nochmals kopieren oder wurde eigentlich nur das bereits bestehende Objekt verändert?
+            short decidepoints;
+            while(true) {
+                decidepoints = Input.decideDice(dices);
+                if (decidepoints == ValidDice.countPoints(countDices)) break;
+                else System.out.println("You have go keep the highest amount of points possible to achieve in this round. Try again.");
+            }
+
+            roundPoints += decidepoints; //todo muss ich das jetzt nochmals kopieren oder wurde eigentlich nur das bereits bestehende Objekt verändert?
 
             //see how many have been put aside (for tutto recognization)
             for (byte i = 0; i < 6; i++) {
