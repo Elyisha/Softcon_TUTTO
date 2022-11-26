@@ -7,9 +7,7 @@ public class BonusTurn extends AbstractTurn {
     public static TurnResult bonusTurn(CardsValue cardType) {
         short roundPoints = 0;
 
-        Display.displayCard(cardType);
         TurnResult result = getRoll();
-
         roundPoints += result.points;
         if (result.isTutto) {
             switch (cardType){
