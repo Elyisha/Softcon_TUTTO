@@ -109,6 +109,14 @@ public class Input {
                 }
                 if(!check) break;
             }
+            Dice[] countdices2 = new Dice[numbers.size()];
+            for (int i = 0; i < numbers.size();++i){
+                countdices2[i] = dices[numbers.get(i)-1];
+            }
+            if(ValidDice.isValidGuess(countdices2) == false) {
+                check = false;
+                System.out.println("Dice unworthy biatch");
+            }
 
             if(check) {
                 ArrayList<Dice> countDices = new ArrayList<Dice>(numbers.size());

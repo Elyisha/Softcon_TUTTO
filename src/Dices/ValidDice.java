@@ -6,6 +6,25 @@ import java.util.ArrayList;
 import java.util.Arrays;
 public class ValidDice {
 
+
+    public static boolean isValidGuess(Dice[] dices) {
+        int[] values = new int[6];
+        Arrays.fill(values, 0);
+
+        for (Dice dice : dices) {
+            values[dice.getDiceNumber().ordinal()] += 1;
+        }
+
+        for(byte i = 1; i < values.length;++i) {
+            if(i == 4) continue;
+            if(values[i] > 0 && values[i] != 3) {
+                return false;
+            }
+        }
+        return true;
+
+    }
+
     public static short countPoints(ArrayList<Dice> dices) {
         short points = 0;
         short triplet = 0;
