@@ -1,5 +1,5 @@
-public class Turn {} // Singleton?
-/*
+/*public class Turn {} // Singleton?
+
 // TODO: OBSOLETE, THIS FILE CAN BE DELETED
 // read only wrapper for the arrays when i give them to isvalid etc
     private Dice[] dices;

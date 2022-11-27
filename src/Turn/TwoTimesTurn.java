@@ -1,4 +1,4 @@
-package Turn;
+/*package Turn;
 public class TwoTimesTurn extends AbstractTurn{
     public static TurnResult twoTimesTurn() {
         short roundPoints = 0;
@@ -10,3 +10,4 @@ public class TwoTimesTurn extends AbstractTurn{
     }
 
 }
+*/

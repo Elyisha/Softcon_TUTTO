@@ -14,32 +14,31 @@ public class Deck {
     public Deck() {
         for (int i = 0; i < 56; i++) {
             if (i < 1) {
-                aCards.add(new Card(CardsValue.CLOVERLEAF));
+                aCards.add(new CloverleafCard());
             } else if (i < 6) {
-                aCards.add(new Card(CardsValue.FIREWORK));
+                aCards.add(new FireworksCard());
             } else if (i < 16) {
-                aCards.add(new Card(CardsValue.STOP));
+                aCards.add(new StopCard());
             } else if (i < 21) {
-                aCards.add(new Card(CardsValue.STRAIGHT));
+                aCards.add(new StraightCard());
             } else if (i < 26) {
-                aCards.add(new Card(CardsValue.PLUSMINUS));
+                aCards.add(new PlusMinusCard());
             } else if (i < 31) {
-                aCards.add(new Card(CardsValue.TIMESTWO));
+                aCards.add(new TwoTimesCard());
             } else if (i < 36) {
-                aCards.add(new Card(CardsValue.BONUS200));
+                aCards.add(new BonusCard(CardsValue.BONUS200));
             } else if (i < 41) {
-                aCards.add(new Card(CardsValue.BONUS300));
+                aCards.add(new BonusCard(CardsValue.BONUS300));
             } else if (i < 46) {
-                aCards.add(new Card(CardsValue.BONUS400));
+                aCards.add(new BonusCard(CardsValue.BONUS400));
             } else if (i < 51) {
-                aCards.add(new Card(CardsValue.BONUS500));
+                aCards.add(new BonusCard(CardsValue.BONUS500));
             } else {
-                aCards.add(new Card(CardsValue.BONUS600));
+                aCards.add(new BonusCard(CardsValue.BONUS600));
             }
         }
         Collections.shuffle(aCards);
     }
-
 
     public Card getCard() {
         //System.out.println(aCards.size());

@@ -1,18 +1,18 @@
-//TODO delete -  moved to card
+package Cards;
+import Turn.TurnResult;
+public class BonusCard extends Card implements CardInterface {
+    public BonusCard(CardsValue cardsValue) {super(cardsValue);} //inherits Constructor from abstract class
 
-/*package Turn;
-import Cards.CardsValue;
-import Gameflow.Display;
-
-public class BonusTurn extends AbstractTurn {
-
-    public static TurnResult bonusTurn(CardsValue cardType) {
+    public void controlTurn(){
+        //todo
+    }
+    public TurnResult getRoll() { //todo nach controlTurn: das hier private machen
         short roundPoints = 0;
 
-        TurnResult result = getRoll();
+        TurnResult result = getAbstractRoll();
         roundPoints += result.points;
         if (result.isTutto) {
-            switch (cardType){
+            switch (aCardsValue){
                 case BONUS200 -> roundPoints += 200;
                 case BONUS300 -> roundPoints += 300;
                 case BONUS400 -> roundPoints += 400;
@@ -22,5 +22,5 @@ public class BonusTurn extends AbstractTurn {
         }
         return new TurnResult(roundPoints, result.isTutto);
     }
+
 }
-*/

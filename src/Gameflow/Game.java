@@ -1,5 +1,6 @@
 package Gameflow;
 
+import Cards.BonusCard;
 import Cards.Card;
 import Cards.CardsValue;
 import Cards.Deck;
@@ -9,7 +10,7 @@ public class Game {
     //Singleton Game Object Field:
     private static Game uniqueInstance;
     private final short maxPoints;
-    private Player[] players; // = new Player[#
+    private Player[] players; // = new Player[#]
 
 
     //singleton implementation of Constructor (can only be called by Game.getInstance()) :
@@ -51,8 +52,9 @@ public class Game {
                     boolean pointsADD = false;
                     while(true){ //this loop ends when a player has no more dices to choose or he decides to stop his round after a tutto
                         Card aCard = aDeck.getCard();
+                        //Card aCard = new BonusCard(CardsValue.BONUS200);
                         Display.displayCard(aCard.getValue());
-                        TurnResult result = makeTurn(aCard.getValue());
+                        TurnResult result = makeTurn(aCard);
                         if(aCard.getValue().ordinal() == 5 && result.isTutto){
                             subtractThousand(aPlayer);
                         }
@@ -80,32 +82,35 @@ public class Game {
         }
     }
 
-    private TurnResult makeTurn(CardsValue aCardValue){
-        //everything above .ordinal 6 are Bonus cards
+    private TurnResult makeTurn(Card aCard){ //todo done polymorphism HYPE
+        /*
         TurnResult resultRound;
-        if(aCardValue.ordinal() > 5){
-            resultRound = BonusTurn.bonusTurn(aCardValue);
+        resultRound = ;
+
+        //everything above .ordinal 6 are Bonus cards
+        if(aCard.getValue().ordinal() > 5){
+            resultRound = aCard.getRoll();
         }
-        else if(aCardValue.ordinal() == 0){
+        else if(aCard.aCardsValue.ordinal() == 0){
             resultRound = CloverleafTurn.cloverleafTurn();
         }
-        else if(aCardValue.ordinal() == 1){
+        else if(aCard.aCardsValue.ordinal() == 1){
             resultRound = FireworksTurn.fireworksTurn();
         }
-        else if(aCardValue.ordinal() == 2){
+        else if(aCard.aCardsValue.ordinal() == 2){
             System.out.println("Bad luck you've got a Stop card which means its not your turn anymore");
             resultRound = new TurnResult((short) 0,false);
         }
-        else if(aCardValue.ordinal() == 3){
+        else if(aCard.aCardsValue.ordinal() == 3){
             resultRound = StraightTurn.getRoll();
         }
-        else if(aCardValue.ordinal() == 4){
+        else if(aCard.aCardsValue.ordinal() == 4){
             resultRound = TwoTimesTurn.twoTimesTurn();
         }
         else{
             resultRound = PlusMinusTurn.plusMinusTurn((short) 12); //wieso plusminus noch mit input ?
-        }
-        return resultRound;
+        }*/
+        return aCard.getRoll(); //todo done commander pattern HYPE
     }
 
     private void subtractThousand(Player player){
