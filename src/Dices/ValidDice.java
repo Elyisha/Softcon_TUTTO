@@ -1,5 +1,4 @@
 package Dices;
-import Cards.*;
 
 
 import java.util.ArrayList;
@@ -85,7 +84,7 @@ public class ValidDice {
         return true;
     }
 
-    public static boolean hasValidDicesLeft(Dice[] dices){
+    public static boolean hasValidDicesLeft(ArrayList<Dice> dices){
         int[] values = new int[6];
         Arrays.fill(values, 0);
 
