@@ -16,7 +16,7 @@ abstract class AbstractTurn {
         do {
             ArrayList<Dice> countDices = new ArrayList<>();
             rollDisplayCount(dices, countDices);
-            //now: check if roll was at least possibly valid, if not, break the while loop, else add points
+            //now check if roll was at least possibly valid, if not, break the while loop, else add points
             if (ValidDice.countPoints(countDices) == 0) {
                 Display.rolledaNull();
                 currentPoints = 0;
@@ -24,6 +24,7 @@ abstract class AbstractTurn {
             }
             //now ask user which ones to put aside and put them aside
             currentPoints += Input.decideDice(dices, false); //todo hier übergebe ich reference, ist das okay? prob not...
+            //now check & break if tutto
             tutto = tuttoChecker(dices);
             if (tutto) break;
 
