@@ -37,7 +37,7 @@ public class FireworksTurn extends AbstractTurn{
             while(true) {
                 decidepoints = Input.decideDice(dices, true);
                 if (decidepoints == ValidDice.countPoints(countDices)) break;
-                else System.out.println("You have go keep the highest amount of points possible to achieve in this round. Try again.");
+                else System.out.println("You have to keep the highest amount of points possible to achieve in this round. Try again.");
             }
 
             roundPoints += decidepoints; //todo muss ich das jetzt nochmals kopieren oder wurde eigentlich nur das bereits bestehende Objekt verändert?
