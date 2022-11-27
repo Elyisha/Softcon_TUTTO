@@ -4,11 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b577d954-8adb-45f0-8cd3-77c2a40a1194" name="Changes" comment="">
+    <list default="true" id="b577d954-8adb-45f0-8cd3-77c2a40a1194" name="Changes" comment="REWORK StraightTurn&#10;&#10;TWO ISSUES: &#10;- Fireworks: &quot;must keep all that are valid&quot; ist immernoch nicht ganz richtig implementiert (doesn't put it Aside)&#10;- Straight: ArrayList implementiert -  hasValidDicesLeft is faulty - doesn't get triggered although it should">
+      <change afterPath="$PROJECT_DIR$/src/Cards/BonusCard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Cards/CardInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Cards/CloverleafCard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Cards/FireworksCard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Cards/PlusMinusCard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Cards/StopCard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Cards/StraightCard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Cards/TwoTimesCard.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Dices/ValidDice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Dices/ValidDice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Cards/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cards/Card.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Cards/Deck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cards/Deck.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Gameflow/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Gameflow/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Turn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Turn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Turn/AbstractTurn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Turn/AbstractTurn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Turn/BonusTurn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Turn/BonusTurn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Turn/CloverleafTurn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Turn/CloverleafTurn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Turn/FireworksTurn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Turn/FireworksTurn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Turn/PlusMinusTurn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Turn/PlusMinusTurn.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Turn/StraightTurn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Turn/StraightTurn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Turn/TwoTimesTurn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Turn/TwoTimesTurn.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,13 +36,14 @@
       <list>
         <option value="Enum" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="new-patterns" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -64,6 +81,7 @@
       <recent name="Game" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Cards" />
       <recent name="Turn" />
     </key>
   </component>
@@ -242,7 +260,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669566770336</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="REWORK StraightTurn&#10;&#10;TWO ISSUES: &#10;- Fireworks: &quot;must keep all that are valid&quot; ist immernoch nicht ganz richtig implementiert (doesn't put it Aside)&#10;- Straight: ArrayList implementiert -  hasValidDicesLeft is faulty - doesn't get triggered although it should">
+      <created>1669570443353</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1669570443353</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -268,17 +293,7 @@
     <MESSAGE value="Merge branch 'master' of https://github.com/Elyisha/Softcon_TUTTO&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
     <MESSAGE value="REWORK AbstractTurn" />
     <MESSAGE value="REWORK FIREWORKSTURN" />
-    <option name="LAST_COMMIT_MESSAGE" value="REWORK FIREWORKSTURN" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Turn/StraightTurn.java</url>
-          <line>21</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="REWORK StraightTurn&#10;&#10;TWO ISSUES: &#10;- Fireworks: &quot;must keep all that are valid&quot; ist immernoch nicht ganz richtig implementiert (doesn't put it Aside)&#10;- Straight: ArrayList implementiert -  hasValidDicesLeft is faulty - doesn't get triggered although it should" />
+    <option name="LAST_COMMIT_MESSAGE" value="REWORK StraightTurn&#10;&#10;TWO ISSUES: &#10;- Fireworks: &quot;must keep all that are valid&quot; ist immernoch nicht ganz richtig implementiert (doesn't put it Aside)&#10;- Straight: ArrayList implementiert -  hasValidDicesLeft is faulty - doesn't get triggered although it should" />
   </component>
 </project>

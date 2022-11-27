@@ -1,4 +1,4 @@
-package Turn;
+/*package Turn;
 
 public class CloverleafTurn extends AbstractTurn{
     public static TurnResult cloverleafTurn() {
@@ -10,7 +10,8 @@ public class CloverleafTurn extends AbstractTurn{
             if (secondresult.isTutto) gameWon = true;
         }
 
-        return new TurnResult((short)0, gameWon); //TODO: undo true
+        return new TurnResult((short)0, gameWon);
     }
 
 }
+*/

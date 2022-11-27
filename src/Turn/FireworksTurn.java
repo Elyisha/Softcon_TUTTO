@@ -1,4 +1,4 @@
-package Turn;
+/*package Turn;
 import Dices.Dice;
 import Dices.ValidDice;
 import Gameflow.Display;
@@ -49,8 +49,6 @@ public class FireworksTurn extends AbstractTurn{
             }
         }
     }
-
-/*
     public static TurnResult fireworksTurn() {
         byte howManyAside;
         short roundPoints = 0;
@@ -104,5 +102,6 @@ public class FireworksTurn extends AbstractTurn{
         return new TurnResult(roundPoints, false); //boolean tutto is unnecessary
 
     }
-*/
+
 }
+*/
