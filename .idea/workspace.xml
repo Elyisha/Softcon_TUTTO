@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b577d954-8adb-45f0-8cd3-77c2a40a1194" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_19_11_2022_19_56_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_19_11_2022_19_56__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Turn/AbstractTurn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Turn/AbstractTurn.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Turn/FireworksTurn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Turn/FireworksTurn.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +22,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -63,7 +65,7 @@
       <recent name="Turn" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CardTest.dummyTest">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="Softcon_TUTTO" />
@@ -89,8 +91,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.CardTest.dummyTest" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.CardTest.dummyTest" />
       </list>
     </recent_temporary>
   </component>
@@ -217,7 +219,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669485087348</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Merge branch 'master' of https://github.com/Elyisha/Softcon_TUTTO&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
+      <created>1669561349997</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1669561349997</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
