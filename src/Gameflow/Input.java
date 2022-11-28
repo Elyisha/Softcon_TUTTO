@@ -2,6 +2,7 @@ package Gameflow;
 
 import java.lang.reflect.Array;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Scanner;
 import java.util.List;
 import Dices.*;
@@ -20,7 +21,9 @@ public class Input {
             if(Input.length() == 0) System.out.println("Must have at least 2 Players!");
             else if(Input.matches(".*[0-9].*")) System.out.println("Names can't contain numbers!");
             else {
-                return Names = Input.split(",");
+                Names = Input.split(",");
+                Arrays.sort(Names);
+                return Names;
             }
         }
     }
