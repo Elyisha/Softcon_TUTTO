@@ -4,27 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b577d954-8adb-45f0-8cd3-77c2a40a1194" name="Changes" comment="REWORK StraightTurn&#10;&#10;TWO ISSUES: &#10;- Fireworks: &quot;must keep all that are valid&quot; ist immernoch nicht ganz richtig implementiert (doesn't put it Aside)&#10;- Straight: ArrayList implementiert -  hasValidDicesLeft is faulty - doesn't get triggered although it should">
-      <change afterPath="$PROJECT_DIR$/src/Cards/BonusCard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Cards/CardInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Cards/CloverleafCard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Cards/FireworksCard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Cards/PlusMinusCard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Cards/StopCard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Cards/StraightCard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Cards/TwoTimesCard.java" afterDir="false" />
+    <list default="true" id="b577d954-8adb-45f0-8cd3-77c2a40a1194" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Cards/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cards/Card.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Cards/Deck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cards/Deck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Cards/StopCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cards/StopCard.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Gameflow/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Gameflow/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Turn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Turn.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Turn/AbstractTurn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Turn/AbstractTurn.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Turn/BonusTurn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Turn/BonusTurn.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Turn/CloverleafTurn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Turn/CloverleafTurn.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Turn/FireworksTurn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Turn/FireworksTurn.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Turn/PlusMinusTurn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Turn/PlusMinusTurn.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Turn/StraightTurn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Turn/StraightTurn.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Turn/TwoTimesTurn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Turn/TwoTimesTurn.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,7 +102,7 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="53e70105-e171-4356-932f-5dec625c8c62" name="Changes" comment="Merge branch 'master' of https://github.com/Elyisha/Softcon_TUTTO&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
+      <changelist id="b577d954-8adb-45f0-8cd3-77c2a40a1194" name="Changes" comment="" />
       <created>1668777400139</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -133,6 +116,8 @@
       <workItem from="1669105098175" duration="1233000" />
       <workItem from="1669109304538" duration="71000" />
       <workItem from="1669381225124" duration="697000" />
+      <workItem from="1669580550869" duration="23000" />
+      <workItem from="1669617646487" duration="997000" />
     </task>
     <task id="LOCAL-00001" summary="d">
       <created>1668778314133</created>
@@ -267,7 +252,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669570443353</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Umbau des Jahrhunderts.">
+      <created>1669579912902</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1669579912902</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -294,6 +286,7 @@
     <MESSAGE value="REWORK AbstractTurn" />
     <MESSAGE value="REWORK FIREWORKSTURN" />
     <MESSAGE value="REWORK StraightTurn&#10;&#10;TWO ISSUES: &#10;- Fireworks: &quot;must keep all that are valid&quot; ist immernoch nicht ganz richtig implementiert (doesn't put it Aside)&#10;- Straight: ArrayList implementiert -  hasValidDicesLeft is faulty - doesn't get triggered although it should" />
-    <option name="LAST_COMMIT_MESSAGE" value="REWORK StraightTurn&#10;&#10;TWO ISSUES: &#10;- Fireworks: &quot;must keep all that are valid&quot; ist immernoch nicht ganz richtig implementiert (doesn't put it Aside)&#10;- Straight: ArrayList implementiert -  hasValidDicesLeft is faulty - doesn't get triggered although it should" />
+    <MESSAGE value="Umbau des Jahrhunderts." />
+    <option name="LAST_COMMIT_MESSAGE" value="Umbau des Jahrhunderts." />
   </component>
 </project>

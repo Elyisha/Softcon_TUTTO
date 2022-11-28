@@ -52,7 +52,6 @@ public class Game {
                     boolean pointsADD = false;
                     while(true){ //this loop ends when a player has no more dices to choose or he decides to stop his round after a tutto
                         Card aCard = aDeck.getCard();
-                        //Card aCard = new BonusCard(CardsValue.BONUS200);
                         Display.displayCard(aCard.getValue());
                         TurnResult result = makeTurn(aCard);
                         if(aCard.getValue().ordinal() == 5 && result.isTutto){
