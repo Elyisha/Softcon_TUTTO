@@ -1,5 +1,5 @@
 package Cards;
-import Turn.TurnResult;
+import Gameflow.TurnResult;
 
 public class StopCard extends Card implements CardInterface {
     public StopCard() {super(CardsValue.STOP);} //inherits Constructor from abstract class

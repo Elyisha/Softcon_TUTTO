@@ -1,5 +1,7 @@
 package Cards;
 
+import Gameflow.Game;
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
@@ -8,38 +10,36 @@ public class Deck {
     private List<Card> aCards = new ArrayList<>();
     //cards that are drawn from the deck are stored in usedCards so that the Cardobjects can be reused
     private List<Card> usedCards = new ArrayList<>();
+    private static Deck uniqueInstance;
 
-    private int numCards;
 
-    public Deck() {
-        for (int i = 0; i < 56; i++) {
-            if (i < 1) {
-                aCards.add(new CloverleafCard());
-            } else if (i < 6) {
-                aCards.add(new FireworksCard());
-            } else if (i < 16) {
-                aCards.add(new StopCard());
-            } else if (i < 21) {
-                aCards.add(new StraightCard());
-            } else if (i < 26) {
-                aCards.add(new PlusMinusCard());
-            } else if (i < 31) {
-                aCards.add(new TwoTimesCard());
-            } else if (i < 36) {
-                aCards.add(new BonusCard(CardsValue.BONUS200));
-            } else if (i < 41) {
-                aCards.add(new BonusCard(CardsValue.BONUS300));
-            } else if (i < 46) {
-                aCards.add(new BonusCard(CardsValue.BONUS400));
-            } else if (i < 51) {
-                aCards.add(new BonusCard(CardsValue.BONUS500));
-            } else {
-                aCards.add(new BonusCard(CardsValue.BONUS600));
-            }
-        }
+
+    // Since a Deck is going to be "recycled" when all cards are drawn there should not be two decks at the same time
+    // -> Singleton
+
+    private Deck() {
+        //add the required number of cards to get the wanted frequency...
+        aCards.add(new CloverleafCard());
+        for(int i = 0; i<5;i++){aCards.add(new FireworksCard());}
+        for(int i = 0; i<10;i++){aCards.add(new StopCard());}
+        for(int i = 0; i<5;i++){aCards.add(new StraightCard());}
+        for(int i = 0; i<5;i++){aCards.add(new PlusMinusCard());}
+        for(int i = 0; i<5;i++){aCards.add(new TwoTimesCard());}
+        for(int i = 0; i<5;i++){aCards.add(new BonusCard(CardsValue.BONUS200));}
+        for(int i = 0; i<5;i++){aCards.add(new BonusCard(CardsValue.BONUS300));}
+        for(int i = 0; i<5;i++){aCards.add(new BonusCard(CardsValue.BONUS400));}
+        for(int i = 0; i<5;i++){aCards.add(new BonusCard(CardsValue.BONUS500));}
+        for(int i = 0; i<5;i++){aCards.add(new BonusCard(CardsValue.BONUS600));}
+        //... and shuffle them
         Collections.shuffle(aCards);
     }
 
+    public static synchronized Deck getInstance() {
+        if (uniqueInstance == null) {
+            uniqueInstance = new Deck();
+        }
+        return uniqueInstance;
+    }
     public Card getCard() {
         //System.out.println(aCards.size());
         if (!isEmpty()) {

@@ -1,6 +1,6 @@
 package Cards;
 
-import Turn.TurnResult;
+import Gameflow.TurnResult;
 
 public interface CardInterface {
     public void controlTurn();

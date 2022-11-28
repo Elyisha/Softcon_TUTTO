@@ -1,5 +1,5 @@
 package Cards;
-import Turn.TurnResult;
+import Gameflow.TurnResult;
 
 public class TwoTimesCard extends Card implements CardInterface {
     public TwoTimesCard() {super(CardsValue.TIMESTWO);} //inherits Constructor from abstract class
