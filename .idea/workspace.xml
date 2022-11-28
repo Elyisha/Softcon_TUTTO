@@ -5,17 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b577d954-8adb-45f0-8cd3-77c2a40a1194" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/github_hazendaz_jmockit.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Softcon_TUTTO.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Softcon_TUTTO.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Turn.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Turn/AbstractTurn.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Turn/BonusTurn.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Turn/CloverleafTurn.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Turn/FireworksTurn.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Turn/PlusMinusTurn.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Turn/StraightTurn.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Turn/TwoTimesTurn.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/tests/Cards/CardTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/Cards/CardTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,26 +41,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Downloaded.Files.Path.Enabled": "true",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;true&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -86,10 +76,27 @@
       <recent name="Turn" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CardTest.getAbstractRollTest">
+  <component name="RunManager" selected="JUnit.CardTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="Softcon_TUTTO" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CardTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Softcon_TUTTO" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Cards.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Cards" />
+      <option name="MAIN_CLASS_NAME" value="Cards.CardTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea -javaagent:&quot;C:\Users\harri\Documents\GitHub\SoftCon\Assignment2_third\Softcon_TUTTO\Softcon_TUTTO\lib\jmockit-1.49.3.jar&quot;" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -122,14 +129,22 @@
       <option name="MAIN_CLASS_NAME" value="Cards.CardTest" />
       <option name="METHOD_NAME" value="getAbstractRollTest" />
       <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea -javaagent:&quot;C:\Users\harri\Documents\GitHub\SoftCon\Assignment2_third\Softcon_TUTTO\Softcon_TUTTO\lib\jmockit-1.49.3.jar&quot;" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="JUnit.CardTest" />
+      <item itemvalue="JUnit.CardTest.dummyTest" />
+      <item itemvalue="JUnit.CardTest.getAbstractRollTest" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.CardTest.getAbstractRollTest" />
+        <item itemvalue="JUnit.CardTest" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.CardTest.getAbstractRollTest" />
         <item itemvalue="JUnit.CardTest.dummyTest" />
       </list>
     </recent_temporary>
@@ -323,5 +338,8 @@
     <MESSAGE value="REWORK StraightTurn&#10;&#10;TWO ISSUES: &#10;- Fireworks: &quot;must keep all that are valid&quot; ist immernoch nicht ganz richtig implementiert (doesn't put it Aside)&#10;- Straight: ArrayList implementiert -  hasValidDicesLeft is faulty - doesn't get triggered although it should" />
     <MESSAGE value="Umbau des Jahrhunderts." />
     <option name="LAST_COMMIT_MESSAGE" value="Umbau des Jahrhunderts." />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Softcon_TUTTO$Main.ic" NAME="Main Coverage Results" MODIFIED="1669675435956" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

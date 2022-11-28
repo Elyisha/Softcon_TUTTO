@@ -1,6 +1,7 @@
 package Cards;
 
 import Dices.Dice;
+import Gameflow.Input;
 import Gameflow.TurnResult;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -17,7 +18,7 @@ class CardTest {
         new CardMock();
     }
 
-    public static class CardMock extends MockUp<System> {
+    public static class CardMock extends MockUp<Input> {
         @Mock //mocks decideDice to be a tutto and putting away 6 dices giving 50p each
         short decideDice(Dice[] dices, boolean fireworks) {
             for (byte i = 0; i < 6; i++) {dices[i].putAside();}
@@ -35,7 +36,8 @@ class CardTest {
     @Test
     void getAbstractRollTest() {
         TurnResult expected = new TurnResult((short) 300, true);
-        assertEquals(expected, Card.getAbstractRoll());
+        assertEquals(expected.points, Card.getAbstractRoll().points);
+        assertEquals(expected.isTutto, Card.getAbstractRoll().isTutto);
     }
 
     @Test
@@ -57,7 +59,6 @@ class CardTest {
         Dice[] dices = new Dice[6]; //stores the dices
         for (byte i = 0; i < 6; i++) {dices[i] = new Dice();} //instantiate the dices (doesn't roll them!)
         ArrayList<Dice> countDices = new ArrayList<>();
-        Card.rollDisplayCount(dices, countDices);
         dices[2].putAside();
         Card.rollDisplayCount(dices, countDices);
         //make sure dices[2] was not put into the countDices ArrayList
