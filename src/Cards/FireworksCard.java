@@ -3,7 +3,7 @@ import Dices.Dice;
 import Dices.ValidDice;
 import Gameflow.Display;
 import Gameflow.Input;
-import Turn.TurnResult;
+import Gameflow.TurnResult;
 
 import java.util.ArrayList;
 

@@ -75,6 +75,25 @@ public class Input {
             }
         }
     }
+    public static boolean askUserREinGame(short points){     //change return type to boolean
+        char RE;
+        Scanner REInput = new Scanner(System.in);
+
+        System.out.println("Do you want to Roll (R) or End (E)?");
+        System.out.println("(You managed to reach " + points + " Points so far in this round)");
+
+        while(true){
+            String Input = REInput.nextLine().replaceAll("\\s","").toUpperCase();
+
+            if(Input.length() != 1) System.out.println("Must type in one character only!");
+            else if(!(Input.contains("R") || Input.contains("E"))) System.out.println("Must type in R or E");
+            else {
+                RE = Input.charAt(0);
+                return (RE == 'R');
+            }
+        }
+    }
+
 
     public static short decideDice(Dice[] dices, boolean fireworks) {
         Scanner DDInput = new Scanner(System.in);
@@ -199,5 +218,6 @@ public class Input {
         return dices[i-1].isAside();
     }
 }
+
 
 

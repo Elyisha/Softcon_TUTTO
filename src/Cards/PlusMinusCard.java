@@ -1,5 +1,5 @@
 package Cards;
-import Turn.TurnResult;
+import Gameflow.TurnResult;
 
 public class PlusMinusCard extends Card implements CardInterface {
     public PlusMinusCard() {super(CardsValue.PLUSMINUS);} //inherits Constructor from abstract class

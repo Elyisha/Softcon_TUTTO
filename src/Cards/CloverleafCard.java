@@ -1,5 +1,5 @@
 package Cards;
-import Turn.TurnResult;
+import Gameflow.TurnResult;
 
 public class CloverleafCard extends Card implements CardInterface {
     public CloverleafCard() {
