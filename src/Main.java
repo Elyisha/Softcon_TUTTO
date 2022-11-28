@@ -1,48 +1,39 @@
 import Dices.*;
-import Cards.*;
-import Gameflow.*;
-import Input.*;
-
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+import Gameflow.Display;
+import Gameflow.Game;
+import Gameflow.Input;
+import Gameflow.Player;
 
 public class Main {
 
 
     public static void main(String[] args) {
 
-
-        /*
         Game G1 = Game.getInstance();
         G1.startGameFlow();
-*/
 
 
+
+
+        /*
         Dice[] dices = new Dice[6]; //stores the dices
         for (byte i = 0; i < dices.length; i++) { //instantiate the dices (rolls them for the first time)
             dices[i] = new Dice();
             dices[i].rollDice();
             //dices[i].diceNumber = diceNumber.SIX;
         }
+
+
+
         dices[0].diceNumber = diceNumber.ONE;
-        dices[1].diceNumber = diceNumber.SIX;
+        dices[1].diceNumber = diceNumber.FOUR;
         dices[2].diceNumber = diceNumber.FOUR;
         dices[3].diceNumber = diceNumber.FOUR;
         dices[4].diceNumber = diceNumber.FIVE;
         dices[5].diceNumber = diceNumber.SIX;
 
-        ArrayList<Dice> diceArray = new ArrayList<>();
-        for(int i = 0; i < dices.length; ++i) {
-            diceArray.add(dices[i]);
-
-        }
-
-
-
-        ValidDice.countPoints(diceArray);
-        //while(true) DecideDice.straightDecideDice(dices);
-
+        while(true) Input.decideDice(dices);
+        */
         /*
         dices[5].putAside();
         dices[5].diceNumber = diceNumber.FIVE;
@@ -66,7 +57,7 @@ public class Main {
         System.out.println(ValidDice.countPoints(dices));
 
         dices[2].putAside();
-        Input.Input.decideDice(dices);
+        Gameflow.Input.decideDice(dices);
 
         Display.displayDice(diceNumber.FIVE, (byte) 1);
         Display.displayDice(diceNumber.TWO, (byte) 2);
