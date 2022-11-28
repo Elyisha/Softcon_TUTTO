@@ -2,9 +2,9 @@ package Cards;
 import Dices.Dice;
 import Dices.ValidDice;
 import Gameflow.Display;
-import Gameflow.Input;
+import Input.Input;
 import Gameflow.TurnResult;
-
+import Input.DecideDice;
 import java.util.ArrayList;
 
 public class StraightCard extends Card implements CardInterface {
@@ -28,7 +28,7 @@ public class StraightCard extends Card implements CardInterface {
                 break;
             }
             //now ask user which ones to put aside and put them aside
-            Input.straightDecideDice(dices); //todo hier übergebe ich reference, ist das okay? prob not...
+            DecideDice.straightDecideDice(dices); //todo hier übergebe ich reference, ist das okay? prob not...
             //now check & break if tutto
             tutto = StraighttuttoChecker(dices);
             if (tutto) {

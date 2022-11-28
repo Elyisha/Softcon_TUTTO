@@ -3,16 +3,14 @@ package Dices;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
+
 public class ValidDice {
 
 
     public static boolean isValidGuess(Dice[] dices) {
-        int[] values = new int[6];
-        Arrays.fill(values, 0);
-
-        for (Dice dice : dices) {
-            values[dice.getDiceNumber().ordinal()] += 1;
-        }
+        List<Dice> list = Arrays.asList(dices);
+        int[] values = getValueArray(list, false);
 
         for(byte i = 1; i < values.length;++i) {
             if(i == 4) continue;
@@ -24,31 +22,52 @@ public class ValidDice {
 
     }
 
-    public static short countPoints(ArrayList<Dice> dices) {
-        short points = 0;
-        short triplet = 0;
+    public static boolean hasNoDuplicates(Dice[] dices, diceNumber diceNum) {
+        for (Dice dice : dices) {
+            if (dice.isAside() && dice.getDiceNumber() == diceNum) return false;
+        }
+        return true;
+    }
+
+    public static boolean hasValidDicesLeft(ArrayList<Dice> dices){
+        int[] values = getValueArray(dices, true);
+
+        for (Dice dice : dices) {
+            if (!dice.isAside()) {
+                if (values[dice.getDiceNumber().ordinal()] == 0) return true;
+            }
+        }
+
+        return false;
+    }
+
+    private static int[] getValueArray(List<Dice> dices, boolean straight) {
         int[] values = new int[6];
         Arrays.fill(values, 0);
 
+        for (Dice dice : dices) {
+            if(!straight)
+                values[dice.getDiceNumber().ordinal()] += 1;
+            else if(dice.isAside()) values[dice.getDiceNumber().ordinal()] += 1;
+        }
+
+        return values;
+    }
+
+    public static short countPoints(ArrayList<Dice> dices) {
+        short points = 0;
+        int triplet = 0;
+        int[] values = getValueArray(dices, false);
         boolean hasTriplet = true;
 
 
-        for (Dice dice : dices) {
-            values[dice.getDiceNumber().ordinal()] += 1;
-        }
+
         while(true) {
             if (hasTriplet) {
-                for (byte i = 0; i < values.length; ++i) {
-
-                    if (values[i] >= 3) {
-                        triplet = (short) (i + 1);
-                        values[i] -= 3;
-                        break;
-                    }
-                }
-                if(triplet == 1) {points += 1000; triplet = 0;}
-                else if(triplet != 0) {points += triplet*100; triplet = 0;}
-                else hasTriplet = false;
+                triplet = findTriplet(values);
+                if(triplet == 0) hasTriplet = false;
+                else if(triplet == 1) {points += 1000; triplet = 0;}
+                else {points += triplet*100; triplet = 0;}
             } else {
                 if(values[0] > 0) {
                     points += 100;
@@ -61,9 +80,18 @@ public class ValidDice {
                 else break;
             }
         }
-        
-    return points;
+        System.out.println(points);
+        return points;
+    }
 
+    private static int findTriplet(int[] values) {
+        for (byte i = 0; i < values.length; ++i) {
+            if (values[i] >= 3) {
+                values[i] -= 3;
+                return i + 1;
+            }
+        }
+        return 0;
     }
 
     //Function can be deleted
@@ -77,27 +105,4 @@ public class ValidDice {
         }
         return true;
     }
-    public static boolean hasNoDuplicates(Dice[] dices, diceNumber diceNum) {
-        for (byte i = 0; i < dices.length; ++i) {
-            if (dices[i].isAside() && dices[i].getDiceNumber() == diceNum) return false;
-        }
-        return true;
-    }
-
-    public static boolean hasValidDicesLeft(ArrayList<Dice> dices){
-        int[] values = new int[6];
-        Arrays.fill(values, 0);
-
-        for (Dice dice : dices) {
-            if (dice.isAside()) values[dice.getDiceNumber().ordinal()] += 1;
-        }
-        for (Dice dice : dices) {
-            if (!dice.isAside()) {
-                if (values[dice.getDiceNumber().ordinal()] == 0) return true;
-            }
-        }
-
-        return false;
-    }
-
 }

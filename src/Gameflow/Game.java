@@ -4,6 +4,7 @@ import Cards.BonusCard;
 import Cards.Card;
 import Cards.CardsValue;
 import Cards.Deck;
+import Input.Input;
 
 public class Game {
     //Singleton Game Object Field:
@@ -69,7 +70,8 @@ public class Game {
                         if(result.points != 0){pointsADD = true;}
                         if(!result.isTutto){break;}
                         //when a player managed to get a Tutto it is up to him whether he wants to make a new round:
-                        if(!Input.askUserREinGame(result.points)){break;}
+                        Display.displayCurrentPoints(result.points);
+                        if(!Input.askUserRE()) {break;}
                     }
                     if(pointsADD){aPlayer.addPoints(currentPoints);}
                     if(aPlayer.playerWon()){

@@ -3,8 +3,9 @@ package Cards;
 import Dices.Dice;
 import Dices.ValidDice;
 import Gameflow.Display;
-import Gameflow.Input;
+import Input.Input;
 import Gameflow.TurnResult;
+import Input.DecideDice;
 
 import java.util.ArrayList;
 
@@ -33,7 +34,7 @@ public abstract class Card implements CardInterface {
                 break;
             }
             //now ask user which ones to put aside and put them aside
-            currentPoints += Input.decideDice(dices, false); //todo hier übergebe ich reference, ist das okay? prob not...
+            currentPoints += DecideDice.decideDice(dices, false); //todo hier übergebe ich reference, ist das okay? prob not...
             //now check & break if tutto
             tutto = tuttoChecker(dices);
             if (tutto) break;

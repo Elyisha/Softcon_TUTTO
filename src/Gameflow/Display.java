@@ -28,6 +28,10 @@ public class Display {
         System.out.println("You've got " + P1.getPoints() + " Points.");
     }
 
+    public static void displayCurrentPoints(short points){
+        System.out.println("(So far you have managed to reach " + points + " Points in this round)");
+    }
+
     private static void printInner(diceNumber d1, int i){
         if(d1 == diceNumber.SIX) System.out.print(" o   o ");
         else if(d1 == diceNumber.ONE && i == 2) System.out.print("   o   ");
