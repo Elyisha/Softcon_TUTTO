@@ -4,45 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b577d954-8adb-45f0-8cd3-77c2a40a1194" name="Changes" comment="Merge branch 'master' of https://github.com/Elyisha/Softcon_TUTTO&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/junit_jupiter.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/junit_jupiter.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_18_11_2022_14_31_[Changes]/shelved.patch" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_18_11_2022_14_31_[Changes]/shelved.patch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_20_11_2022_20_45_[Changes]/shelved.patch" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_20_11_2022_20_45_[Changes]/shelved.patch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_21_11_2022_17_45_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_21_11_2022_17_45__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_21_11_2022_18_46_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_21_11_2022_18_46__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_21_11_2022_18_49_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_21_11_2022_18_49__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_11_2022_11_07_[Changes]/shelved.patch" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_11_2022_11_07_[Changes]/shelved.patch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_11_2022_09_49_[Changes]/shelved.patch" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_11_2022_09_49_[Changes]/shelved.patch" afterDir="false" />
+    <list default="true" id="b577d954-8adb-45f0-8cd3-77c2a40a1194" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/github_hazendaz_jmockit.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Cards/BonusCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cards/BonusCard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Cards/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cards/Card.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Cards/CardInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cards/CardInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Cards/CloverleafCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cards/CloverleafCard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Cards/Deck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cards/Deck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Cards/FireworksCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cards/FireworksCard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Cards/PlusMinusCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cards/PlusMinusCard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Cards/StopCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cards/StopCard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Cards/StraightCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cards/StraightCard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Cards/TwoTimesCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cards/TwoTimesCard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Dices/ValidDice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Dices/ValidDice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Gameflow/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Gameflow/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Gameflow/Input.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Gameflow/Input.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Turn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Turn.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Turn/AbstractTurn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Turn/AbstractTurn.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Turn/BonusTurn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Turn/BonusTurn.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Turn/CloverleafTurn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Turn/CloverleafTurn.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Turn/FireworksTurn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Turn/FireworksTurn.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Turn/PlusMinusTurn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Turn/PlusMinusTurn.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Turn/StraightTurn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Turn/StraightTurn.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Turn/TwoTimesTurn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Turn/TwoTimesTurn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Softcon_TUTTO.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Softcon_TUTTO.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Turn.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Turn/AbstractTurn.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Turn/BonusTurn.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Turn/CloverleafTurn.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Turn/FireworksTurn.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Turn/PlusMinusTurn.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Turn/StraightTurn.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Turn/TwoTimesTurn.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/tests/Cards/CardTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/Cards/CardTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tests/Cards/DeckTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/Cards/DeckTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tests/Dices/DiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/Dices/DiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tests/Dices/ValidDiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/Dices/ValidDiceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +29,6 @@
         <option value="Enum" />
         <option value="Class" />
         <option value="Interface" />
-        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -78,31 +51,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "true",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="Gameflow" />
       <recent name="Game" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
@@ -113,7 +86,7 @@
       <recent name="Turn" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="JUnit.CardTest.getAbstractRollTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="Softcon_TUTTO" />
@@ -137,7 +110,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DeckTest.hasRightFrequency" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CardTest.getAbstractRollTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Softcon_TUTTO" />
       <extension name="coverage">
         <pattern>
@@ -146,8 +119,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Cards" />
-      <option name="MAIN_CLASS_NAME" value="Cards.DeckTest" />
-      <option name="METHOD_NAME" value="hasRightFrequency" />
+      <option name="MAIN_CLASS_NAME" value="Cards.CardTest" />
+      <option name="METHOD_NAME" value="getAbstractRollTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -155,8 +128,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CardTest.getAbstractRollTest" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.DeckTest.hasRightFrequency" />
         <item itemvalue="JUnit.CardTest.dummyTest" />
       </list>
     </recent_temporary>
@@ -164,7 +137,7 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="b577d954-8adb-45f0-8cd3-77c2a40a1194" name="Changes" comment="Merge branch 'master' of https://github.com/Elyisha/Softcon_TUTTO&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
+      <changelist id="b577d954-8adb-45f0-8cd3-77c2a40a1194" name="Changes" comment="" />
       <created>1668777400139</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -178,8 +151,8 @@
       <workItem from="1669105098175" duration="1233000" />
       <workItem from="1669109304538" duration="71000" />
       <workItem from="1669381225124" duration="697000" />
-      <workItem from="1669643468975" duration="5043000" />
-      <workItem from="1669658748857" duration="2726000" />
+      <workItem from="1669580550869" duration="23000" />
+      <workItem from="1669617646487" duration="997000" />
     </task>
     <task id="LOCAL-00001" summary="d">
       <created>1668778314133</created>
@@ -314,7 +287,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669570443353</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Umbau des Jahrhunderts.">
+      <created>1669579912902</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1669579912902</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -341,21 +321,7 @@
     <MESSAGE value="REWORK AbstractTurn" />
     <MESSAGE value="REWORK FIREWORKSTURN" />
     <MESSAGE value="REWORK StraightTurn&#10;&#10;TWO ISSUES: &#10;- Fireworks: &quot;must keep all that are valid&quot; ist immernoch nicht ganz richtig implementiert (doesn't put it Aside)&#10;- Straight: ArrayList implementiert -  hasValidDicesLeft is faulty - doesn't get triggered although it should" />
-    <option name="LAST_COMMIT_MESSAGE" value="REWORK StraightTurn&#10;&#10;TWO ISSUES: &#10;- Fireworks: &quot;must keep all that are valid&quot; ist immernoch nicht ganz richtig implementiert (doesn't put it Aside)&#10;- Straight: ArrayList implementiert -  hasValidDicesLeft is faulty - doesn't get triggered although it should" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/tests/Cards/DeckTest.java</url>
-          <line>6</line>
-          <properties class="Cards.DeckTest" method="hasRightFrequency">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="Umbau des Jahrhunderts." />
+    <option name="LAST_COMMIT_MESSAGE" value="Umbau des Jahrhunderts." />
   </component>
 </project>

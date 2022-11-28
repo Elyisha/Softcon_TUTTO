@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="github.hazendaz.jmockit" type="repository">
+    <properties maven-id="com.github.hazendaz.jmockit:jmockit:1.49.3" />
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/jmockit-1.49.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/spotbugs-annotations-4.7.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jsr305-3.0.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/objenesis-3.3.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,1055 @@
+Index: .idea/shelf/Uncommitted_changes_before_Update_at_21_11_2022_11_18_[Changes]/shelved.patch
+===================================================================
+diff --git a/.idea/shelf/Uncommitted_changes_before_Update_at_21_11_2022_11_18_[Changes]/shelved.patch b/.idea/shelf/Uncommitted_changes_before_Update_at_21_11_2022_11_18_[Changes]/shelved.patch
+deleted file mode 100644
+--- a/.idea/shelf/Uncommitted_changes_before_Update_at_21_11_2022_11_18_[Changes]/shelved.patch	(revision 32ac646c7715c75d85302554689c780fd2a7f513)
++++ /dev/null	(revision 32ac646c7715c75d85302554689c780fd2a7f513)
+@@ -1,21 +0,0 @@
+-Index: .idea/workspace.xml
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+-<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"AutoImportSettings\">\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\n  </component>\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"b577d954-8adb-45f0-8cd3-77c2a40a1194\" name=\"Changes\" comment=\"\">\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\n    </list>\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"FileTemplateManagerImpl\">\n    <option name=\"RECENT_TEMPLATES\">\n      <list>\n        <option value=\"Enum\" />\n        <option value=\"Class\" />\n      </list>\n    </option>\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"MarkdownSettingsMigration\">\n    <option name=\"stateVersion\" value=\"1\" />\n  </component>\n  <component name=\"ProjectId\" id=\"2HiojMgcsYG36dHDnxZdjmldgRR\" />\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\">\n    <ConfirmationsSetting value=\"2\" id=\"Add\" />\n  </component>\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\">{\n  &quot;keyToString&quot;: {\n    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\n    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,\n    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,\n    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,\n    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;\n  }\n}</component>\n  <component name=\"RecentsManager\">\n    <key name=\"MoveClassesOrPackagesDialog.RECENTS_KEY\">\n      <recent name=\"Game\" />\n    </key>\n    <key name=\"CopyClassDialog.RECENTS_KEY\">\n      <recent name=\"Turn\" />\n    </key>\n  </component>\n  <component name=\"RunManager\">\n    <configuration name=\"Main\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\n      <option name=\"MAIN_CLASS_NAME\" value=\"Main\" />\n      <module name=\"Softcon_TUTTO\" />\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <recent_temporary>\n      <list>\n        <item itemvalue=\"Application.Main\" />\n      </list>\n    </recent_temporary>\n  </component>\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"b577d954-8adb-45f0-8cd3-77c2a40a1194\" name=\"Changes\" comment=\"\" />\n      <created>1668777400139</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1668777400139</updated>\n      <workItem from=\"1668777401501\" duration=\"329000\" />\n      <workItem from=\"1668784770747\" duration=\"3851000\" />\n      <workItem from=\"1668850787697\" duration=\"7141000\" />\n      <workItem from=\"1669018359207\" duration=\"3855000\" />\n    </task>\n    <task id=\"LOCAL-00001\" summary=\"d\">\n      <created>1668778314133</created>\n      <option name=\"number\" value=\"00001\" />\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1668778314133</updated>\n    </task>\n    <task id=\"LOCAL-00002\" summary=\"Turn commit\">\n      <created>1668778512073</created>\n      <option name=\"number\" value=\"00002\" />\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1668778512073</updated>\n    </task>\n    <task id=\"LOCAL-00003\" summary=\"Turn commit\">\n      <created>1668778675492</created>\n      <option name=\"number\" value=\"00003\" />\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1668778675492</updated>\n    </task>\n    <task id=\"LOCAL-00004\" summary=\"Turn commit\">\n      <created>1668780484362</created>\n      <option name=\"number\" value=\"00004\" />\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1668780484362</updated>\n    </task>\n    <task id=\"LOCAL-00005\" summary=\"Turn commit\">\n      <created>1668781274883</created>\n      <option name=\"number\" value=\"00005\" />\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1668781274883</updated>\n    </task>\n    <task id=\"LOCAL-00006\" summary=\"Merge branch 'master' of https://github.com/Elyisha/Softcon_TUTTO&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml\">\n      <created>1668984614481</created>\n      <option name=\"number\" value=\"00006\" />\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1668984614481</updated>\n    </task>\n    <task id=\"LOCAL-00007\" summary=\"Merge branch 'master' of https://github.com/Elyisha/Softcon_TUTTO&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml\">\n      <created>1669021276677</created>\n      <option name=\"number\" value=\"00007\" />\n      <option name=\"presentableId\" value=\"LOCAL-00007\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1669021276677</updated>\n    </task>\n    <option name=\"localTasksCounter\" value=\"8\" />\n    <servers />\n  </component>\n  <component name=\"TypeScriptGeneratedFilesManager\">\n    <option name=\"version\" value=\"3\" />\n  </component>\n  <component name=\"Vcs.Log.Tabs.Properties\">\n    <option name=\"TAB_STATES\">\n      <map>\n        <entry key=\"MAIN\">\n          <value>\n            <State />\n          </value>\n        </entry>\n      </map>\n    </option>\n  </component>\n  <component name=\"VcsManagerConfiguration\">\n    <option name=\"CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT\" value=\"false\" />\n    <option name=\"CHECK_NEW_TODO\" value=\"false\" />\n    <MESSAGE value=\"d\" />\n    <MESSAGE value=\"Turn commit\" />\n    <MESSAGE value=\"Display Class &amp; Player Class\" />\n    <MESSAGE value=\"Merge branch 'master' of https://github.com/Elyisha/Softcon_TUTTO&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml\" />\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"Merge branch 'master' of https://github.com/Elyisha/Softcon_TUTTO&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml\" />\n  </component>\n</project>
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+---- a/.idea/workspace.xml	(revision 543a71a8e54c00d126626c63fb2116c161dc51bf)
+-+++ b/.idea/workspace.xml	(date 1669025878242)
+-@@ -4,8 +4,8 @@
+-     <option name="autoReloadType" value="SELECTIVE" />
+-   </component>
+-   <component name="ChangeListManager">
+--    <list default="true" id="b577d954-8adb-45f0-8cd3-77c2a40a1194" name="Changes" comment="">
+--      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-+    <list default="true" id="53e70105-e171-4356-932f-5dec625c8c62" name="Changes" comment="Merge branch 'master' of https://github.com/Elyisha/Softcon_TUTTO&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
+-+      <change beforePath="$PROJECT_DIR$/src/Game/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Game/Game.java" afterDir="false" />
+-     </list>
+-     <option name="SHOW_DIALOG" value="false" />
+-     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+Index: .idea/shelf/Uncommitted_changes_before_Update_at_21_11_2022_11_05_[Changes]/shelved.patch
+===================================================================
+diff --git a/.idea/shelf/Uncommitted_changes_before_Update_at_21_11_2022_11_05_[Changes]/shelved.patch b/.idea/shelf/Uncommitted_changes_before_Update_at_21_11_2022_11_05_[Changes]/shelved.patch
+deleted file mode 100644
+--- a/.idea/shelf/Uncommitted_changes_before_Update_at_21_11_2022_11_05_[Changes]/shelved.patch	(revision 32ac646c7715c75d85302554689c780fd2a7f513)
++++ /dev/null	(revision 32ac646c7715c75d85302554689c780fd2a7f513)
+@@ -1,102 +0,0 @@
+-Index: src/Main.java
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+-<+>import Dices.*;\nimport Game.Display;\n\npublic class Main {\n\n\n    public static void main(String[] args) {\n        Dice[] dices = new Dice[6]; //stores the dices\n        for (byte i = 0; i < dices.length; i++) { //instantiate the dices (rolls them for the first time)\n            dices[i] = new Dice();\n            dices[i].rollDice();\n        }\n        //System.out.println(dices[2].getDiceNumber().name() == \"FOUR\");\n        for(int i = 0; i<dices.length;++i){\n            Display.displayDice(dices[i].getDiceNumber());\n        }\n        System.out.println(ValidDice.countPoints(dices));\n        /*\n        dices[2].putAside();\n        Game.Input.decideDice(dices);\n*/\n\n\n\n\n    }\n}\n
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/src/Main.java b/src/Main.java
+---- a/src/Main.java	(revision 8914881fc7a863508c6d9e2fb045b09f5f4fc873)
+-+++ b/src/Main.java	(date 1669025071681)
+-@@ -15,10 +15,15 @@
+-             Display.displayDice(dices[i].getDiceNumber());
+-         }
+-         System.out.println(ValidDice.countPoints(dices));
+--        /*
+-+
+-         dices[2].putAside();
+-         Game.Input.decideDice(dices);
+--*/
+-+
+-+        Display.displayDice(diceNumber.FIVE, (byte) 1);
+-+        Display.displayDice(diceNumber.TWO, (byte) 2);
+-+        Display.displayDice(diceNumber.ONE, (byte) 3);
+-+        Display.displayDice(diceNumber.THREE, (byte) 4);
+-+
+- 
+- 
+- 
+-Index: src/Cards/Deck.java
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+-<+>package Cards;\n\nimport java.util.ArrayList;\nimport java.util.Collections;\nimport java.util.List;\n\npublic class Deck {\n    private List<Card> aCards = new ArrayList<>();\n    //cards that are drawn from the deck are stored here so that the Cardobjects can be reused\n    private List<Card> usedCards = new ArrayList<>();\n\n    private int numCards;\n\n    public Deck() {\n        for (int i = 0; i < 56; i++) {\n            if (i < 1) {\n                aCards.add(new Card(CardsValue.CLOVERLEAF));\n            } else if (i < 6) {\n                aCards.add(new Card(CardsValue.FIREWORK));\n            } else if (i < 16) {\n                aCards.add(new Card(CardsValue.STOP));\n            } else if (i < 21) {\n                aCards.add(new Card(CardsValue.STRAIGHT));\n            } else if (i < 26) {\n                aCards.add(new Card(CardsValue.PLUSMINUS));\n            } else if (i < 31) {\n                aCards.add(new Card(CardsValue.TIMESTWO));\n            } else if (i < 36) {\n                aCards.add(new Card(CardsValue.BONUS200));\n            } else if (i < 41) {\n                aCards.add(new Card(CardsValue.BONUS300));\n            } else if (i < 46) {\n                aCards.add(new Card(CardsValue.BONUS400));\n            } else if (i < 51) {\n                aCards.add(new Card(CardsValue.BONUS500));\n            } else {\n                aCards.add(new Card(CardsValue.BONUS600));\n            }\n        }\n        Collections.shuffle(aCards);\n    }\n\n\n    public Card getCard() {\n        System.out.println(aCards.size());\n        if (!isEmpty()) {\n            Card aCard = aCards.get(0);\n            usedCards.add(aCard);\n            aCards.remove(0);\n            System.out.println(aCards.size());\n            return aCard;\n        } else {\n            //In case that there are no more cards left in the deck\n            //The ArrayList usedCards is going to be aCards and aCards\n            //is going to be shuffled\n            List<Card> copy = new ArrayList<>();\n            copy = aCards;\n            aCards = usedCards;\n            usedCards = copy;\n            Collections.shuffle(aCards);\n            return getCard();\n        }\n    }\n\n    private Boolean isEmpty() {\n        return (aCards.size() == 0);\n    }\n}\n
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/src/Cards/Deck.java b/src/Cards/Deck.java
+---- a/src/Cards/Deck.java	(revision 8914881fc7a863508c6d9e2fb045b09f5f4fc873)
+-+++ b/src/Cards/Deck.java	(date 1669025071698)
+-@@ -6,7 +6,7 @@
+- 
+- public class Deck {
+-     private List<Card> aCards = new ArrayList<>();
+--    //cards that are drawn from the deck are stored here so that the Cardobjects can be reused
+-+    //cards that are drawn from the deck are stored in usedCards so that the Cardobjects can be reused
+-     private List<Card> usedCards = new ArrayList<>();
+- 
+-     private int numCards;
+-Index: src/Game/Display.java
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+-<+>package Game;\n\nimport Cards.*;\nimport Dices.*;\n\npublic class Display {\n\n    public static void displayDice(diceNumber d1) {\n        printUpper();\n        for(int i = 1; i<4; i++){\n            printLeftBox();\n            printInner(d1, i);\n            printRightBox();\n        }\n        printUnder();\n    }\n\n    public static void displayCard(CardsValue c1){\n        System.out.println(\"You drew following card: \" + c1);\n    }\n\n    public static void displayPoints(Player P1){\n        System.out.println(\"You've got \" + P1.getPoints() + \" Points.\");\n    }\n\n    private static void printInner(diceNumber d1, int i){\n        if(d1 == diceNumber.SIX) System.out.print(\" o   o \");\n        else if(d1 == diceNumber.ONE && i == 2) System.out.print(\"   o   \");\n        else if(d1 == diceNumber.TWO && i == 1) System.out.print(\"     o \");\n        else if(d1 == diceNumber.TWO && i == 3) System.out.print(\" o     \");\n        else if(d1 == diceNumber.THREE && i == 1) System.out.print(\"     o \");\n        else if(d1 == diceNumber.THREE && i == 2) System.out.print(\"   o   \");\n        else if(d1 == diceNumber.THREE && i == 3) System.out.print(\" o     \");\n        else if(d1 == diceNumber.FOUR && (i == 3||i==1)) System.out.print(\" o   o \");\n        else if(d1 == diceNumber.FIVE && (i == 3||i==1)) System.out.print(\" o   o \");\n        else if(d1 == diceNumber.FIVE && i == 2) System.out.print(\"   o   \");\n        else System.out.print(\"       \");\n    }\n\n    private static void printUpper(){\n        System.out.println(\" _________\");\n    }\n    private static void printLeftBox(){\n        System.out.print(\"| \");\n    }\n    private static void printRightBox(){\n        System.out.println(\" |\");\n    }\n    private static void printUnder(){\n        System.out.println(\"|_________|\");\n    }\n}\n
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/src/Game/Display.java b/src/Game/Display.java
+---- a/src/Game/Display.java	(revision 8914881fc7a863508c6d9e2fb045b09f5f4fc873)
+-+++ b/src/Game/Display.java	(date 1669025071718)
+-@@ -5,14 +5,15 @@
+- 
+- public class Display {
+- 
+--    public static void displayDice(diceNumber d1) {
+-+    public static void displayDice(diceNumber d1, byte b) {
+-+        //assert d1 != null;
+-         printUpper();
+-         for(int i = 1; i<4; i++){
+-             printLeftBox();
+-             printInner(d1, i);
+-             printRightBox();
+-         }
+--        printUnder();
+-+        printUnder(b);
+-     }
+- 
+-     public static void displayCard(CardsValue c1){
+-@@ -46,7 +47,7 @@
+-     private static void printRightBox(){
+-         System.out.println(" |");
+-     }
+--    private static void printUnder(){
+--        System.out.println("|_________|");
+-+    private static void printUnder(byte b){
+-+        System.out.println("|_________| " + b);
+-     }
+- }
+-Index: src/Game/Game.java
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/src/Game/Game.java b/src/Game/Game.java
+-new file mode 100644
+---- /dev/null	(date 1669025074991)
+-+++ b/src/Game/Game.java	(date 1669025074991)
+-@@ -0,0 +1,7 @@
+-+package Game;
+-+
+-+public class Game {
+-+
+-+    //TODO public short getMaxPoints (for Playerclass)
+-+
+-+}
+Index: .idea/shelf/Uncommitted_changes_before_Update_at_21_11_2022_18_49_[Changes]/shelved.patch
+===================================================================
+diff --git a/.idea/shelf/Uncommitted_changes_before_Update_at_21_11_2022_18_49_[Changes]/shelved.patch b/.idea/shelf/Uncommitted_changes_before_Update_at_21_11_2022_18_49_[Changes]/shelved.patch
+deleted file mode 100644
+--- a/.idea/shelf/Uncommitted_changes_before_Update_at_21_11_2022_18_49_[Changes]/shelved.patch	(revision 32ac646c7715c75d85302554689c780fd2a7f513)
++++ /dev/null	(revision 32ac646c7715c75d85302554689c780fd2a7f513)
+@@ -1,93 +0,0 @@
+-Index: src/Turn/AbstractTurn.java
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+-<+>package Turn;\r\nimport Cards.*;\r\nimport Dices.*;\r\nimport Game.*;\r\n\r\nabstract class AbstractTurn {\r\n/*\r\n    public TurnResult getRoll() {\r\n        Dice[] dices = new Dice[6]; //stores the dices\r\n        boolean tutto = false;\r\n        short currentPoints = 0;\r\n\r\n        //instantiate the dices (doesn't roll them for the first time!)\r\n        for (byte i = 0; i < 6; i++) {\r\n            dices[i] = new Dice();\r\n        }\r\n\r\n        boolean roll = true;\r\n        while (roll) {\r\n            byte howManyAside = 0;\r\n            for (byte i = 0; i < 6; i++) {\r\n                if (!dices[i].isAside()) { //if it was not put aside yet...\r\n                    dices[i].rollDice(); //...roll it...\r\n                    Display.displayDice(dices[i].getDiceNumber()); //...print it\r\n                }\r\n            } //ends print dices for-loop\r\n\r\n            //now: check if roll was at least possibly valid, if not, break the while loop, else add points\r\n            int countPointsCache = ValidDice.countPoints(dices);\r\n            if (countPointsCache == 0) break; //CAN BE OVERGIVEN AS DICES THEMSELVES ARE IMMUTABLE.?\r\n            //else currentPoints += countPointsCache;\r\n            //TODO: this must only check not-put-aside dices!!\r\n\r\n            //now ask user which ones to put aside and put them aside\r\n            Input.decideDice(dices); //muss ich das jetzt nochmals kopieren oder wurde eigentlich nur das bereits bestehende Objekt verändert?\r\n\r\n            //see how many have been put aside\r\n            for (byte i = 0; i < 6; i++) {\r\n                if (dices[i].isAside()) {\r\n                    howManyAside++;\r\n                }\r\n            }\r\n            //if all have been put aside, end while loop and set tutto to true\r\n            if (howManyAside == 6) {\r\n                tutto = true;\r\n                break;\r\n            }\r\n            //ask user if he wants to end or roll again, then sets while-loop variable accordingly\r\n            roll = Input.askUserRE();\r\n\r\n        }\r\n        return new TurnResult(currentPoints, tutto);\r\n    }\r\n*/\r\n}\r\n
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/src/Turn/AbstractTurn.java b/src/Turn/AbstractTurn.java
+---- a/src/Turn/AbstractTurn.java	(revision 10b7d8de489df90021951582b9f4136b76ac3ae8)
+-+++ b/src/Turn/AbstractTurn.java	(date 1669049217582)
+-@@ -4,7 +4,7 @@
+- import Game.*;
+- 
+- abstract class AbstractTurn {
+--/*
+-+
+-     public TurnResult getRoll() {
+-         Dice[] dices = new Dice[6]; //stores the dices
+-         boolean tutto = false;
+-@@ -51,5 +51,5 @@
+-         }
+-         return new TurnResult(currentPoints, tutto);
+-     }
+--*/
+-+
+- }
+-Index: src/Turn/FireworksTurn.java
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+-<+>package Turn;\r\n\r\npublic class FireworksTurn extends AbstractTurn{\r\n/*\r\n    //TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO\r\n    public TurnResult fireworksTurn(short currentPoints) {\r\n        short newPoints = currentPoints;\r\n        boolean nullThrow = true;\r\n        while (nullThrow) {\r\n            TurnResult result = getRoll();\r\n            newPoints += result.a;\r\n            //TODO UPDATE WHILE VARIABLE\r\n            //TODO CORRECTLY RETURN EEVERY CORRECT VALUE - SEE ASSIGNMENT DESCRIPTION\r\n\r\n        }\r\n        if (result.b) newPoints += newPoints; //double it if tutto\r\n        return new TurnResult(newPoints, result.b);\r\n    }\r\n*/\r\n}\r\n
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/src/Turn/FireworksTurn.java b/src/Turn/FireworksTurn.java
+---- a/src/Turn/FireworksTurn.java	(revision 10b7d8de489df90021951582b9f4136b76ac3ae8)
+-+++ b/src/Turn/FireworksTurn.java	(date 1669050561434)
+-@@ -1,8 +1,7 @@
+- package Turn;
+- 
+- public class FireworksTurn extends AbstractTurn{
+--/*
+--    //TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO
+-+
+-     public TurnResult fireworksTurn(short currentPoints) {
+-         short newPoints = currentPoints;
+-         boolean nullThrow = true;
+-@@ -16,5 +15,5 @@
+-         if (result.b) newPoints += newPoints; //double it if tutto
+-         return new TurnResult(newPoints, result.b);
+-     }
+--*/
+-+
+- }
+-Index: Softcon_TUTTO.iml
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+-<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<module type=\"JAVA_MODULE\" version=\"4\">\r\n  <component name=\"NewModuleRootManager\" inherit-compiler-output=\"true\">\r\n    <exclude-output />\r\n    <content url=\"file://$MODULE_DIR$\">\r\n      <sourceFolder url=\"file://$MODULE_DIR$/src\" isTestSource=\"false\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/src/Turn\" />\r\n    </content>\r\n    <orderEntry type=\"inheritedJdk\" />\r\n    <orderEntry type=\"sourceFolder\" forTests=\"false\" />\r\n  </component>\r\n</module>
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/Softcon_TUTTO.iml b/Softcon_TUTTO.iml
+---- a/Softcon_TUTTO.iml	(revision 10b7d8de489df90021951582b9f4136b76ac3ae8)
+-+++ b/Softcon_TUTTO.iml	(date 1669050414641)
+-@@ -4,7 +4,6 @@
+-     <exclude-output />
+-     <content url="file://$MODULE_DIR$">
+-       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+--      <excludeFolder url="file://$MODULE_DIR$/src/Turn" />
+-     </content>
+-     <orderEntry type="inheritedJdk" />
+-     <orderEntry type="sourceFolder" forTests="false" />
+-Index: .idea/workspace.xml
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+-<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"b577d954-8adb-45f0-8cd3-77c2a40a1194\" name=\"Changes\" comment=\"\">\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/Dices/ValidDice.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/Dices/ValidDice.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/Main.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/Main.java\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Enum\" />\r\n        <option value=\"Class\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"MarkdownSettingsMigration\">\r\n    <option name=\"stateVersion\" value=\"1\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"2HiojMgcsYG36dHDnxZdjmldgRR\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\">\r\n    <ConfirmationsSetting value=\"2\" id=\"Add\" />\r\n  </component>\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">{\r\n  &quot;keyToString&quot;: {\r\n    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,\r\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\r\n    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,\r\n    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,\r\n    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,\r\n    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;\r\n  }\r\n}</component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"MoveClassesOrPackagesDialog.RECENTS_KEY\">\r\n      <recent name=\"Game\" />\r\n    </key>\r\n    <key name=\"CopyClassDialog.RECENTS_KEY\">\r\n      <recent name=\"Turn\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"RunManager\">\r\n    <configuration name=\"Main\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"Main\" />\r\n      <module name=\"Softcon_TUTTO\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"Application.Main\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"b577d954-8adb-45f0-8cd3-77c2a40a1194\" name=\"Changes\" comment=\"\" />\r\n      <created>1668777400139</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1668777400139</updated>\r\n      <workItem from=\"1668777401501\" duration=\"329000\" />\r\n      <workItem from=\"1668784770747\" duration=\"3851000\" />\r\n      <workItem from=\"1668850787697\" duration=\"7141000\" />\r\n      <workItem from=\"1669018359207\" duration=\"3855000\" />\r\n      <workItem from=\"1669042981813\" duration=\"3156000\" />\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"d\">\r\n      <created>1668778314133</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1668778314133</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"Turn commit\">\r\n      <created>1668778512073</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1668778512073</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"Turn commit\">\r\n      <created>1668778675492</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1668778675492</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00004\" summary=\"Turn commit\">\r\n      <created>1668780484362</created>\r\n      <option name=\"number\" value=\"00004\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1668780484362</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00005\" summary=\"Turn commit\">\r\n      <created>1668781274883</created>\r\n      <option name=\"number\" value=\"00005\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1668781274883</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00006\" summary=\"Merge branch 'master' of https://github.com/Elyisha/Softcon_TUTTO&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml\">\r\n      <created>1668984614481</created>\r\n      <option name=\"number\" value=\"00006\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1668984614481</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00007\" summary=\"Merge branch 'master' of https://github.com/Elyisha/Softcon_TUTTO&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml\">\r\n      <created>1669021276677</created>\r\n      <option name=\"number\" value=\"00007\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00007\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1669021276677</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00008\" summary=\"Merge branch 'master' of https://github.com/Elyisha/Softcon_TUTTO&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml\">\r\n      <created>1669025266591</created>\r\n      <option name=\"number\" value=\"00008\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00008\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1669025266591</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"9\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <option name=\"CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT\" value=\"false\" />\r\n    <option name=\"CHECK_NEW_TODO\" value=\"false\" />\r\n    <MESSAGE value=\"d\" />\r\n    <MESSAGE value=\"Turn commit\" />\r\n    <MESSAGE value=\"Display Class &amp; Player Class\" />\r\n    <MESSAGE value=\"Merge branch 'master' of https://github.com/Elyisha/Softcon_TUTTO&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"Merge branch 'master' of https://github.com/Elyisha/Softcon_TUTTO&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml\" />\r\n  </component>\r\n</project>
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+---- a/.idea/workspace.xml	(revision 10b7d8de489df90021951582b9f4136b76ac3ae8)
+-+++ b/.idea/workspace.xml	(date 1669050423976)
+-@@ -6,8 +6,9 @@
+-   <component name="ChangeListManager">
+-     <list default="true" id="b577d954-8adb-45f0-8cd3-77c2a40a1194" name="Changes" comment="">
+-       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/src/Dices/ValidDice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Dices/ValidDice.java" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+-+      <change beforePath="$PROJECT_DIR$/Softcon_TUTTO.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Softcon_TUTTO.iml" afterDir="false" />
+-+      <change beforePath="$PROJECT_DIR$/src/Turn/AbstractTurn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Turn/AbstractTurn.java" afterDir="false" />
+-+      <change beforePath="$PROJECT_DIR$/src/Turn/FireworksTurn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Turn/FireworksTurn.java" afterDir="false" />
+-     </list>
+-     <option name="SHOW_DIALOG" value="false" />
+-     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+Index: .idea/shelf/Uncommitted_changes_before_Update_at_21_11_2022_10_01__Changes_.xml
+===================================================================
+diff --git a/.idea/shelf/Uncommitted_changes_before_Update_at_21_11_2022_10_01__Changes_.xml b/.idea/shelf/Uncommitted_changes_before_Update_at_21_11_2022_10_01__Changes_.xml
+deleted file mode 100644
+--- a/.idea/shelf/Uncommitted_changes_before_Update_at_21_11_2022_10_01__Changes_.xml	(revision 32ac646c7715c75d85302554689c780fd2a7f513)
++++ /dev/null	(revision 32ac646c7715c75d85302554689c780fd2a7f513)
+@@ -1,4 +0,0 @@
+-<changelist name="Uncommitted_changes_before_Update_at_21_11_2022_10_01_[Changes]" date="1669021318541" recycled="true" deleted="true">
+-  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_21_11_2022_10_01_[Changes]/shelved.patch" />
+-  <option name="DESCRIPTION" value="Uncommitted changes before Update at 21/11/2022 10:01 [Changes]" />
+-</changelist>
+\ No newline at end of file
+Index: .idea/shelf/Uncommitted_changes_before_Update_at_21_11_2022_18_46_[Changes]/shelved.patch
+===================================================================
+diff --git a/.idea/shelf/Uncommitted_changes_before_Update_at_21_11_2022_18_46_[Changes]/shelved.patch b/.idea/shelf/Uncommitted_changes_before_Update_at_21_11_2022_18_46_[Changes]/shelved.patch
+deleted file mode 100644
+--- a/.idea/shelf/Uncommitted_changes_before_Update_at_21_11_2022_18_46_[Changes]/shelved.patch	(revision 32ac646c7715c75d85302554689c780fd2a7f513)
++++ /dev/null	(revision 32ac646c7715c75d85302554689c780fd2a7f513)
+@@ -1,356 +0,0 @@
+-Index: src/Turn/AbstractTurn.java
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+-<+>package Turn;\nimport Cards.*;\nimport Dices.*;\nimport Game.*;\n\nabstract class AbstractTurn {\n/*\n    public TurnResult getRoll() {\n        Dice[] dices = new Dice[6]; //stores the dices\n        boolean tutto = false;\n        short currentPoints = 0;\n\n        //instantiate the dices (doesn't roll them for the first time!)\n        for (byte i = 0; i < 6; i++) {\n            dices[i] = new Dice();\n        }\n\n        boolean roll = true;\n        while (roll) {\n            byte howManyAside = 0;\n            for (byte i = 0; i < 6; i++) {\n                if (!dices[i].isAside()) { //if it was not put aside yet...\n                    dices[i].rollDice(); //...roll it...\n                    Display.displayDice(dices[i].getDiceNumber()); //...print it\n                }\n            } //ends print dices for-loop\n\n            //now: check if roll was at least possibly valid, if not, break the while loop, else add points\n            int countPointsCache = ValidDice.countPoints(dices);\n            if (countPointsCache == 0) break; //CAN BE OVERGIVEN AS DICES THEMSELVES ARE IMMUTABLE.?\n            //else currentPoints += countPointsCache;\n            //TODO: this must only check not-put-aside dices!!\n\n            //now ask user which ones to put aside and put them aside\n            Input.decideDice(dices); //muss ich das jetzt nochmals kopieren oder wurde eigentlich nur das bereits bestehende Objekt verändert?\n\n            //see how many have been put aside\n            for (byte i = 0; i < 6; i++) {\n                if (dices[i].isAside()) {\n                    howManyAside++;\n                }\n            }\n            //if all have been put aside, end while loop and set tutto to true\n            if (howManyAside == 6) {\n                tutto = true;\n                break;\n            }\n            //ask user if he wants to end or roll again, then sets while-loop variable accordingly\n            roll = Input.askUserRE();\n\n        }\n        return new TurnResult(currentPoints, tutto);\n    }\n*/\n}\n
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/src/Turn/AbstractTurn.java b/src/Turn/AbstractTurn.java
+---- a/src/Turn/AbstractTurn.java	(revision 83d79fa21533888a2e1ca1965d48d127d608a2ee)
+-+++ b/src/Turn/AbstractTurn.java	(date 1669050978845)
+-@@ -1,7 +1,7 @@
+- package Turn;
+- import Cards.*;
+- import Dices.*;
+--import Game.*;
+-+import Gameflow.*;
+- 
+- abstract class AbstractTurn {
+- /*
+-Index: src/Cards/Deck.java
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+-<+>package Cards;\n\nimport java.util.ArrayList;\nimport java.util.Collections;\nimport java.util.List;\n\npublic class Deck {\n    private List<Card> aCards = new ArrayList<>();\n    //cards that are drawn from the deck are stored in usedCards so that the Cardobjects can be reused\n    private List<Card> usedCards = new ArrayList<>();\n\n    private int numCards;\n\n    public Deck() {\n        for (int i = 0; i < 56; i++) {\n            if (i < 1) {\n                aCards.add(new Card(CardsValue.CLOVERLEAF));\n            } else if (i < 6) {\n                aCards.add(new Card(CardsValue.FIREWORK));\n            } else if (i < 16) {\n                aCards.add(new Card(CardsValue.STOP));\n            } else if (i < 21) {\n                aCards.add(new Card(CardsValue.STRAIGHT));\n            } else if (i < 26) {\n                aCards.add(new Card(CardsValue.PLUSMINUS));\n            } else if (i < 31) {\n                aCards.add(new Card(CardsValue.TIMESTWO));\n            } else if (i < 36) {\n                aCards.add(new Card(CardsValue.BONUS200));\n            } else if (i < 41) {\n                aCards.add(new Card(CardsValue.BONUS300));\n            } else if (i < 46) {\n                aCards.add(new Card(CardsValue.BONUS400));\n            } else if (i < 51) {\n                aCards.add(new Card(CardsValue.BONUS500));\n            } else {\n                aCards.add(new Card(CardsValue.BONUS600));\n            }\n        }\n        Collections.shuffle(aCards);\n    }\n\n\n    public Card getCard() {\n        System.out.println(aCards.size());\n        if (!isEmpty()) {\n            Card aCard = aCards.get(0);\n            usedCards.add(aCard);\n            aCards.remove(0);\n            System.out.println(aCards.size());\n            return aCard;\n        } else {\n            //In case that there are no more cards left in the deck\n            //The ArrayList usedCards is going to be aCards and aCards\n            //is going to be shuffled\n            List<Card> copy = new ArrayList<>();\n            copy = aCards;\n            aCards = usedCards;\n            usedCards = copy;\n            Collections.shuffle(aCards);\n            return getCard();\n        }\n    }\n\n    private Boolean isEmpty() {\n        return (aCards.size() == 0);\n    }\n}\n
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/src/Cards/Deck.java b/src/Cards/Deck.java
+---- a/src/Cards/Deck.java	(revision 83d79fa21533888a2e1ca1965d48d127d608a2ee)
+-+++ b/src/Cards/Deck.java	(date 1669047878969)
+-@@ -42,7 +42,7 @@
+- 
+- 
+-     public Card getCard() {
+--        System.out.println(aCards.size());
+-+        //System.out.println(aCards.size());
+-         if (!isEmpty()) {
+-             Card aCard = aCards.get(0);
+-             usedCards.add(aCard);
+-Index: src/Turn/BonusTurn.java
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+-<+>package Turn;\nimport Cards.CardsValue;\nimport Game.Display;\n\npublic class BonusTurn extends AbstractTurn {\n    public TurnResult bonusTurn(short currentPoints, CardsValue cardType) {\n        short newPoints = currentPoints;\n\n        Display.displayCard(cardType);\n        TurnResult result = getRoll();\n\n        newPoints += result.points;\n        if (result.isTutto) {\n            switch (cardType){\n                case BONUS200 -> newPoints += 200;\n                case BONUS300 -> newPoints += 300;\n                case BONUS400 -> newPoints += 400;\n                case BONUS500 -> newPoints += 500;\n                case BONUS600 -> newPoints += 600;\n            }\n        }\n        return new TurnResult(newPoints, result.isTutto);\n    }\n}\n
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/src/Turn/BonusTurn.java b/src/Turn/BonusTurn.java
+---- a/src/Turn/BonusTurn.java	(revision 83d79fa21533888a2e1ca1965d48d127d608a2ee)
+-+++ b/src/Turn/BonusTurn.java	(date 1669050978867)
+-@@ -1,6 +1,6 @@
+- package Turn;
+- import Cards.CardsValue;
+--import Game.Display;
+-+import Gameflow.Display;
+- 
+- public class BonusTurn extends AbstractTurn {
+-     public TurnResult bonusTurn(short currentPoints, CardsValue cardType) {
+-Index: src/Gameflow/Player.java
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+-<+>package Gameflow;\n\npublic class Player {\n    private final String name;\n    private byte points = 0;\n\n    public Player(String playerName){\n        name = playerName;\n    }\n\n    // How does Game.Player-class know how many points are required to win ? has Game-Class getter method for max points\n   /**\n    public Boolean playerWon(Game G1){\n        byte gamePoints;\n        gamePoints = G1.getGamePoints();\n        return points > gamePoints;\n    }\n    */\n\n    //Is this method needed ? and if yes by whom ?\n    public void addPoints(byte aByte){\n        points += aByte;\n    }\n\n    //Encapsulation wise safe because name final ? Or should a copy be performed ?\n    public String getName(){\n        return name;\n    }\n\n    public byte getPoints(){\n        return points;\n    }\n}\n
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/src/Gameflow/Player.java b/src/Gameflow/Player.java
+---- a/src/Gameflow/Player.java	(revision 83d79fa21533888a2e1ca1965d48d127d608a2ee)
+-+++ b/src/Gameflow/Player.java	(date 1669048316330)
+-@@ -2,24 +2,24 @@
+- 
+- public class Player {
+-     private final String name;
+--    private byte points = 0;
+-+    private short points = 0;
+-+    private short maxPoints; // Player class needs to have this information to provide playerWon method
+- 
+--    public Player(String playerName){
+-+    public Player(String playerName, short maxPoints){
+-         name = playerName;
+-+        this.maxPoints = maxPoints;
+-     }
+- 
+-     // How does Game.Player-class know how many points are required to win ? has Game-Class getter method for max points
+--   /**
+--    public Boolean playerWon(Game G1){
+--        byte gamePoints;
+--        gamePoints = G1.getGamePoints();
+--        return points > gamePoints;
+-+
+-+    public Boolean playerWon(){
+-+        return points > maxPoints;
+-     }
+--    */
+-+
+- 
+-     //Is this method needed ? and if yes by whom ?
+--    public void addPoints(byte aByte){
+--        points += aByte;
+-+    public void addPoints(short aShort){
+-+        points += aShort;
+-     }
+- 
+-     //Encapsulation wise safe because name final ? Or should a copy be performed ?
+-@@ -27,7 +27,7 @@
+-         return name;
+-     }
+- 
+--    public byte getPoints(){
+-+    public short getPoints(){
+-         return points;
+-     }
+- }
+-Index: src/Gameflow/Game.java
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+-<+>package Gameflow;\n\npublic class Game {\n\n    //TODO public short getMaxPoints (for Playerclass)\n\n}\n
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/src/Gameflow/Game.java b/src/Gameflow/Game.java
+---- a/src/Gameflow/Game.java	(revision 83d79fa21533888a2e1ca1965d48d127d608a2ee)
+-+++ b/src/Gameflow/Game.java	(date 1669052630596)
+-@@ -1,7 +1,74 @@
+- package Gameflow;
+- 
+-+import Cards.Card;
+-+import Cards.CardsValue;
+-+import Cards.Deck;
+-+import Turn.*;
+-+
+- public class Game {
+-+    //Singleton Game Object Field:
+-+    private static Game uniqueInstance;
+-+    private final short maxPoints;
+-+    private Player[] players; // = new Player[#
+-+
+-+
+-+    //singleton implementation of Constructor (can only be called by Game.getInstance()) :
+-+    private Game(){
+-+        maxPoints = Input.takeMaxPoints();
+-+        String[] names = Input.takeNames(); //get Player-names
+-+
+-+        // The Player array needs to be initialized with the number Players (= len of names-array) :
+-+        this.players = new Player[names.length];
+- 
+--    //TODO public short getMaxPoints (for Playerclass)
+-+        //For loop to go through names and thereby initialize players
+-+        for(int i = 0; i< names.length; i++){
+-+            players[i] = new Player(names[i], maxPoints);
+-+        }
+-+    }
+-+
+-+    //synchronized getInstance Method to prevent different threads from creating two singleton Objects:
+-+    public static synchronized Game getInstance() {
+-+        if (uniqueInstance == null) {
+-+            uniqueInstance = new Game();
+-+        }
+-+        return uniqueInstance;
+-+    }
+-+
+-+    public void startGameFlow(){
+-+        //boolean isOver = false; //changes to true the moment a player reaches maxPoints
+-+        Deck aDeck = new Deck(); //Card supply
+-+        while(true){
+-+            for(Player aPlayer: players){
+-+                //Ask Player whether he wants to see his score
+-+                char DorR = Input.askUserDR(); //Should be Boolean! if("!"Input.askUserDR())
+-+                if("D".charAt(0) == DorR){
+-+                    System.out.println("You Have got " + aPlayer.getPoints() + "Points.");
+-+                    System.out.println((maxPoints-aPlayer.getPoints()) + " more to go.");
+-+                }
+-+                else{
+-+                    while(true){ //this loop ends when a player has no more dices to choose or he decides to stop his round after a tutto
+-+                        Card aCard = aDeck.getCard();
+-+                        TurnResult result = makeTurn(aPlayer, aCard.getValue());
+-+                        aPlayer.addPoints(result.points);
+-+                        if(!result.isTutto){break;}
+-+                    }
+-+                }
+-+            if(aPlayer.playerWon()){
+-+                System.out.println(aPlayer.getName() + " has won the game! Good Job");
+-+                break;
+-+            }
+-+            }
+-+        }
+-+    }
+-+
+-+    private TurnResult makeTurn(Player player, CardsValue aCardValue){
+-+        //everything above .ordinal 6 are Bonus cards
+-+        if(aCardValue.ordinal() > 6){
+-+            TurnResult resultRound = BonusTurn.bonusTurn(player.getPoints(), aCardValue);
+-+            return resultRound;
+-+        }
+-+        return new TurnResult((short) 3, true);
+-+    }
+-+
+- 
+- }
+-Index: .idea/shelf/Uncommitted_changes_before_Update_at_20_11_2022_20_45__Changes_.xml
+-===================================================================
+-diff --git a/.idea/shelf/Uncommitted_changes_before_Update_at_20_11_2022_20_45__Changes_.xml b/.idea/shelf/Uncommitted_changes_before_Update_at_20_11_2022_20_45__Changes_.xml
+-deleted file mode 100644
+---- a/.idea/shelf/Uncommitted_changes_before_Update_at_20_11_2022_20_45__Changes_.xml	(revision 83d79fa21533888a2e1ca1965d48d127d608a2ee)
+-+++ /dev/null	(revision 83d79fa21533888a2e1ca1965d48d127d608a2ee)
+-@@ -1,4 +0,0 @@
+--<changelist name="Uncommitted_changes_before_Update_at_20_11_2022_20_45_[Changes]" date="1668973548335" recycled="false" toDelete="true">
+--  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_20_11_2022_20_45_[Changes]/shelved.patch" />
+--  <option name="DESCRIPTION" value="Uncommitted changes before Update at 20.11.2022 20:45 [Changes]" />
+--</changelist>
+-\ No newline at end of file
+-Index: .idea/shelf/Uncommitted_changes_before_Update_at_18_11_2022_14_31__Changes_.xml
+-===================================================================
+-diff --git a/.idea/shelf/Uncommitted_changes_before_Update_at_18_11_2022_14_31__Changes_.xml b/.idea/shelf/Uncommitted_changes_before_Update_at_18_11_2022_14_31__Changes_.xml
+-deleted file mode 100644
+---- a/.idea/shelf/Uncommitted_changes_before_Update_at_18_11_2022_14_31__Changes_.xml	(revision 83d79fa21533888a2e1ca1965d48d127d608a2ee)
+-+++ /dev/null	(revision 83d79fa21533888a2e1ca1965d48d127d608a2ee)
+-@@ -1,4 +0,0 @@
+--<changelist name="Uncommitted_changes_before_Update_at_18_11_2022_14_31_[Changes]" date="1668778291935" recycled="true" deleted="true">
+--  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_18_11_2022_14_31_[Changes]/shelved.patch" />
+--  <option name="DESCRIPTION" value="Uncommitted changes before Update at 18.11.2022 14:31 [Changes]" />
+--</changelist>
+-\ No newline at end of file
+-Index: .idea/workspace.xml
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+-<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"AutoImportSettings\">\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\n  </component>\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"b577d954-8adb-45f0-8cd3-77c2a40a1194\" name=\"Changes\" comment=\"\">\n      <change beforePath=\"$PROJECT_DIR$/src/Main.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/Main.java\" afterDir=\"false\" />\n    </list>\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"FileTemplateManagerImpl\">\n    <option name=\"RECENT_TEMPLATES\">\n      <list>\n        <option value=\"Enum\" />\n        <option value=\"Class\" />\n      </list>\n    </option>\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"MarkdownSettingsMigration\">\n    <option name=\"stateVersion\" value=\"1\" />\n  </component>\n  <component name=\"ProjectId\" id=\"2HiojMgcsYG36dHDnxZdjmldgRR\" />\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\">\n    <ConfirmationsSetting value=\"2\" id=\"Add\" />\n  </component>\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\">{\n  &quot;keyToString&quot;: {\n    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\n    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,\n    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,\n    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,\n    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;\n  }\n}</component>\n  <component name=\"RecentsManager\">\n    <key name=\"MoveClassesOrPackagesDialog.RECENTS_KEY\">\n      <recent name=\"Game\" />\n    </key>\n    <key name=\"CopyClassDialog.RECENTS_KEY\">\n      <recent name=\"Turn\" />\n    </key>\n  </component>\n  <component name=\"RunManager\">\n    <configuration name=\"Main\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\n      <option name=\"MAIN_CLASS_NAME\" value=\"Main\" />\n      <module name=\"Softcon_TUTTO\" />\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <recent_temporary>\n      <list>\n        <item itemvalue=\"Application.Main\" />\n      </list>\n    </recent_temporary>\n  </component>\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"b577d954-8adb-45f0-8cd3-77c2a40a1194\" name=\"Changes\" comment=\"\" />\n      <created>1668777400139</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1668777400139</updated>\n      <workItem from=\"1668777401501\" duration=\"329000\" />\n      <workItem from=\"1668784770747\" duration=\"3851000\" />\n      <workItem from=\"1668850787697\" duration=\"7141000\" />\n      <workItem from=\"1669018359207\" duration=\"3855000\" />\n    </task>\n    <task id=\"LOCAL-00001\" summary=\"d\">\n      <created>1668778314133</created>\n      <option name=\"number\" value=\"00001\" />\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1668778314133</updated>\n    </task>\n    <task id=\"LOCAL-00002\" summary=\"Turn commit\">\n      <created>1668778512073</created>\n      <option name=\"number\" value=\"00002\" />\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1668778512073</updated>\n    </task>\n    <task id=\"LOCAL-00003\" summary=\"Turn commit\">\n      <created>1668778675492</created>\n      <option name=\"number\" value=\"00003\" />\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1668778675492</updated>\n    </task>\n    <task id=\"LOCAL-00004\" summary=\"Turn commit\">\n      <created>1668780484362</created>\n      <option name=\"number\" value=\"00004\" />\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1668780484362</updated>\n    </task>\n    <task id=\"LOCAL-00005\" summary=\"Turn commit\">\n      <created>1668781274883</created>\n      <option name=\"number\" value=\"00005\" />\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1668781274883</updated>\n    </task>\n    <task id=\"LOCAL-00006\" summary=\"Merge branch 'master' of https://github.com/Elyisha/Softcon_TUTTO&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml\">\n      <created>1668984614481</created>\n      <option name=\"number\" value=\"00006\" />\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1668984614481</updated>\n    </task>\n    <task id=\"LOCAL-00007\" summary=\"Merge branch 'master' of https://github.com/Elyisha/Softcon_TUTTO&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml\">\n      <created>1669021276677</created>\n      <option name=\"number\" value=\"00007\" />\n      <option name=\"presentableId\" value=\"LOCAL-00007\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1669021276677</updated>\n    </task>\n    <task id=\"LOCAL-00008\" summary=\"Merge branch 'master' of https://github.com/Elyisha/Softcon_TUTTO&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml\">\n      <created>1669025266591</created>\n      <option name=\"number\" value=\"00008\" />\n      <option name=\"presentableId\" value=\"LOCAL-00008\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1669025266591</updated>\n    </task>\n    <option name=\"localTasksCounter\" value=\"9\" />\n    <servers />\n  </component>\n  <component name=\"TypeScriptGeneratedFilesManager\">\n    <option name=\"version\" value=\"3\" />\n  </component>\n  <component name=\"Vcs.Log.Tabs.Properties\">\n    <option name=\"TAB_STATES\">\n      <map>\n        <entry key=\"MAIN\">\n          <value>\n            <State />\n          </value>\n        </entry>\n      </map>\n    </option>\n  </component>\n  <component name=\"VcsManagerConfiguration\">\n    <option name=\"CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT\" value=\"false\" />\n    <option name=\"CHECK_NEW_TODO\" value=\"false\" />\n    <MESSAGE value=\"d\" />\n    <MESSAGE value=\"Turn commit\" />\n    <MESSAGE value=\"Display Class &amp; Player Class\" />\n    <MESSAGE value=\"Merge branch 'master' of https://github.com/Elyisha/Softcon_TUTTO&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml\" />\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"Merge branch 'master' of https://github.com/Elyisha/Softcon_TUTTO&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml\" />\n  </component>\n</project>
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+---- a/.idea/workspace.xml	(revision 83d79fa21533888a2e1ca1965d48d127d608a2ee)
+-+++ b/.idea/workspace.xml	(date 1669052408455)
+-@@ -4,8 +4,17 @@
+-     <option name="autoReloadType" value="SELECTIVE" />
+-   </component>
+-   <component name="ChangeListManager">
+--    <list default="true" id="b577d954-8adb-45f0-8cd3-77c2a40a1194" name="Changes" comment="">
+-+    <list default="true" id="53e70105-e171-4356-932f-5dec625c8c62" name="Changes" comment="Display Class &amp; Player Class">
+-+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_18_11_2022_14_31__Changes_.xml" beforeDir="false" />
+-+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_20_11_2022_20_45__Changes_.xml" beforeDir="false" />
+-+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-+      <change beforePath="$PROJECT_DIR$/Softcon_TUTTO.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Softcon_TUTTO.iml" afterDir="false" />
+-+      <change beforePath="$PROJECT_DIR$/src/Cards/Deck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cards/Deck.java" afterDir="false" />
+-+      <change beforePath="$PROJECT_DIR$/src/Gameflow/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Gameflow/Game.java" afterDir="false" />
+-+      <change beforePath="$PROJECT_DIR$/src/Gameflow/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Gameflow/Player.java" afterDir="false" />
+-       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+-+      <change beforePath="$PROJECT_DIR$/src/Turn/AbstractTurn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Turn/AbstractTurn.java" afterDir="false" />
+-+      <change beforePath="$PROJECT_DIR$/src/Turn/BonusTurn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Turn/BonusTurn.java" afterDir="false" />
+-     </list>
+-     <option name="SHOW_DIALOG" value="false" />
+-     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+-@@ -34,16 +43,17 @@
+-     <option name="hideEmptyMiddlePackages" value="true" />
+-     <option name="showLibraryContents" value="true" />
+-   </component>
+--  <component name="PropertiesComponent">{
+--  &quot;keyToString&quot;: {
+--    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+--    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+--    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+--    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+--    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+--    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;
+-+  <component name="PropertiesComponent"><![CDATA[{
+-+  "keyToString": {
+-+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+-+    "RunOnceActivity.ShowReadmeOnStart": "true",
+-+    "WebServerToolWindowFactoryState": "false",
+-+    "last_opened_file_path": "C:/Users/samue/Desktop/Dateien/Universität/Semester 3/Software Construction/Assignment 1/Assignment 1 structured",
+-+    "node.js.detected.package.eslint": "true",
+-+    "node.js.selected.package.eslint": "(autodetect)",
+-+    "node.js.selected.package.tslint": "(autodetect)"
+-   }
+--}</component>
+-+}]]></component>
+-   <component name="RecentsManager">
+-     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+-       <recent name="Game" />
+-@@ -69,7 +79,7 @@
+-   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+-   <component name="TaskManager">
+-     <task active="true" id="Default" summary="Default task">
+--      <changelist id="b577d954-8adb-45f0-8cd3-77c2a40a1194" name="Changes" comment="" />
+-+      <changelist id="53e70105-e171-4356-932f-5dec625c8c62" name="Changes" comment="Display Class &amp; Player Class" />
+-       <created>1668777400139</created>
+-       <option name="number" value="Default" />
+-       <option name="presentableId" value="Default" />
+-@@ -78,6 +88,7 @@
+-       <workItem from="1668784770747" duration="3851000" />
+-       <workItem from="1668850787697" duration="7141000" />
+-       <workItem from="1669018359207" duration="3855000" />
+-+      <workItem from="1669044761231" duration="7589000" />
+-     </task>
+-     <task id="LOCAL-00001" summary="d">
+-       <created>1668778314133</created>
+-Index: src/Main.java
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+-<+>import Dices.*;\nimport Gameflow.Display;\n\npublic class Main {\n\n\n    public static void main(String[] args) {\n        Dice[] dices = new Dice[6]; //stores the dices\n        for (byte i = 0; i < dices.length; i++) { //instantiate the dices (rolls them for the first time)\n            dices[i] = new Dice();\n            dices[i].rollDice();\n        }\n        //System.out.println(dices[2].getDiceNumber().name() == \"FOUR\");\n        for(int i = 0; i<dices.length;++i){\n            Display.displayDice(dices[i].getDiceNumber(), (byte)(i+1));\n        }\n        System.out.println(ValidDice.countPoints(dices));\n\n        dices[2].putAside();\n        Gameflow.Input.decideDice(dices);\n\n        Display.displayDice(diceNumber.FIVE, (byte) 1);\n        Display.displayDice(diceNumber.TWO, (byte) 2);\n        Display.displayDice(diceNumber.ONE, (byte) 3);\n        Display.displayDice(diceNumber.THREE, (byte) 4);\n\n\n\n\n\n    }\n}\n
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/src/Main.java b/src/Main.java
+---- a/src/Main.java	(revision 83d79fa21533888a2e1ca1965d48d127d608a2ee)
+-+++ b/src/Main.java	(date 1669047402862)
+-@@ -1,32 +1,11 @@
+- import Dices.*;
+- import Gameflow.Display;
+-+import Gameflow.*;
+- 
+- public class Main {
+- 
+- 
+-     public static void main(String[] args) {
+--        Dice[] dices = new Dice[6]; //stores the dices
+--        for (byte i = 0; i < dices.length; i++) { //instantiate the dices (rolls them for the first time)
+--            dices[i] = new Dice();
+--            dices[i].rollDice();
+--        }
+--        //System.out.println(dices[2].getDiceNumber().name() == "FOUR");
+--        for(int i = 0; i<dices.length;++i){
+--            Display.displayDice(dices[i].getDiceNumber(), (byte)(i+1));
+--        }
+--        System.out.println(ValidDice.countPoints(dices));
+--
+--        dices[2].putAside();
+--        Gameflow.Input.decideDice(dices);
+--
+--        Display.displayDice(diceNumber.FIVE, (byte) 1);
+--        Display.displayDice(diceNumber.TWO, (byte) 2);
+--        Display.displayDice(diceNumber.ONE, (byte) 3);
+--        Display.displayDice(diceNumber.THREE, (byte) 4);
+--
+--
+--
+--
+--
+-+    Game G1 = Game.getInstance();
+-     }
+- }
+-Index: Softcon_TUTTO.iml
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+-<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<module type=\"JAVA_MODULE\" version=\"4\">\n  <component name=\"NewModuleRootManager\" inherit-compiler-output=\"true\">\n    <exclude-output />\n    <content url=\"file://$MODULE_DIR$\">\n      <sourceFolder url=\"file://$MODULE_DIR$/src\" isTestSource=\"false\" />\n      <excludeFolder url=\"file://$MODULE_DIR$/src/Turn\" />\n    </content>\n    <orderEntry type=\"inheritedJdk\" />\n    <orderEntry type=\"sourceFolder\" forTests=\"false\" />\n  </component>\n</module>
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/Softcon_TUTTO.iml b/Softcon_TUTTO.iml
+---- a/Softcon_TUTTO.iml	(revision 83d79fa21533888a2e1ca1965d48d127d608a2ee)
+-+++ b/Softcon_TUTTO.iml	(date 1669050584269)
+-@@ -4,7 +4,6 @@
+-     <exclude-output />
+-     <content url="file://$MODULE_DIR$">
+-       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+--      <excludeFolder url="file://$MODULE_DIR$/src/Turn" />
+-     </content>
+-     <orderEntry type="inheritedJdk" />
+-     <orderEntry type="sourceFolder" forTests="false" />
+Index: .idea/shelf/Uncommitted_changes_before_Update_at_21_11_2022_17_45__Changes_.xml
+===================================================================
+diff --git a/.idea/shelf/Uncommitted_changes_before_Update_at_21_11_2022_17_45__Changes_.xml b/.idea/shelf/Uncommitted_changes_before_Update_at_21_11_2022_17_45__Changes_.xml
+deleted file mode 100644
+--- a/.idea/shelf/Uncommitted_changes_before_Update_at_21_11_2022_17_45__Changes_.xml	(revision 32ac646c7715c75d85302554689c780fd2a7f513)
++++ /dev/null	(revision 32ac646c7715c75d85302554689c780fd2a7f513)
+@@ -1,4 +0,0 @@
+-<changelist name="Uncommitted_changes_before_Update_at_21_11_2022_17_45_[Changes]" date="1669049170358" recycled="true" deleted="true">
+-  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_21_11_2022_17_45_[Changes]/shelved.patch" />
+-  <option name="DESCRIPTION" value="Uncommitted changes before Update at 21.11.2022 17:45 [Changes]" />
+-</changelist>
+\ No newline at end of file
+Index: .idea/shelf/Uncommitted_changes_before_Update_at_21_11_2022_18_46__Changes_.xml
+===================================================================
+diff --git a/.idea/shelf/Uncommitted_changes_before_Update_at_21_11_2022_18_46__Changes_.xml b/.idea/shelf/Uncommitted_changes_before_Update_at_21_11_2022_18_46__Changes_.xml
+deleted file mode 100644
+--- a/.idea/shelf/Uncommitted_changes_before_Update_at_21_11_2022_18_46__Changes_.xml	(revision 32ac646c7715c75d85302554689c780fd2a7f513)
++++ /dev/null	(revision 32ac646c7715c75d85302554689c780fd2a7f513)
+@@ -1,4 +0,0 @@
+-<changelist name="Uncommitted_changes_before_Update_at_21_11_2022_18_46_[Changes]" date="1669052803894" recycled="true" deleted="true">
+-  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_21_11_2022_18_46_[Changes]/shelved.patch" />
+-  <option name="DESCRIPTION" value="Uncommitted changes before Update at 21/11/2022 18:46 [Changes]" />
+-</changelist>
+\ No newline at end of file
+Index: .idea/shelf/Uncommitted_changes_before_Update_at_21_11_2022_10_01_[Changes]/shelved.patch
+===================================================================
+diff --git a/.idea/shelf/Uncommitted_changes_before_Update_at_21_11_2022_10_01_[Changes]/shelved.patch b/.idea/shelf/Uncommitted_changes_before_Update_at_21_11_2022_10_01_[Changes]/shelved.patch
+deleted file mode 100644
+--- a/.idea/shelf/Uncommitted_changes_before_Update_at_21_11_2022_10_01_[Changes]/shelved.patch	(revision 32ac646c7715c75d85302554689c780fd2a7f513)
++++ /dev/null	(revision 32ac646c7715c75d85302554689c780fd2a7f513)
+@@ -1,53 +0,0 @@
+-Index: src/Cards/Deck.java
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+-<+>package Cards;\n\nimport java.util.ArrayList;\nimport java.util.Collections;\nimport java.util.List;\n\npublic class Deck {\n    private List<Card> aCards = new ArrayList<>();\n    //cards that are drawn from the deck are stored here so that the Cardobjects can be reused\n    private List<Card> usedCards = new ArrayList<>();\n\n    private int numCards;\n\n    public Deck() {\n        for (int i = 0; i < 56; i++) {\n            if (i < 1) {\n                aCards.add(new Card(CardsValue.CLOVERLEAF));\n            } else if (i < 6) {\n                aCards.add(new Card(CardsValue.FIREWORK));\n            } else if (i < 16) {\n                aCards.add(new Card(CardsValue.STOP));\n            } else if (i < 21) {\n                aCards.add(new Card(CardsValue.STRAIGHT));\n            } else if (i < 26) {\n                aCards.add(new Card(CardsValue.PLUSMINUS));\n            } else if (i < 31) {\n                aCards.add(new Card(CardsValue.TIMESTWO));\n            } else if (i < 36) {\n                aCards.add(new Card(CardsValue.BONUS200));\n            } else if (i < 41) {\n                aCards.add(new Card(CardsValue.BONUS300));\n            } else if (i < 46) {\n                aCards.add(new Card(CardsValue.BONUS400));\n            } else if (i < 51) {\n                aCards.add(new Card(CardsValue.BONUS500));\n            } else {\n                aCards.add(new Card(CardsValue.BONUS600));\n            }\n        }\n        Collections.shuffle(aCards);\n    }\n\n\n    public Card getCard() {\n        System.out.println(aCards.size());\n        if (!isEmpty()) {\n            Card aCard = aCards.get(0);\n            usedCards.add(aCard);\n            aCards.remove(0);\n            System.out.println(aCards.size());\n            return aCard;\n        } else {\n            //In case that there are no more cards left in the deck\n            //The ArrayList usedCards is going to be aCards and aCards\n            //is going to be shuffled\n            List<Card> copy = new ArrayList<>();\n            copy = aCards;\n            aCards = usedCards;\n            usedCards = copy;\n            Collections.shuffle(aCards);\n            return getCard();\n        }\n    }\n\n    private Boolean isEmpty() {\n        return (aCards.size() == 0);\n    }\n}\n
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/src/Cards/Deck.java b/src/Cards/Deck.java
+---- a/src/Cards/Deck.java	(revision 332f8f60a239cadef89b3b9eeddb14fb9ee1b930)
+-+++ b/src/Cards/Deck.java	(date 1669020372517)
+-@@ -6,7 +6,7 @@
+- 
+- public class Deck {
+-     private List<Card> aCards = new ArrayList<>();
+--    //cards that are drawn from the deck are stored here so that the Cardobjects can be reused
+-+    //cards that are drawn from the deck are stored in usedCards so that the Cardobjects can be reused
+-     private List<Card> usedCards = new ArrayList<>();
+- 
+-     private int numCards;
+-Index: .idea/workspace.xml
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+-<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"AutoImportSettings\">\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\n  </component>\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"b577d954-8adb-45f0-8cd3-77c2a40a1194\" name=\"Changes\" comment=\"Merge branch 'master' of https://github.com/Elyisha/Softcon_TUTTO&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml\">\n      <change afterPath=\"$PROJECT_DIR$/src/Turn/BonusTurn.java\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/src/Turn/FireworksTurn.java\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/src/Turn/TurnResult.java\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/.gitignore\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.gitignore\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_18_11_2022_14_32__Changes_.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_18_11_2022_14_32__Changes_.xml\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_18_11_2022_17_47__Changes_.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_18_11_2022_17_47__Changes_.xml\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_18_11_2022_17_47__Changes_1.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_18_11_2022_17_47__Changes_1.xml\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_19_11_2022_15_18__Changes_.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_19_11_2022_15_18__Changes_.xml\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/Dices/Dice.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/Dices/Dice.java\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/Turn.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/Turn.java\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/Turn/AbstractTurn.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/Turn/AbstractTurn.java\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/Turn/fireworksTurn.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/Turn/TwoTimesTurn.java\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/Turn/stopperTurn.java\" beforeDir=\"false\" />\n    </list>\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"FileTemplateManagerImpl\">\n    <option name=\"RECENT_TEMPLATES\">\n      <list>\n        <option value=\"Enum\" />\n        <option value=\"Class\" />\n      </list>\n    </option>\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"MarkdownSettingsMigration\">\n    <option name=\"stateVersion\" value=\"1\" />\n  </component>\n  <component name=\"ProjectId\" id=\"2HiojMgcsYG36dHDnxZdjmldgRR\" />\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\">\n    <ConfirmationsSetting value=\"2\" id=\"Add\" />\n  </component>\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\">{\n  &quot;keyToString&quot;: {\n    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\n    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,\n    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,\n    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,\n    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;\n  }\n}</component>\n  <component name=\"RecentsManager\">\n    <key name=\"CopyClassDialog.RECENTS_KEY\">\n      <recent name=\"Turn\" />\n    </key>\n  </component>\n  <component name=\"RunManager\">\n    <configuration name=\"Main\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\n      <option name=\"MAIN_CLASS_NAME\" value=\"Main\" />\n      <module name=\"Softcon_TUTTO\" />\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <recent_temporary>\n      <list>\n        <item itemvalue=\"Application.Main\" />\n      </list>\n    </recent_temporary>\n  </component>\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"53e70105-e171-4356-932f-5dec625c8c62\" name=\"Changes\" comment=\"\" />\n      <created>1668777400139</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1668777400139</updated>\n      <workItem from=\"1668777401501\" duration=\"329000\" />\n      <workItem from=\"1668784770747\" duration=\"3851000\" />\n      <workItem from=\"1668850787697\" duration=\"7141000\" />\n    </task>\n    <task id=\"LOCAL-00001\" summary=\"d\">\n      <created>1668778314133</created>\n      <option name=\"number\" value=\"00001\" />\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1668778314133</updated>\n    </task>\n    <task id=\"LOCAL-00002\" summary=\"Turn commit\">\n      <created>1668778512073</created>\n      <option name=\"number\" value=\"00002\" />\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1668778512073</updated>\n    </task>\n    <task id=\"LOCAL-00003\" summary=\"Turn commit\">\n      <created>1668778675492</created>\n      <option name=\"number\" value=\"00003\" />\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1668778675492</updated>\n    </task>\n    <task id=\"LOCAL-00004\" summary=\"Turn commit\">\n      <created>1668780484362</created>\n      <option name=\"number\" value=\"00004\" />\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1668780484362</updated>\n    </task>\n    <task id=\"LOCAL-00005\" summary=\"Turn commit\">\n      <created>1668781274883</created>\n      <option name=\"number\" value=\"00005\" />\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1668781274883</updated>\n    </task>\n    <option name=\"localTasksCounter\" value=\"6\" />\n    <servers />\n  </component>\n  <component name=\"TypeScriptGeneratedFilesManager\">\n    <option name=\"version\" value=\"3\" />\n  </component>\n  <component name=\"Vcs.Log.Tabs.Properties\">\n    <option name=\"TAB_STATES\">\n      <map>\n        <entry key=\"MAIN\">\n          <value>\n            <State />\n          </value>\n        </entry>\n      </map>\n    </option>\n  </component>\n  <component name=\"VcsManagerConfiguration\">\n    <MESSAGE value=\"d\" />\n    <MESSAGE value=\"Turn commit\" />\n    <MESSAGE value=\"Display Class &amp; Player Class\" />\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"Display Class &amp; Player Class\" />\n  </component>\n</project>
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+---- a/.idea/workspace.xml	(revision 332f8f60a239cadef89b3b9eeddb14fb9ee1b930)
+-+++ b/.idea/workspace.xml	(date 1669021131694)
+-@@ -4,21 +4,8 @@
+-     <option name="autoReloadType" value="SELECTIVE" />
+-   </component>
+-   <component name="ChangeListManager">
+--    <list default="true" id="b577d954-8adb-45f0-8cd3-77c2a40a1194" name="Changes" comment="Merge branch 'master' of https://github.com/Elyisha/Softcon_TUTTO&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
+--      <change afterPath="$PROJECT_DIR$/src/Turn/BonusTurn.java" afterDir="false" />
+--      <change afterPath="$PROJECT_DIR$/src/Turn/FireworksTurn.java" afterDir="false" />
+--      <change afterPath="$PROJECT_DIR$/src/Turn/TurnResult.java" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_18_11_2022_14_32__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_18_11_2022_14_32__Changes_.xml" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_18_11_2022_17_47__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_18_11_2022_17_47__Changes_.xml" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_18_11_2022_17_47__Changes_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_18_11_2022_17_47__Changes_1.xml" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_19_11_2022_15_18__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_19_11_2022_15_18__Changes_.xml" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/src/Dices/Dice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Dices/Dice.java" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/src/Turn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Turn.java" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/src/Turn/AbstractTurn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Turn/AbstractTurn.java" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/src/Turn/fireworksTurn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Turn/TwoTimesTurn.java" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/src/Turn/stopperTurn.java" beforeDir="false" />
+-+    <list default="true" id="53e70105-e171-4356-932f-5dec625c8c62" name="Changes" comment="Display Class &amp; Player Class">
+-+      <change beforePath="$PROJECT_DIR$/src/Cards/Deck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cards/Deck.java" afterDir="false" />
+-     </list>
+-     <option name="SHOW_DIALOG" value="false" />
+-     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+Index: .idea/shelf/Uncommitted_changes_before_Update_at_21_11_2022_09_46_[Changes]/shelved.patch
+===================================================================
+diff --git a/.idea/shelf/Uncommitted_changes_before_Update_at_21_11_2022_09_46_[Changes]/shelved.patch b/.idea/shelf/Uncommitted_changes_before_Update_at_21_11_2022_09_46_[Changes]/shelved.patch
+deleted file mode 100644
+--- a/.idea/shelf/Uncommitted_changes_before_Update_at_21_11_2022_09_46_[Changes]/shelved.patch	(revision 32ac646c7715c75d85302554689c780fd2a7f513)
++++ /dev/null	(revision 32ac646c7715c75d85302554689c780fd2a7f513)
+@@ -1,49 +0,0 @@
+-Index: src/Cards/Deck.java
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+-<+>package Cards;\n\nimport java.util.ArrayList;\nimport java.util.Collections;\nimport java.util.List;\n\npublic class Deck {\n    private List<Card> aCards = new ArrayList<>();\n    //cards that are drawn from the deck are stored here so that the Cardobjects can be reused\n    private List<Card> usedCards = new ArrayList<>();\n\n    private int numCards;\n\n    public Deck() {\n        for (int i = 0; i < 56; i++) {\n            if (i < 1) {\n                aCards.add(new Card(CardsValue.CLOVERLEAF));\n            } else if (i < 6) {\n                aCards.add(new Card(CardsValue.FIREWORK));\n            } else if (i < 16) {\n                aCards.add(new Card(CardsValue.STOP));\n            } else if (i < 21) {\n                aCards.add(new Card(CardsValue.STRAIGHT));\n            } else if (i < 26) {\n                aCards.add(new Card(CardsValue.PLUSMINUS));\n            } else if (i < 31) {\n                aCards.add(new Card(CardsValue.TIMESTWO));\n            } else if (i < 36) {\n                aCards.add(new Card(CardsValue.BONUS200));\n            } else if (i < 41) {\n                aCards.add(new Card(CardsValue.BONUS300));\n            } else if (i < 46) {\n                aCards.add(new Card(CardsValue.BONUS400));\n            } else if (i < 51) {\n                aCards.add(new Card(CardsValue.BONUS500));\n            } else {\n                aCards.add(new Card(CardsValue.BONUS600));\n            }\n        }\n        Collections.shuffle(aCards);\n    }\n\n\n    public Card getCard() {\n        System.out.println(aCards.size());\n        if (!isEmpty()) {\n            Card aCard = aCards.get(0);\n            usedCards.add(aCard);\n            aCards.remove(0);\n            System.out.println(aCards.size());\n            return aCard;\n        } else {\n            //In case that there are no more cards left in the deck\n            //The ArrayList usedCards is going to be aCards and aCards\n            //is going to be shuffled\n            List<Card> copy = new ArrayList<>();\n            copy = aCards;\n            aCards = usedCards;\n            usedCards = copy;\n            Collections.shuffle(aCards);\n            return getCard();\n        }\n    }\n\n    private Boolean isEmpty() {\n        return (aCards.size() == 0);\n    }\n}\n
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/src/Cards/Deck.java b/src/Cards/Deck.java
+---- a/src/Cards/Deck.java	(revision a8dbb4ffcbc8d7b39d31054ca7b7c0d6b24c1fc4)
+-+++ b/src/Cards/Deck.java	(date 1668935116745)
+-@@ -6,7 +6,7 @@
+- 
+- public class Deck {
+-     private List<Card> aCards = new ArrayList<>();
+--    //cards that are drawn from the deck are stored here so that the Cardobjects can be reused
+-+    //cards that are drawn from the deck are stored in usedCards so that the Cardobjects can be reused
+-     private List<Card> usedCards = new ArrayList<>();
+- 
+-     private int numCards;
+-Index: .idea/workspace.xml
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+-<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"AutoImportSettings\">\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\n  </component>\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"b577d954-8adb-45f0-8cd3-77c2a40a1194\" name=\"Changes\" comment=\"Merge branch 'master' of https://github.com/Elyisha/Softcon_TUTTO&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml\">\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/Main.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/Main.java\" afterDir=\"false\" />\n    </list>\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"FileTemplateManagerImpl\">\n    <option name=\"RECENT_TEMPLATES\">\n      <list>\n        <option value=\"Enum\" />\n        <option value=\"Class\" />\n      </list>\n    </option>\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"MarkdownSettingsMigration\">\n    <option name=\"stateVersion\" value=\"1\" />\n  </component>\n  <component name=\"ProjectId\" id=\"2HiojMgcsYG36dHDnxZdjmldgRR\" />\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\">\n    <ConfirmationsSetting value=\"2\" id=\"Add\" />\n  </component>\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\">{\n  &quot;keyToString&quot;: {\n    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\n    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,\n    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,\n    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,\n    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;\n  }\n}</component>\n  <component name=\"RunManager\">\n    <configuration name=\"Main\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\n      <option name=\"MAIN_CLASS_NAME\" value=\"Main\" />\n      <module name=\"Softcon_TUTTO\" />\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <recent_temporary>\n      <list>\n        <item itemvalue=\"Application.Main\" />\n      </list>\n    </recent_temporary>\n  </component>\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"53e70105-e171-4356-932f-5dec625c8c62\" name=\"Changes\" comment=\"\" />\n      <created>1668777400139</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1668777400139</updated>\n      <workItem from=\"1668777401501\" duration=\"329000\" />\n      <workItem from=\"1668784770747\" duration=\"3851000\" />\n      <workItem from=\"1668850787697\" duration=\"7141000\" />\n    </task>\n    <task id=\"LOCAL-00001\" summary=\"d\">\n      <created>1668778314133</created>\n      <option name=\"number\" value=\"00001\" />\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1668778314133</updated>\n    </task>\n    <task id=\"LOCAL-00002\" summary=\"Turn commit\">\n      <created>1668778512073</created>\n      <option name=\"number\" value=\"00002\" />\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1668778512073</updated>\n    </task>\n    <task id=\"LOCAL-00003\" summary=\"Turn commit\">\n      <created>1668778675492</created>\n      <option name=\"number\" value=\"00003\" />\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1668778675492</updated>\n    </task>\n    <task id=\"LOCAL-00004\" summary=\"Turn commit\">\n      <created>1668780484362</created>\n      <option name=\"number\" value=\"00004\" />\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1668780484362</updated>\n    </task>\n    <task id=\"LOCAL-00005\" summary=\"Turn commit\">\n      <created>1668781274883</created>\n      <option name=\"number\" value=\"00005\" />\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1668781274883</updated>\n    </task>\n    <option name=\"localTasksCounter\" value=\"6\" />\n    <servers />\n  </component>\n  <component name=\"TypeScriptGeneratedFilesManager\">\n    <option name=\"version\" value=\"3\" />\n  </component>\n  <component name=\"Vcs.Log.Tabs.Properties\">\n    <option name=\"TAB_STATES\">\n      <map>\n        <entry key=\"MAIN\">\n          <value>\n            <State />\n          </value>\n        </entry>\n      </map>\n    </option>\n  </component>\n  <component name=\"VcsManagerConfiguration\">\n    <MESSAGE value=\"d\" />\n    <MESSAGE value=\"Turn commit\" />\n    <MESSAGE value=\"Display Class &amp; Player Class\" />\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"Display Class &amp; Player Class\" />\n  </component>\n</project>
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+---- a/.idea/workspace.xml	(revision a8dbb4ffcbc8d7b39d31054ca7b7c0d6b24c1fc4)
+-+++ b/.idea/workspace.xml	(date 1668935122866)
+-@@ -4,9 +4,9 @@
+-     <option name="autoReloadType" value="SELECTIVE" />
+-   </component>
+-   <component name="ChangeListManager">
+--    <list default="true" id="b577d954-8adb-45f0-8cd3-77c2a40a1194" name="Changes" comment="Merge branch 'master' of https://github.com/Elyisha/Softcon_TUTTO&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
+-+    <list default="true" id="53e70105-e171-4356-932f-5dec625c8c62" name="Changes" comment="Display Class &amp; Player Class">
+-       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+-+      <change beforePath="$PROJECT_DIR$/src/Cards/Deck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cards/Deck.java" afterDir="false" />
+-     </list>
+-     <option name="SHOW_DIALOG" value="false" />
+-     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+-@@ -70,6 +70,7 @@
+-       <workItem from="1668777401501" duration="329000" />
+-       <workItem from="1668784770747" duration="3851000" />
+-       <workItem from="1668850787697" duration="7141000" />
+-+      <workItem from="1668935009836" duration="113000" />
+-     </task>
+-     <task id="LOCAL-00001" summary="d">
+-       <created>1668778314133</created>
+Index: .idea/shelf/Uncommitted_changes_before_Update_at_21_11_2022_17_45_[Changes]/shelved.patch
+===================================================================
+diff --git a/.idea/shelf/Uncommitted_changes_before_Update_at_21_11_2022_17_45_[Changes]/shelved.patch b/.idea/shelf/Uncommitted_changes_before_Update_at_21_11_2022_17_45_[Changes]/shelved.patch
+deleted file mode 100644
+--- a/.idea/shelf/Uncommitted_changes_before_Update_at_21_11_2022_17_45_[Changes]/shelved.patch	(revision 32ac646c7715c75d85302554689c780fd2a7f513)
++++ /dev/null	(revision 32ac646c7715c75d85302554689c780fd2a7f513)
+@@ -1,37 +0,0 @@
+-Index: .idea/workspace.xml
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+-<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"b577d954-8adb-45f0-8cd3-77c2a40a1194\" name=\"Changes\" comment=\"\">\r\n      <change beforePath=\"$PROJECT_DIR$/src/Main.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/Main.java\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Enum\" />\r\n        <option value=\"Class\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"MarkdownSettingsMigration\">\r\n    <option name=\"stateVersion\" value=\"1\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"2HiojMgcsYG36dHDnxZdjmldgRR\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\">\r\n    <ConfirmationsSetting value=\"2\" id=\"Add\" />\r\n  </component>\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">{\r\n  &quot;keyToString&quot;: {\r\n    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,\r\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\r\n    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,\r\n    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,\r\n    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,\r\n    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;\r\n  }\r\n}</component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"MoveClassesOrPackagesDialog.RECENTS_KEY\">\r\n      <recent name=\"Game\" />\r\n    </key>\r\n    <key name=\"CopyClassDialog.RECENTS_KEY\">\r\n      <recent name=\"Turn\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"RunManager\">\r\n    <configuration name=\"Main\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"Main\" />\r\n      <module name=\"Softcon_TUTTO\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"Application.Main\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"b577d954-8adb-45f0-8cd3-77c2a40a1194\" name=\"Changes\" comment=\"\" />\r\n      <created>1668777400139</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1668777400139</updated>\r\n      <workItem from=\"1668777401501\" duration=\"329000\" />\r\n      <workItem from=\"1668784770747\" duration=\"3851000\" />\r\n      <workItem from=\"1668850787697\" duration=\"7141000\" />\r\n      <workItem from=\"1669018359207\" duration=\"3855000\" />\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"d\">\r\n      <created>1668778314133</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1668778314133</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"Turn commit\">\r\n      <created>1668778512073</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1668778512073</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"Turn commit\">\r\n      <created>1668778675492</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1668778675492</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00004\" summary=\"Turn commit\">\r\n      <created>1668780484362</created>\r\n      <option name=\"number\" value=\"00004\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1668780484362</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00005\" summary=\"Turn commit\">\r\n      <created>1668781274883</created>\r\n      <option name=\"number\" value=\"00005\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1668781274883</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00006\" summary=\"Merge branch 'master' of https://github.com/Elyisha/Softcon_TUTTO&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml\">\r\n      <created>1668984614481</created>\r\n      <option name=\"number\" value=\"00006\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1668984614481</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00007\" summary=\"Merge branch 'master' of https://github.com/Elyisha/Softcon_TUTTO&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml\">\r\n      <created>1669021276677</created>\r\n      <option name=\"number\" value=\"00007\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00007\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1669021276677</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00008\" summary=\"Merge branch 'master' of https://github.com/Elyisha/Softcon_TUTTO&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml\">\r\n      <created>1669025266591</created>\r\n      <option name=\"number\" value=\"00008\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00008\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1669025266591</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"9\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <option name=\"CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT\" value=\"false\" />\r\n    <option name=\"CHECK_NEW_TODO\" value=\"false\" />\r\n    <MESSAGE value=\"d\" />\r\n    <MESSAGE value=\"Turn commit\" />\r\n    <MESSAGE value=\"Display Class &amp; Player Class\" />\r\n    <MESSAGE value=\"Merge branch 'master' of https://github.com/Elyisha/Softcon_TUTTO&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"Merge branch 'master' of https://github.com/Elyisha/Softcon_TUTTO&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml\" />\r\n  </component>\r\n</project>
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+---- a/.idea/workspace.xml	(revision 83d79fa21533888a2e1ca1965d48d127d608a2ee)
+-+++ b/.idea/workspace.xml	(date 1669025466463)
+-@@ -4,9 +4,7 @@
+-     <option name="autoReloadType" value="SELECTIVE" />
+-   </component>
+-   <component name="ChangeListManager">
+--    <list default="true" id="b577d954-8adb-45f0-8cd3-77c2a40a1194" name="Changes" comment="">
+--      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+--    </list>
+-+    <list default="true" id="b577d954-8adb-45f0-8cd3-77c2a40a1194" name="Changes" comment="" />
+-     <option name="SHOW_DIALOG" value="false" />
+-     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+-     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+-@@ -135,7 +133,14 @@
+-       <option name="project" value="LOCAL" />
+-       <updated>1669025266591</updated>
+-     </task>
+--    <option name="localTasksCounter" value="9" />
+-+    <task id="LOCAL-00009" summary="Merge branch 'master' of https://github.com/Elyisha/Softcon_TUTTO&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
+-+      <created>1669025421477</created>
+-+      <option name="number" value="00009" />
+-+      <option name="presentableId" value="LOCAL-00009" />
+-+      <option name="project" value="LOCAL" />
+-+      <updated>1669025421477</updated>
+-+    </task>
+-+    <option name="localTasksCounter" value="10" />
+-     <servers />
+-   </component>
+-   <component name="TypeScriptGeneratedFilesManager">
+Index: .idea/shelf/Uncommitted_changes_before_Update_at_21_11_2022_11_04__Changes_.xml
+===================================================================
+diff --git a/.idea/shelf/Uncommitted_changes_before_Update_at_21_11_2022_11_04__Changes_.xml b/.idea/shelf/Uncommitted_changes_before_Update_at_21_11_2022_11_04__Changes_.xml
+deleted file mode 100644
+--- a/.idea/shelf/Uncommitted_changes_before_Update_at_21_11_2022_11_04__Changes_.xml	(revision 32ac646c7715c75d85302554689c780fd2a7f513)
++++ /dev/null	(revision 32ac646c7715c75d85302554689c780fd2a7f513)
+@@ -1,4 +0,0 @@
+-<changelist name="Uncommitted_changes_before_Update_at_21_11_2022_11_04_[Changes]" date="1669025076021" recycled="true" deleted="true">
+-  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_21_11_2022_11_04_[Changes]/shelved.patch" />
+-  <option name="DESCRIPTION" value="Uncommitted changes before Update at 21/11/2022 11:04 [Changes]" />
+-</changelist>
+\ No newline at end of file
+Index: .idea/shelf/Uncommitted_changes_before_Update_at_21_11_2022_18_49__Changes_.xml
+===================================================================
+diff --git a/.idea/shelf/Uncommitted_changes_before_Update_at_21_11_2022_18_49__Changes_.xml b/.idea/shelf/Uncommitted_changes_before_Update_at_21_11_2022_18_49__Changes_.xml
+deleted file mode 100644
+--- a/.idea/shelf/Uncommitted_changes_before_Update_at_21_11_2022_18_49__Changes_.xml	(revision 32ac646c7715c75d85302554689c780fd2a7f513)
++++ /dev/null	(revision 32ac646c7715c75d85302554689c780fd2a7f513)
+@@ -1,4 +0,0 @@
+-<changelist name="Uncommitted_changes_before_Update_at_21_11_2022_18_49_[Changes]" date="1669052989856" recycled="true" deleted="true">
+-  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_21_11_2022_18_49_[Changes]/shelved.patch" />
+-  <option name="DESCRIPTION" value="Uncommitted changes before Update at 21.11.2022 18:49 [Changes]" />
+-</changelist>
+\ No newline at end of file
+Index: .idea/shelf/Uncommitted_changes_before_Update_at_21_11_2022_11_05__Changes_.xml
+===================================================================
+diff --git a/.idea/shelf/Uncommitted_changes_before_Update_at_21_11_2022_11_05__Changes_.xml b/.idea/shelf/Uncommitted_changes_before_Update_at_21_11_2022_11_05__Changes_.xml
+deleted file mode 100644
+--- a/.idea/shelf/Uncommitted_changes_before_Update_at_21_11_2022_11_05__Changes_.xml	(revision 32ac646c7715c75d85302554689c780fd2a7f513)
++++ /dev/null	(revision 32ac646c7715c75d85302554689c780fd2a7f513)
+@@ -1,4 +0,0 @@
+-<changelist name="Uncommitted_changes_before_Update_at_21_11_2022_11_05_[Changes]" date="1669025123329" recycled="true" deleted="true">
+-  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_21_11_2022_11_05_[Changes]/shelved.patch" />
+-  <option name="DESCRIPTION" value="Uncommitted changes before Update at 21/11/2022 11:05 [Changes]" />
+-</changelist>
+\ No newline at end of file
+Index: .idea/shelf/Uncommitted_changes_before_Update_at_21_11_2022_11_18__Changes_.xml
+===================================================================
+diff --git a/.idea/shelf/Uncommitted_changes_before_Update_at_21_11_2022_11_18__Changes_.xml b/.idea/shelf/Uncommitted_changes_before_Update_at_21_11_2022_11_18__Changes_.xml
+deleted file mode 100644
+--- a/.idea/shelf/Uncommitted_changes_before_Update_at_21_11_2022_11_18__Changes_.xml	(revision 32ac646c7715c75d85302554689c780fd2a7f513)
++++ /dev/null	(revision 32ac646c7715c75d85302554689c780fd2a7f513)
+@@ -1,4 +0,0 @@
+-<changelist name="Uncommitted_changes_before_Update_at_21_11_2022_11_18_[Changes]" date="1669025930583" recycled="true" deleted="true">
+-  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_21_11_2022_11_18_[Changes]/shelved.patch" />
+-  <option name="DESCRIPTION" value="Uncommitted changes before Update at 21/11/2022 11:18 [Changes]" />
+-</changelist>
+\ No newline at end of file
+Index: .idea/shelf/Uncommitted_changes_before_Update_at_21_11_2022_11_04_[Changes]/shelved.patch
+===================================================================
+diff --git a/.idea/shelf/Uncommitted_changes_before_Update_at_21_11_2022_11_04_[Changes]/shelved.patch b/.idea/shelf/Uncommitted_changes_before_Update_at_21_11_2022_11_04_[Changes]/shelved.patch
+deleted file mode 100644
+--- a/.idea/shelf/Uncommitted_changes_before_Update_at_21_11_2022_11_04_[Changes]/shelved.patch	(revision 32ac646c7715c75d85302554689c780fd2a7f513)
++++ /dev/null	(revision 32ac646c7715c75d85302554689c780fd2a7f513)
+@@ -1,134 +0,0 @@
+-Index: src/Main.java
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+-<+>import Dices.*;\nimport Game.Display;\n\npublic class Main {\n\n\n    public static void main(String[] args) {\n        Dice[] dices = new Dice[6]; //stores the dices\n        for (byte i = 0; i < dices.length; i++) { //instantiate the dices (rolls them for the first time)\n            dices[i] = new Dice();\n        }\n        //System.out.println(dices[2].getDiceNumber().name() == \"FOUR\");\n        for(int i = 0; i<dices.length;++i){\n            Display.displayDice(dices[i].getDiceNumber());\n        }\n        System.out.println(ValidDice.countPoints(dices));\n        /*\n        dices[2].putAside();\n        Game.Input.decideDice(dices);\n*/\n\n\n\n\n    }\n}\n
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/src/Main.java b/src/Main.java
+---- a/src/Main.java	(revision d0abfe963108169e080b353fe90ff251cfca1d43)
+-+++ b/src/Main.java	(date 1669025063296)
+-@@ -14,10 +14,15 @@
+-             Display.displayDice(dices[i].getDiceNumber());
+-         }
+-         System.out.println(ValidDice.countPoints(dices));
+--        /*
+-+
+-         dices[2].putAside();
+-         Game.Input.decideDice(dices);
+--*/
+-+
+-+        Display.displayDice(diceNumber.FIVE, (byte) 1);
+-+        Display.displayDice(diceNumber.TWO, (byte) 2);
+-+        Display.displayDice(diceNumber.ONE, (byte) 3);
+-+        Display.displayDice(diceNumber.THREE, (byte) 4);
+-+
+- 
+- 
+- 
+-Index: src/Cards/Deck.java
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+-<+>package Cards;\n\nimport java.util.ArrayList;\nimport java.util.Collections;\nimport java.util.List;\n\npublic class Deck {\n    private List<Card> aCards = new ArrayList<>();\n    //cards that are drawn from the deck are stored here so that the Cardobjects can be reused\n    private List<Card> usedCards = new ArrayList<>();\n\n    private int numCards;\n\n    public Deck() {\n        for (int i = 0; i < 56; i++) {\n            if (i < 1) {\n                aCards.add(new Card(CardsValue.CLOVERLEAF));\n            } else if (i < 6) {\n                aCards.add(new Card(CardsValue.FIREWORK));\n            } else if (i < 16) {\n                aCards.add(new Card(CardsValue.STOP));\n            } else if (i < 21) {\n                aCards.add(new Card(CardsValue.STRAIGHT));\n            } else if (i < 26) {\n                aCards.add(new Card(CardsValue.PLUSMINUS));\n            } else if (i < 31) {\n                aCards.add(new Card(CardsValue.TIMESTWO));\n            } else if (i < 36) {\n                aCards.add(new Card(CardsValue.BONUS200));\n            } else if (i < 41) {\n                aCards.add(new Card(CardsValue.BONUS300));\n            } else if (i < 46) {\n                aCards.add(new Card(CardsValue.BONUS400));\n            } else if (i < 51) {\n                aCards.add(new Card(CardsValue.BONUS500));\n            } else {\n                aCards.add(new Card(CardsValue.BONUS600));\n            }\n        }\n        Collections.shuffle(aCards);\n    }\n\n\n    public Card getCard() {\n        System.out.println(aCards.size());\n        if (!isEmpty()) {\n            Card aCard = aCards.get(0);\n            usedCards.add(aCard);\n            aCards.remove(0);\n            System.out.println(aCards.size());\n            return aCard;\n        } else {\n            //In case that there are no more cards left in the deck\n            //The ArrayList usedCards is going to be aCards and aCards\n            //is going to be shuffled\n            List<Card> copy = new ArrayList<>();\n            copy = aCards;\n            aCards = usedCards;\n            usedCards = copy;\n            Collections.shuffle(aCards);\n            return getCard();\n        }\n    }\n\n    private Boolean isEmpty() {\n        return (aCards.size() == 0);\n    }\n}\n
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/src/Cards/Deck.java b/src/Cards/Deck.java
+---- a/src/Cards/Deck.java	(revision d0abfe963108169e080b353fe90ff251cfca1d43)
+-+++ b/src/Cards/Deck.java	(date 1669021298387)
+-@@ -6,7 +6,7 @@
+- 
+- public class Deck {
+-     private List<Card> aCards = new ArrayList<>();
+--    //cards that are drawn from the deck are stored here so that the Cardobjects can be reused
+-+    //cards that are drawn from the deck are stored in usedCards so that the Cardobjects can be reused
+-     private List<Card> usedCards = new ArrayList<>();
+- 
+-     private int numCards;
+-Index: src/Game/Display.java
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+-<+>package Game;\n\nimport Cards.*;\nimport Dices.*;\n\npublic class Display {\n\n    public static void displayDice(diceNumber d1) {\n        printUpper();\n        for(int i = 1; i<4; i++){\n            printLeftBox();\n            printInner(d1, i);\n            printRightBox();\n        }\n        printUnder();\n    }\n\n    public static void displayCard(CardsValue c1){\n        System.out.println(\"You drew following card: \" + c1);\n    }\n\n    public static void displayPoints(Player P1){\n        System.out.println(\"You've got \" + P1.getPoints() + \" Points.\");\n    }\n\n    private static void printInner(diceNumber d1, int i){\n        if(d1 == diceNumber.SIX) System.out.print(\" o   o \");\n        else if(d1 == diceNumber.ONE && i == 2) System.out.print(\"   o   \");\n        else if(d1 == diceNumber.TWO && i == 1) System.out.print(\"     o \");\n        else if(d1 == diceNumber.TWO && i == 3) System.out.print(\" o     \");\n        else if(d1 == diceNumber.THREE && i == 1) System.out.print(\"     o \");\n        else if(d1 == diceNumber.THREE && i == 2) System.out.print(\"   o   \");\n        else if(d1 == diceNumber.THREE && i == 3) System.out.print(\" o     \");\n        else if(d1 == diceNumber.FOUR && (i == 3||i==1)) System.out.print(\" o   o \");\n        else if(d1 == diceNumber.FIVE && (i == 3||i==1)) System.out.print(\" o   o \");\n        else if(d1 == diceNumber.FIVE && i == 2) System.out.print(\"   o   \");\n        else System.out.print(\"       \");\n    }\n\n    private static void printUpper(){\n        System.out.println(\" _________\");\n    }\n    private static void printLeftBox(){\n        System.out.print(\"| \");\n    }\n    private static void printRightBox(){\n        System.out.println(\" |\");\n    }\n    private static void printUnder(){\n        System.out.println(\"|_________|\");\n    }\n}\n
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/src/Game/Display.java b/src/Game/Display.java
+---- a/src/Game/Display.java	(revision d0abfe963108169e080b353fe90ff251cfca1d43)
+-+++ b/src/Game/Display.java	(date 1669024069101)
+-@@ -5,14 +5,15 @@
+- 
+- public class Display {
+- 
+--    public static void displayDice(diceNumber d1) {
+-+    public static void displayDice(diceNumber d1, byte b) {
+-+        //assert d1 != null;
+-         printUpper();
+-         for(int i = 1; i<4; i++){
+-             printLeftBox();
+-             printInner(d1, i);
+-             printRightBox();
+-         }
+--        printUnder();
+-+        printUnder(b);
+-     }
+- 
+-     public static void displayCard(CardsValue c1){
+-@@ -46,7 +47,7 @@
+-     private static void printRightBox(){
+-         System.out.println(" |");
+-     }
+--    private static void printUnder(){
+--        System.out.println("|_________|");
+-+    private static void printUnder(byte b){
+-+        System.out.println("|_________| " + b);
+-     }
+- }
+-Index: .idea/workspace.xml
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+-<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"AutoImportSettings\">\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\n  </component>\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"b577d954-8adb-45f0-8cd3-77c2a40a1194\" name=\"Changes\" comment=\"\">\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/Display.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/Game/Display.java\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/Input.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/Game/Input.java\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/Main.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/Main.java\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/Player.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/Game/Player.java\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/Turn.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/Turn.java\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/Turn/AbstractTurn.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/Turn/AbstractTurn.java\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/Turn/BonusTurn.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/Turn/BonusTurn.java\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/Turn/TurnResult.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/Turn/TurnResult.java\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/Turn/TwoTimesTurn.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/Turn/TwoTimesTurn.java\" afterDir=\"false\" />\n    </list>\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"FileTemplateManagerImpl\">\n    <option name=\"RECENT_TEMPLATES\">\n      <list>\n        <option value=\"Enum\" />\n        <option value=\"Class\" />\n      </list>\n    </option>\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"MarkdownSettingsMigration\">\n    <option name=\"stateVersion\" value=\"1\" />\n  </component>\n  <component name=\"ProjectId\" id=\"2HiojMgcsYG36dHDnxZdjmldgRR\" />\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\">\n    <ConfirmationsSetting value=\"2\" id=\"Add\" />\n  </component>\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\">{\n  &quot;keyToString&quot;: {\n    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\n    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,\n    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,\n    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,\n    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;\n  }\n}</component>\n  <component name=\"RecentsManager\">\n    <key name=\"MoveClassesOrPackagesDialog.RECENTS_KEY\">\n      <recent name=\"Game\" />\n    </key>\n    <key name=\"CopyClassDialog.RECENTS_KEY\">\n      <recent name=\"Turn\" />\n    </key>\n  </component>\n  <component name=\"RunManager\">\n    <configuration name=\"Main\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\n      <option name=\"MAIN_CLASS_NAME\" value=\"Main\" />\n      <module name=\"Softcon_TUTTO\" />\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <recent_temporary>\n      <list>\n        <item itemvalue=\"Application.Main\" />\n      </list>\n    </recent_temporary>\n  </component>\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"b577d954-8adb-45f0-8cd3-77c2a40a1194\" name=\"Changes\" comment=\"\" />\n      <created>1668777400139</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1668777400139</updated>\n      <workItem from=\"1668777401501\" duration=\"329000\" />\n      <workItem from=\"1668784770747\" duration=\"3851000\" />\n      <workItem from=\"1668850787697\" duration=\"7141000\" />\n      <workItem from=\"1669018359207\" duration=\"2867000\" />\n    </task>\n    <task id=\"LOCAL-00001\" summary=\"d\">\n      <created>1668778314133</created>\n      <option name=\"number\" value=\"00001\" />\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1668778314133</updated>\n    </task>\n    <task id=\"LOCAL-00002\" summary=\"Turn commit\">\n      <created>1668778512073</created>\n      <option name=\"number\" value=\"00002\" />\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1668778512073</updated>\n    </task>\n    <task id=\"LOCAL-00003\" summary=\"Turn commit\">\n      <created>1668778675492</created>\n      <option name=\"number\" value=\"00003\" />\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1668778675492</updated>\n    </task>\n    <task id=\"LOCAL-00004\" summary=\"Turn commit\">\n      <created>1668780484362</created>\n      <option name=\"number\" value=\"00004\" />\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1668780484362</updated>\n    </task>\n    <task id=\"LOCAL-00005\" summary=\"Turn commit\">\n      <created>1668781274883</created>\n      <option name=\"number\" value=\"00005\" />\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1668781274883</updated>\n    </task>\n    <task id=\"LOCAL-00006\" summary=\"Merge branch 'master' of https://github.com/Elyisha/Softcon_TUTTO&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml\">\n      <created>1668984614481</created>\n      <option name=\"number\" value=\"00006\" />\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1668984614481</updated>\n    </task>\n    <option name=\"localTasksCounter\" value=\"7\" />\n    <servers />\n  </component>\n  <component name=\"TypeScriptGeneratedFilesManager\">\n    <option name=\"version\" value=\"3\" />\n  </component>\n  <component name=\"Vcs.Log.Tabs.Properties\">\n    <option name=\"TAB_STATES\">\n      <map>\n        <entry key=\"MAIN\">\n          <value>\n            <State />\n          </value>\n        </entry>\n      </map>\n    </option>\n  </component>\n  <component name=\"VcsManagerConfiguration\">\n    <option name=\"CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT\" value=\"false\" />\n    <option name=\"CHECK_NEW_TODO\" value=\"false\" />\n    <MESSAGE value=\"d\" />\n    <MESSAGE value=\"Turn commit\" />\n    <MESSAGE value=\"Display Class &amp; Player Class\" />\n    <MESSAGE value=\"Merge branch 'master' of https://github.com/Elyisha/Softcon_TUTTO&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml\" />\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"Merge branch 'master' of https://github.com/Elyisha/Softcon_TUTTO&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml\" />\n  </component>\n</project>
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+---- a/.idea/workspace.xml	(revision d0abfe963108169e080b353fe90ff251cfca1d43)
+-+++ b/.idea/workspace.xml	(date 1669024330023)
+-@@ -4,17 +4,12 @@
+-     <option name="autoReloadType" value="SELECTIVE" />
+-   </component>
+-   <component name="ChangeListManager">
+--    <list default="true" id="b577d954-8adb-45f0-8cd3-77c2a40a1194" name="Changes" comment="">
+-+    <list default="true" id="53e70105-e171-4356-932f-5dec625c8c62" name="Changes" comment="Merge branch 'master' of https://github.com/Elyisha/Softcon_TUTTO&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
+-+      <change afterPath="$PROJECT_DIR$/src/Game/Game.java" afterDir="false" />
+-       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/src/Display.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Game/Display.java" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/src/Input.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Game/Input.java" afterDir="false" />
+-+      <change beforePath="$PROJECT_DIR$/src/Cards/Deck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cards/Deck.java" afterDir="false" />
+-+      <change beforePath="$PROJECT_DIR$/src/Game/Display.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Game/Display.java" afterDir="false" />
+-       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/src/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Game/Player.java" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/src/Turn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Turn.java" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/src/Turn/AbstractTurn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Turn/AbstractTurn.java" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/src/Turn/BonusTurn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Turn/BonusTurn.java" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/src/Turn/TurnResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Turn/TurnResult.java" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/src/Turn/TwoTimesTurn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Turn/TwoTimesTurn.java" afterDir="false" />
+-     </list>
+-     <option name="SHOW_DIALOG" value="false" />
+-     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+-Index: src/Game/Game.java
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/src/Game/Game.java b/src/Game/Game.java
+-new file mode 100644
+---- /dev/null	(date 1669023406958)
+-+++ b/src/Game/Game.java	(date 1669023406958)
+-@@ -0,0 +1,7 @@
+-+package Game;
+-+
+-+public class Game {
+-+
+-+    //TODO public short getMaxPoints (for Playerclass)
+-+
+-+}
+Index: .idea/shelf/Uncommitted_changes_before_Update_at_21_11_2022_09_46__Changes_.xml
+===================================================================
+diff --git a/.idea/shelf/Uncommitted_changes_before_Update_at_21_11_2022_09_46__Changes_.xml b/.idea/shelf/Uncommitted_changes_before_Update_at_21_11_2022_09_46__Changes_.xml
+deleted file mode 100644
+--- a/.idea/shelf/Uncommitted_changes_before_Update_at_21_11_2022_09_46__Changes_.xml	(revision 32ac646c7715c75d85302554689c780fd2a7f513)
++++ /dev/null	(revision 32ac646c7715c75d85302554689c780fd2a7f513)
+@@ -1,4 +0,0 @@
+-<changelist name="Uncommitted_changes_before_Update_at_21_11_2022_09_46_[Changes]" date="1669020388817" recycled="true" deleted="true">
+-  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_21_11_2022_09_46_[Changes]/shelved.patch" />
+-  <option name="DESCRIPTION" value="Uncommitted changes before Update at 21/11/2022 09:46 [Changes]" />
+-</changelist>
+\ No newline at end of file
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"b577d954-8adb-45f0-8cd3-77c2a40a1194\" name=\"Changes\" comment=\"\">\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/Cards/StopCard.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/Cards/StopCard.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/Gameflow/Game.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/Gameflow/Game.java\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Enum\" />\r\n        <option value=\"Class\" />\r\n        <option value=\"Interface\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\r\n      <map>\r\n        <entry key=\"$PROJECT_DIR$\" value=\"new-patterns\" />\r\n      </map>\r\n    </option>\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"MarkdownSettingsMigration\">\r\n    <option name=\"stateVersion\" value=\"1\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"2HiojMgcsYG36dHDnxZdjmldgRR\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\">\r\n    <ConfirmationsSetting value=\"2\" id=\"Add\" />\r\n  </component>\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">{\r\n  &quot;keyToString&quot;: {\r\n    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,\r\n    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,\r\n    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,\r\n    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,\r\n    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,\r\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\r\n    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,\r\n    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,\r\n    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,\r\n    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,\r\n    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,\r\n    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,\r\n    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;\r\n  }\r\n}</component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"MoveClassesOrPackagesDialog.RECENTS_KEY\">\r\n      <recent name=\"Game\" />\r\n    </key>\r\n    <key name=\"CopyClassDialog.RECENTS_KEY\">\r\n      <recent name=\"Cards\" />\r\n      <recent name=\"Turn\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"RunManager\" selected=\"Application.Main\">\r\n    <configuration name=\"Main\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"Main\" />\r\n      <module name=\"Softcon_TUTTO\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"CardTest.dummyTest\" type=\"JUnit\" factoryName=\"JUnit\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"Softcon_TUTTO\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"Cards.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <option name=\"PACKAGE_NAME\" value=\"Cards\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"Cards.CardTest\" />\r\n      <option name=\"METHOD_NAME\" value=\"dummyTest\" />\r\n      <option name=\"TEST_OBJECT\" value=\"method\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"Application.Main\" />\r\n        <item itemvalue=\"JUnit.CardTest.dummyTest\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"b577d954-8adb-45f0-8cd3-77c2a40a1194\" name=\"Changes\" comment=\"\" />\r\n      <created>1668777400139</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1668777400139</updated>\r\n      <workItem from=\"1668777401501\" duration=\"329000\" />\r\n      <workItem from=\"1668784770747\" duration=\"3851000\" />\r\n      <workItem from=\"1668850787697\" duration=\"7141000\" />\r\n      <workItem from=\"1669018359207\" duration=\"3855000\" />\r\n      <workItem from=\"1669042981813\" duration=\"3156000\" />\r\n      <workItem from=\"1669056979842\" duration=\"7063000\" />\r\n      <workItem from=\"1669105098175\" duration=\"1233000\" />\r\n      <workItem from=\"1669109304538\" duration=\"71000\" />\r\n      <workItem from=\"1669381225124\" duration=\"697000\" />\r\n      <workItem from=\"1669580550869\" duration=\"23000\" />\r\n      <workItem from=\"1669617646487\" duration=\"997000\" />\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"d\">\r\n      <created>1668778314133</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1668778314133</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"Turn commit\">\r\n      <created>1668778512073</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1668778512073</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"Turn commit\">\r\n      <created>1668778675492</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1668778675492</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00004\" summary=\"Turn commit\">\r\n      <created>1668780484362</created>\r\n      <option name=\"number\" value=\"00004\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1668780484362</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00005\" summary=\"Turn commit\">\r\n      <created>1668781274883</created>\r\n      <option name=\"number\" value=\"00005\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1668781274883</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00006\" summary=\"Merge branch 'master' of https://github.com/Elyisha/Softcon_TUTTO&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml\">\r\n      <created>1668984614481</created>\r\n      <option name=\"number\" value=\"00006\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1668984614481</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00007\" summary=\"Merge branch 'master' of https://github.com/Elyisha/Softcon_TUTTO&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml\">\r\n      <created>1669021276677</created>\r\n      <option name=\"number\" value=\"00007\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00007\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1669021276677</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00008\" summary=\"Merge branch 'master' of https://github.com/Elyisha/Softcon_TUTTO&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml\">\r\n      <created>1669025266591</created>\r\n      <option name=\"number\" value=\"00008\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00008\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1669025266591</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00009\" summary=\"Merge branch 'master' of https://github.com/Elyisha/Softcon_TUTTO&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml\">\r\n      <created>1669058983950</created>\r\n      <option name=\"number\" value=\"00009\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00009\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1669058983950</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00010\" summary=\"Merge branch 'master' of https://github.com/Elyisha/Softcon_TUTTO&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml\">\r\n      <created>1669067246800</created>\r\n      <option name=\"number\" value=\"00010\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00010\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1669067246800</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00011\" summary=\"Merge branch 'master' of https://github.com/Elyisha/Softcon_TUTTO&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml\">\r\n      <created>1669067379755</created>\r\n      <option name=\"number\" value=\"00011\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00011\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1669067379755</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00012\" summary=\"Merge branch 'master' of https://github.com/Elyisha/Softcon_TUTTO&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml\">\r\n      <created>1669067522045</created>\r\n      <option name=\"number\" value=\"00012\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00012\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1669067522045</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00013\" summary=\"Merge branch 'master' of https://github.com/Elyisha/Softcon_TUTTO&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml\">\r\n      <created>1669477091809</created>\r\n      <option name=\"number\" value=\"00013\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00013\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1669477091809</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00014\" summary=\"Merge branch 'master' of https://github.com/Elyisha/Softcon_TUTTO&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml\">\r\n      <created>1669484194464</created>\r\n      <option name=\"number\" value=\"00014\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00014\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1669484194464</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00015\" summary=\"Merge branch 'master' of https://github.com/Elyisha/Softcon_TUTTO&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml\">\r\n      <created>1669485087348</created>\r\n      <option name=\"number\" value=\"00015\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00015\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1669485087348</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00016\" summary=\"Merge branch 'master' of https://github.com/Elyisha/Softcon_TUTTO&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml\">\r\n      <created>1669561349997</created>\r\n      <option name=\"number\" value=\"00016\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00016\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1669561349997</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00017\" summary=\"REWORK AbstractTurn\">\r\n      <created>1669564441114</created>\r\n      <option name=\"number\" value=\"00017\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00017\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1669564441114</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00018\" summary=\"REWORK FIREWORKSTURN\">\r\n      <created>1669566770336</created>\r\n      <option name=\"number\" value=\"00018\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00018\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1669566770336</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00019\" summary=\"REWORK StraightTurn&#10;&#10;TWO ISSUES: &#10;- Fireworks: &quot;must keep all that are valid&quot; ist immernoch nicht ganz richtig implementiert (doesn't put it Aside)&#10;- Straight: ArrayList implementiert -  hasValidDicesLeft is faulty - doesn't get triggered although it should\">\r\n      <created>1669570443353</created>\r\n      <option name=\"number\" value=\"00019\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00019\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1669570443353</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00020\" summary=\"Umbau des Jahrhunderts.\">\r\n      <created>1669579912902</created>\r\n      <option name=\"number\" value=\"00020\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00020\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1669579912902</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"21\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <option name=\"CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT\" value=\"false\" />\r\n    <option name=\"CHECK_NEW_TODO\" value=\"false\" />\r\n    <MESSAGE value=\"d\" />\r\n    <MESSAGE value=\"Turn commit\" />\r\n    <MESSAGE value=\"Display Class &amp; Player Class\" />\r\n    <MESSAGE value=\"Merge branch 'master' of https://github.com/Elyisha/Softcon_TUTTO&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml\" />\r\n    <MESSAGE value=\"REWORK AbstractTurn\" />\r\n    <MESSAGE value=\"REWORK FIREWORKSTURN\" />\r\n    <MESSAGE value=\"REWORK StraightTurn&#10;&#10;TWO ISSUES: &#10;- Fireworks: &quot;must keep all that are valid&quot; ist immernoch nicht ganz richtig implementiert (doesn't put it Aside)&#10;- Straight: ArrayList implementiert -  hasValidDicesLeft is faulty - doesn't get triggered although it should\" />\r\n    <MESSAGE value=\"Umbau des Jahrhunderts.\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"Umbau des Jahrhunderts.\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 32ac646c7715c75d85302554689c780fd2a7f513)
++++ b/.idea/workspace.xml	(date 1669618992359)
+@@ -4,11 +4,7 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="b577d954-8adb-45f0-8cd3-77c2a40a1194" name="Changes" comment="">
+-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/Cards/StopCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cards/StopCard.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/Gameflow/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Gameflow/Game.java" afterDir="false" />
+-    </list>
++    <list default="true" id="b577d954-8adb-45f0-8cd3-77c2a40a1194" name="Changes" comment="" />
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+@@ -117,7 +113,7 @@
+       <workItem from="1669109304538" duration="71000" />
+       <workItem from="1669381225124" duration="697000" />
+       <workItem from="1669580550869" duration="23000" />
+-      <workItem from="1669617646487" duration="997000" />
++      <workItem from="1669617646487" duration="1341000" />
+     </task>
+     <task id="LOCAL-00001" summary="d">
+       <created>1668778314133</created>
+@@ -259,7 +255,14 @@
+       <option name="project" value="LOCAL" />
+       <updated>1669579912902</updated>
+     </task>
+-    <option name="localTasksCounter" value="21" />
++    <task id="LOCAL-00021" summary="print statement to stop card">
++      <created>1669618667192</created>
++      <option name="number" value="00021" />
++      <option name="presentableId" value="LOCAL-00021" />
++      <option name="project" value="LOCAL" />
++      <updated>1669618667192</updated>
++    </task>
++    <option name="localTasksCounter" value="22" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+@@ -287,6 +290,7 @@
+     <MESSAGE value="REWORK FIREWORKSTURN" />
+     <MESSAGE value="REWORK StraightTurn&#10;&#10;TWO ISSUES: &#10;- Fireworks: &quot;must keep all that are valid&quot; ist immernoch nicht ganz richtig implementiert (doesn't put it Aside)&#10;- Straight: ArrayList implementiert -  hasValidDicesLeft is faulty - doesn't get triggered although it should" />
+     <MESSAGE value="Umbau des Jahrhunderts." />
+-    <option name="LAST_COMMIT_MESSAGE" value="Umbau des Jahrhunderts." />
++    <MESSAGE value="print statement to stop card" />
++    <option name="LAST_COMMIT_MESSAGE" value="print statement to stop card" />
+   </component>
+ </project>
+\ No newline at end of file
