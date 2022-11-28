@@ -1,6 +1,8 @@
 package Gameflow;
 
+import Cards.BonusCard;
 import Cards.Card;
+import Cards.CardsValue;
 import Cards.Deck;
 
 public class Game {
@@ -50,8 +52,8 @@ public class Game {
                     short currentPoints = 0;
                     boolean pointsADD = false;
                     while(true){ //this loop ends when a player has no more dices to choose or he decides to stop his round after a tutto
-                        Card aCard = aDeck.getCard();
-                        //Card aCard = new BonusCard(CardsValue.BONUS200);
+                        //Card aCard = aDeck.getCard();
+                        Card aCard = new BonusCard(CardsValue.BONUS300);
                         Display.displayCard(aCard.getValue());
                         TurnResult result = aCard.getRoll();
                         currentPoints += result.points;
@@ -67,7 +69,7 @@ public class Game {
                         if(result.points != 0){pointsADD = true;}
                         if(!result.isTutto){break;}
                         //when a player managed to get a Tutto it is up to him whether he wants to make a new round:
-                        if(!Input.askUserRE()){break;}
+                        if(!Input.askUserREinGame(result.points)){break;}
                     }
                     if(pointsADD){aPlayer.addPoints(currentPoints);}
                     if(aPlayer.playerWon()){
