@@ -45,7 +45,7 @@ public class Input {
             String Input = DRInput.nextLine().replaceAll("\\s","").toUpperCase();
 
             if(inputValidation(Input, 'D') == 'R') return true;
-            if(inputValidation(Input, 'D') == 'E') return false;
+            if(inputValidation(Input, 'D') == 'D') return false;
         }
 
     }

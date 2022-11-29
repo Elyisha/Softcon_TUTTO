@@ -28,8 +28,12 @@ public class Display {
         System.out.println("You've got " + P1.getPoints() + " Points.");
     }
 
-    public static void displayCurrentPoints(short points){
+    public static void displayCurrentPointsAfterTutto(short points){
         System.out.println("(So far you have managed to reach " + points + " Points in this round)");
+    }
+    public static void displayPoints(short points, short maxPoints){
+        System.out.println("You Have got " + points + " Points.");
+        System.out.println(maxPoints - points + " more to go.");
     }
 
     private static void printInner(diceNumber d1, int i){

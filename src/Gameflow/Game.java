@@ -6,6 +6,8 @@ import Cards.CardsValue;
 import Cards.Deck;
 import Input.Input;
 
+import java.util.Arrays;
+
 public class Game {
     //Singleton Game Object Field:
     private static Game uniqueInstance;
@@ -16,7 +18,8 @@ public class Game {
     //singleton implementation of Constructor (can only be called by Game.getInstance()) :
     private Game(){
         maxPoints = Input.takeMaxPoints();
-        String[] names = Input.takeNames(); //get Player-names
+        String[] names = Input.takeNames();
+        Arrays.sort(names);
 
         // The Player array needs to be initialized with the number Players (= len of names-array) :
         this.players = new Player[names.length];
@@ -43,16 +46,16 @@ public class Game {
         boolean isOver = false;
         while(!isOver){ //breaks if a player won the game
             for(Player aPlayer: players){
+
                 //Ask Player whether he wants to see his score
                 System.out.println(aPlayer.getName()+" its your turn: ");
-                if(!Input.askUserDR()){
-                    System.out.println("You Have got " + aPlayer.getPoints() + " Points.");
-                    System.out.println((maxPoints-aPlayer.getPoints()) + " more to go.");
-                }
+                while(!Input.askUserDR()){Display.displayPoints(aPlayer.getPoints(), maxPoints);}
+
+                //Game start:
                     //Variables to decide whether points can be added or not
                     short currentPoints = 0;
                     boolean pointsADD = false;
-                    while(true){ //this loop ends when a player has no more dices to choose or he decides to stop his round after a tutto
+                    do{ //this loop ends when a player has no more dices to choose or he decides to stop his round after a tutto
                         //Card aCard = aDeck.getCard();
                         Card aCard = new BonusCard(CardsValue.BONUS300);
                         Display.displayCard(aCard.getValue());
@@ -70,9 +73,9 @@ public class Game {
                         if(result.points != 0){pointsADD = true;}
                         if(!result.isTutto){break;}
                         //when a player managed to get a Tutto it is up to him whether he wants to make a new round:
-                        Display.displayCurrentPoints(result.points);
-                        if(!Input.askUserRE()) {break;}
-                    }
+                        else{Display.displayCurrentPointsAfterTutto(result.points);}
+                    }while(Input.askUserRE());
+
                     if(pointsADD){aPlayer.addPoints(currentPoints);}
                     if(aPlayer.playerWon()){
                         printEndNote(aPlayer);

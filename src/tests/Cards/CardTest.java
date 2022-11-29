@@ -1,7 +1,7 @@
 package Cards;
 
 import Dices.Dice;
-import Gameflow.Input;
+import Input.Input;
 import Gameflow.TurnResult;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

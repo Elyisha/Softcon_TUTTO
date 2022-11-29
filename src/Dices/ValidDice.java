@@ -80,7 +80,7 @@ public class ValidDice {
                 else break;
             }
         }
-        System.out.println(points);
+
         return points;
     }
 
