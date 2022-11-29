@@ -115,7 +115,7 @@ public class ValidDice {
         return 0;
     }
 
-    //Function can be deleted
+    //todo: Function can be deleted
     public static boolean hasValidDices(Dice[] dices){
         for (byte i = 0; i < dices.length; ++i){
             if(dices[i].isAside()) {
