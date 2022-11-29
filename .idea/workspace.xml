@@ -4,25 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b577d954-8adb-45f0-8cd3-77c2a40a1194" name="Changes" comment="Merge branch 'master' of https://github.com/Elyisha/Softcon_TUTTO&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_11_2022_09_01_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_11_2022_09_01__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_11_2022_09_34_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_11_2022_09_34__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_11_2022_10_31_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_11_2022_10_31__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_11_2022_11_07_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_11_2022_11_07__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Cards/BonusCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cards/BonusCard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Cards/CardInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cards/CardInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Cards/CloverleafCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cards/CloverleafCard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Cards/FireworksCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cards/FireworksCard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Cards/PlusMinusCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cards/PlusMinusCard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Cards/StopCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cards/StopCard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Cards/StraightCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cards/StraightCard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Cards/TwoTimesCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cards/TwoTimesCard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tests/Cards/CardTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/Cards/CardTest.java" afterDir="false" />
+    <list default="true" id="b577d954-8adb-45f0-8cd3-77c2a40a1194" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/tests/Cards/BonusCardTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,8 +17,8 @@
       <list>
         <option value="Enum" />
         <option value="Interface" />
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -95,10 +78,25 @@
       <recent name="Turn" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="JUnit.BonusCardTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="Softcon_TUTTO" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BonusCardTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Softcon_TUTTO" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Cards.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Cards" />
+      <option name="MAIN_CLASS_NAME" value="Cards.BonusCardTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -137,11 +135,13 @@
     </configuration>
     <list>
       <item itemvalue="Application.Main" />
+      <item itemvalue="JUnit.BonusCardTest" />
       <item itemvalue="JUnit.DeckTest.hasRightFrequency" />
       <item itemvalue="JUnit.CardTest.dummyTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BonusCardTest" />
         <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.DeckTest.hasRightFrequency" />
         <item itemvalue="JUnit.CardTest.dummyTest" />
@@ -301,7 +301,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669570443353</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="controlTurn gelöscht">
+      <created>1669728142235</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1669728142235</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -328,7 +335,8 @@
     <MESSAGE value="REWORK AbstractTurn" />
     <MESSAGE value="REWORK FIREWORKSTURN" />
     <MESSAGE value="REWORK StraightTurn&#10;&#10;TWO ISSUES: &#10;- Fireworks: &quot;must keep all that are valid&quot; ist immernoch nicht ganz richtig implementiert (doesn't put it Aside)&#10;- Straight: ArrayList implementiert -  hasValidDicesLeft is faulty - doesn't get triggered although it should" />
-    <option name="LAST_COMMIT_MESSAGE" value="REWORK StraightTurn&#10;&#10;TWO ISSUES: &#10;- Fireworks: &quot;must keep all that are valid&quot; ist immernoch nicht ganz richtig implementiert (doesn't put it Aside)&#10;- Straight: ArrayList implementiert -  hasValidDicesLeft is faulty - doesn't get triggered although it should" />
+    <MESSAGE value="controlTurn gelöscht" />
+    <option name="LAST_COMMIT_MESSAGE" value="controlTurn gelöscht" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
