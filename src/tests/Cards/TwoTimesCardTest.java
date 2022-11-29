@@ -7,13 +7,14 @@ import mockit.Mock;
 import mockit.MockUp;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
+
 import static org.junit.jupiter.api.Assertions.*;
 
-class BonusCardTest {
+class TwoTimesCardTest {
 
     @BeforeAll
     public static void installMockClasses() {
-        new CardMock();
+        new Cards.TwoTimesCardTest.CardMock();
     }
 
     public static class CardMock extends MockUp<DecideDice> {
@@ -24,11 +25,13 @@ class BonusCardTest {
             return 300;
         }
     }
+
     @Test
     void getRollTest() {
         TurnResult expected = new TurnResult((short) 600, true);
-        BonusCard bonus300 = new BonusCard(CardsValue.BONUS300);
-        assertEquals(expected.points, bonus300.getRoll().points);
-        assertEquals(expected.isTutto, bonus300.getRoll().isTutto);
+        TwoTimesCard testcard = new TwoTimesCard();
+        assertEquals(expected.points, testcard.getRoll().points);
+        assertEquals(expected.isTutto, testcard.getRoll().isTutto);
     }
+
 }

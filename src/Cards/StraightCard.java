@@ -27,7 +27,7 @@ public class StraightCard extends Card implements CardInterface {
             //now ask user which ones to put aside and put them aside
             DecideDice.straightDecideDice(dices); //todo hier übergebe ich reference, ist das okay? prob not...
             //now check & break if tutto
-            tutto = StraighttuttoChecker(dices);
+            tutto = StraightTuttoChecker(dices);
             if (tutto) {
                 currentPoints = 2000;
                 break;
@@ -37,7 +37,7 @@ public class StraightCard extends Card implements CardInterface {
 
         return new TurnResult(currentPoints, tutto);
     }
-    private boolean StraighttuttoChecker(Dice[] dices) { //see how many have been put aside (for tutto recognization)
+    private boolean StraightTuttoChecker(Dice[] dices) { //see how many have been put aside (for tutto recognization)
         byte howManyAside = 0;
         for (byte i = 0; i < 6; i++) {
             if (dices[i].isAside()) howManyAside++;

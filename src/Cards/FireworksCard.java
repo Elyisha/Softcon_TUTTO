@@ -41,7 +41,7 @@ public class FireworksCard extends Card implements CardInterface {
         return new TurnResult(currentPoints, false);
 
     }
-    protected static void FireWorkChecker(Dice[] dices) { //see how many have been put aside (for FIREWORK recognization)
+    private static void FireWorkChecker(Dice[] dices) { //see how many have been put aside (for FIREWORK recognization)
         byte howManyAside = 0;
         for (byte i = 0; i < 6; i++) {
             if (dices[i].isAside()) howManyAside++;

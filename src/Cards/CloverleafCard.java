@@ -10,12 +10,10 @@ public class CloverleafCard extends Card implements CardInterface {
 
         TurnResult result = getAbstractRoll();
         if (result.isTutto) {
-            TurnResult secondresult = getRoll();
+            TurnResult secondresult = getAbstractRoll();
             if (secondresult.isTutto) gameWon = true;
         }
 
         return new TurnResult((short) 0, gameWon);
-
     }
-
 }
