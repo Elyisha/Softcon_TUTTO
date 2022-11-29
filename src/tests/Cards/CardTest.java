@@ -1,9 +1,9 @@
 package Cards;
 
 import Dices.Dice;
-import Input.Input;
+import Input.DecideDice;
 import Gameflow.TurnResult;
-import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 
 import java.util.ArrayList;
@@ -13,12 +13,12 @@ import mockit.*;
 
 class CardTest {
 
-    @BeforeEach
-    public void installMockClasses() {
+    @BeforeAll
+    public static void installMockClasses() {
         new CardMock();
     }
 
-    public static class CardMock extends MockUp<Input> {
+    public static class CardMock extends MockUp<DecideDice> {
         @Mock //mocks decideDice to be a tutto and putting away 6 dices giving 50p each
         short decideDice(Dice[] dices, boolean fireworks) {
             for (byte i = 0; i < 6; i++) {dices[i].putAside();}

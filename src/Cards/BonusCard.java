@@ -3,10 +3,7 @@ import Gameflow.TurnResult;
 public class BonusCard extends Card implements CardInterface {
     public BonusCard(CardsValue cardsValue) {super(cardsValue);} //inherits Constructor from abstract class
 
-    public void controlTurn(){
-        //todo
-    }
-    public TurnResult getRoll() { //todo nach controlTurn: das hier private machen
+    public TurnResult getRoll() {
         short roundPoints = 0;
 
         TurnResult result = getAbstractRoll();

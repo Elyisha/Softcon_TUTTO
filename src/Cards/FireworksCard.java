@@ -11,10 +11,7 @@ import java.util.ArrayList;
 public class FireworksCard extends Card implements CardInterface {
     public FireworksCard() {super(CardsValue.FIREWORK);} //inherits Constructor from abstract class
 
-    public void controlTurn(){
-        //todo
-    }
-    public TurnResult getRoll() { //todo nach controlTurn: das hier private machen
+    public TurnResult getRoll() {
         short currentPoints = 0;
         Dice[] dices = new Dice[6]; //stores the dices
         for (byte i = 0; i < 6; i++) {dices[i] = new Dice();} //instantiate the dices (doesn't roll them!)

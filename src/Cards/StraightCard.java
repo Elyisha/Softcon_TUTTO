@@ -10,10 +10,7 @@ import java.util.ArrayList;
 public class StraightCard extends Card implements CardInterface {
     public StraightCard() {super(CardsValue.STRAIGHT);} //inherits Constructor from abstract class
 
-    public void controlTurn(){
-        //todo
-    }
-    public TurnResult getRoll() { //todo nach controlTurn: das hier private machen
+    public TurnResult getRoll() {
         short currentPoints = 0;
         boolean tutto = false;
         Dice[] dices = new Dice[6]; //stores the dices

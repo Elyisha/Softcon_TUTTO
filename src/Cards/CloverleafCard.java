@@ -5,10 +5,7 @@ public class CloverleafCard extends Card implements CardInterface {
     public CloverleafCard() {
         super(CardsValue.CLOVERLEAF); //inherits Constructor from abstract class
     }
-    public void controlTurn(){
-        //todo
-    }
-    public TurnResult getRoll() { //todo nach controlTurn: das hier private machen
+    public TurnResult getRoll() {
         boolean gameWon = false;
 
         TurnResult result = getAbstractRoll();
