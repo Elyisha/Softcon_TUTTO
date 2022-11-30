@@ -4,20 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b577d954-8adb-45f0-8cd3-77c2a40a1194" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/tests/Cards/CloverleafCardTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tests/Cards/FireworksCardTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tests/Cards/PlusMinusCardTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tests/Cards/StopCardTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tests/Cards/StraightCardTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tests/Cards/TwoTimesCardTest.java" afterDir="false" />
+    <list default="true" id="b577d954-8adb-45f0-8cd3-77c2a40a1194" name="Changes" comment="Tests Card + Dice geschrieben">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Cards/CloverleafCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cards/CloverleafCard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Cards/FireworksCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cards/FireworksCard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Cards/StraightCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cards/StraightCard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Dices/Dice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Dices/Dice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tests/Cards/BonusCardTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/Cards/BonusCardTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tests/Dices/DiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/Dices/DiceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -187,7 +175,7 @@
       <module name="Softcon_TUTTO" />
       <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea -ea -javaagent:C:\Users\harri\Documents\GitHub\SoftCon\Assignment2_third\Softcon_TUTTO\Softcon_TUTTO\lib\jmockit-1.49.3.jar" />
+      <option name="VM_PARAMETERS" value="-ea -ea -javaagent:$ProjectFileDir$\lib\jmockit-1.49.3.jar" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -228,6 +216,7 @@
       <workItem from="1669381225124" duration="697000" />
       <workItem from="1669643468975" duration="5043000" />
       <workItem from="1669658748857" duration="2726000" />
+      <workItem from="1669797238276" duration="141000" />
     </task>
     <task id="LOCAL-00001" summary="d">
       <created>1668778314133</created>
@@ -369,7 +358,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669728142235</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Tests Card + Dice geschrieben">
+      <created>1669737498354</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1669737498354</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -397,7 +393,8 @@
     <MESSAGE value="REWORK FIREWORKSTURN" />
     <MESSAGE value="REWORK StraightTurn&#10;&#10;TWO ISSUES: &#10;- Fireworks: &quot;must keep all that are valid&quot; ist immernoch nicht ganz richtig implementiert (doesn't put it Aside)&#10;- Straight: ArrayList implementiert -  hasValidDicesLeft is faulty - doesn't get triggered although it should" />
     <MESSAGE value="controlTurn gelöscht" />
-    <option name="LAST_COMMIT_MESSAGE" value="controlTurn gelöscht" />
+    <MESSAGE value="Tests Card + Dice geschrieben" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tests Card + Dice geschrieben" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -419,5 +416,8 @@
       <FILTER>Cards.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/Softcon_TUTTO$Main.ic" NAME="Main Coverage Results" MODIFIED="1669675435956" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Softcon_TUTTO$DiceTest.ic" NAME="DiceTest Coverage Results" MODIFIED="1669737425560" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>Dices.*</FILTER>
+    </SUITE>
   </component>
 </project>
