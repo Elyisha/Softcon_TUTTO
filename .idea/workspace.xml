@@ -5,10 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b577d954-8adb-45f0-8cd3-77c2a40a1194" name="Changes" comment="Merge branch 'master' of https://github.com/Elyisha/Softcon_TUTTO&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
-      <change afterPath="$PROJECT_DIR$/src/tests/Gameflow/DisplayTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_23_11_2022_09_38_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_23_11_2022_09_38__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_26_11_2022_18_19__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_26_11_2022_18_19__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_26_11_2022_18_23__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_26_11_2022_18_23__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_27_11_2022_15_04__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_27_11_2022_15_04__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_28_11_2022_20_50__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_28_11_2022_20_50__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_29_11_2022_10_20__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_29_11_2022_10_20__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_29_11_2022_13_35__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_29_11_2022_13_35__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_30_11_2022_09_10__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_30_11_2022_09_10__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_30_11_2022_09_37__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_30_11_2022_09_37__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Dices/ValidDice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Dices/ValidDice.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tests/Cards/DeckTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/Cards/DeckTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/Dices/ValidDiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/Dices/ValidDiceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,10 +93,20 @@
       <recent name="Turn" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.DisplayTest.displayCurrentPointsAfterTuttoTest">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+  <component name="RunManager" selected="JUnit.ValidDiceTest.hasNoDuplicatesTest">
+    <configuration name="DiceTest.getDiceNumberTest" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
       <module name="Softcon_TUTTO" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Dices.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Dices" />
+      <option name="MAIN_CLASS_NAME" value="Dices.DiceTest" />
+      <option name="METHOD_NAME" value="getDiceNumberTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea -ea -javaagent:$ProjectFileDir$\lib\jmockit-1.49.3.jar" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -103,23 +123,6 @@
       <option name="MAIN_CLASS_NAME" value="Gameflow.DisplayTest" />
       <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea -ea -javaagent:$ProjectFileDir$\lib\jmockit-1.49.3.jar" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DisplayTest.displayCardsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Softcon_TUTTO" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Gameflow.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Gameflow" />
-      <option name="MAIN_CLASS_NAME" value="Gameflow.DisplayTest" />
-      <option name="METHOD_NAME" value="displayCardsTest" />
-      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea -ea -javaagent:$ProjectFileDir$\lib\jmockit-1.49.3.jar" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -159,6 +162,40 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ValidDiceTest.hasNoDuplicatesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Softcon_TUTTO" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Dices.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Dices" />
+      <option name="MAIN_CLASS_NAME" value="Dices.ValidDiceTest" />
+      <option name="METHOD_NAME" value="hasNoDuplicatesTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea -ea -javaagent:$ProjectFileDir$\lib\jmockit-1.49.3.jar" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ValidDiceTest.isValidGuessTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Softcon_TUTTO" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Dices.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Dices" />
+      <option name="MAIN_CLASS_NAME" value="Dices.ValidDiceTest" />
+      <option name="METHOD_NAME" value="isValidGuessTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea -ea -javaagent:$ProjectFileDir$\lib\jmockit-1.49.3.jar" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <module name="Softcon_TUTTO" />
       <option name="METHOD_NAME" value="" />
@@ -169,19 +206,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main" />
+      <item itemvalue="JUnit.DiceTest.getDiceNumberTest" />
+      <item itemvalue="JUnit.ValidDiceTest.hasNoDuplicatesTest" />
+      <item itemvalue="JUnit.ValidDiceTest.isValidGuessTest" />
       <item itemvalue="JUnit.DisplayTest" />
-      <item itemvalue="JUnit.DisplayTest.displayCardsTest" />
       <item itemvalue="JUnit.DisplayTest.displayCurrentPointsAfterTuttoTest" />
       <item itemvalue="JUnit.DisplayTest.displayPointsTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ValidDiceTest.hasNoDuplicatesTest" />
+        <item itemvalue="JUnit.ValidDiceTest.isValidGuessTest" />
         <item itemvalue="JUnit.DisplayTest.displayCurrentPointsAfterTuttoTest" />
         <item itemvalue="JUnit.DisplayTest" />
         <item itemvalue="JUnit.DisplayTest.displayPointsTest" />
-        <item itemvalue="JUnit.DisplayTest.displayCardsTest" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -205,6 +243,7 @@
       <workItem from="1669643468975" duration="5043000" />
       <workItem from="1669658748857" duration="2726000" />
       <workItem from="1669797238276" duration="141000" />
+      <workItem from="1669810882909" duration="1854000" />
     </task>
     <task id="LOCAL-00001" summary="d">
       <created>1668778314133</created>
@@ -395,6 +434,15 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Dices/ValidDice.java</url>
+          <line>30</line>
+          <properties class="Dices.ValidDice" method="hasNoDuplicates">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

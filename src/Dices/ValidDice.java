@@ -9,6 +9,7 @@ public class ValidDice {
 
     //Checks if there are any dices in the dice array that do not give any points and are
     //therefore invalid
+    //POST: returns true if there are no invalid dices and false if there are any
     public static boolean isValidGuess(Dice[] dices) {
 
         //converts dice-array to a list to get a value-array back with the values of every dice
@@ -27,6 +28,7 @@ public class ValidDice {
     }
 
     //Checks whether there is a die put Aside that has the same value with the one being put Aside (only in Straight)
+    //POST: Returns false if there is a die put Aside in the array with the same diceNumber as the parameter diceNum
     public static boolean hasNoDuplicates(Dice[] dices, diceNumber diceNum) {
         for (Dice dice : dices) {
             if (dice.isAside() && dice.getDiceNumber() == diceNum) return false;
