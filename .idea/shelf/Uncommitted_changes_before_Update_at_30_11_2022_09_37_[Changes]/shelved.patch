@@ -1,0 +1,248 @@
+Index: src/tests/Cards/DeckTest.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package Cards;\nimport org.junit.jupiter.api.Test;\nimport static org.junit.jupiter.api.Assertions.*;\n\nclass DeckTest {\n    @Test\n    void hasRightFrequency(){\n        Deck d1 = Deck.getInstance();\n        int[] Frequency = new int[11];\n        int[] expectedFrequency = new int[]{1,5,10,5,5,5,5,5,5,5,5};\n        for(int i = 0; i<56; i++){\n            Frequency[d1.getCard().getValue().ordinal()] += 1;\n        }\n        for(int i = 0; i<10;i++){\n            assertEquals(expectedFrequency[i], Frequency[i]);\n        }\n    }\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/tests/Cards/DeckTest.java b/src/tests/Cards/DeckTest.java
+--- a/src/tests/Cards/DeckTest.java	(revision 39db4bb0a2027194b3008fdeeac3563e59b56d0e)
++++ b/src/tests/Cards/DeckTest.java	(date 1669795860227)
+@@ -15,4 +15,20 @@
+             assertEquals(expectedFrequency[i], Frequency[i]);
+         }
+     }
++
++    @Test
++    void deckDrawsCardAfterEmpty(){
++        Deck d1 = Deck.getInstance();
++        //draw all cards...
++        for(int i = 0; i < 56;i++){
++            Card c = d1.getCard();
++        }
++        //... and check whether refill worked through another draw
++        Card c1 = d1.getCard();
++        assertNotNull(c1);
++    }
++
++
++
++
+ }
+\ No newline at end of file
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"AutoImportSettings\">\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\n  </component>\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"b577d954-8adb-45f0-8cd3-77c2a40a1194\" name=\"Changes\" comment=\"\">\n      <change afterPath=\"$PROJECT_DIR$/src/tests/Cards/CloverleafCardTest.java\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/src/tests/Cards/FireworksCardTest.java\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/src/tests/Cards/PlusMinusCardTest.java\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/src/tests/Cards/StopCardTest.java\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/src/tests/Cards/StraightCardTest.java\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/src/tests/Cards/TwoTimesCardTest.java\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/Cards/CloverleafCard.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/Cards/CloverleafCard.java\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/Cards/FireworksCard.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/Cards/FireworksCard.java\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/Cards/StraightCard.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/Cards/StraightCard.java\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/Dices/Dice.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/Dices/Dice.java\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/tests/Cards/BonusCardTest.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/tests/Cards/BonusCardTest.java\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/tests/Dices/DiceTest.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/tests/Dices/DiceTest.java\" afterDir=\"false\" />\n    </list>\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"FileTemplateManagerImpl\">\n    <option name=\"RECENT_TEMPLATES\">\n      <list>\n        <option value=\"Enum\" />\n        <option value=\"Interface\" />\n        <option value=\"Class\" />\n        <option value=\"JUnit5 Test Class\" />\n      </list>\n    </option>\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\n      <map>\n        <entry key=\"$PROJECT_DIR$\" value=\"new-patterns\" />\n      </map>\n    </option>\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"JavaAutoRunManager\">\n    <enabled-run-configurations>\n      <run-configuration type=\"JUnit\" name=\"PlusMinusCardTest\" />\n    </enabled-run-configurations>\n  </component>\n  <component name=\"MarkdownSettingsMigration\">\n    <option name=\"stateVersion\" value=\"1\" />\n  </component>\n  <component name=\"ProjectId\" id=\"2HiojMgcsYG36dHDnxZdjmldgRR\" />\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\">\n    <ConfirmationsSetting value=\"2\" id=\"Add\" />\n  </component>\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\">{\n  &quot;keyToString&quot;: {\n    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,\n    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,\n    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,\n    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,\n    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\n    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,\n    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,\n    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,\n    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers&quot;: &quot;true&quot;,\n    &quot;extract.method.default.visibility&quot;: &quot;private&quot;,\n    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,\n    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,\n    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,\n    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,\n    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,\n    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;\n  }\n}</component>\n  <component name=\"RecentsManager\">\n    <key name=\"CreateTestDialog.Recents.Supers\">\n      <recent name=\"\" />\n    </key>\n    <key name=\"MoveClassesOrPackagesDialog.RECENTS_KEY\">\n      <recent name=\"Input\" />\n      <recent name=\"Gameflow\" />\n      <recent name=\"Game\" />\n    </key>\n    <key name=\"CreateTestDialog.RecentsKey\">\n      <recent name=\"Dices\" />\n      <recent name=\"Cards\" />\n    </key>\n    <key name=\"CopyClassDialog.RECENTS_KEY\">\n      <recent name=\"Cards\" />\n      <recent name=\"Turn\" />\n    </key>\n  </component>\n  <component name=\"RunManager\" selected=\"JUnit.DiceTest\">\n    <configuration name=\"DiceTest\" type=\"JUnit\" factoryName=\"JUnit\" temporary=\"true\" nameIsGenerated=\"true\">\n      <module name=\"Softcon_TUTTO\" />\n      <extension name=\"coverage\">\n        <pattern>\n          <option name=\"PATTERN\" value=\"Dices.*\" />\n          <option name=\"ENABLED\" value=\"true\" />\n        </pattern>\n      </extension>\n      <option name=\"PACKAGE_NAME\" value=\"Dices\" />\n      <option name=\"MAIN_CLASS_NAME\" value=\"Dices.DiceTest\" />\n      <option name=\"METHOD_NAME\" value=\"\" />\n      <option name=\"TEST_OBJECT\" value=\"class\" />\n      <option name=\"VM_PARAMETERS\" value=\"-ea -ea -javaagent:C:\\Users\\harri\\Documents\\GitHub\\SoftCon\\Assignment2_third\\Softcon_TUTTO\\Softcon_TUTTO\\lib\\jmockit-1.49.3.jar\" />\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <configuration name=\"FireworksCardTest\" type=\"JUnit\" factoryName=\"JUnit\" temporary=\"true\" nameIsGenerated=\"true\">\n      <module name=\"Softcon_TUTTO\" />\n      <extension name=\"coverage\">\n        <pattern>\n          <option name=\"PATTERN\" value=\"Cards.*\" />\n          <option name=\"ENABLED\" value=\"true\" />\n        </pattern>\n      </extension>\n      <option name=\"PACKAGE_NAME\" value=\"Cards\" />\n      <option name=\"MAIN_CLASS_NAME\" value=\"Cards.FireworksCardTest\" />\n      <option name=\"METHOD_NAME\" value=\"\" />\n      <option name=\"TEST_OBJECT\" value=\"class\" />\n      <option name=\"VM_PARAMETERS\" value=\"-ea -ea -javaagent:C:\\Users\\harri\\Documents\\GitHub\\SoftCon\\Assignment2_third\\Softcon_TUTTO\\Softcon_TUTTO\\lib\\jmockit-1.49.3.jar\" />\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <configuration name=\"PlusMinusCardTest\" type=\"JUnit\" factoryName=\"JUnit\" temporary=\"true\" nameIsGenerated=\"true\">\n      <module name=\"Softcon_TUTTO\" />\n      <extension name=\"coverage\">\n        <pattern>\n          <option name=\"PATTERN\" value=\"Cards.*\" />\n          <option name=\"ENABLED\" value=\"true\" />\n        </pattern>\n      </extension>\n      <option name=\"PACKAGE_NAME\" value=\"Cards\" />\n      <option name=\"MAIN_CLASS_NAME\" value=\"Cards.PlusMinusCardTest\" />\n      <option name=\"METHOD_NAME\" value=\"\" />\n      <option name=\"TEST_OBJECT\" value=\"class\" />\n      <option name=\"VM_PARAMETERS\" value=\"-ea -ea -javaagent:C:\\Users\\harri\\Documents\\GitHub\\SoftCon\\Assignment2_third\\Softcon_TUTTO\\Softcon_TUTTO\\lib\\jmockit-1.49.3.jar\" />\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <configuration name=\"StraightCardTest\" type=\"JUnit\" factoryName=\"JUnit\" temporary=\"true\" nameIsGenerated=\"true\">\n      <module name=\"Softcon_TUTTO\" />\n      <extension name=\"coverage\">\n        <pattern>\n          <option name=\"PATTERN\" value=\"Cards.*\" />\n          <option name=\"ENABLED\" value=\"true\" />\n        </pattern>\n      </extension>\n      <option name=\"PACKAGE_NAME\" value=\"Cards\" />\n      <option name=\"MAIN_CLASS_NAME\" value=\"Cards.StraightCardTest\" />\n      <option name=\"METHOD_NAME\" value=\"\" />\n      <option name=\"TEST_OBJECT\" value=\"class\" />\n      <option name=\"VM_PARAMETERS\" value=\"-ea -ea -javaagent:C:\\Users\\harri\\Documents\\GitHub\\SoftCon\\Assignment2_third\\Softcon_TUTTO\\Softcon_TUTTO\\lib\\jmockit-1.49.3.jar\" />\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <configuration name=\"TwoTimesCardTest\" type=\"JUnit\" factoryName=\"JUnit\" temporary=\"true\" nameIsGenerated=\"true\">\n      <module name=\"Softcon_TUTTO\" />\n      <extension name=\"coverage\">\n        <pattern>\n          <option name=\"PATTERN\" value=\"Cards.*\" />\n          <option name=\"ENABLED\" value=\"true\" />\n        </pattern>\n      </extension>\n      <option name=\"PACKAGE_NAME\" value=\"Cards\" />\n      <option name=\"MAIN_CLASS_NAME\" value=\"Cards.TwoTimesCardTest\" />\n      <option name=\"METHOD_NAME\" value=\"\" />\n      <option name=\"TEST_OBJECT\" value=\"class\" />\n      <option name=\"VM_PARAMETERS\" value=\"-ea -ea -javaagent:C:\\Users\\harri\\Documents\\GitHub\\SoftCon\\Assignment2_third\\Softcon_TUTTO\\Softcon_TUTTO\\lib\\jmockit-1.49.3.jar\" />\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <configuration default=\"true\" type=\"JUnit\" factoryName=\"JUnit\">\n      <module name=\"Softcon_TUTTO\" />\n      <option name=\"METHOD_NAME\" value=\"\" />\n      <option name=\"TEST_OBJECT\" value=\"class\" />\n      <option name=\"VM_PARAMETERS\" value=\"-ea -ea -javaagent:C:\\Users\\harri\\Documents\\GitHub\\SoftCon\\Assignment2_third\\Softcon_TUTTO\\Softcon_TUTTO\\lib\\jmockit-1.49.3.jar\" />\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <list>\n      <item itemvalue=\"JUnit.DiceTest\" />\n      <item itemvalue=\"JUnit.FireworksCardTest\" />\n      <item itemvalue=\"JUnit.PlusMinusCardTest\" />\n      <item itemvalue=\"JUnit.StraightCardTest\" />\n      <item itemvalue=\"JUnit.TwoTimesCardTest\" />\n    </list>\n    <recent_temporary>\n      <list>\n        <item itemvalue=\"JUnit.DiceTest\" />\n        <item itemvalue=\"JUnit.TwoTimesCardTest\" />\n        <item itemvalue=\"JUnit.StraightCardTest\" />\n        <item itemvalue=\"JUnit.PlusMinusCardTest\" />\n        <item itemvalue=\"JUnit.FireworksCardTest\" />\n      </list>\n    </recent_temporary>\n  </component>\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"b577d954-8adb-45f0-8cd3-77c2a40a1194\" name=\"Changes\" comment=\"Merge branch 'master' of https://github.com/Elyisha/Softcon_TUTTO&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml\" />\n      <created>1668777400139</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1668777400139</updated>\n      <workItem from=\"1668777401501\" duration=\"329000\" />\n      <workItem from=\"1668784770747\" duration=\"3851000\" />\n      <workItem from=\"1668850787697\" duration=\"7141000\" />\n      <workItem from=\"1669018359207\" duration=\"3855000\" />\n      <workItem from=\"1669042981813\" duration=\"3156000\" />\n      <workItem from=\"1669056979842\" duration=\"7063000\" />\n      <workItem from=\"1669105098175\" duration=\"1233000\" />\n      <workItem from=\"1669109304538\" duration=\"71000\" />\n      <workItem from=\"1669381225124\" duration=\"697000\" />\n      <workItem from=\"1669643468975\" duration=\"5043000\" />\n      <workItem from=\"1669658748857\" duration=\"2726000\" />\n    </task>\n    <task id=\"LOCAL-00001\" summary=\"d\">\n      <created>1668778314133</created>\n      <option name=\"number\" value=\"00001\" />\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1668778314133</updated>\n    </task>\n    <task id=\"LOCAL-00002\" summary=\"Turn commit\">\n      <created>1668778512073</created>\n      <option name=\"number\" value=\"00002\" />\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1668778512073</updated>\n    </task>\n    <task id=\"LOCAL-00003\" summary=\"Turn commit\">\n      <created>1668778675492</created>\n      <option name=\"number\" value=\"00003\" />\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1668778675492</updated>\n    </task>\n    <task id=\"LOCAL-00004\" summary=\"Turn commit\">\n      <created>1668780484362</created>\n      <option name=\"number\" value=\"00004\" />\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1668780484362</updated>\n    </task>\n    <task id=\"LOCAL-00005\" summary=\"Turn commit\">\n      <created>1668781274883</created>\n      <option name=\"number\" value=\"00005\" />\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1668781274883</updated>\n    </task>\n    <task id=\"LOCAL-00006\" summary=\"Merge branch 'master' of https://github.com/Elyisha/Softcon_TUTTO&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml\">\n      <created>1668984614481</created>\n      <option name=\"number\" value=\"00006\" />\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1668984614481</updated>\n    </task>\n    <task id=\"LOCAL-00007\" summary=\"Merge branch 'master' of https://github.com/Elyisha/Softcon_TUTTO&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml\">\n      <created>1669021276677</created>\n      <option name=\"number\" value=\"00007\" />\n      <option name=\"presentableId\" value=\"LOCAL-00007\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1669021276677</updated>\n    </task>\n    <task id=\"LOCAL-00008\" summary=\"Merge branch 'master' of https://github.com/Elyisha/Softcon_TUTTO&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml\">\n      <created>1669025266591</created>\n      <option name=\"number\" value=\"00008\" />\n      <option name=\"presentableId\" value=\"LOCAL-00008\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1669025266591</updated>\n    </task>\n    <task id=\"LOCAL-00009\" summary=\"Merge branch 'master' of https://github.com/Elyisha/Softcon_TUTTO&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml\">\n      <created>1669058983950</created>\n      <option name=\"number\" value=\"00009\" />\n      <option name=\"presentableId\" value=\"LOCAL-00009\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1669058983950</updated>\n    </task>\n    <task id=\"LOCAL-00010\" summary=\"Merge branch 'master' of https://github.com/Elyisha/Softcon_TUTTO&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml\">\n      <created>1669067246800</created>\n      <option name=\"number\" value=\"00010\" />\n      <option name=\"presentableId\" value=\"LOCAL-00010\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1669067246800</updated>\n    </task>\n    <task id=\"LOCAL-00011\" summary=\"Merge branch 'master' of https://github.com/Elyisha/Softcon_TUTTO&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml\">\n      <created>1669067379755</created>\n      <option name=\"number\" value=\"00011\" />\n      <option name=\"presentableId\" value=\"LOCAL-00011\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1669067379755</updated>\n    </task>\n    <task id=\"LOCAL-00012\" summary=\"Merge branch 'master' of https://github.com/Elyisha/Softcon_TUTTO&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml\">\n      <created>1669067522045</created>\n      <option name=\"number\" value=\"00012\" />\n      <option name=\"presentableId\" value=\"LOCAL-00012\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1669067522045</updated>\n    </task>\n    <task id=\"LOCAL-00013\" summary=\"Merge branch 'master' of https://github.com/Elyisha/Softcon_TUTTO&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml\">\n      <created>1669477091809</created>\n      <option name=\"number\" value=\"00013\" />\n      <option name=\"presentableId\" value=\"LOCAL-00013\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1669477091809</updated>\n    </task>\n    <task id=\"LOCAL-00014\" summary=\"Merge branch 'master' of https://github.com/Elyisha/Softcon_TUTTO&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml\">\n      <created>1669484194464</created>\n      <option name=\"number\" value=\"00014\" />\n      <option name=\"presentableId\" value=\"LOCAL-00014\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1669484194464</updated>\n    </task>\n    <task id=\"LOCAL-00015\" summary=\"Merge branch 'master' of https://github.com/Elyisha/Softcon_TUTTO&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml\">\n      <created>1669485087348</created>\n      <option name=\"number\" value=\"00015\" />\n      <option name=\"presentableId\" value=\"LOCAL-00015\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1669485087348</updated>\n    </task>\n    <task id=\"LOCAL-00016\" summary=\"Merge branch 'master' of https://github.com/Elyisha/Softcon_TUTTO&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml\">\n      <created>1669561349997</created>\n      <option name=\"number\" value=\"00016\" />\n      <option name=\"presentableId\" value=\"LOCAL-00016\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1669561349997</updated>\n    </task>\n    <task id=\"LOCAL-00017\" summary=\"REWORK AbstractTurn\">\n      <created>1669564441114</created>\n      <option name=\"number\" value=\"00017\" />\n      <option name=\"presentableId\" value=\"LOCAL-00017\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1669564441114</updated>\n    </task>\n    <task id=\"LOCAL-00018\" summary=\"REWORK FIREWORKSTURN\">\n      <created>1669566770336</created>\n      <option name=\"number\" value=\"00018\" />\n      <option name=\"presentableId\" value=\"LOCAL-00018\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1669566770336</updated>\n    </task>\n    <task id=\"LOCAL-00019\" summary=\"REWORK StraightTurn&#10;&#10;TWO ISSUES: &#10;- Fireworks: &quot;must keep all that are valid&quot; ist immernoch nicht ganz richtig implementiert (doesn't put it Aside)&#10;- Straight: ArrayList implementiert -  hasValidDicesLeft is faulty - doesn't get triggered although it should\">\n      <created>1669570443353</created>\n      <option name=\"number\" value=\"00019\" />\n      <option name=\"presentableId\" value=\"LOCAL-00019\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1669570443353</updated>\n    </task>\n    <task id=\"LOCAL-00020\" summary=\"controlTurn gelöscht\">\n      <created>1669728142235</created>\n      <option name=\"number\" value=\"00020\" />\n      <option name=\"presentableId\" value=\"LOCAL-00020\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1669728142235</updated>\n    </task>\n    <option name=\"localTasksCounter\" value=\"21\" />\n    <servers />\n  </component>\n  <component name=\"TypeScriptGeneratedFilesManager\">\n    <option name=\"version\" value=\"3\" />\n  </component>\n  <component name=\"Vcs.Log.Tabs.Properties\">\n    <option name=\"TAB_STATES\">\n      <map>\n        <entry key=\"MAIN\">\n          <value>\n            <State />\n          </value>\n        </entry>\n      </map>\n    </option>\n  </component>\n  <component name=\"VcsManagerConfiguration\">\n    <option name=\"CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT\" value=\"false\" />\n    <option name=\"CHECK_NEW_TODO\" value=\"false\" />\n    <MESSAGE value=\"d\" />\n    <MESSAGE value=\"Turn commit\" />\n    <MESSAGE value=\"Display Class &amp; Player Class\" />\n    <MESSAGE value=\"Merge branch 'master' of https://github.com/Elyisha/Softcon_TUTTO&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml\" />\n    <MESSAGE value=\"REWORK AbstractTurn\" />\n    <MESSAGE value=\"REWORK FIREWORKSTURN\" />\n    <MESSAGE value=\"REWORK StraightTurn&#10;&#10;TWO ISSUES: &#10;- Fireworks: &quot;must keep all that are valid&quot; ist immernoch nicht ganz richtig implementiert (doesn't put it Aside)&#10;- Straight: ArrayList implementiert -  hasValidDicesLeft is faulty - doesn't get triggered although it should\" />\n    <MESSAGE value=\"controlTurn gelöscht\" />\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"controlTurn gelöscht\" />\n  </component>\n  <component name=\"XDebuggerManager\">\n    <breakpoint-manager>\n      <breakpoints>\n        <line-breakpoint enabled=\"true\" type=\"java-method\">\n          <url>file://$PROJECT_DIR$/src/tests/Cards/DeckTest.java</url>\n          <line>6</line>\n          <properties class=\"Cards.DeckTest\" method=\"hasRightFrequency\">\n            <option name=\"EMULATED\" value=\"true\" />\n            <option name=\"WATCH_EXIT\" value=\"false\" />\n          </properties>\n          <option name=\"timeStamp\" value=\"1\" />\n        </line-breakpoint>\n      </breakpoints>\n    </breakpoint-manager>\n  </component>\n  <component name=\"com.intellij.coverage.CoverageDataManagerImpl\">\n    <SUITE FILE_PATH=\"coverage/Softcon_TUTTO$CardTest.ic\" NAME=\"CardTest Coverage Results\" MODIFIED=\"1669736517050\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"idea\" COVERAGE_BY_TEST_ENABLED=\"false\" COVERAGE_TRACING_ENABLED=\"false\">\n      <FILTER>Cards.*</FILTER>\n    </SUITE>\n    <SUITE FILE_PATH=\"coverage/Softcon_TUTTO$Main.ic\" NAME=\"Main Coverage Results\" MODIFIED=\"1669675435956\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"idea\" COVERAGE_BY_TEST_ENABLED=\"false\" COVERAGE_TRACING_ENABLED=\"false\" />\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 39db4bb0a2027194b3008fdeeac3563e59b56d0e)
++++ b/.idea/workspace.xml	(date 1669796967863)
+@@ -4,20 +4,10 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="b577d954-8adb-45f0-8cd3-77c2a40a1194" name="Changes" comment="">
+-      <change afterPath="$PROJECT_DIR$/src/tests/Cards/CloverleafCardTest.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/tests/Cards/FireworksCardTest.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/tests/Cards/PlusMinusCardTest.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/tests/Cards/StopCardTest.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/tests/Cards/StraightCardTest.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/tests/Cards/TwoTimesCardTest.java" afterDir="false" />
++    <list default="true" id="b577d954-8adb-45f0-8cd3-77c2a40a1194" name="Changes" comment="Merge branch 'master' of https://github.com/Elyisha/Softcon_TUTTO&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
++      <change afterPath="$PROJECT_DIR$/src/tests/Gameflow/DisplayTest.java" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/Cards/CloverleafCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cards/CloverleafCard.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/Cards/FireworksCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cards/FireworksCard.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/Cards/StraightCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cards/StraightCard.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/Dices/Dice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Dices/Dice.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/tests/Cards/BonusCardTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/Cards/BonusCardTest.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/tests/Dices/DiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/Dices/DiceTest.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/tests/Cards/DeckTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/Cards/DeckTest.java" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -41,11 +31,6 @@
+       </map>
+     </option>
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+-  </component>
+-  <component name="JavaAutoRunManager">
+-    <enabled-run-configurations>
+-      <run-configuration type="JUnit" name="PlusMinusCardTest" />
+-    </enabled-run-configurations>
+   </component>
+   <component name="MarkdownSettingsMigration">
+     <option name="stateVersion" value="1" />
+@@ -89,6 +74,7 @@
+       <recent name="Game" />
+     </key>
+     <key name="CreateTestDialog.RecentsKey">
++      <recent name="Gameflow" />
+       <recent name="Dices" />
+       <recent name="Cards" />
+     </key>
+@@ -97,25 +83,15 @@
+       <recent name="Turn" />
+     </key>
+   </component>
+-  <component name="RunManager" selected="JUnit.DiceTest">
+-    <configuration name="DiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
++  <component name="RunManager" selected="Application.Main">
++    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="Main" />
+       <module name="Softcon_TUTTO" />
+-      <extension name="coverage">
+-        <pattern>
+-          <option name="PATTERN" value="Dices.*" />
+-          <option name="ENABLED" value="true" />
+-        </pattern>
+-      </extension>
+-      <option name="PACKAGE_NAME" value="Dices" />
+-      <option name="MAIN_CLASS_NAME" value="Dices.DiceTest" />
+-      <option name="METHOD_NAME" value="" />
+-      <option name="TEST_OBJECT" value="class" />
+-      <option name="VM_PARAMETERS" value="-ea -ea -javaagent:C:\Users\harri\Documents\GitHub\SoftCon\Assignment2_third\Softcon_TUTTO\Softcon_TUTTO\lib\jmockit-1.49.3.jar" />
+       <method v="2">
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
+-    <configuration name="FireworksCardTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
++    <configuration name="DeckTest.deckDrawsCardAfterEmpty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+       <module name="Softcon_TUTTO" />
+       <extension name="coverage">
+         <pattern>
+@@ -124,24 +100,24 @@
+         </pattern>
+       </extension>
+       <option name="PACKAGE_NAME" value="Cards" />
+-      <option name="MAIN_CLASS_NAME" value="Cards.FireworksCardTest" />
+-      <option name="METHOD_NAME" value="" />
+-      <option name="TEST_OBJECT" value="class" />
++      <option name="MAIN_CLASS_NAME" value="Cards.DeckTest" />
++      <option name="METHOD_NAME" value="deckDrawsCardAfterEmpty" />
++      <option name="TEST_OBJECT" value="method" />
+       <option name="VM_PARAMETERS" value="-ea -ea -javaagent:C:\Users\harri\Documents\GitHub\SoftCon\Assignment2_third\Softcon_TUTTO\Softcon_TUTTO\lib\jmockit-1.49.3.jar" />
+       <method v="2">
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
+-    <configuration name="PlusMinusCardTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
++    <configuration name="DiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+       <module name="Softcon_TUTTO" />
+       <extension name="coverage">
+         <pattern>
+-          <option name="PATTERN" value="Cards.*" />
++          <option name="PATTERN" value="Dices.*" />
+           <option name="ENABLED" value="true" />
+         </pattern>
+       </extension>
+-      <option name="PACKAGE_NAME" value="Cards" />
+-      <option name="MAIN_CLASS_NAME" value="Cards.PlusMinusCardTest" />
++      <option name="PACKAGE_NAME" value="Dices" />
++      <option name="MAIN_CLASS_NAME" value="Dices.DiceTest" />
+       <option name="METHOD_NAME" value="" />
+       <option name="TEST_OBJECT" value="class" />
+       <option name="VM_PARAMETERS" value="-ea -ea -javaagent:C:\Users\harri\Documents\GitHub\SoftCon\Assignment2_third\Softcon_TUTTO\Softcon_TUTTO\lib\jmockit-1.49.3.jar" />
+@@ -149,18 +125,18 @@
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
+-    <configuration name="StraightCardTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
++    <configuration name="DisplayTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+       <module name="Softcon_TUTTO" />
+       <extension name="coverage">
+         <pattern>
+-          <option name="PATTERN" value="Cards.*" />
++          <option name="PATTERN" value="Gameflow.*" />
+           <option name="ENABLED" value="true" />
+         </pattern>
+       </extension>
+-      <option name="PACKAGE_NAME" value="Cards" />
+-      <option name="MAIN_CLASS_NAME" value="Cards.StraightCardTest" />
+-      <option name="METHOD_NAME" value="" />
+-      <option name="TEST_OBJECT" value="class" />
++      <option name="PACKAGE_NAME" value="Gameflow" />
++      <option name="MAIN_CLASS_NAME" value="Gameflow.DisplayTest" />
++      <option name="METHOD_NAME" value="test" />
++      <option name="TEST_OBJECT" value="method" />
+       <option name="VM_PARAMETERS" value="-ea -ea -javaagent:C:\Users\harri\Documents\GitHub\SoftCon\Assignment2_third\Softcon_TUTTO\Softcon_TUTTO\lib\jmockit-1.49.3.jar" />
+       <method v="2">
+         <option name="Make" enabled="true" />
+@@ -193,19 +169,19 @@
+       </method>
+     </configuration>
+     <list>
++      <item itemvalue="Application.Main" />
++      <item itemvalue="JUnit.DeckTest.deckDrawsCardAfterEmpty" />
++      <item itemvalue="JUnit.DisplayTest.test" />
+       <item itemvalue="JUnit.DiceTest" />
+-      <item itemvalue="JUnit.FireworksCardTest" />
+-      <item itemvalue="JUnit.PlusMinusCardTest" />
+-      <item itemvalue="JUnit.StraightCardTest" />
+       <item itemvalue="JUnit.TwoTimesCardTest" />
+     </list>
+     <recent_temporary>
+       <list>
++        <item itemvalue="Application.Main" />
++        <item itemvalue="JUnit.DeckTest.deckDrawsCardAfterEmpty" />
++        <item itemvalue="JUnit.DisplayTest.test" />
+         <item itemvalue="JUnit.DiceTest" />
+         <item itemvalue="JUnit.TwoTimesCardTest" />
+-        <item itemvalue="JUnit.StraightCardTest" />
+-        <item itemvalue="JUnit.PlusMinusCardTest" />
+-        <item itemvalue="JUnit.FireworksCardTest" />
+       </list>
+     </recent_temporary>
+   </component>
+Index: src/tests/Gameflow/DisplayTest.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/tests/Gameflow/DisplayTest.java b/src/tests/Gameflow/DisplayTest.java
+new file mode 100644
+--- /dev/null	(date 1669796829267)
++++ b/src/tests/Gameflow/DisplayTest.java	(date 1669796829267)
+@@ -0,0 +1,38 @@
++package Gameflow;
++import org.junit.jupiter.api.*;
++import java.io.ByteArrayOutputStream;
++import java.io.PrintStream;
++
++import static org.junit.jupiter.api.Assertions.*;
++
++
++class DisplayTest {
++    private final PrintStream standardOut = System.out;
++    private final ByteArrayOutputStream outputStreamCaptor = new ByteArrayOutputStream();
++
++    private void print(String output) {
++        System.out.println(output);
++    }
++
++    @BeforeEach
++    public void tearDown() {
++        System.setOut(standardOut);
++    }
++
++    @BeforeEach
++    public void setUp() {
++        System.setOut(new PrintStream(outputStreamCaptor));
++    }
++
++    @Test
++    void test(){
++        /*
++        print("Hello Baeldung Readers!!");
++        assertEquals("Hello Baeldung Readers!!", outputStreamCaptor.toString()
++                .trim());
++
++         */
++        assertEquals(1,1);
++    }
++
++}
+\ No newline at end of file

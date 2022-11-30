@@ -15,4 +15,20 @@ class DeckTest {
             assertEquals(expectedFrequency[i], Frequency[i]);
         }
     }
+
+    @Test
+    void deckDrawsCardAfterEmpty(){
+        Deck d1 = Deck.getInstance();
+        //draw all cards...
+        for(int i = 0; i < 56;i++){
+            Card c = d1.getCard();
+        }
+        //... and check whether refill worked through another draw
+        Card c1 = d1.getCard();
+        assertNotNull(c1);
+    }
+
+
+
+
 }
