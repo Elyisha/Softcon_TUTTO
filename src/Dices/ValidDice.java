@@ -116,16 +116,4 @@ public class ValidDice {
         }
         return 0;
     }
-
-    //todo: Function can be deleted
-    public static boolean hasValidDices(Dice[] dices){
-        for (byte i = 0; i < dices.length; ++i){
-            if(dices[i].isAside()) {
-                for (int j = i + 1; j < dices.length; ++j) {
-                    if ((dices[i].getDiceNumber().ordinal() == dices[j].getDiceNumber().ordinal()) && dices[j].isAside()) return false;
-                }
-            }
-        }
-        return true;
-    }
 }
