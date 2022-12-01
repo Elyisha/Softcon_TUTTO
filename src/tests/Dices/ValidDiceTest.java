@@ -1,12 +1,12 @@
 package Dices;
 
-import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 
-import static Dices.ValidDice.hasNoDuplicates;
-import static org.junit.jupiter.api.Assertions.*;
+import java.lang.reflect.Array;
+import java.util.ArrayList;
 
-import static Dices.ValidDice.isValidGuess;
+import static Dices.ValidDice.*;
+import static org.junit.jupiter.api.Assertions.*;
 
 class ValidDiceTest {
 
@@ -33,6 +33,13 @@ class ValidDiceTest {
         }
         return dices;
     }
+    public static ArrayList<Dice> convertToList(Dice[] dices) {
+        ArrayList<Dice> arrayDices = new ArrayList<>();
+        for(Dice dice: dices) {
+            arrayDices.add(dice);
+        }
+        return arrayDices;
+    }
 
     @Test
     void isValidGuessTest(){
@@ -49,5 +56,21 @@ class ValidDiceTest {
         boolean expected = false;
         assertEquals(expected, actual);
     }
+    @Test
+    void getValueArrayTest(){
+        Dice[] diceArray = SetupDiceArray();
+        ArrayList<Dice> dices = convertToList(diceArray);
+        boolean expected = true;
+        boolean actual = hasValidDicesLeft(dices);
+        assertEquals(expected,actual);
+    }
 
+    @Test
+    void countPointsTest() {
+        Dice[] diceArray = SetupDiceArray();
+        ArrayList<Dice> dices = convertToList(diceArray);
+        int expected = 500;
+        int actual = countPoints(dices);
+        assertEquals(expected, actual);
+    }
 }
