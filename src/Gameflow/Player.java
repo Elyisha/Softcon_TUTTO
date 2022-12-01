@@ -31,6 +31,12 @@ public class Player {
         return points;
     }
 
-    public void subtract1000(){points-=(short) 1000;}
-
+    public void subtract1000(){
+        if(points > 1000){
+            points -= 1000;
+        }
+        else{
+            points = 0;
+        }
+    }
 }

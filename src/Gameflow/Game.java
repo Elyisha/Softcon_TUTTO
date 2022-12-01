@@ -98,7 +98,7 @@ public class Game {
         //second for each loop since when there are several leaders and all aren't the current player and
         // all have more than 1000 points each of the leaders looses 1000
         for(Player P: this.players){
-            if(P.getPoints() == leadersPoints && P != aPlayer && P.getPoints() > 1000){
+            if(P.getPoints() == leadersPoints && P != aPlayer){
                 P.subtract1000();
             }
         }
