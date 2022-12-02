@@ -1,11 +1,11 @@
 package Cards;
 
 import Dices.Dice;
+import Dices.ValidDice;
 import Gameflow.TurnResult;
 import Input.DecideDice;
 import mockit.Mock;
 import mockit.MockUp;
-import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 
@@ -18,6 +18,7 @@ class BonusCardTest {
     @BeforeAll
     public static void installMockClasses() {
         new CardMock();
+        new CardMockValid();
     }
 
 
@@ -29,11 +30,22 @@ class BonusCardTest {
             return 300;
         }
     }
+
+    public static class CardMockValid extends MockUp<ValidDice> {
+        @Mock
+        public static short countPoints(ArrayList<Dice> dices) {
+            return 300;
+        }
+    }
     @Test
     void getRollTest() {
         TurnResult expected = new TurnResult((short) 600, true);
         BonusCard bonus300 = new BonusCard(CardsValue.BONUS300);
-        assertEquals(expected.points, bonus300.getRoll().points);
-        assertEquals(expected.isTutto, bonus300.getRoll().isTutto);
+        TurnResult bonusturn;
+        bonusturn = bonus300.getRoll();
+        assertEquals(expected.points, bonusturn.points);
+        assertEquals(expected.isTutto, bonusturn.isTutto);
+
     }
+
 }

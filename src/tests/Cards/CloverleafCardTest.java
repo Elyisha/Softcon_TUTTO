@@ -1,8 +1,10 @@
 package Cards;
 
 import Dices.Dice;
+import Dices.ValidDice;
 import Gameflow.TurnResult;
 import Input.DecideDice;
+import mockit.Capturing;
 import mockit.Mock;
 import mockit.MockUp;
 import org.junit.jupiter.api.BeforeAll;
@@ -16,7 +18,8 @@ class CloverleafCardTest {
 
     @BeforeAll
     public static void installMockClasses() {
-        new Cards.CloverleafCardTest.CardMock();
+        new CardMock();
+        new CardMockValid();
     }
 
     public static class CardMock extends MockUp<DecideDice> {
@@ -24,6 +27,13 @@ class CloverleafCardTest {
             //mocks decideDice to be a tutto and putting away 6 dices giving 50p each
         short decideDice(ArrayList<Dice> dices, boolean fireworks) {
             for (byte i = 0; i < 6; i++) {dices.get(i).putAside();}
+            return 300;
+        }
+    }
+
+    public static class CardMockValid extends MockUp<ValidDice> {
+        @Mock
+        public static short countPoints(ArrayList<Dice> dices) {
             return 300;
         }
     }

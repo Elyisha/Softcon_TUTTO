@@ -28,6 +28,7 @@ public abstract class Card implements CardInterface {
         do {
             ArrayList<Dice> countDices = new ArrayList<>();
             rollDisplayCount(dices, countDices);
+
             //now check if roll was at least possibly valid, if not, break the while loop, else add points
             if (ValidDice.countPoints(countDices) == 0) {
                 Display.rolledaNull();
@@ -35,7 +36,9 @@ public abstract class Card implements CardInterface {
                 break;
             }
             //now ask user which ones to put aside and put them aside
+
             currentPoints += DecideDice.decideDice(dices, false); //todo hier übergebe ich reference, ist das okay? prob not...
+            System.out.println(currentPoints);
             //now check & break if tutto
             tutto = tuttoChecker(dices);
             if (tutto) break;

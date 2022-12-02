@@ -1,6 +1,7 @@
 package Cards;
 
 import Dices.Dice;
+import Dices.ValidDice;
 import Input.DecideDice;
 import Gameflow.TurnResult;
 import org.junit.jupiter.api.BeforeAll;
@@ -16,6 +17,7 @@ class CardTest {
     @BeforeAll
     public static void installMockClasses() {
         new CardMock();
+        new CardMockValid();
     }
 
     public static class CardMock extends MockUp<DecideDice> {
@@ -25,7 +27,12 @@ class CardTest {
             return 300;
         }
     }
-
+    public static class CardMockValid extends MockUp<ValidDice> {
+        @Mock
+        public static short countPoints(ArrayList<Dice> dices) {
+            return 300;
+        }
+    }
     @Test
     void getValueTest() {
         BonusCard testBonusCard = new BonusCard(CardsValue.BONUS200);

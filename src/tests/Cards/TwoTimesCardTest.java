@@ -1,6 +1,7 @@
 package Cards;
 
 import Dices.Dice;
+import Dices.ValidDice;
 import Gameflow.TurnResult;
 import Input.DecideDice;
 import mockit.Mock;
@@ -18,7 +19,8 @@ class TwoTimesCardTest {
 
     @BeforeAll
     public static void installMockClasses() {
-        new Cards.TwoTimesCardTest.CardMock();
+        new CardMock();
+        new CardMockValid();
     }
 
     public static class CardMock extends MockUp<DecideDice> {
@@ -30,6 +32,12 @@ class TwoTimesCardTest {
         }
     }
 
+    public static class CardMockValid extends MockUp<ValidDice> {
+        @Mock
+        public static short countPoints(ArrayList<Dice> dices) {
+            return 300;
+        }
+    }
     @Test
     void getRollTest() {
         TurnResult expected = new TurnResult((short) 600, true);

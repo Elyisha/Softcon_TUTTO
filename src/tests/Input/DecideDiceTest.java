@@ -49,7 +49,7 @@ class DecideDiceTest {
         }
         return dices;
     }
-
+/*
     @Test
     void decideDiceTest() {
         ArrayList<Dice> dices = SetupDiceArray();
@@ -58,7 +58,7 @@ class DecideDiceTest {
             assertTrue(dices.get(i).isAside());
         }
     }
-
+*/
     @Test
     void decideDiceFireworksTest() {
         ArrayList<Dice> dices = SetupDiceArray();
