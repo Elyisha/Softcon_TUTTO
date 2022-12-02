@@ -83,7 +83,7 @@
       <recent name="Turn" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.BonusCardTest">
+  <component name="RunManager" selected="JUnit.StraightCardTest">
     <configuration name="All in Softcon_TUTTO" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Softcon_TUTTO" />
       <option name="PACKAGE_NAME" value="" />
@@ -106,6 +106,23 @@
       <option name="MAIN_CLASS_NAME" value="Cards.BonusCardTest" />
       <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea -ea -javaagent:$ProjectFileDir$\lib\jmockit-1.49.3.jar" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BonusCardTest.getRollTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Softcon_TUTTO" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Cards.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Cards" />
+      <option name="MAIN_CLASS_NAME" value="Cards.BonusCardTest" />
+      <option name="METHOD_NAME" value="getRollTest" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea -ea -javaagent:$ProjectFileDir$\lib\jmockit-1.49.3.jar" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -145,23 +162,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GameTest.testSingleton" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Softcon_TUTTO" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Gameflow.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Gameflow" />
-      <option name="MAIN_CLASS_NAME" value="Gameflow.GameTest" />
-      <option name="METHOD_NAME" value="testSingleton" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea -ea -javaagent:$ProjectFileDir$\lib\jmockit-1.49.3.jar" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="StraightCardTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Softcon_TUTTO" />
       <extension name="coverage">
@@ -191,18 +191,18 @@
     <list>
       <item itemvalue="JUnit.DiceTest.getDiceNumberTest" />
       <item itemvalue="JUnit.BonusCardTest" />
+      <item itemvalue="JUnit.BonusCardTest.getRollTest" />
       <item itemvalue="JUnit.StraightCardTest" />
       <item itemvalue="JUnit.GameTest.singletonTest" />
-      <item itemvalue="JUnit.GameTest.testSingleton" />
       <item itemvalue="JUnit.All in Softcon_TUTTO" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.BonusCardTest" />
         <item itemvalue="JUnit.StraightCardTest" />
+        <item itemvalue="JUnit.BonusCardTest.getRollTest" />
+        <item itemvalue="JUnit.BonusCardTest" />
         <item itemvalue="JUnit.All in Softcon_TUTTO" />
         <item itemvalue="JUnit.GameTest.singletonTest" />
-        <item itemvalue="JUnit.GameTest.testSingleton" />
       </list>
     </recent_temporary>
   </component>
@@ -418,6 +418,20 @@
           <line>30</line>
           <option name="timeStamp" value="21" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/tests/Cards/StraightCardTest.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/tests/Cards/StraightCardTest.java</url>
+          <line>30</line>
+          <properties class="Cards.StraightCardTest" method="getRollTest">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -436,6 +450,9 @@
       <FILTER>Cards.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/Softcon_TUTTO$Main.ic" NAME="Main Coverage Results" MODIFIED="1669675435956" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Softcon_TUTTO$BonusCardTest.ic" NAME="BonusCardTest Coverage Results" MODIFIED="1669995672288" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>Cards.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/Softcon_TUTTO$InputTest_takeNamesTest.ic" NAME="InputTest.takeNamesTest Coverage Results" MODIFIED="1669899483090" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>Input.*</FILTER>
     </SUITE>
