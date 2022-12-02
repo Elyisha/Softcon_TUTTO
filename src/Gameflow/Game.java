@@ -16,6 +16,7 @@ public class Game {
     private Game(){
         maxPoints = Input.takeMaxPoints();
         String[] names = Input.takeNames();
+        // Sort names array to get the alphabetical starting order
         Arrays.sort(names);
 
         // The Player array needs to be initialized with the number Players (= len of names-array) :
@@ -28,12 +29,16 @@ public class Game {
     }
 
     //synchronized getInstance Method to prevent different threads from creating two singleton Objects:
+
+
     public static synchronized Game getInstance() {
         if (uniqueInstance == null) {
             uniqueInstance = new Game();
         }
         return uniqueInstance;
     }
+
+
 
     //TODO Gameflow evt auf karten
 

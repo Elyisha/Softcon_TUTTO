@@ -40,6 +40,8 @@ public class Deck {
         }
         return uniqueInstance;
     }
+
+
     public Card getCard() {
         //System.out.println(aCards.size());
         if (!isEmpty()) {
