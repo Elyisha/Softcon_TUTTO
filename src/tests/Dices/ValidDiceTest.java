@@ -57,11 +57,10 @@ class ValidDiceTest {
         assertEquals(expected, actual);
     }
     @Test
-    void getValueArrayTest(){
+    void hasValidDicesLeftTest(){
         Dice[] diceArray = SetupDiceArray();
-        ArrayList<Dice> dices = convertToList(diceArray);
         boolean expected = true;
-        boolean actual = hasValidDicesLeft(dices);
+        boolean actual = hasValidDicesLeft(diceArray);
         assertEquals(expected,actual);
     }
 

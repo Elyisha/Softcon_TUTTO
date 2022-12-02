@@ -37,11 +37,11 @@ public class ValidDice {
     }
 
     //checks whether there is a valid dice left in the dice-array that can be put-Aside (only in Straight)
-    public static boolean hasValidDicesLeft(ArrayList<Dice> dices){
+    public static boolean hasValidDicesLeft(Dice[] dices){
 
         //gets value array with the values of the dices
-        int[] values = getValueArray(dices, true);
-
+        List<Dice> list = Arrays.asList(dices);
+        int[] values = getValueArray(list, true);
         //does the checking
         for (Dice dice : dices) {
             if (!dice.isAside()) {

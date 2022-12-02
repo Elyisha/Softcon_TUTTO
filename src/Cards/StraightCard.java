@@ -20,7 +20,7 @@ public class StraightCard extends Card implements CardInterface {
             ArrayList<Dice> countDices = new ArrayList<>();
             rollDisplayCount(dices, countDices);
             //now check if roll was at least possibly valid, if not, break the while loop, else add points
-            if (!ValidDice.hasValidDicesLeft(countDices)) { //todo needs ArrayList implementation - done but doesn't work right!! doesn't trigger
+            if (!ValidDice.hasValidDicesLeft(dices)) { //todo needs ArrayList implementation - done but doesn't work right!! doesn't trigger
                 Display.rolledaNull();
                 break;
             }

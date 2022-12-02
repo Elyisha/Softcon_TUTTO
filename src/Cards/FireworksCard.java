@@ -2,10 +2,8 @@ package Cards;
 import Dices.Dice;
 import Dices.ValidDice;
 import Gameflow.Display;
-import Input.Input;
 import Gameflow.TurnResult;
 import Input.DecideDice;
-
 import java.util.ArrayList;
 
 public class FireworksCard extends Card implements CardInterface {
@@ -30,9 +28,8 @@ public class FireworksCard extends Card implements CardInterface {
             while(true) {
                 decidepoints = DecideDice.decideDice(dices, true); //todo hier übergebe ich reference, ist das okay? prob not...
                 if (decidepoints == ValidDice.countPoints(countDices)) break;
-                else System.out.println("You have to keep the highest amount of points possible to achieve in this round. Try again."); //TODO aus dem einen DisplayCall machen
+                else System.out.println("You have to keep the highest amount of points possible to achieve in this round. Try again.");
             }
-
             //now check & reset if FireWork
             FireWorkChecker(dices);
 

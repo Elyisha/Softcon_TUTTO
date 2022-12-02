@@ -1,9 +1,6 @@
 package Gameflow;
 
-import Cards.BonusCard;
-import Cards.Card;
-import Cards.CardsValue;
-import Cards.Deck;
+import Cards.*;
 import Input.Input;
 
 import java.util.Arrays;
@@ -57,7 +54,7 @@ public class Game {
                     boolean pointsADD = false;
                     do{ //this loop ends when a player has no more dices to choose or he decides to stop his round after a tutto
                         //Card aCard = aDeck.getCard();
-                        Card aCard = new BonusCard(CardsValue.BONUS300);
+                        Card aCard = new StraightCard();
                         Display.displayCard(aCard.getValue());
                         TurnResult result = aCard.getRoll();
                         currentPoints += result.points;

@@ -2,15 +2,14 @@ package Dices;
 import java.util.Random;
 
 public class Dice {
-    Random rand = new Random(); //so it doesn't get invoked every time, saves space
     private diceNumber diceNumber;
-    boolean putAside; //hier schon instanzieren oder erst im Konstruktor?
+    private boolean putAside;
     public Dice() { // Konstruktor
         diceNumber = null; //don't let it be a new roll, this enforces it to roll them once
         putAside = false;
     }
-
     private diceNumber rndDiceNumber(){
+        Random rand = new Random();
         return Dices.diceNumber.values()[rand.nextInt(0, 6)]; //return diceNumber > values > [random between 0 and 6]
     }
     public void rollDice() {
@@ -20,7 +19,5 @@ public class Dice {
     public void putAside() {
         this.putAside = true;
     }
-    public boolean isAside() {
-        return putAside;
-    }
+    public boolean isAside() {return putAside;}
 }

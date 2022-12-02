@@ -60,7 +60,6 @@ public class Input {
             if(inputValidation(Input, 'D') == 'R') return true;
             if(inputValidation(Input, 'D') == 'D') return false;
         }
-
     }
 
     //asks user whether he wants to End (E) or Roll (R)
