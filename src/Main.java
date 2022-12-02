@@ -10,7 +10,7 @@ public class Main {
     public static void main(String[] args) {
 
 
-        Game G1 = Game.getInstance();
+        Game G1 = new Game();
         G1.startGameFlow();
 
 
