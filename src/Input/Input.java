@@ -6,6 +6,7 @@ public class Input {
 
     //takes The names of the players participating
     public static String[] takeNames(){
+        String[] Names;
 
         //Initializes scanner and prints starting message
         Scanner NameInput = new Scanner(System.in);
@@ -14,11 +15,15 @@ public class Input {
         //takes input and validates it, if input is in correct format it will end the while loop
         while(true) {
             String Input = NameInput.nextLine().replaceAll("\\s+", "");
+            Names = Input.split(",");
 
             //validates and returns input
             if(Input.length() == 0) System.out.println("Must have at least 2 Players!");
             else if(Input.matches(".*[0-9].*")) System.out.println("Names can't contain numbers!");
+            else if(Names.length > 4) System.out.println("Maximum 4 Players are allowed!");
+            else if(Names.length < 2) System.out.println("Minimum 2 players are required!");
             else {
+                System.out.println("done");
                 return Input.split(",");
             }
         }

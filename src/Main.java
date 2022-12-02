@@ -13,7 +13,7 @@ public class Main {
         Game G1 = Game.getInstance();
         G1.startGameFlow();
 */
-
+        while(true) Input.Input.takeNames();
 
 
 
