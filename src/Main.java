@@ -12,8 +12,13 @@ public class Main {
 
         Game G1 = Game.getInstance();
         G1.startGameFlow();
+<<<<<<< HEAD
 
 
+=======
+*/
+        while(true) Input.Input.takeNames();
+>>>>>>> 280fe0cf0b269155caac2385a656e8a55bada0ea
 
 
 
