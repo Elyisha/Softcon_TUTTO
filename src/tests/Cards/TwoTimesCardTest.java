@@ -14,6 +14,8 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class TwoTimesCardTest {
 
+
+
     @BeforeAll
     public static void installMockClasses() {
         new Cards.TwoTimesCardTest.CardMock();

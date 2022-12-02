@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b577d954-8adb-45f0-8cd3-77c2a40a1194" name="Changes" comment="Merge branch 'master' of https://github.com/Elyisha/Softcon_TUTTO&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_02_12_2022_16_26__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_02_12_2022_16_26__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Gameflow/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Gameflow/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tests/Cards/StraightCardTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/Cards/StraightCardTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/Input/InputTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/Input/InputTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +47,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">{
-    &quot;keyToString&quot;: {
+  &quot;keyToString&quot;: {
     &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
     &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
     &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
@@ -65,8 +65,8 @@
     &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
-    }
-    }</component>
+  }
+}</component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -87,17 +87,12 @@
       <recent name="Turn" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.All in Softcon_TUTTO">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="Softcon_TUTTO" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.InputTest">
     <configuration name="All in Softcon_TUTTO" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Softcon_TUTTO" />
+      <extension name="coverage" sample_coverage="false" />
       <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
       <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
       <option name="VM_PARAMETERS" value="-ea -ea -javaagent:$ProjectFileDir$\lib\jmockit-1.49.3.jar" />
@@ -122,51 +117,68 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GameTest.singletonTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Input in Softcon_TUTTO" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Softcon_TUTTO" />
-      <extension name="coverage">
+      <extension name="coverage" sample_coverage="false">
         <pattern>
-          <option name="PATTERN" value="Gameflow.*" />
+          <option name="PATTERN" value="Input.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Gameflow" />
-      <option name="MAIN_CLASS_NAME" value="Gameflow.GameTest" />
-      <option name="METHOD_NAME" value="singletonTest" />
+      <option name="PACKAGE_NAME" value="Input" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="VM_PARAMETERS" value="-ea -ea -javaagent:$ProjectFileDir$\lib\jmockit-1.49.3.jar" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InputTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Softcon_TUTTO" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Input.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Input" />
+      <option name="MAIN_CLASS_NAME" value="Input.InputTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea -ea -javaagent:$ProjectFileDir$\lib\jmockit-1.49.3.jar" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InputTest.takeNamesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Softcon_TUTTO" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Input.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Input" />
+      <option name="MAIN_CLASS_NAME" value="Input.InputTest" />
+      <option name="METHOD_NAME" value="takeNamesTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea -ea -javaagent:$ProjectFileDir$\lib\jmockit-1.49.3.jar" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GameTest.testSingleton" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="InputTest.takeNamesTest2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Softcon_TUTTO" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Gameflow.*" />
+          <option name="PATTERN" value="Input.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Gameflow" />
-      <option name="MAIN_CLASS_NAME" value="Gameflow.GameTest" />
-      <option name="METHOD_NAME" value="testSingleton" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea -ea -javaagent:$ProjectFileDir$\lib\jmockit-1.49.3.jar" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PlayerTest.subtract1000" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Softcon_TUTTO" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Gameflow.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Gameflow" />
-      <option name="MAIN_CLASS_NAME" value="Gameflow.PlayerTest" />
-      <option name="METHOD_NAME" value="subtract1000" />
+      <option name="PACKAGE_NAME" value="Input" />
+      <option name="MAIN_CLASS_NAME" value="Input.InputTest" />
+      <option name="METHOD_NAME" value="takeNamesTest2" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea -ea -javaagent:$ProjectFileDir$\lib\jmockit-1.49.3.jar" />
       <method v="2">
@@ -183,20 +195,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main" />
       <item itemvalue="JUnit.DiceTest.getDiceNumberTest" />
-      <item itemvalue="JUnit.GameTest.singletonTest" />
-      <item itemvalue="JUnit.GameTest.testSingleton" />
+      <item itemvalue="JUnit.InputTest" />
+      <item itemvalue="JUnit.InputTest.takeNamesTest" />
+      <item itemvalue="JUnit.InputTest.takeNamesTest2" />
+      <item itemvalue="JUnit.Input in Softcon_TUTTO" />
       <item itemvalue="JUnit.All in Softcon_TUTTO" />
-      <item itemvalue="JUnit.PlayerTest.subtract1000" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.InputTest" />
+        <item itemvalue="JUnit.InputTest.takeNamesTest2" />
+        <item itemvalue="JUnit.Input in Softcon_TUTTO" />
+        <item itemvalue="JUnit.InputTest.takeNamesTest" />
         <item itemvalue="JUnit.All in Softcon_TUTTO" />
-        <item itemvalue="JUnit.GameTest.singletonTest" />
-        <item itemvalue="JUnit.GameTest.testSingleton" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.PlayerTest.subtract1000" />
       </list>
     </recent_temporary>
   </component>
@@ -407,52 +419,68 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/tests/Cards/DeckTest.java</url>
-          <line>6</line>
-          <properties class="Cards.DeckTest" method="hasRightFrequency">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Cards/FireworksCard.java</url>
           <line>30</line>
           <option name="timeStamp" value="21" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/tests/Cards/StraightCardTest.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Input/Input.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/tests/Cards/StraightCardTest.java</url>
+          <line>30</line>
+          <properties class="Cards.StraightCardTest" method="getRollTest">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Softcon_TUTTO$DecideDiceTest_straightDecideDiceTest.ic" NAME="DecideDiceTest.straightDecideDiceTest Coverage Results" MODIFIED="1669899440080" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>Input.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/Softcon_TUTTO$ValidDiceTest.ic" NAME="ValidDiceTest Coverage Results" MODIFIED="1669899630264" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>Dices.*</FILTER>
-    </SUITE>
+    <SUITE FILE_PATH="coverage/Softcon_TUTTO$All_in_Softcon_TUTTO.ic" NAME="All in Softcon_TUTTO Coverage Results" MODIFIED="1669996957120" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="true" />
     <SUITE FILE_PATH="coverage/Softcon_TUTTO$DecideDiceTest_decideDiceTest.ic" NAME="DecideDiceTest.decideDiceTest Coverage Results" MODIFIED="1669899336431" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>Input.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/Softcon_TUTTO$All_in_Softcon_TUTTO.ic" NAME="All in Softcon_TUTTO Coverage Results" MODIFIED="1669996236448" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/Softcon_TUTTO$DiceTest.ic" NAME="DiceTest Coverage Results" MODIFIED="1669737425560" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>Dices.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/Softcon_TUTTO$DecideDiceTest_decideDiceFireworksTest.ic" NAME="DecideDiceTest.decideDiceFireworksTest Coverage Results" MODIFIED="1669899391609" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>Input.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/Softcon_TUTTO$CardTest.ic" NAME="CardTest Coverage Results" MODIFIED="1669736517050" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>Cards.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/Softcon_TUTTO$InputTest.ic" NAME="InputTest Coverage Results" MODIFIED="1669899559908" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>Input.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/Softcon_TUTTO$InputTest_takeNamesTest.ic" NAME="InputTest.takeNamesTest Coverage Results" MODIFIED="1669899483090" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/Softcon_TUTTO$DecideDiceTest_decideDiceFireworksTest.ic" NAME="DecideDiceTest.decideDiceFireworksTest Coverage Results" MODIFIED="1669899391609" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>Input.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/Softcon_TUTTO$Main.ic" NAME="Main Coverage Results" MODIFIED="1669675435956" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Softcon_TUTTO$ValidDiceTest.ic" NAME="ValidDiceTest Coverage Results" MODIFIED="1669899630264" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>Dices.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Softcon_TUTTO$InputTest_takeNamesTest.ic" NAME="InputTest.takeNamesTest Coverage Results" MODIFIED="1669899483090" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>Input.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Softcon_TUTTO$BonusCardTest.ic" NAME="BonusCardTest Coverage Results" MODIFIED="1669995672288" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>Cards.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Softcon_TUTTO$Input_in_Softcon_TUTTO.ic" NAME="Input in Softcon_TUTTO Coverage Results" MODIFIED="1669997117174" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>Input.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/Softcon_TUTTO$DecideDiceTest.ic" NAME="DecideDiceTest Coverage Results" MODIFIED="1669899584130" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>Input.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Softcon_TUTTO$DecideDiceTest_straightDecideDiceTest.ic" NAME="DecideDiceTest.straightDecideDiceTest Coverage Results" MODIFIED="1669899440080" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>Input.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Softcon_TUTTO$CardTest.ic" NAME="CardTest Coverage Results" MODIFIED="1669981801975" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>Cards.*</FILTER>
     </SUITE>
   </component>
 </project>
