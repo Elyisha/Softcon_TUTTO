@@ -33,6 +33,7 @@ class BonusCardTest {
     void getRollTest() {
         TurnResult expected = new TurnResult((short) 600, true);
         BonusCard bonus300 = new BonusCard(CardsValue.BONUS300);
+
         assertEquals(expected.points, bonus300.getRoll().points);
         assertEquals(expected.isTutto, bonus300.getRoll().isTutto);
     }

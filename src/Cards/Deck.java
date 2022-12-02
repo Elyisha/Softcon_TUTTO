@@ -10,14 +10,14 @@ public class Deck {
     private List<Card> aCards = new ArrayList<>();
     //cards that are drawn from the deck are stored in usedCards so that the Cardobjects can be reused
     private List<Card> usedCards = new ArrayList<>();
-    //private static Deck uniqueInstance;
+    private static Deck uniqueInstance;
 
 
 
     // Since a Deck is going to be "recycled" when all cards are drawn there should not be two decks at the same time
     // -> Singleton
 
-    public Deck() {
+    private Deck() {
         //add the required number of cards to get the wanted frequency...
         aCards.add(new CloverleafCard());
         for(int i = 0; i<5;i++){aCards.add(new FireworksCard());}
@@ -33,7 +33,7 @@ public class Deck {
         //... and shuffle them
         Collections.shuffle(aCards);
     }
-    /*
+
     public static synchronized Deck getInstance() {
         if (uniqueInstance == null) {
             uniqueInstance = new Deck();
@@ -41,7 +41,7 @@ public class Deck {
         return uniqueInstance;
     }
 
-     */
+
     public Card getCard() {
         //System.out.println(aCards.size());
         if (!isEmpty()) {

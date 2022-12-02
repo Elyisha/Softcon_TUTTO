@@ -7,13 +7,13 @@ import java.util.Arrays;
 
 public class Game {
     //Singleton Game Object Field:
-    //private static Game uniqueInstance;
+    private static Game uniqueInstance;
     private final short maxPoints;
     private Player[] players;
 
 
     //singleton implementation of Constructor (can only be called by Game.getInstance()) :
-    public Game(){
+    private Game(){
         maxPoints = Input.takeMaxPoints();
         String[] names = Input.takeNames();
         // Sort names array to get the alphabetical starting order
@@ -30,7 +30,7 @@ public class Game {
 
     //synchronized getInstance Method to prevent different threads from creating two singleton Objects:
 
-    /*
+
     public static synchronized Game getInstance() {
         if (uniqueInstance == null) {
             uniqueInstance = new Game();
@@ -38,7 +38,7 @@ public class Game {
         return uniqueInstance;
     }
 
-     */
+
 
     //TODO Gameflow evt auf karten
 
