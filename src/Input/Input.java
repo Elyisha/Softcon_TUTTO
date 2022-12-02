@@ -23,7 +23,6 @@ public class Input {
             else if(Names.length > 4) System.out.println("Maximum 4 Players are allowed!");
             else if(Names.length < 2) System.out.println("Minimum 2 players are required!");
             else {
-                System.out.println("done");
                 return Input.split(",");
             }
         }
@@ -89,7 +88,8 @@ public class Input {
 
         //Validates String and returns the result as char
         if(Input.length() != 1) System.out.println("Must type in one character only!");
-        if(Input.charAt(0) == 'R') return 'R';
+        else if(Input.length() == 0) System.out.println("Must make a decision!");
+        else if(Input.charAt(0) == 'R') return 'R';
         else if(Input.charAt(0) == second) return second;
         else System.out.println("Must type in R or E");
 

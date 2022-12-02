@@ -9,7 +9,7 @@ import java.util.Scanner;
 public class DecideDice {
 
     //asks the user which dices he wants to put aside and validates the user's choice
-    public static short decideDice(Dice[] dices, boolean fireworks) {
+    public static short decideDice(ArrayList<Dice> dices, boolean fireworks) {
 
         //Initializes scanner and prints starting message
         Scanner DDInput = new Scanner(System.in);
@@ -30,8 +30,8 @@ public class DecideDice {
             if(numbers == null) continue;
 
             //creates dice-array with the user's choice of dices
-            Dice[] countdices = new Dice[numbers.size()];
-            for (int i = 0; i < numbers.size();++i) countdices[i] = dices[numbers.get(i)-1];
+            ArrayList<Dice> countdices = new ArrayList<Dice>();
+            for (int i = 0; i < numbers.size();++i) countdices.add(dices.get(numbers.get(i)-1));
 
             //Check whether there are single dices that don't give any points (additional input-validation)
             if(!ValidDice.isValidGuess(countdices)) {
@@ -44,8 +44,22 @@ public class DecideDice {
             //but their points will be counted
             ArrayList<Dice> countDices = new ArrayList<>(numbers.size());
             for (byte i = 0; i < numbers.size(); i++) {
-                if(!fireworks) dices[numbers.get(i)-1].putAside();
-                countDices.add(i, dices[numbers.get(i) - 1]); //add to countDices
+                if(!fireworks) dices.get(numbers.get(i)-1).putAside();
+                countDices.add(i, dices.get(numbers.get(i) - 1)); //add to countDices
+            }
+
+            //If the fireworks card is active there is an additional check that makes sure the user puts aside all
+            //possible points that can be achieved in the current roll
+            if(fireworks){
+                ArrayList<Dice> notAsideDices = new ArrayList<>();
+                for(Dice dice: dices) if(!dice.isAside()) notAsideDices.add(dice);
+                if(ValidDice.countPoints(notAsideDices) != ValidDice.countPoints(countDices)) {
+                    System.out.println("You have to keep the highest amount of points possible to achieve in this round. Try again.");
+                    continue;
+                }
+                else {
+                    for(Dice dice: countDices) dice.putAside();
+                }
             }
 
             //prints achieved points and returns them
@@ -55,7 +69,7 @@ public class DecideDice {
     }
 
     //asks the user which dices he wants to put aside if the card is "straight" and validates the user's choice
-    public static void straightDecideDice(Dice[] dices) {
+    public static void straightDecideDice(ArrayList<Dice> dices) {
 
         //Initializes scanner and prints starting message
         Scanner sDDInput = new Scanner(System.in);
@@ -73,7 +87,7 @@ public class DecideDice {
 
             //If Input is valid it'll put aside the chosen dices
             if(numbers != null) {
-                for (Integer number : numbers) dices[number - 1].putAside();
+                for (Integer number : numbers) dices.get(number - 1).putAside();
                 return;
             }
         }
@@ -81,7 +95,7 @@ public class DecideDice {
 
     //Validates the user input according to the game-rules and return a list with indices of the dices that need
     //to be put aside
-    private static List<Integer> InputValidation(char[] Input, Dice[] dices, boolean straight) {
+    private static List<Integer> InputValidation(char[] Input, ArrayList<Dice> dices, boolean straight) {
 
         //This list will store the indices of which dices the user wants to put aside
         List<Integer> numbers = new ArrayList<>();
@@ -118,8 +132,8 @@ public class DecideDice {
                     return null;
                 }
                 //if the card is straight this statement will check that no dice with the current dice-value has been put aside yet
-                else if(straight && !ValidDice.hasNoDuplicates(dices, dices[currentCharToInt].getDiceNumber())) {
-                    System.out.println("you have previously put aside a dice with the dice-value " + (dices[currentCharToInt].getDiceNumber().ordinal()+1));
+                else if(straight && !ValidDice.hasNoDuplicates(dices, dices.get(currentCharToInt).getDiceNumber())) {
+                    System.out.println("you have previously put aside a dice with the dice-value " + (dices.get(currentCharToInt).getDiceNumber().ordinal()+1));
                     return null;
                 }
                 //if input is valid die it adds its index to the list of indices
@@ -141,9 +155,9 @@ public class DecideDice {
 
 
     //Checks whether the user is trying to put 2 dices with the same value aside (not allowed in straight)
-    private static boolean hasDiceDuplicate(List<Integer> numbers, Dice[] dices, int i) {
+    private static boolean hasDiceDuplicate(List<Integer> numbers, ArrayList<Dice> dices, int i) {
         for (Integer number : numbers) {
-            if (dices[i].getDiceNumber() == dices[number - 1].getDiceNumber()) return false;
+            if (dices.get(i).getDiceNumber() == dices.get(number - 1).getDiceNumber()) return false;
         }
         return true;
     }
@@ -155,6 +169,6 @@ public class DecideDice {
     }
 
     //Checks whether a die has already been put aside previously
-    private static boolean alreadyAside(Dice[] dices, int i) {return dices[i].isAside();}
+    private static boolean alreadyAside(ArrayList<Dice> dices, int i) {return dices.get(i).isAside();}
 
 }

@@ -2,6 +2,7 @@ package Cards;
 
 import Dices.Dice;
 import Dices.ValidDice;
+import Dices.diceNumber;
 import Gameflow.Display;
 import Input.Input;
 import Gameflow.TurnResult;
@@ -21,8 +22,8 @@ public abstract class Card implements CardInterface {
     protected static TurnResult getAbstractRoll() {
         short currentPoints = 0;
         boolean tutto = false;
-        Dice[] dices = new Dice[6]; //stores the dices
-        for (byte i = 0; i < 6; i++) {dices[i] = new Dice();} //instantiate the dices (doesn't roll them!)
+        ArrayList<Dice> dices = new ArrayList<>(); //stores the dices
+        for (byte i = 0; i < 6; i++) {dices.add(new Dice());} //instantiate the dices (doesn't roll them!)
 
         do {
             ArrayList<Dice> countDices = new ArrayList<>();
@@ -44,20 +45,20 @@ public abstract class Card implements CardInterface {
         return new TurnResult(currentPoints, tutto);
     }
 
-    protected static void rollDisplayCount(Dice[] dices, ArrayList<Dice> countDices){
+    protected static void rollDisplayCount(ArrayList<Dice> dices, ArrayList<Dice> countDices){
         for (byte i = 0; i < 6; i++) {
-            if (!dices[i].isAside()) { //if it was not put aside yet...
-                dices[i].rollDice(); //...roll it...
-                Display.displayDice(dices[i].getDiceNumber(), (byte) (i + 1)); //...print it...
-                countDices.add(dices[i]); //...put those aside that are still in the game to check their validity
+            if (!dices.get(i).isAside()) { //if it was not put aside yet...
+                dices.get(i).rollDice(); //...roll it...
+                Display.displayDice(dices.get(i).getDiceNumber(), (byte) (i + 1)); //...print it...
+                countDices.add(dices.get(i)); //...put those aside that are still in the game to check their validity
             }
         }
     }
 
-    protected static boolean tuttoChecker(Dice[] dices) { //see how many have been put aside (for tutto recognization)
+    protected static boolean tuttoChecker(ArrayList<Dice> dices) { //see how many have been put aside (for tutto recognization)
         byte howManyAside = 0;
         for (byte i = 0; i < 6; i++) {
-            if (dices[i].isAside()) howManyAside++;
+            if (dices.get(i).isAside()) howManyAside++;
         }
         //if all have been put aside, return true
         return howManyAside == 6;

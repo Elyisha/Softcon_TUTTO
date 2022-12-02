@@ -10,12 +10,12 @@ public class ValidDice {
     //Checks if there are any dices in the dice array that do not give any points and are
     //therefore invalid
     //POST: returns true if there are no invalid dices and false if there are any
-    public static boolean isValidGuess(Dice[] dices) {
+    public static boolean isValidGuess(ArrayList<Dice> dices) {
 
         //converts dice-array to a list to get a value-array back with the values of every dice
         //e.g. if there are 3 dices with value 5 then the value array at index 4 will contain 3
-        List<Dice> list = Arrays.asList(dices);
-        int[] values = getValueArray(list, false);
+
+        int[] values = getValueArray(dices, false);
 
         //for-loop does the checking
         for(byte i = 1; i < values.length;++i) {
@@ -29,7 +29,7 @@ public class ValidDice {
 
     //Checks whether there is a die put Aside that has the same value with the one being put Aside (only in Straight)
     //POST: Returns false if there is a die put Aside in the array with the same diceNumber as the parameter diceNum
-    public static boolean hasNoDuplicates(Dice[] dices, diceNumber diceNum) {
+    public static boolean hasNoDuplicates(ArrayList<Dice> dices, diceNumber diceNum) {
         for (Dice dice : dices) {
             if (dice.isAside() && dice.getDiceNumber() == diceNum) return false;
         }
@@ -37,11 +37,10 @@ public class ValidDice {
     }
 
     //checks whether there is a valid dice left in the dice-array that can be put-Aside (only in Straight)
-    public static boolean hasValidDicesLeft(Dice[] dices){
+    public static boolean hasValidDicesLeft(ArrayList<Dice> dices){
 
         //gets value array with the values of the dices
-        List<Dice> list = Arrays.asList(dices);
-        int[] values = getValueArray(list, true);
+        int[] values = getValueArray(dices, true);
         //does the checking
         for (Dice dice : dices) {
             if (!dice.isAside()) {
@@ -53,7 +52,7 @@ public class ValidDice {
 
     //returns an array with the values of the dices in the dice-list, when use for straight there
     //is an additional condition
-    private static int[] getValueArray(List<Dice> dices, boolean straight) {
+    private static int[] getValueArray(ArrayList<Dice> dices, boolean straight) {
         int[] values = new int[6];
         Arrays.fill(values, 0);
 

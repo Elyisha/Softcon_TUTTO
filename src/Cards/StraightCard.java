@@ -13,8 +13,8 @@ public class StraightCard extends Card implements CardInterface {
     public TurnResult getRoll() {
         short currentPoints = 0;
         boolean tutto = false;
-        Dice[] dices = new Dice[6]; //stores the dices
-        for (byte i = 0; i < 6; i++) {dices[i] = new Dice();} //instantiate the dices (doesn't roll them!)
+        ArrayList<Dice> dices = new ArrayList<>(); //stores the dices
+        for (byte i = 0; i < 6; i++) dices.add(new Dice()); //instantiate the dices (doesn't roll them!)
 
         do {
             ArrayList<Dice> countDices = new ArrayList<>();
@@ -37,10 +37,10 @@ public class StraightCard extends Card implements CardInterface {
 
         return new TurnResult(currentPoints, tutto);
     }
-    private boolean StraightTuttoChecker(Dice[] dices) { //see how many have been put aside (for tutto recognization)
+    private boolean StraightTuttoChecker(ArrayList<Dice> dices) { //see how many have been put aside (for tutto recognization)
         byte howManyAside = 0;
         for (byte i = 0; i < 6; i++) {
-            if (dices[i].isAside()) howManyAside++;
+            if (dices.get(i).isAside()) howManyAside++;
         }
         //if all have been put aside, return true
         return howManyAside == 6;

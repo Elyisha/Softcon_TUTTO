@@ -7,6 +7,7 @@ import org.junit.jupiter.api.Test;
 
 import java.io.ByteArrayInputStream;
 import java.io.InputStream;
+import java.util.ArrayList;
 
 import static Input.DecideDice.decideDice;
 import static Input.DecideDice.straightDecideDice;
@@ -25,42 +26,42 @@ class DecideDiceTest {
     void teardown(){
         System.setIn(sysInBackup);
     }
-    public static Dice[] SetupDiceArray() {
-        Dice[] dices = new Dice[6];
+    public static ArrayList<Dice> SetupDiceArray() {
+        ArrayList<Dice> dices = new ArrayList<>();
         for(int i = 0; i < 6; ++i) {
-            dices[i] = new Dice();
+            dices.add(new Dice());
             if(i == 0)
                 do {
-                    dices[i].rollDice();
-                } while(dices[i].getDiceNumber().ordinal() != 2);
+                    dices.get(i).rollDice();
+                } while(dices.get(i).getDiceNumber().ordinal() != 2);
             else if(i == 4)
                 do {
-                    dices[i].rollDice();
-                } while(dices[i].getDiceNumber().ordinal() != 3);
+                    dices.get(i).rollDice();
+                } while(dices.get(i).getDiceNumber().ordinal() != 3);
             else if(i == 5)
                 do {
-                    dices[i].rollDice();
-                } while(dices[i].getDiceNumber().ordinal() != 5);
+                    dices.get(i).rollDice();
+                } while(dices.get(i).getDiceNumber().ordinal() != 5);
             else
                 do {
-                    dices[i].rollDice();
-                } while(dices[i].getDiceNumber().ordinal() != 4);
+                    dices.get(i).rollDice();
+                } while(dices.get(i).getDiceNumber().ordinal() != 4);
         }
         return dices;
     }
 
     @Test
     void decideDiceTest() {
-        Dice[] dices = SetupDiceArray();
+        ArrayList<Dice> dices = SetupDiceArray();
         decideDice(dices,false);
         for (int i = 1; i < 4; ++i) {
-            assertTrue(dices[i].isAside());
+            assertTrue(dices.get(i).isAside());
         }
     }
 
     @Test
     void decideDiceFireworksTest() {
-        Dice[] dices = SetupDiceArray();
+        ArrayList<Dice> dices = SetupDiceArray();
         int actual = decideDice(dices,true);
         int expected = 500;
         assertEquals(expected, actual);
@@ -70,10 +71,10 @@ class DecideDiceTest {
     void straightDecideDiceTest() {
         ByteArrayInputStream in = new ByteArrayInputStream("1,2".getBytes());
         System.setIn(in);
-        Dice[] dices = SetupDiceArray();
+        ArrayList<Dice> dices = SetupDiceArray();
         straightDecideDice(dices);
         for (int i = 0; i < 2; ++i) {
-            assertTrue(dices[i].isAside());
+            assertTrue(dices.get(i).isAside());
         }
     }
 }
