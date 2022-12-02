@@ -16,6 +16,7 @@ public class Game {
     private Game(){
         maxPoints = Input.takeMaxPoints();
         String[] names = Input.takeNames();
+        // Sort names array to get the alphabetical starting order
         Arrays.sort(names);
 
         // The Player array needs to be initialized with the number Players (= len of names-array) :
