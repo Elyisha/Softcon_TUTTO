@@ -9,6 +9,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 
 class DisplayTest {
+
     private final PrintStream standardOut = System.out;
     private final ByteArrayOutputStream outputStreamCaptor = new ByteArrayOutputStream();
 

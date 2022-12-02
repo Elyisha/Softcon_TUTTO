@@ -5,6 +5,7 @@ import Gameflow.TurnResult;
 import Input.DecideDice;
 import mockit.Mock;
 import mockit.MockUp;
+import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 
@@ -18,6 +19,7 @@ class BonusCardTest {
     public static void installMockClasses() {
         new CardMock();
     }
+
 
     public static class CardMock extends MockUp<DecideDice> {
         @Mock

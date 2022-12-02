@@ -13,6 +13,7 @@ import java.util.ArrayList;
 import static org.junit.jupiter.api.Assertions.*;
 
 class PlusMinusCardTest {
+
     @BeforeAll
     public static void installMockClasses() {
         new Cards.PlusMinusCardTest.CardMock();

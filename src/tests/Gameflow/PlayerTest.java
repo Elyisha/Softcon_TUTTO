@@ -7,7 +7,6 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class PlayerTest {
 
-
     @Test
     void playerWonTest() {
         Player p1 = new Player("Hank S.", (short) 1000);
