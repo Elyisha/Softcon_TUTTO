@@ -32,19 +32,19 @@ class DecideDiceTest {
             dices.add(new Dice());
             if(i == 0)
                 do {
-                    dices.get(i).rollDice();
+                    dices.set(i, new Dice());
                 } while(dices.get(i).getDiceNumber().ordinal() != 2);
             else if(i == 4)
                 do {
-                    dices.get(i).rollDice();
+                    dices.set(i, new Dice());
                 } while(dices.get(i).getDiceNumber().ordinal() != 3);
             else if(i == 5)
                 do {
-                    dices.get(i).rollDice();
+                    dices.set(i, new Dice());
                 } while(dices.get(i).getDiceNumber().ordinal() != 5);
             else
                 do {
-                    dices.get(i).rollDice();
+                    dices.set(i, new Dice());
                 } while(dices.get(i).getDiceNumber().ordinal() != 4);
         }
         return dices;

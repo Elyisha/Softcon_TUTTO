@@ -5,6 +5,7 @@ import Gameflow.Display;
 import Gameflow.TurnResult;
 import Input.DecideDice;
 import java.util.ArrayList;
+import java.util.Collections;
 
 public class FireworksCard extends Card implements CardInterface {
     public FireworksCard() {super(CardsValue.FIREWORK);} //inherits Constructor from abstract class
@@ -12,7 +13,7 @@ public class FireworksCard extends Card implements CardInterface {
     public TurnResult getRoll() {
         short currentPoints = 0;
         ArrayList<Dice> dices = new ArrayList<>(); //stores the dices
-        for (byte i = 0; i < 6; i++) dices.add(new Dice()); //instantiate the dices (doesn't roll them!)
+        for (byte i = 0; i < 6; i++) dices.add(new Dice()); //instantiate the dices
 
         do {
             ArrayList<Dice> countDices = new ArrayList<>();
@@ -25,7 +26,7 @@ public class FireworksCard extends Card implements CardInterface {
             }
 
             //now ask user which ones to put aside and put them aside
-            currentPoints += DecideDice.decideDice(dices, true); //todo hier übergebe ich reference, ist das okay? prob not...
+            currentPoints += DecideDice.decideDice(Collections.unmodifiableList(dices), true);
             //now check & reset if FireWork
             FireWorkChecker(dices);
 

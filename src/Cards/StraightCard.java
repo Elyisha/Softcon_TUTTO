@@ -5,6 +5,7 @@ import Gameflow.Display;
 import Gameflow.TurnResult;
 import Input.DecideDice;
 import java.util.ArrayList;
+import java.util.Collections;
 
 public class StraightCard extends Card implements CardInterface {
     public StraightCard() {super(CardsValue.STRAIGHT);} //inherits Constructor from abstract class
@@ -13,18 +14,18 @@ public class StraightCard extends Card implements CardInterface {
         short currentPoints = 0;
         boolean tutto = false;
         ArrayList<Dice> dices = new ArrayList<>(); //stores the dices
-        for (byte i = 0; i < 6; i++) dices.add(new Dice()); //instantiate the dices (doesn't roll them!)
+        for (byte i = 0; i < 6; i++) dices.add(new Dice()); //instantiate the dices
 
         do {
             ArrayList<Dice> countDices = new ArrayList<>();
             rollDisplayCount(dices, countDices);
             //now check if roll was at least possibly valid, if not, break the while loop, else add points
-            if (!ValidDice.hasValidDicesLeft(dices)) { //todo needs ArrayList implementation - done but doesn't work right!! doesn't trigger
+            if (!ValidDice.hasValidDicesLeft(dices)) {
                 Display.rolledaNull();
                 break;
             }
             //now ask user which ones to put aside and put them aside
-            DecideDice.straightDecideDice(dices); //todo hier übergebe ich reference, ist das okay? prob not...
+            DecideDice.straightDecideDice(Collections.unmodifiableList(dices));
             //now check & break if tutto
             tutto = StraightTuttoChecker(dices);
             if (tutto) {

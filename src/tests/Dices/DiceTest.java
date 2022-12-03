@@ -4,17 +4,11 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
 class DiceTest {
-    @Test
-    void rollDiceTest() {
-        Dice dice = new Dice();
-        dice.rollDice();
-        assertNotNull(dice);
-    }
+
 
     @Test
     void getDiceNumberTest() {
         Dice dice = new Dice();
-        dice.rollDice();
         assert(
                 dice.getDiceNumber() == diceNumber.ONE ||
                 dice.getDiceNumber() == diceNumber.TWO ||

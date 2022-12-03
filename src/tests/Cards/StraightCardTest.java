@@ -8,7 +8,7 @@ import mockit.MockUp;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 
-import java.util.ArrayList;
+import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -23,7 +23,7 @@ class StraightCardTest {
     public static class CardMock extends MockUp<DecideDice> {
         @Mock
             //mocks decideDice to be a tutto and putting away 6 dices giving 50p each
-        short straightDecideDice(ArrayList<Dice> dices) {
+        short straightDecideDice(List<Dice> dices) {
             for (byte i = 0; i < 6; i++) {dices.get(i).putAside();}
             return 300;
         }

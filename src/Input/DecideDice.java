@@ -69,7 +69,7 @@ public class DecideDice {
     }
 
     //asks the user which dices he wants to put aside if the card is "straight" and validates the user's choice
-    public static void straightDecideDice(ArrayList<Dice> dices) {
+    public static void straightDecideDice(List<Dice> dices) {
 
         //Initializes scanner and prints starting message
         Scanner sDDInput = new Scanner(System.in);
