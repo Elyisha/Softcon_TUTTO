@@ -2,7 +2,6 @@ package Dices;
 
 import org.junit.jupiter.api.Test;
 
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 
 import static Dices.ValidDice.*;
@@ -11,7 +10,7 @@ import static org.junit.jupiter.api.Assertions.*;
 class ValidDiceTest {
 
     public static ArrayList<Dice> SetupDiceArray() {
-        ArrayList<Dice> dices = new ArrayList<Dice>();
+        ArrayList<Dice> dices = new ArrayList<>();
         for(int i = 0; i < 6; ++i) {
             dices.add(new Dice());
             if(i == 0)
@@ -32,13 +31,6 @@ class ValidDiceTest {
                 } while(dices.get(i).getDiceNumber().ordinal() != 4);
         }
         return dices;
-    }
-    public static ArrayList<Dice> convertToList(Dice[] dices) {
-        ArrayList<Dice> arrayDices = new ArrayList<>();
-        for(Dice dice: dices) {
-            arrayDices.add(dice);
-        }
-        return arrayDices;
     }
 
     @Test

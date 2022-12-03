@@ -24,75 +24,69 @@ class DisplayTest {
 
     @Test
     void diceOneDisplayTest(){
-        StringBuilder sb = new StringBuilder();
-        sb.append("_________\r\n");
-        sb.append("|         |\r\n");
-        sb.append("|    o    |\r\n");
-        sb.append("|         |\r\n");
-        sb.append("|_________| Dice Nr: 1");
-        String expected = sb.toString();
+        String expected = """
+                _________\r
+                |         |\r
+                |    o    |\r
+                |         |\r
+                |_________| Dice Nr: 1""";
         Display.displayDice(diceNumber.ONE, (byte) 1);
         assertEquals(expected, outputStreamCaptor.toString().trim());
     }
     @Test
     void diceTwoDisplayTest(){
-        StringBuilder sb = new StringBuilder();
-        sb.append("_________\r\n");
-        sb.append("|      o  |\r\n");
-        sb.append("|         |\r\n");
-        sb.append("|  o      |\r\n");
-        sb.append("|_________| Dice Nr: 2");
-        String expected = sb.toString();
+        String expected = """
+                _________\r
+                |      o  |\r
+                |         |\r
+                |  o      |\r
+                |_________| Dice Nr: 2""";
         Display.displayDice(diceNumber.TWO, (byte) 2);
         assertEquals(expected, outputStreamCaptor.toString().trim());
     }
 
     @Test
     void diceThreeDisplayTest(){
-        StringBuilder sb = new StringBuilder();
-        sb.append("_________\r\n");
-        sb.append("|      o  |\r\n");
-        sb.append("|    o    |\r\n");
-        sb.append("|  o      |\r\n");
-        sb.append("|_________| Dice Nr: 3");
-        String expected = sb.toString();
+        String expected = """
+                _________\r
+                |      o  |\r
+                |    o    |\r
+                |  o      |\r
+                |_________| Dice Nr: 3""";
         Display.displayDice(diceNumber.THREE, (byte) 3);
         assertEquals(expected, outputStreamCaptor.toString().trim());
     }
     @Test
     void diceFourDisplayTest(){
-        StringBuilder sb = new StringBuilder();
-        sb.append("_________\r\n");
-        sb.append("|  o   o  |\r\n");
-        sb.append("|         |\r\n");
-        sb.append("|  o   o  |\r\n");
-        sb.append("|_________| Dice Nr: 4");
-        String expected = sb.toString();
+        String expected = """
+                _________\r
+                |  o   o  |\r
+                |         |\r
+                |  o   o  |\r
+                |_________| Dice Nr: 4""";
         Display.displayDice(diceNumber.FOUR, (byte) 4);
         assertEquals(expected, outputStreamCaptor.toString().trim());
     }
 
     @Test
     void diceFiveDisplayTest(){
-        StringBuilder sb = new StringBuilder();
-        sb.append("_________\r\n");
-        sb.append("|  o   o  |\r\n");
-        sb.append("|    o    |\r\n");
-        sb.append("|  o   o  |\r\n");
-        sb.append("|_________| Dice Nr: 5");
-        String expected = sb.toString();
+        String expected = """
+                _________\r
+                |  o   o  |\r
+                |    o    |\r
+                |  o   o  |\r
+                |_________| Dice Nr: 5""";
         Display.displayDice(diceNumber.FIVE, (byte) 5);
         assertEquals(expected, outputStreamCaptor.toString().trim());
     }
     @Test
     void diceSixDisplayTest(){
-        StringBuilder sb = new StringBuilder();
-        sb.append("_________\r\n");
-        sb.append("|  o   o  |\r\n");
-        sb.append("|  o   o  |\r\n");
-        sb.append("|  o   o  |\r\n");
-        sb.append("|_________| Dice Nr: 6");
-        String expected = sb.toString();
+        String expected = """
+                _________\r
+                |  o   o  |\r
+                |  o   o  |\r
+                |  o   o  |\r
+                |_________| Dice Nr: 6""";
         Display.displayDice(diceNumber.SIX, (byte) 6);
         assertEquals(expected, outputStreamCaptor.toString().trim());
     }
@@ -103,10 +97,10 @@ class DisplayTest {
         for(int i = 0; i<11 ; i++){
             Display.displayCard(CardsValue.values()[i]);
             if(i<10) {
-                sb.append("You drew following card: " + CardsValue.values()[i] + "\r\n");
+                sb.append("You drew following card: ").append(CardsValue.values()[i]).append("\r\n");
             }
             else{
-                sb.append("You drew following card: " + CardsValue.values()[i]);
+                sb.append("You drew following card: ").append(CardsValue.values()[i]);
             }
         }
         String expected = sb.toString();
@@ -115,10 +109,8 @@ class DisplayTest {
 
     @Test
     void displayPointsTest(){
-        StringBuilder sb = new StringBuilder();
-        sb.append("You Have got 600 Points.\r\n");
-        sb.append("400 more to go.");
-        String expected = sb.toString();
+        String expected = "You Have got 600 Points.\r\n" +
+                "400 more to go.";
         Display.displayPoints((short) 600, (short) 1000);
         assertEquals(expected, outputStreamCaptor.toString().trim());
 

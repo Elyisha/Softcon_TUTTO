@@ -12,7 +12,6 @@ import java.io.PrintStream;
 
 
 class GameTest {
-    private final PrintStream standardOut = System.out;
     private static final ByteArrayOutputStream outputStreamCaptor = new ByteArrayOutputStream();
 
     @BeforeAll
@@ -31,8 +30,7 @@ class GameTest {
         }
         @Mock
         public static String[] takeNames(){
-            String[] names = {"John", "Abby", "Harris"};
-            return names;
+            return new String[]{"John", "Abby", "Harris"};
         }
         @Mock
         public static boolean askUserDR(){
@@ -47,8 +45,7 @@ class GameTest {
     public static class BonusTurn extends MockUp<Deck> {
         @Mock
         public Card getCard(){
-            Card c1 = new BonusCard(CardsValue.BONUS600);
-            return c1;
+            return new BonusCard(CardsValue.BONUS600);
         }
     }
 
@@ -70,16 +67,15 @@ class GameTest {
     void testTurn(){
         Game G1 = Game.getInstance();
         G1.startGameFlow();
-        StringBuilder sb = new StringBuilder();
-        sb.append("Abby its your turn: \r\n" +
-                "You drew following card: BONUS600\r\n" +
-                "(So far you have managed to reach 1100 Points in this round)\r\n" +
-                "Abby has won the game! Good Job\r\n" +
-                "1000 Points were required to win this round.\r\n" +
-                "Abby managed to reach 1100 Points\r\n" +
-                "Harris managed to reach 0 Points\r\n" +
-                "John managed to reach 0 Points");
-        String expected = sb.toString();
+        String expected = """
+                Abby its your turn: \r
+                You drew following card: BONUS600\r
+                (So far you have managed to reach 1100 Points in this round)\r
+                Abby has won the game! Good Job\r
+                1000 Points were required to win this round.\r
+                Abby managed to reach 1100 Points\r
+                Harris managed to reach 0 Points\r
+                John managed to reach 0 Points""";
         assertEquals(expected, outputStreamCaptor.toString().trim());
     }
 

@@ -24,10 +24,6 @@ public class Display {
         System.out.println("You drew following card: " + c1);
     }
 
-    public static void displayPoints(Player P1){
-        System.out.println("You've got " + P1.getPoints() + " Points.");
-    }
-
     public static void displayCurrentPointsAfterTutto(short points){
         System.out.println("(So far you have managed to reach " + points + " Points in this round)");
     }

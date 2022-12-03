@@ -88,7 +88,6 @@ public class Input {
 
         //Validates String and returns the result as char
         if(Input.length() != 1) System.out.println("Must type in one character only!");
-        else if(Input.length() == 0) System.out.println("Must make a decision!");
         else if(Input.charAt(0) == 'R') return 'R';
         else if(Input.charAt(0) == second) return second;
         else System.out.println("Must type in R or E");

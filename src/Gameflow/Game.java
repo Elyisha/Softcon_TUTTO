@@ -9,7 +9,7 @@ public class Game {
     //Singleton Game Object Field:
     private static Game uniqueInstance;
     private final short maxPoints;
-    private Player[] players;
+    private final Player[] players;
 
 
     //singleton implementation of Constructor (can only be called by Game.getInstance()) :

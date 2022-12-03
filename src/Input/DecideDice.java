@@ -30,8 +30,8 @@ public class DecideDice {
             if(numbers == null) continue;
 
             //creates dice-array with the user's choice of dices
-            ArrayList<Dice> countdices = new ArrayList<Dice>();
-            for (int i = 0; i < numbers.size();++i) countdices.add(dices.get(numbers.get(i)-1));
+            ArrayList<Dice> countdices = new ArrayList<>();
+            for (Integer number : numbers) countdices.add(dices.get(number - 1));
 
             //Check whether there are single dices that don't give any points (additional input-validation)
             if(!ValidDice.isValidGuess(countdices)) {
