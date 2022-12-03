@@ -48,7 +48,6 @@ public class Game {
         boolean isOver = false;
         while(!isOver){ //breaks if a player won the game
             for(Player aPlayer: players){
-
                 //Ask Player whether he wants to see his score
                 System.out.println(aPlayer.getName()+" its your turn: ");
                 while(!Input.askUserDR()){Display.displayPoints(aPlayer.getPoints(), maxPoints);}

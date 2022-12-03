@@ -4,7 +4,9 @@ import Cards.*;
 import Input.Input;
 import mockit.Mock;
 import mockit.MockUp;
+import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import java.io.ByteArrayOutputStream;
@@ -22,6 +24,11 @@ class GameTest {
     }
     @BeforeAll
     public static void setUp() {System.setOut(new PrintStream(outputStreamCaptor));}
+
+    @BeforeEach
+    public void tearDown() {
+        System.setOut(standardOut);
+    }
 
     public static class GameSetUpMock extends MockUp<Input> {
         @Mock
@@ -76,9 +83,7 @@ class GameTest {
                 Abby managed to reach 1100 Points\r
                 Harris managed to reach 0 Points\r
                 John managed to reach 0 Points""";
-        assertEquals(expected, outputStreamCaptor.toString().trim());
+        boolean rightMessage = outputStreamCaptor.toString().trim().contains(expected);
+        assertTrue(rightMessage);
     }
-
-
-
 }

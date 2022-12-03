@@ -28,5 +28,4 @@ class DeckTest {
         Card c1 = d1.getCard();
         assertNotNull(c1);
     }
-
 }
