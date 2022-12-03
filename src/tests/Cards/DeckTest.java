@@ -17,7 +17,9 @@ class DeckTest {
         }
     }
 
+
     @Test
+
     void deckDrawsCardAfterEmpty(){
         Deck d1 = Deck.getInstance();
         //draw all cards...
@@ -29,4 +31,6 @@ class DeckTest {
         assertNotNull(c1);
         for(int i = 0; i < 55;i++){Card c = d1.getCard();}
     }
+
+
 }

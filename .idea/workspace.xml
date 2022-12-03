@@ -5,8 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b577d954-8adb-45f0-8cd3-77c2a40a1194" name="Changes" comment="Merge branch 'master' of https://github.com/Elyisha/Softcon_TUTTO&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Gameflow/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Gameflow/Game.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/tests/Cards/DeckTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/Cards/DeckTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -88,7 +86,7 @@
       <recent name="Turn" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="JUnit.All in Softcon_TUTTO [2]">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="Softcon_TUTTO" />
@@ -96,7 +94,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="All in Softcon_TUTTO [10]" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true" repeat_count="10" repeat_mode="N Times">
+    <configuration name="All in Softcon_TUTTO [2]" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true" repeat_count="2" repeat_mode="N Times">
       <module name="Softcon_TUTTO" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="" />
@@ -190,12 +188,12 @@
       <item itemvalue="JUnit.DeckTest [100]" />
       <item itemvalue="JUnit.StraightCardTest [100]" />
       <item itemvalue="JUnit.ValidDiceTest [100]" />
-      <item itemvalue="JUnit.All in Softcon_TUTTO [10]" />
+      <item itemvalue="JUnit.All in Softcon_TUTTO [2]" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.All in Softcon_TUTTO [2]" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.All in Softcon_TUTTO [10]" />
         <item itemvalue="JUnit.DeckTest [100]" />
         <item itemvalue="JUnit.ValidDiceTest [100]" />
         <item itemvalue="JUnit.StraightCardTest [100]" />
