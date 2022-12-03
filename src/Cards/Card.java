@@ -6,8 +6,9 @@ import Gameflow.Display;
 import Input.Input;
 import Gameflow.TurnResult;
 import Input.DecideDice;
-
 import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
 
 public abstract class Card implements CardInterface {
     public final CardsValue aCardsValue;
@@ -17,7 +18,6 @@ public abstract class Card implements CardInterface {
     public CardsValue getValue(){
         return aCardsValue;
     }
-
     protected static TurnResult getAbstractRoll() {
         short currentPoints = 0;
         boolean tutto = false;
@@ -35,8 +35,7 @@ public abstract class Card implements CardInterface {
                 break;
             }
             //now ask user which ones to put aside and put them aside
-
-            currentPoints += DecideDice.decideDice(dices, false); //todo hier übergebe ich reference, ist das okay? prob not...
+            currentPoints += DecideDice.decideDice(Collections.unmodifiableList(dices), false); //todo hier übergebe ich reference, ist das okay? prob not...
             System.out.println(currentPoints);
             //now check & break if tutto
             tutto = tuttoChecker(dices);
@@ -67,4 +66,6 @@ public abstract class Card implements CardInterface {
     }
 
 }
+
+
 

@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b577d954-8adb-45f0-8cd3-77c2a40a1194" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_03_12_2022_09_15__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_03_12_2022_09_15__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_03_12_2022_09_54__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_03_12_2022_09_54__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tests/Gameflow/GameTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/Gameflow/GameTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Cards/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cards/Card.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Input/DecideDice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Input/DecideDice.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -242,7 +243,7 @@
       <workItem from="1670011932898" duration="7559000" />
       <workItem from="1670021180219" duration="267000" />
       <workItem from="1670021682653" duration="2640000" />
-      <workItem from="1670055639592" duration="2561000" />
+      <workItem from="1670055639592" duration="4717000" />
     </task>
     <task id="LOCAL-00001" summary="d">
       <created>1668778314133</created>
@@ -405,7 +406,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670057365705</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Deckwarning">
+      <created>1670058581354</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1670058581354</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -436,7 +444,8 @@
     <MESSAGE value="Tests Card + Dice geschrieben" />
     <MESSAGE value="FIXED THE GODDAMN FLAKY TESTS" />
     <MESSAGE value="intelliJ warnings" />
-    <option name="LAST_COMMIT_MESSAGE" value="intelliJ warnings" />
+    <MESSAGE value="Deckwarning" />
+    <option name="LAST_COMMIT_MESSAGE" value="Deckwarning" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
