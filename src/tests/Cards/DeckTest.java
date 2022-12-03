@@ -27,5 +27,6 @@ class DeckTest {
         //... and check whether refill worked through another draw
         Card c1 = d1.getCard();
         assertNotNull(c1);
+        for(int i = 0; i < 55;i++){Card c = d1.getCard();}
     }
 }
