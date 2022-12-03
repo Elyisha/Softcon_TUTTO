@@ -76,7 +76,8 @@ class GameTest {
                 Abby managed to reach 1100 Points\r
                 Harris managed to reach 0 Points\r
                 John managed to reach 0 Points""";
-        assertEquals(expected, outputStreamCaptor.toString().trim());
+        boolean rightMessage = outputStreamCaptor.toString().trim().contains(expected);
+        assertTrue(rightMessage);
     }
 
 
