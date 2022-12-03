@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b577d954-8adb-45f0-8cd3-77c2a40a1194" name="Changes" comment="Merge branch 'master' of https://github.com/Elyisha/Softcon_TUTTO&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
-      <change beforePath="$PROJECT_DIR$/src/Dices/ValidDice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Dices/ValidDice.java" afterDir="false" />
+    <list default="true" id="b577d954-8adb-45f0-8cd3-77c2a40a1194" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_03_12_2022_09_54__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_03_12_2022_09_54__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Cards/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cards/Card.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Input/DecideDice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Input/DecideDice.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -466,13 +468,16 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Softcon_TUTTO$All_in_Softcon_TUTTO__1_.ic" NAME="All in Softcon_TUTTO [1] Coverage Results" MODIFIED="1670058179438" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="true" />
-    <SUITE FILE_PATH="coverage/Softcon_TUTTO$All_in_Softcon_TUTTO.ic" NAME="All in Softcon_TUTTO Coverage Results" MODIFIED="1669990228749" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/Softcon_TUTTO$DecideDiceTest_decideDiceTest.ic" NAME="DecideDiceTest.decideDiceTest Coverage Results" MODIFIED="1669899336431" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/Softcon_TUTTO$InputTest_takeNamesTest.ic" NAME="InputTest.takeNamesTest Coverage Results" MODIFIED="1669899483090" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>Input.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/Softcon_TUTTO$All_in_Softcon_TUTTO__100_.ic" NAME="All in Softcon_TUTTO [100] Coverage Results" MODIFIED="1670056278097" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/Softcon_TUTTO$InputTest.ic" NAME="InputTest Coverage Results" MODIFIED="1669899559908" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>Input.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Softcon_TUTTO$StraightCardTest.ic" NAME="StraightCardTest Coverage Results" MODIFIED="1669997175967" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>Cards.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Softcon_TUTTO$Input_in_Softcon_TUTTO.ic" NAME="Input in Softcon_TUTTO Coverage Results" MODIFIED="1669997117174" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="true">
       <FILTER>Input.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/Softcon_TUTTO$DiceTest.ic" NAME="DiceTest Coverage Results" MODIFIED="1669737425560" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
@@ -481,30 +486,26 @@
     <SUITE FILE_PATH="coverage/Softcon_TUTTO$DecideDiceTest_decideDiceFireworksTest.ic" NAME="DecideDiceTest.decideDiceFireworksTest Coverage Results" MODIFIED="1669899391609" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>Input.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/Softcon_TUTTO$InputTest_takeNamesTest.ic" NAME="InputTest.takeNamesTest Coverage Results" MODIFIED="1669899483090" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>Input.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/Softcon_TUTTO$Main.ic" NAME="Main Coverage Results" MODIFIED="1669675435956" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/Softcon_TUTTO$ValidDiceTest.ic" NAME="ValidDiceTest Coverage Results" MODIFIED="1669899630264" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>Dices.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/Softcon_TUTTO$StraightCardTest.ic" NAME="StraightCardTest Coverage Results" MODIFIED="1669997175967" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>Cards.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/Softcon_TUTTO$Input_in_Softcon_TUTTO.ic" NAME="Input in Softcon_TUTTO Coverage Results" MODIFIED="1669997117174" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="true">
-      <FILTER>Input.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/Softcon_TUTTO$BonusCardTest.ic" NAME="BonusCardTest Coverage Results" MODIFIED="1669995672288" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>Cards.*</FILTER>
-    </SUITE>
     <SUITE FILE_PATH="coverage/Softcon_TUTTO$DecideDiceTest.ic" NAME="DecideDiceTest Coverage Results" MODIFIED="1669899584130" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>Input.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/Softcon_TUTTO$DecideDiceTest_straightDecideDiceTest.ic" NAME="DecideDiceTest.straightDecideDiceTest Coverage Results" MODIFIED="1669899440080" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/Softcon_TUTTO$All_in_Softcon_TUTTO.ic" NAME="All in Softcon_TUTTO Coverage Results" MODIFIED="1669990228749" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Softcon_TUTTO$DecideDiceTest_decideDiceTest.ic" NAME="DecideDiceTest.decideDiceTest Coverage Results" MODIFIED="1669899336431" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>Input.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/Softcon_TUTTO$CardTest.ic" NAME="CardTest Coverage Results" MODIFIED="1669736517050" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>Cards.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Softcon_TUTTO$All_in_Softcon_TUTTO__100_.ic" NAME="All in Softcon_TUTTO [100] Coverage Results" MODIFIED="1670056278097" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Softcon_TUTTO$Main.ic" NAME="Main Coverage Results" MODIFIED="1669675435956" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Softcon_TUTTO$BonusCardTest.ic" NAME="BonusCardTest Coverage Results" MODIFIED="1669995672288" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>Cards.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Softcon_TUTTO$DecideDiceTest_straightDecideDiceTest.ic" NAME="DecideDiceTest.straightDecideDiceTest Coverage Results" MODIFIED="1669899440080" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>Input.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Softcon_TUTTO$ValidDiceTest.ic" NAME="ValidDiceTest Coverage Results" MODIFIED="1669899630264" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>Dices.*</FILTER>
     </SUITE>
   </component>
 </project>
