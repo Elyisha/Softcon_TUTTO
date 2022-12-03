@@ -39,9 +39,6 @@ public class Game {
     }
 
 
-
-    //TODO Gameflow evt auf karten
-
     public void startGameFlow(){
         //boolean isOver = false; //changes to true the moment a player reaches maxPoints
         Deck aDeck = Deck.getInstance(); //Card supply
