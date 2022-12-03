@@ -8,7 +8,6 @@ import Gameflow.TurnResult;
 import Input.DecideDice;
 import java.util.ArrayList;
 import java.util.Collections;
-import java.util.List;
 
 public abstract class Card implements CardInterface {
     public final CardsValue aCardsValue;
@@ -36,7 +35,7 @@ public abstract class Card implements CardInterface {
             }
             //now ask user which ones to put aside and put them aside
             currentPoints += DecideDice.decideDice(Collections.unmodifiableList(dices), false);
-            System.out.println(currentPoints);
+            System.out.println(currentPoints);//todo: chemr da usene?
             //now check & break if tutto
             tutto = tuttoChecker(dices);
             if (tutto) break;
