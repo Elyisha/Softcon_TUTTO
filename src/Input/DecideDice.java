@@ -9,7 +9,7 @@ import java.util.Scanner;
 public class DecideDice {
 
     //asks the user which dices he wants to put aside and validates the user's choice
-    public static short decideDice(ArrayList<Dice> dices, boolean fireworks) {
+    public static short decideDice(List<Dice> dices, boolean fireworks) {
 
         //Initializes scanner and prints starting message
         Scanner DDInput = new Scanner(System.in);
@@ -83,7 +83,7 @@ public class DecideDice {
             char[] Input = sInput.toCharArray();
 
             //Input validation
-            numbers = InputValidation(Input, dices, true);
+            numbers = InputValidation(Input, (List<Dice>) dices, true);
 
             //If Input is valid it'll put aside the chosen dices
             if(numbers != null) {
@@ -95,7 +95,7 @@ public class DecideDice {
 
     //Validates the user input according to the game-rules and return a list with indices of the dices that need
     //to be put aside
-    private static List<Integer> InputValidation(char[] Input, ArrayList<Dice> dices, boolean straight) {
+    private static List<Integer> InputValidation(char[] Input, List<Dice> dices, boolean straight) {
 
         //This list will store the indices of which dices the user wants to put aside
         List<Integer> numbers = new ArrayList<>();
@@ -155,7 +155,7 @@ public class DecideDice {
 
 
     //Checks whether the user is trying to put 2 dices with the same value aside (not allowed in straight)
-    private static boolean hasDiceDuplicate(List<Integer> numbers, ArrayList<Dice> dices, int i) {
+    private static boolean hasDiceDuplicate(List<Integer> numbers, List<Dice> dices, int i) {
         for (Integer number : numbers) {
             if (dices.get(i).getDiceNumber() == dices.get(number - 1).getDiceNumber()) return false;
         }
@@ -169,6 +169,6 @@ public class DecideDice {
     }
 
     //Checks whether a die has already been put aside previously
-    private static boolean alreadyAside(ArrayList<Dice> dices, int i) {return dices.get(i).isAside();}
+    private static boolean alreadyAside(List<Dice> dices, int i) {return dices.get(i).isAside();}
 
 }

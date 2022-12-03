@@ -3,6 +3,7 @@ package Dices;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 
 public class ValidDice {
 
@@ -28,7 +29,7 @@ public class ValidDice {
 
     //Checks whether there is a die put Aside that has the same value with the one being put Aside (only in Straight)
     //POST: Returns false if there is a die put Aside in the array with the same diceNumber as the parameter diceNum
-    public static boolean hasNoDuplicates(ArrayList<Dice> dices, diceNumber diceNum) {
+    public static boolean hasNoDuplicates(List<Dice> dices, diceNumber diceNum) {
         for (Dice dice : dices) {
             if (dice.isAside() && dice.getDiceNumber() == diceNum) return false;
         }

@@ -4,23 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b577d954-8adb-45f0-8cd3-77c2a40a1194" name="Changes" comment="Merge branch 'master' of https://github.com/Elyisha/Softcon_TUTTO&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
+    <list default="true" id="b577d954-8adb-45f0-8cd3-77c2a40a1194" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_26_11_2022_18_19_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_26_11_2022_18_19__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_26_11_2022_18_23_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_26_11_2022_18_23__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Cards/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cards/Card.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Cards/FireworksCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cards/FireworksCard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Cards/StraightCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cards/StraightCard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Dices/Dice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Dices/Dice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Dices/ValidDice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Dices/ValidDice.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Input/DecideDice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Input/DecideDice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tests/Cards/BonusCardTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/Cards/BonusCardTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tests/Cards/CardTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/Cards/CardTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tests/Cards/CloverleafCardTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/Cards/CloverleafCardTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tests/Cards/FireworksCardTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/Cards/FireworksCardTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tests/Cards/PlusMinusCardTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/Cards/PlusMinusCardTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tests/Cards/StraightCardTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/Cards/StraightCardTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tests/Cards/TwoTimesCardTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/Cards/TwoTimesCardTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tests/Dices/DiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/Dices/DiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tests/Dices/ValidDiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/Dices/ValidDiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tests/Input/DecideDiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/Input/DecideDiceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +92,7 @@
       <recent name="Turn" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.All in Softcon_TUTTO [1]">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="Softcon_TUTTO" />
@@ -245,7 +236,8 @@
       <workItem from="1670021180219" duration="267000" />
       <workItem from="1670021682653" duration="2640000" />
       <workItem from="1670055639592" duration="6167000" />
-      <workItem from="1670072877720" duration="5846000" />
+      <workItem from="1670072877720" duration="6115000" />
+      <workItem from="1670092566915" duration="2040000" />
     </task>
     <task id="LOCAL-00001" summary="d">
       <created>1668778314133</created>
@@ -422,7 +414,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670060469566</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Encapsulation problems fixed (this changed many classes)">
+      <created>1670080851757</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1670080851757</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -454,7 +453,8 @@
     <MESSAGE value="FIXED THE GODDAMN FLAKY TESTS" />
     <MESSAGE value="intelliJ warnings" />
     <MESSAGE value="Deckwarning" />
-    <option name="LAST_COMMIT_MESSAGE" value="Deckwarning" />
+    <MESSAGE value="Encapsulation problems fixed (this changed many classes)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Encapsulation problems fixed (this changed many classes)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -481,7 +481,7 @@
     <SUITE FILE_PATH="coverage/Softcon_TUTTO$StraightCardTest.ic" NAME="StraightCardTest Coverage Results" MODIFIED="1669997175967" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>Cards.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/Softcon_TUTTO$All_in_Softcon_TUTTO__1_.ic" NAME="All in Softcon_TUTTO [1] Coverage Results" MODIFIED="1670079370023" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="true" />
+    <SUITE FILE_PATH="coverage/Softcon_TUTTO$All_in_Softcon_TUTTO__1_.ic" NAME="All in Softcon_TUTTO [1] Coverage Results" MODIFIED="1670093902984" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="true" />
     <SUITE FILE_PATH="coverage/Softcon_TUTTO$Input_in_Softcon_TUTTO.ic" NAME="Input in Softcon_TUTTO Coverage Results" MODIFIED="1669997117174" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="true">
       <FILTER>Input.*</FILTER>
     </SUITE>
