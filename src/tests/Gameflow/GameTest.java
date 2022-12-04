@@ -6,7 +6,6 @@ import mockit.Mock;
 import mockit.MockUp;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
-
 import java.io.ByteArrayOutputStream;
 import java.io.PrintStream;
 
@@ -68,9 +67,6 @@ class GameTest {
         Game G1 = Game.getInstance();
         G1.startGameFlow();
         String expected = """
-                Abby its your turn: \r
-                You drew following card: BONUS600\r
-                (So far you have managed to reach 1100 Points in this round)\r
                 Abby has won the game! Good Job\r
                 1000 Points were required to win this round.\r
                 Abby managed to reach 1100 Points\r

@@ -118,7 +118,7 @@ class DisplayTest {
 
     @Test
     void displayCurrentPointsAfterTuttoTest(){
-        String expected = "(So far you have managed to reach 600 Points in this round)";
+        String expected = "(You managed to reach 600 Points in this round, thanks to the accomplished Tutto.)";
         Display.displayCurrentPointsAfterTutto((short) 600);
         assertEquals(expected, outputStreamCaptor.toString().trim());
     }
