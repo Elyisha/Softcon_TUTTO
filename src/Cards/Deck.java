@@ -1,7 +1,5 @@
 package Cards;
 
-import Gameflow.Game;
-
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
@@ -54,7 +52,7 @@ public class Deck {
             //In case that there are no more cards left in the deck
             //The ArrayList usedCards is going to be aCards and aCards
             //is going to be shuffled
-            List<Card> copy = new ArrayList<>();
+            List<Card> copy;
             copy = aCards;
             aCards = usedCards;
             usedCards = copy;

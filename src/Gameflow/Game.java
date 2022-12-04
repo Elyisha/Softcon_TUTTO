@@ -66,7 +66,6 @@ public class Game {
                             aPlayer.addPoints((short) (maxPoints - aPlayer.getPoints())); // aPlayer gets required points to win game
                             break;
                         }
-
                         if(result.points != 0){pointsADD = true;}
                         if(!result.isTutto){break;}
                         //when a player managed to get a Tutto it is up to him whether he wants to make a new round:
