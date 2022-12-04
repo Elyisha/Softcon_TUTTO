@@ -8,9 +8,9 @@ public class CloverleafCard extends Card implements CardInterface {
     public TurnResult getRoll() {
         boolean gameWon = false;
 
-        TurnResult result = getAbstractRoll();
+        TurnResult result = getAbstractRoll(true);
         if (result.isTutto) {
-            TurnResult secondresult = getAbstractRoll();
+            TurnResult secondresult = getAbstractRoll(true);
             if (secondresult.isTutto) gameWon = true;
         }
 

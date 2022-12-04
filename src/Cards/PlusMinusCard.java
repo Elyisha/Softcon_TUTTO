@@ -6,7 +6,7 @@ public class PlusMinusCard extends Card implements CardInterface {
 
     public TurnResult getRoll() {
         short roundPoints = 0;
-        TurnResult result = getAbstractRoll();
+        TurnResult result = getAbstractRoll(true);
 
         if (result.isTutto) {
             roundPoints = 1000;

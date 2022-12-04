@@ -54,7 +54,8 @@ public class Game {
                     short currentPoints = 0;
                     boolean pointsADD = false;
                     do{ //this loop ends when a player has no more dices to choose or he decides to stop his round after a tutto
-                        Card aCard = aDeck.getCard();
+                        //Card aCard = aDeck.getCard();
+                        Card aCard = new CloverleafCard();
                         Display.displayCard(aCard.getValue());
                         TurnResult result = aCard.getRoll();
                         currentPoints += result.points;

@@ -5,13 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b577d954-8adb-45f0-8cd3-77c2a40a1194" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_26_11_2022_18_19_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_26_11_2022_18_19__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_26_11_2022_18_23_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_26_11_2022_18_23__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Dices/ValidDice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Dices/ValidDice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Input/DecideDice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Input/DecideDice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Cards/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cards/Card.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Cards/CloverleafCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cards/CloverleafCard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Cards/PlusMinusCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cards/PlusMinusCard.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -237,7 +234,8 @@
       <workItem from="1670021682653" duration="2640000" />
       <workItem from="1670055639592" duration="6167000" />
       <workItem from="1670072877720" duration="6115000" />
-      <workItem from="1670092566915" duration="2040000" />
+      <workItem from="1670092566915" duration="2585000" />
+      <workItem from="1670153973029" duration="2543000" />
     </task>
     <task id="LOCAL-00001" summary="d">
       <created>1668778314133</created>
@@ -421,7 +419,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670080851757</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Encapsulation problems fixed (this changed many classes)">
+      <created>1670094938359</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1670094938359</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

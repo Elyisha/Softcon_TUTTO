@@ -8,7 +8,6 @@ import Gameflow.TurnResult;
 import Input.DecideDice;
 import java.util.ArrayList;
 import java.util.Collections;
-import java.util.List;
 
 public abstract class Card implements CardInterface {
     public final CardsValue aCardsValue;
@@ -18,12 +17,14 @@ public abstract class Card implements CardInterface {
     public CardsValue getValue(){
         return aCardsValue;
     }
-    protected static TurnResult getAbstractRoll() {
+    protected static TurnResult getAbstractRoll(boolean... alwaysrepeat) {
         short currentPoints = 0;
         boolean tutto = false;
         ArrayList<Dice> dices = new ArrayList<>(); //stores the dices
         for (byte i = 0; i < 6; i++) {dices.add(new Dice());} //instantiate the dices
-
+        //if alwaysrepeat is not set: shouldask is true, and it asks. if alwaysrepeat == true: shouldask is false and it always repeats
+        boolean shouldask = (alwaysrepeat.length >= 1) ? !alwaysrepeat[0] : true; //ignore IntelliJ warning
+        boolean roll = true;
         do {
             ArrayList<Dice> countDices = new ArrayList<>();
             rollDisplayCount(dices, countDices);
@@ -40,8 +41,8 @@ public abstract class Card implements CardInterface {
             //now check & break if tutto
             tutto = tuttoChecker(dices);
             if (tutto) break;
-
-        } while (Input.askUserRE()); //ask user if he wants to end or roll again, then repeats accordingly
+            if (shouldask) roll = Input.askUserRE();
+        } while (roll);
 
         return new TurnResult(currentPoints, tutto);
     }
