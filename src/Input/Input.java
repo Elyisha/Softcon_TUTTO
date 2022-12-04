@@ -33,7 +33,7 @@ public class Input {
 
         //Initializes scanner and prints starting message
         Scanner PointInput = new Scanner(System.in);
-        System.out.println("To how many points do you want to play? (range from 500 to 32000 points)");
+        System.out.println("To how many points do you want to play? (range from 500 to 25000 points)");
 
         //takes input and validates it, if input is in the correct range it will end the while loop
         while(true) {
@@ -42,8 +42,8 @@ public class Input {
             //validates and returns input
             if(Input.length() == 0) System.out.println("Must type in an amount!");
             else if(!Input.matches("[0-9]+")) System.out.println("Can only type-in numbers!");
-            else if(Integer.parseInt(Input) < 500 || Integer.parseInt(Input) > 32000)
-                System.out.println("Allowed point range is from 500 to 32000");
+            else if(Integer.parseInt(Input) < 500 || Integer.parseInt(Input) > 25000)
+                System.out.println("Allowed point range is from 500 to 25000");
             else return Short.valueOf(Input);
         }
     }
