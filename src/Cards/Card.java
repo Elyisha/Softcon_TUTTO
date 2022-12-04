@@ -35,7 +35,7 @@ public abstract class Card implements CardInterface {
             }
             //now ask user which ones to put aside and put them aside
             currentPoints += DecideDice.decideDice(Collections.unmodifiableList(dices), false);
-            System.out.println(currentPoints);//todo: chemr da usene?
+            Display.showCurrentPointsAside(currentPoints);
             //now check & break if tutto
             tutto = tuttoChecker(dices);
             if (tutto) break;

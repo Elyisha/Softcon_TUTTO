@@ -63,7 +63,7 @@ public class DecideDice {
             }
 
             //prints achieved points and returns them
-            if (!fireworks) System.out.println("You put " + Dices.ValidDice.countPoints(countDices) + " aside.");
+            if (!fireworks) System.out.println("You put additional " + Dices.ValidDice.countPoints(countDices) + " aside.");
             return Dices.ValidDice.countPoints(countDices);
         }
     }

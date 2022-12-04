@@ -25,11 +25,14 @@ public class Display {
     }
 
     public static void displayCurrentPointsAfterTutto(short points){
-        System.out.println("(So far you have managed to reach " + points + " Points in this round)");
+        System.out.println("(You managed to reach " + points + " Points in this round, thanks to the accomplished Tutto.)");
     }
     public static void displayPoints(short points, short maxPoints){
         System.out.println("You Have got " + points + " Points.");
         System.out.println(maxPoints - points + " more to go.");
+    }
+    public static void showCurrentPointsAside(short points){
+        System.out.println("Over all there are currently " + points + " points aside.");
     }
 
     private static void printInner(diceNumber d1, int i){
