@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b577d954-8adb-45f0-8cd3-77c2a40a1194" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_04_12_2022_14_00__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_04_12_2022_14_00__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_27_11_2022_15_04_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_27_11_2022_15_04__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Cards/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cards/Card.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Cards/CloverleafCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cards/CloverleafCard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Cards/PlusMinusCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cards/PlusMinusCard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Cards/CardInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cards/CardInterface.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -235,7 +236,8 @@
       <workItem from="1670055639592" duration="6167000" />
       <workItem from="1670072877720" duration="6115000" />
       <workItem from="1670092566915" duration="2585000" />
-      <workItem from="1670153973029" duration="2543000" />
+      <workItem from="1670153973029" duration="2872000" />
+      <workItem from="1670167348046" duration="327000" />
     </task>
     <task id="LOCAL-00001" summary="d">
       <created>1668778314133</created>
@@ -426,7 +428,21 @@
       <option name="project" value="LOCAL" />
       <updated>1670094938359</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="quickfix let cloverleaf &amp; plusminus repeat until failure/tutto">
+      <created>1670157136008</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1670157136008</updated>
+    </task>
+    <task id="LOCAL-00029" summary="quickfix let cloverleaf &amp; plusminus repeat until failure/tutto">
+      <created>1670157179982</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1670157179982</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -459,7 +475,8 @@
     <MESSAGE value="intelliJ warnings" />
     <MESSAGE value="Deckwarning" />
     <MESSAGE value="Encapsulation problems fixed (this changed many classes)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Encapsulation problems fixed (this changed many classes)" />
+    <MESSAGE value="quickfix let cloverleaf &amp; plusminus repeat until failure/tutto" />
+    <option name="LAST_COMMIT_MESSAGE" value="quickfix let cloverleaf &amp; plusminus repeat until failure/tutto" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -486,7 +503,7 @@
     <SUITE FILE_PATH="coverage/Softcon_TUTTO$StraightCardTest.ic" NAME="StraightCardTest Coverage Results" MODIFIED="1669997175967" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>Cards.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/Softcon_TUTTO$All_in_Softcon_TUTTO__1_.ic" NAME="All in Softcon_TUTTO [1] Coverage Results" MODIFIED="1670093902984" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="true" />
+    <SUITE FILE_PATH="coverage/Softcon_TUTTO$All_in_Softcon_TUTTO__1_.ic" NAME="All in Softcon_TUTTO [1] Coverage Results" MODIFIED="1670167514139" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="true" />
     <SUITE FILE_PATH="coverage/Softcon_TUTTO$Input_in_Softcon_TUTTO.ic" NAME="Input in Softcon_TUTTO Coverage Results" MODIFIED="1669997117174" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="true">
       <FILTER>Input.*</FILTER>
     </SUITE>
