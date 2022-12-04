@@ -50,21 +50,6 @@ public class ValidDice {
         return false;
     }
 
-    //returns an array with the values of the dices in the dice-list, when use for straight there
-    //is an additional condition
-    private static int[] getValueArray(ArrayList<Dice> dices, boolean straight) {
-        int[] values = new int[6];
-        Arrays.fill(values, 0);
-
-        //sorts out the values and puts them into the value array
-        for (Dice dice : dices) {
-            if(!straight)
-                values[dice.getDiceNumber().ordinal()] += 1;
-            else if(dice.isAside()) values[dice.getDiceNumber().ordinal()] += 1;
-        }
-        return values;
-    }
-
     //counts the points the dices in the ArrayList give according to the game-rules
     public static short countPoints(ArrayList<Dice> dices) {
 
@@ -103,6 +88,21 @@ public class ValidDice {
             }
         }
         return points;
+    }
+
+    //returns an array with the values of the dices in the dice-list, when use for straight there
+    //is an additional condition
+    private static int[] getValueArray(ArrayList<Dice> dices, boolean straight) {
+        int[] values = new int[6];
+        Arrays.fill(values, 0);
+
+        //sorts out the values and puts them into the value array
+        for (Dice dice : dices) {
+            if(!straight)
+                values[dice.getDiceNumber().ordinal()] += 1;
+            else if(dice.isAside()) values[dice.getDiceNumber().ordinal()] += 1;
+        }
+        return values;
     }
 
     //finds a triplet in a value array
